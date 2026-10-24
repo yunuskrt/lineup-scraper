@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests
+coverage/
+.nyc_output/
+
+# Python caches
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Data that is never committed
+data/cache/
+data/raw/
+data/work/
+data/reports/
+
+# Temp
+.temp/
+.tmp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+*.swp
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Claude Code personal settings
+.claude/settings.local.json

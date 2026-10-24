@@ -1,0 +1,14 @@
+from collections.abc import Mapping
+from pathlib import Path
+from typing import Final
+
+DATA_ROOT: Final = Path(__file__).resolve().parent.parent / "data"
+
+DATA_DIRS: Final[Mapping[str, Path]] = {
+    "cache": DATA_ROOT / "cache",
+    "raw": DATA_ROOT / "raw",
+    "work": DATA_ROOT / "work",
+    "reports": DATA_ROOT / "reports",
+    "curation": DATA_ROOT / "curation",
+    "dataset": DATA_ROOT / "dataset",
+}

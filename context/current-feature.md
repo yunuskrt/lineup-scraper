@@ -19,3 +19,5 @@ Not Started
 ## History
 
 <!-- Keep this updated. Earliest to latest -->
+
+- S01 Repo & Scaffold: npm and uv projects, lint, format, tests, data/

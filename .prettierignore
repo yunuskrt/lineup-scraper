@@ -1,0 +1,7 @@
+# Project docs are maintained by hand, not formatted
+context
+.claude
+*.md
+data
+package-lock.json
+.mcp.json
