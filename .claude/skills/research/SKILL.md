@@ -22,8 +22,9 @@ Execute research task: $ARGUMENTS
    - **Sources**: What files/tools to use
 5. Execute the research using appropriate tools:
    - Read files (the schema copy, `context/docs/data-contract.md`, saved source pages)
-   - Read a source's terms of use and `robots.txt` before looking at its data pages
+   - Record a source's terms of use and `robots.txt`; until release they don't block collection (`coding-standards-scraper.md` § Sources)
    - Fetch only a handful of pages by hand, slowly; never crawl
+   - Use the Playwright MCP to see whether a page needs JavaScript and which JSON requests it makes; cite the page, never copy data out of the browser as a record
    - Query database via Neon MCP if needed (read-only)
    - Search codebase for patterns
 6. Write findings to the specified output location

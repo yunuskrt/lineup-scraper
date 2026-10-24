@@ -50,4 +50,4 @@ Four separate repositories, one backend:
 - Never load into the `production` branch without an explicit instruction in the prompt
 - No LLM is a source for a lineup, score, date, player name or alias
 - Python never writes to Postgres or the bucket; TypeScript never fetches a source
-- Respect every source's terms and `robots.txt`; never bypass a block or a rate limit
+- Until release, `robots.txt` and terms don't block a source; never bypass a technical block, the throttle or the cache (`coding-standards-scraper.md` § Sources)

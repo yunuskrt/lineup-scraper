@@ -16,6 +16,6 @@
    - Only content tables are written; no competition, season, club, player or match is deleted
    - No `prisma migrate` or `db push`; `db:check` runs before a load
    - Logs and errors print counts and paths, never an XI or an alias list
-   - `robots.txt`, the rate limit and the cache are respected
+   - The rate limit, the cache and technical blocks are respected (`robots.txt` and terms may be ignored until release)
    - Substitutes are never stored as answers (HC 17); no LLM output is used as data (HC 4)
 5. Final verdict: Ready to complete or needs changes

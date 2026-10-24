@@ -15,6 +15,8 @@ Loaded on startup:
 Read on demand:
 
 - `docs/` - Setup record, build order, display requirements from the web, source-trial report, backend specs (`docs/backend-specs/`, read-only)
+- `docs/match-pool-scope.md` - Which matches become playable: scope, budgets, floors and ceilings (S07–S18)
+- `docs/collection-phases.md` - Which phases fetch from websites, what they collect, and how it reaches the database
 - `features/` - Phase specs, named `phase-s<NN>-<kebab-title>.md` (split: `phase-s11a-…`)
 - `fixes/` - Fix specs, shaped like `features/`
 - `research/` - Research prompts for `/research`

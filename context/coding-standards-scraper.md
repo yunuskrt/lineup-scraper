@@ -18,6 +18,18 @@ For `lineup-scraper`. Read alongside `coding-standards.md`, which always applies
 - **Spiders stay thin:** they choose URLs and pass responses to a parser.
 - **Stages are pure:** files in, files out. Scoring, the gate and alias building are pure functions with unit tests and no mocks, like the backend's `src/game/`.
 
+## Sources (development phase)
+
+The app is unreleased, and the real data is for development only.
+
+- A source's `robots.txt` and terms of use don't block collection. `ROBOTSTXT_OBEY` is off. S02 still records both for every source.
+- Never bypass a technical block: no CAPTCHA solving, login or paywall workarounds, proxy or IP rotation. A block stops that source.
+- Stay gentle: one request at a time per domain, AutoThrottle, retries with backoff, an honest `USER_AGENT`, and the HTTP cache, so each page is fetched once.
+- **The Playwright MCP is for looking, never for collecting.** Use it to read a source's pages, check whether they need JavaScript, find the JSON requests behind them and study the DOM for a parser. Records come only from spiders and parsers; a site that needs JavaScript uses `scrapy-playwright`.
+- Parser fixtures are saved from the spider's response, not from the browser's rendered page.
+- The dataset stays in this private repo.
+- **Before the app is marketed**, every source is licensed or replaced. The S02 report lists which ones need it.
+
 ## Python
 
 - Python 3.13 via uv. `uv.lock` is committed.
@@ -38,6 +50,7 @@ For `lineup-scraper`. Read alongside `coding-standards.md`, which always applies
 - **Raw text stays raw.** Source strings are stored as fetched, apart from NFC normalisation.
 - **Slugs are permanent.** Once `data/curation/crosswalk/` gives an entity a slug, it never changes. The loader keys on slugs; a new slug is a new row.
 - **Manual decisions live in `data/curation/`** (merges, splits, display names, extra aliases, excluded matches), never in code.
+- **Only the pool is loaded.** The dataset, the database and the bucket get only matches in the pool, plus their clubs and players (`docs/match-pool-scope.md`).
 - **Output is deterministic:** sorted by slug, stable key order, 2-space JSON, trailing newline. A rerun with no new input gives a byte-identical dataset.
 - **Timestamps** come from the source or the run's start, never from the middle of a loop.
 

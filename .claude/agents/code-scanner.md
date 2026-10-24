@@ -26,7 +26,7 @@ Scan the codebase and report any issues you find. If no folder is specified, sca
 
 ### Scraping conduct
 
-- Requests that bypass `robots.txt`, the rate limit, AutoThrottle or the HTTP cache
+- Requests that bypass the rate limit, AutoThrottle, the HTTP cache or a technical block (CAPTCHA, login, IP ban). Ignoring `robots.txt` is allowed until release
 - Spiders that fetch beyond the curated competitions, clubs or season range
 - An outbound request from `src/`, or Postgres / bucket access from `extract/`
 
