@@ -5,3 +5,4 @@ context
 data
 package-lock.json
 .mcp.json
+src/generated

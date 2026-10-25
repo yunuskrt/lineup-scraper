@@ -1,0 +1,494 @@
+generator client {
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma"
+  runtime             = "nodejs"
+  moduleFormat        = "esm"
+  importFileExtension = "js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Values match src/contract CompetitionKind
+enum CompetitionKind {
+  league
+  ucl
+  uel
+  world_cup
+  euro
+
+  @@map("competition_kind")
+}
+
+enum ClubKind {
+  club
+  national_team
+
+  @@map("club_kind")
+}
+
+model Competition {
+  id        String          @id @default(uuid(7)) @db.Uuid
+  slug      String          @unique
+  kind      CompetitionKind
+  name      String
+  createdAt DateTime        @default(now()) @map("created_at")
+  updatedAt DateTime        @updatedAt @map("updated_at")
+
+  seasons Season[]
+
+  @@map("competitions")
+}
+
+// label/start_year CHECKs live in migration SQL
+model Season {
+  id            String   @id @default(uuid(7)) @db.Uuid
+  competitionId String   @map("competition_id") @db.Uuid
+  label         String
+  startYear     Int      @map("start_year")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  competition Competition @relation(fields: [competitionId], references: [id], onDelete: Restrict)
+  matches     Match[]
+
+  @@unique([competitionId, label])
+  @@map("seasons")
+}
+
+model Club {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  slug      String   @unique
+  kind      ClubKind
+  name      String
+  shortName String   @map("short_name")
+  // Bucket object key, never a URL (B23)
+  crestKey  String?  @map("crest_key")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  aliases    ClubAlias[]
+  matchTeams MatchTeam[]
+  favouredBy UserStats[]
+
+  @@map("clubs")
+}
+
+model ClubAlias {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  clubId    String   @map("club_id") @db.Uuid
+  alias     String
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  club Club @relation(fields: [clubId], references: [id], onDelete: Cascade)
+
+  @@unique([clubId, alias])
+  @@map("club_aliases")
+}
+
+model Player {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  slug      String   @unique
+  // Display form, diacritics kept
+  name      String
+  // Bucket object key, never a URL (B23)
+  imageKey  String?  @map("image_key")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  aliases     PlayerAlias[]
+  lineups     Lineup[]
+  matchEvents MatchEvent[]
+  guesses     Guess[]
+
+  @@map("players")
+}
+
+// Matching reads `normalized`; `alias` is raw
+model PlayerAlias {
+  id         String   @id @default(uuid(7)) @db.Uuid
+  playerId   String   @map("player_id") @db.Uuid
+  alias      String
+  normalized String
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  player Player @relation(fields: [playerId], references: [id], onDelete: Cascade)
+
+  @@unique([playerId, normalized])
+  @@map("player_aliases")
+}
+
+// Values match src/contract Side, PositionGroup
+enum Side {
+  home
+  away
+
+  @@map("side")
+}
+
+enum PositionGroup {
+  GK
+  DF
+  MF
+  FW
+
+  @@map("position_group")
+}
+
+// Just enough for B19's drama signals
+enum MatchEventKind {
+  goal
+  own_goal
+  penalty_goal
+  red_card
+
+  @@map("match_event_kind")
+}
+
+model Match {
+  id           String   @id @default(uuid(7)) @db.Uuid
+  slug         String   @unique
+  seasonId     String   @map("season_id") @db.Uuid
+  date         DateTime @db.Date
+  // Display text only: `Final`, `Matchday 34`
+  stage        String?
+  nickname     String?
+  extraTime    Boolean  @default(false) @map("extra_time")
+  shootoutHome Int?     @map("shootout_home")
+  shootoutAway Int?     @map("shootout_away")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  season       Season             @relation(fields: [seasonId], references: [id], onDelete: Restrict)
+  teams        MatchTeam[]
+  events       MatchEvent[]
+  sessions     GameSession[]
+  memorability MemorabilityScore?
+
+  @@index([seasonId])
+  @@map("matches")
+}
+
+model MatchTeam {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  matchId   String   @map("match_id") @db.Uuid
+  side      Side
+  clubId    String   @map("club_id") @db.Uuid
+  goals     Int
+  // Null until the lineup is ingested (B20)
+  formation String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  match   Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  club    Club     @relation(fields: [clubId], references: [id], onDelete: Restrict)
+  lineups Lineup[]
+
+  @@unique([matchId, side])
+  @@unique([matchId, clubId])
+  @@index([clubId])
+  @@map("match_teams")
+}
+
+// The answer key: starters only, never sent
+model Lineup {
+  id          String        @id @default(uuid(7)) @db.Uuid
+  matchTeamId String        @map("match_team_id") @db.Uuid
+  playerId    String        @map("player_id") @db.Uuid
+  slot        Int
+  position    PositionGroup
+  createdAt   DateTime      @default(now()) @map("created_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
+
+  matchTeam MatchTeam @relation(fields: [matchTeamId], references: [id], onDelete: Cascade)
+  player    Player    @relation(fields: [playerId], references: [id], onDelete: Restrict)
+
+  @@unique([matchTeamId, slot])
+  @@unique([matchTeamId, playerId])
+  @@index([playerId])
+  @@map("lineups")
+}
+
+model MatchEvent {
+  id        String         @id @default(uuid(7)) @db.Uuid
+  matchId   String         @map("match_id") @db.Uuid
+  kind      MatchEventKind
+  minute    Int
+  // 90+3 is minute 90, addedTime 3
+  addedTime Int?           @map("added_time")
+  // The side the event counts for
+  side      Side
+  playerId  String?        @map("player_id") @db.Uuid
+  createdAt DateTime       @default(now()) @map("created_at")
+  updatedAt DateTime       @updatedAt @map("updated_at")
+
+  match  Match   @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  player Player? @relation(fields: [playerId], references: [id], onDelete: Restrict)
+
+  @@index([matchId])
+  @@index([playerId])
+  @@map("match_events")
+}
+
+enum GameMode {
+  solo
+  duel
+
+  @@map("game_mode")
+}
+
+enum GameStatus {
+  active
+  over
+
+  @@map("game_status")
+}
+
+enum SoloEndReason {
+  lives_out
+  quit
+  perfect_clear
+
+  @@map("solo_end_reason")
+}
+
+// From the participant's own view
+enum DuelOutcome {
+  win
+  loss
+  draw
+  forfeit_win
+
+  @@map("duel_outcome")
+}
+
+enum RoundEndReason {
+  found
+  expired
+  ended
+
+  @@map("round_end_reason")
+}
+
+enum GuessOutcome {
+  correct_new
+  already_found
+  not_in_xi
+
+  @@map("guess_outcome")
+}
+
+// Internal quality gate; never exposed (HC 20)
+model MemorabilityScore {
+  id               String   @id @default(uuid(7)) @db.Uuid
+  matchId          String   @unique @map("match_id") @db.Uuid
+  score            Float
+  // Per-signal breakdown, for QA (B22)
+  signals          Json
+  algorithmVersion String   @map("algorithm_version")
+  computedAt       DateTime @map("computed_at")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  match Match @relation(fields: [matchId], references: [id], onDelete: Restrict)
+
+  @@map("memorability_scores")
+}
+
+model GameSession {
+  id            String         @id @default(uuid(7)) @db.Uuid
+  mode          GameMode
+  status        GameStatus     @default(active)
+  matchId       String         @map("match_id") @db.Uuid
+  // Null until a solo player picks a side
+  side          Side?
+  startedAt     DateTime       @default(now()) @map("started_at")
+  endedAt       DateTime?      @map("ended_at")
+  soloEndReason SoloEndReason? @map("solo_end_reason")
+  createdAt     DateTime       @default(now()) @map("created_at")
+  updatedAt     DateTime       @updatedAt @map("updated_at")
+
+  match        Match             @relation(fields: [matchId], references: [id], onDelete: Restrict)
+  participants GameParticipant[]
+  rounds       GameRound[]
+
+  @@index([matchId])
+  @@map("game_sessions")
+}
+
+model GameParticipant {
+  id             String       @id @default(uuid(7)) @db.Uuid
+  sessionId      String       @map("session_id") @db.Uuid
+  userId         String       @map("user_id") @db.Uuid
+  seat           Int
+  livesRemaining Int          @default(3) @map("lives_remaining")
+  duelOutcome    DuelOutcome? @map("duel_outcome")
+  createdAt      DateTime     @default(now()) @map("created_at")
+  updatedAt      DateTime     @updatedAt @map("updated_at")
+
+  session GameSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  // Restrict: history outlives a careless delete
+  user    User        @relation(fields: [userId], references: [id], onDelete: Restrict)
+  rounds  GameRound[]
+
+  @@unique([sessionId, seat])
+  @@unique([sessionId, userId])
+  @@index([userId])
+  @@map("game_participants")
+}
+
+model GameRound {
+  id            String          @id @default(uuid(7)) @db.Uuid
+  sessionId     String          @map("session_id") @db.Uuid
+  number        Int
+  // Whose turn it was
+  participantId String          @map("participant_id") @db.Uuid
+  startedAt     DateTime        @map("started_at")
+  endsAt        DateTime        @map("ends_at")
+  endedAt       DateTime?       @map("ended_at")
+  endReason     RoundEndReason? @map("end_reason")
+  createdAt     DateTime        @default(now()) @map("created_at")
+  updatedAt     DateTime        @updatedAt @map("updated_at")
+
+  session     GameSession     @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  participant GameParticipant @relation(fields: [participantId], references: [id], onDelete: Cascade)
+  guesses     Guess[]
+
+  @@unique([sessionId, number])
+  @@index([participantId])
+  @@map("game_rounds")
+}
+
+model Guess {
+  id         String       @id @default(uuid(7)) @db.Uuid
+  roundId    String       @map("round_id") @db.Uuid
+  // As received, trimmed; never logged
+  text       String
+  outcome    GuessOutcome
+  // The starter it resolved to; null if not_in_xi
+  playerId   String?      @map("player_id") @db.Uuid
+  receivedAt DateTime     @default(now()) @map("received_at")
+  createdAt  DateTime     @default(now()) @map("created_at")
+  updatedAt  DateTime     @updatedAt @map("updated_at")
+
+  round  GameRound @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  player Player?   @relation(fields: [playerId], references: [id], onDelete: Restrict)
+
+  @@index([roundId])
+  @@index([playerId])
+  @@map("guesses")
+}
+
+model UserStats {
+  userId          String   @id @map("user_id") @db.Uuid
+  played          Int      @default(0)
+  wins            Int      @default(0)
+  losses          Int      @default(0)
+  draws           Int      @default(0)
+  perfectClears   Int      @default(0) @map("perfect_clears")
+  bestStreak      Int      @default(0) @map("best_streak")
+  correctGuesses  Int      @default(0) @map("correct_guesses")
+  totalGuesses    Int      @default(0) @map("total_guesses")
+  favouriteClubId String?  @map("favourite_club_id") @db.Uuid
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  user          User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  favouriteClub Club? @relation(fields: [favouriteClubId], references: [id], onDelete: SetNull)
+
+  @@index([favouriteClubId])
+  @@map("user_stats")
+}
+
+// Better Auth models; field names are its own
+model User {
+  id            String   @id @default(uuid(7)) @db.Uuid
+  // Display name; Better Auth requires it
+  name          String
+  email         String   @unique
+  emailVerified Boolean  @default(false) @map("email_verified")
+  image         String?
+  // Unique on lower(handle), in migration SQL
+  handle        String
+  // A guest: Better Auth's anonymous plugin
+  isAnonymous   Boolean  @default(false) @map("is_anonymous")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  sessions     Session[]
+  accounts     Account[]
+  participants GameParticipant[]
+  stats        UserStats?
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  userId    String   @map("user_id") @db.Uuid
+  token     String   @unique
+  expiresAt DateTime @map("expires_at")
+  ipAddress String?  @map("ip_address")
+  userAgent String?  @map("user_agent")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("auth_sessions")
+}
+
+// One credential row per email/password user
+model Account {
+  id                    String    @id @default(uuid(7)) @db.Uuid
+  userId                String    @map("user_id") @db.Uuid
+  accountId             String    @map("account_id")
+  providerId            String    @map("provider_id")
+  accessToken           String?   @map("access_token")
+  refreshToken          String?   @map("refresh_token")
+  idToken               String?   @map("id_token")
+  accessTokenExpiresAt  DateTime? @map("access_token_expires_at")
+  refreshTokenExpiresAt DateTime? @map("refresh_token_expires_at")
+  scope                 String?
+  // A hash, never the password
+  password              String?
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("auth_accounts")
+}
+
+model Verification {
+  id         String   @id @default(uuid(7)) @db.Uuid
+  identifier String
+  value      String
+  expiresAt  DateTime @map("expires_at")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  @@index([identifier])
+  @@map("auth_verifications")
+}
+
+// Better Auth's JWT signing keys, for the gateway
+model Jwks {
+  id         String    @id @default(uuid(7)) @db.Uuid
+  // A public JWK, as JSON
+  publicKey  String    @map("public_key")
+  // Encrypted with BETTER_AUTH_SECRET
+  privateKey String    @map("private_key")
+  alg        String?
+  crv        String?
+  expiresAt  DateTime? @map("expires_at")
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
+
+  @@map("auth_jwks")
+}
