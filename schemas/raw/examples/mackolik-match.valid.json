@@ -1,0 +1,46 @@
+[
+  {
+    "name": "a played league match with no stage",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Takim/9001/Kuzey-FK/2004/2005",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competition": "Örnek Süper Lig",
+      "season": "2004/2005",
+      "stage": null,
+      "date": "1.10.2004",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "score": "2-0"
+    }
+  },
+  {
+    "name": "an unplayed cup match with a stage",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "0900002",
+      "sourceUrl": "http://arsiv.mackolik.com/AjaxHandlers/CupHandler.aspx?command=legMatches&id=77",
+      "fetchedAt": "2026-10-26T10:00:00Z",
+      "competition": "Örnek Kupa",
+      "season": "2005",
+      "stage": "Yarı Final",
+      "date": "21.06.2005",
+      "home": {
+        "sourceId": "9003",
+        "name": "Doğu Gücü"
+      },
+      "away": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "score": null
+    }
+  }
+]

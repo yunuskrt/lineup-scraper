@@ -24,3 +24,4 @@ Not Started
 - S02 Source Trial: Mackolik primary, 2000-01 range holds, Scrapy
 - S03 Schema Copy & Targets: schema copy, Prisma client, db:check, ingest
 - S04 Dataset Schema: dataset Zod schema, normalizeName, CHECK mirrors
+- S05 Raw Record Contract: Zod raw kinds, JSON Schema, Python writer

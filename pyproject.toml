@@ -3,13 +3,16 @@ name = "lineup-scraper"
 version = "0.0.1"
 description = "Offline ETL for the Lineup match pool: extraction"
 requires-python = ">=3.13,<3.14"
-dependencies = []
+dependencies = [
+    "jsonschema>=4.26.0",
+]
 
 [dependency-groups]
 dev = [
     "mypy>=1.18",
     "pytest>=8.4",
     "ruff>=0.14",
+    "types-jsonschema>=4.26.0.20261006",
 ]
 
 [tool.uv]

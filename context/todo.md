@@ -12,7 +12,7 @@ This todo file is for developer-side use.
 - [x] **Phase S02 — Source Trial**: Terms, robots.txt and field coverage of Mackolik and alternatives on 20 matches. (was P01)
 - [x] **Phase S03 — Schema Copy & Targets**: `schema.prisma` copy, Prisma client, `db:check` drift guard, Neon targets.
 - [x] **Phase S04 — Dataset Schema**: Zod schema for the final dataset, ported `normalizeName`, mirrors of every DB CHECK.
-- [ ] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
+- [x] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
 - [ ] **Phase S06 — Fetch Harness**: Scrapy with disk cache, robots.txt, auto-throttle, retries, fixture-tested parsers. (was B15)
 - [ ] **Phase S07 — Match Metadata Extract**: Fixtures, scores, dates, stages and competitions across the season range. (was B16)
 - [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs. (was B17)

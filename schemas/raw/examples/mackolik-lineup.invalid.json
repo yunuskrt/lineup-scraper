@@ -1,0 +1,1746 @@
+[
+  {
+    "name": "a negative shirt number",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": -1
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "a fractional minute",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34.5,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "side 0",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 0,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "side as text",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": "home",
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "a missing score key",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "a player id with letters",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "p81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "an empty player name",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "a starter flag",
+    "record": {
+      "source": "mackolik",
+      "sourceId": "900001",
+      "sourceUrl": "https://arsiv.mackolik.com/Match/MatchData.aspx?t=dtl&id=900001&s=0",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "score": {
+        "s": "1-1",
+        "st": "Pen",
+        "ht": "0-1",
+        "ft": "1-1",
+        "et": "1-1",
+        "pt": "5-4"
+      },
+      "home": [
+        {
+          "sourceId": "80000",
+          "name": "Kuzey Oyuncu 0",
+          "shirtNumber": 1,
+          "isStarter": true
+        },
+        {
+          "sourceId": "80001",
+          "name": "Kuzey Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "80002",
+          "name": "Kuzey Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "80003",
+          "name": "Kuzey Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "80004",
+          "name": "Kuzey Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "80005",
+          "name": "Kuzey Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "80006",
+          "name": "Kuzey Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "80007",
+          "name": "Kuzey Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "80008",
+          "name": "Kuzey Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "80009",
+          "name": "Kuzey Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "80010",
+          "name": "Kuzey Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "80011",
+          "name": "Kuzey Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "80012",
+          "name": "Kuzey Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "80013",
+          "name": "Kuzey Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "away": [
+        {
+          "sourceId": "81000",
+          "name": "Güney Oyuncu 0",
+          "shirtNumber": 1
+        },
+        {
+          "sourceId": "81001",
+          "name": "Güney Oyuncu 1",
+          "shirtNumber": 2
+        },
+        {
+          "sourceId": "81002",
+          "name": "Güney Oyuncu 2",
+          "shirtNumber": 3
+        },
+        {
+          "sourceId": "81003",
+          "name": "Güney Oyuncu 3",
+          "shirtNumber": 4
+        },
+        {
+          "sourceId": "81004",
+          "name": "Güney Oyuncu 4",
+          "shirtNumber": 5
+        },
+        {
+          "sourceId": "81005",
+          "name": "Güney Oyuncu 5",
+          "shirtNumber": 6
+        },
+        {
+          "sourceId": "81006",
+          "name": "Güney Oyuncu 6",
+          "shirtNumber": 7
+        },
+        {
+          "sourceId": "81007",
+          "name": "Güney Oyuncu 7",
+          "shirtNumber": 8
+        },
+        {
+          "sourceId": "81008",
+          "name": "Güney Oyuncu 8",
+          "shirtNumber": 9
+        },
+        {
+          "sourceId": "81009",
+          "name": "Güney Oyuncu 9",
+          "shirtNumber": 10
+        },
+        {
+          "sourceId": "81010",
+          "name": "Güney Oyuncu 10",
+          "shirtNumber": 11
+        },
+        {
+          "sourceId": "81011",
+          "name": "Güney Oyuncu 11",
+          "shirtNumber": 12
+        },
+        {
+          "sourceId": "81012",
+          "name": "Güney Oyuncu 12",
+          "shirtNumber": 13
+        },
+        {
+          "sourceId": "81013",
+          "name": "Güney Oyuncu 13",
+          "shirtNumber": 14
+        }
+      ],
+      "events": [
+        {
+          "side": 2,
+          "minute": 34,
+          "type": 1,
+          "playerSourceId": "81009",
+          "playerName": "Güney Oyuncu 9",
+          "detail": "1",
+          "detailName": null,
+          "assistSourceId": "81007",
+          "assistName": "Güney Oyuncu 7"
+        },
+        {
+          "side": 1,
+          "minute": 0,
+          "type": 2,
+          "playerSourceId": "80004",
+          "playerName": "Kuzey Oyuncu 4",
+          "detail": null,
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 61,
+          "type": 4,
+          "playerSourceId": "80012",
+          "playerName": "Kuzey Oyuncu 12",
+          "detail": "80008",
+          "detailName": "Kuzey Oyuncu 8",
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 1,
+          "minute": 90,
+          "type": 1,
+          "playerSourceId": "80010",
+          "playerName": "Kuzey Oyuncu 10",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        },
+        {
+          "side": 2,
+          "minute": 110,
+          "type": 3,
+          "playerSourceId": "81003",
+          "playerName": "Güney Oyuncu 3",
+          "detail": "2",
+          "detailName": null,
+          "assistSourceId": null,
+          "assistName": null
+        }
+      ]
+    }
+  }
+]
