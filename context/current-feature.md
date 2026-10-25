@@ -23,3 +23,4 @@ Not Started
 - S01 Repo & Scaffold: npm and uv projects, lint, format, tests, data/
 - S02 Source Trial: Mackolik primary, 2000-01 range holds, Scrapy
 - S03 Schema Copy & Targets: schema copy, Prisma client, db:check, ingest
+- S04 Dataset Schema: dataset Zod schema, normalizeName, CHECK mirrors
