@@ -21,3 +21,4 @@ Not Started
 <!-- Keep this updated. Earliest to latest -->
 
 - S01 Repo & Scaffold: npm and uv projects, lint, format, tests, data/
+- S02 Source Trial: Mackolik primary, 2000-01 range holds, Scrapy

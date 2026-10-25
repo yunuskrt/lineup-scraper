@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx prettier *)"
+      "Bash(npx prettier *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)",
+      "Bash(uv run *)",
+      "WebFetch(domain:www.mackolik.com)",
+      "WebFetch(domain:arsiv.mackolik.com)",
+      "WebSearch",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_network_requests",
+      "mcp__playwright__browser_close"
     ]
   }
 }
