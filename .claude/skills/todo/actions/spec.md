@@ -67,7 +67,7 @@ Not Started
 ```
 
 - If `## History` is kept, leave it empty — it is filled in when the phase completes
-- Goals bullets are deliverables, not narration; name real paths (`extract/spiders/mackolik_matches.py`, `src/score/memorability.ts`, `data/dataset/clubs.json`)
+- Goals bullets are deliverables, not narration; name real paths (`extract/spiders/transfermarkt_matches.py`, `src/score/memorability.ts`, `data/dataset/clubs.json`)
 - Carry over the relevant hard constraints from `context/project-overview.md`, the rules from `context/docs/data-contract.md` and the coding standards that apply to this phase; do not restate the whole standard
 - For S07 and later, read `context/docs/match-pool-scope.md` § 5 and carry over the scope, budgets and limits that phase uses
 - If the phase ports a backend file, name it (`../lineup-backend/scripts/seed/seed.ts`) and say it is ported by hand, never imported

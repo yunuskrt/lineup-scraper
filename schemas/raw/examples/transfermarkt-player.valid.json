@@ -1,0 +1,28 @@
+[
+  {
+    "name": "a current player with dual citizenship",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  },
+  {
+    "name": "an old player with no profile data",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300002",
+      "sourceUrl": "https://www.transfermarkt.com/eski-oyuncu/profil/spieler/9300002",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "Eski Oyuncu",
+      "dateOfBirth": null,
+      "citizenship": null,
+      "position": null
+    }
+  }
+]

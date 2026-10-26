@@ -36,8 +36,24 @@ def read_lines(path: Path) -> list[dict[str, JsonValue]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
 
 
+def starter(
+    record: dict[str, JsonValue], side: str, index: int
+) -> dict[str, JsonValue]:
+    team = record[side]
+    assert isinstance(team, dict)
+    starters = team["starters"]
+    assert isinstance(starters, list)
+    player = starters[index]
+    assert isinstance(player, dict)
+    return player
+
+
 def test_finds_the_schema_files() -> None:
-    assert KINDS == ["mackolik-lineup", "mackolik-match"]
+    assert KINDS == [
+        "transfermarkt-fixture",
+        "transfermarkt-match",
+        "transfermarkt-player",
+    ]
 
 
 @pytest.mark.parametrize("kind", KINDS)
@@ -69,21 +85,20 @@ def test_rejects_invalid_example(
 
 
 def test_error_names_the_path_and_keyword_never_the_value() -> None:
-    record = first_valid("mackolik-lineup")
-    home = record["home"]
-    assert isinstance(home, list) and isinstance(home[2], dict)
-    home[2]["name"] = ""
-    home[2]["shirtNumber"] = -73
+    record = first_valid("transfermarkt-match")
+    player = starter(record, "home", 2)
+    player["name"] = ""
+    player["isCaptain"] = "-73"
     record["sourceUrl"] = "secret-host/path"
 
     with pytest.raises(InvalidRecordError) as raised:
-        validate_record("mackolik-lineup", record)
+        validate_record("transfermarkt-match", record)
 
     message = str(raised.value)
     assert message.splitlines() == [
-        "Invalid mackolik-lineup record:",
-        "  $.home[2].name: minLength",
-        "  $.home[2].shirtNumber: minimum",
+        "Invalid transfermarkt-match record:",
+        "  $.home.starters[2].isCaptain: type",
+        "  $.home.starters[2].name: minLength",
         "  $.sourceUrl: pattern",
     ]
     assert "secret" not in message
@@ -92,39 +107,36 @@ def test_error_names_the_path_and_keyword_never_the_value() -> None:
 
 def test_unknown_kind_is_refused() -> None:
     with pytest.raises(InvalidRecordError, match="Unknown record kind"):
-        validate_record("mackolik-standings", {})
+        validate_record("transfermarkt-standings", {})
 
 
 def test_writer_appends_nfc_lines_with_sorted_keys(tmp_path: Path) -> None:
-    writer = RecordWriter("mackolik-match", "uel-2004-05", raw_dir=tmp_path)
-    record = first_valid("mackolik-match")
-    record["competition"] = "Örnek Süper Lig"
+    writer = RecordWriter("transfermarkt-fixture", "uel-2004-05", raw_dir=tmp_path)
+    record = first_valid("transfermarkt-fixture")
+    record["round"] = "\u00d6rnek Su\u0308per Lig"
 
     writer.write(record)
-    writer.write(first_valid("mackolik-match"))
+    writer.write(first_valid("transfermarkt-fixture"))
 
-    path = tmp_path / "mackolik" / "match" / "uel-2004-05.ndjson"
+    path = tmp_path / "transfermarkt" / "fixture" / "uel-2004-05.ndjson"
     assert writer.path == path
     lines = path.read_text(encoding="utf-8").splitlines()
     assert len(lines) == 2
-    assert "Örnek Süper Lig" in lines[0]
+    assert "\u00d6rnek S\u00fcper Lig" in lines[0]
     assert "\\u" not in lines[0]
     assert list(json.loads(lines[0])) == sorted(json.loads(lines[0]))
-    assert read_lines(path)[0]["competition"] == "Örnek Süper Lig"
+    assert read_lines(path)[0]["round"] == "\u00d6rnek S\u00fcper Lig"
 
 
 def test_writer_composes_nested_names(tmp_path: Path) -> None:
-    writer = RecordWriter("mackolik-lineup", "ucl-2005", raw_dir=tmp_path)
-    record = first_valid("mackolik-lineup")
-    away = record["away"]
-    assert isinstance(away, list) and isinstance(away[4], dict)
-    away[4]["name"] = "Şahin Gürses"
+    writer = RecordWriter("transfermarkt-match", "ucl-2005", raw_dir=tmp_path)
+    record = first_valid("transfermarkt-match")
+    starter(record, "away", 4)["name"] = "S\u0327ahin Gu\u0308rses"
 
     writer.write(record)
 
-    written = read_lines(writer.path)[0]["away"]
-    assert isinstance(written, list) and isinstance(written[4], dict)
-    assert written[4]["name"] == "Şahin Gürses"
+    written = read_lines(writer.path)[0]
+    assert starter(written, "away", 4)["name"] == "\u015eahin G\u00fcrses"
 
 
 def test_writer_refuses_a_kind_without_a_source(tmp_path: Path) -> None:
@@ -133,18 +145,19 @@ def test_writer_refuses_a_kind_without_a_source(tmp_path: Path) -> None:
 
 
 def test_writer_keeps_earlier_lines(tmp_path: Path) -> None:
-    RecordWriter("mackolik-match", "ucl-2005", raw_dir=tmp_path).write(
-        first_valid("mackolik-match")
+    RecordWriter("transfermarkt-fixture", "ucl-2005", raw_dir=tmp_path).write(
+        first_valid("transfermarkt-fixture")
     )
-    RecordWriter("mackolik-match", "ucl-2005", raw_dir=tmp_path).write(
-        first_valid("mackolik-match")
+    RecordWriter("transfermarkt-fixture", "ucl-2005", raw_dir=tmp_path).write(
+        first_valid("transfermarkt-fixture")
     )
-    assert len(read_lines(tmp_path / "mackolik" / "match" / "ucl-2005.ndjson")) == 2
+    path = tmp_path / "transfermarkt" / "fixture" / "ucl-2005.ndjson"
+    assert len(read_lines(path)) == 2
 
 
 def test_writer_writes_nothing_for_an_invalid_record(tmp_path: Path) -> None:
-    writer = RecordWriter("mackolik-match", "ucl-2005", raw_dir=tmp_path)
-    record = first_valid("mackolik-match")
+    writer = RecordWriter("transfermarkt-fixture", "ucl-2005", raw_dir=tmp_path)
+    record = first_valid("transfermarkt-fixture")
     record["sourceId"] = 900001
 
     with pytest.raises(InvalidRecordError):
@@ -154,11 +167,9 @@ def test_writer_writes_nothing_for_an_invalid_record(tmp_path: Path) -> None:
 
 @pytest.mark.parametrize("number", [float("nan"), float("inf")])
 def test_writer_refuses_a_non_finite_number(tmp_path: Path, number: float) -> None:
-    writer = RecordWriter("mackolik-lineup", "ucl-2005", raw_dir=tmp_path)
-    record = first_valid("mackolik-lineup")
-    events = record["events"]
-    assert isinstance(events, list) and isinstance(events[0], dict)
-    events[0]["minute"] = number
+    writer = RecordWriter("transfermarkt-match", "ucl-2005", raw_dir=tmp_path)
+    record = first_valid("transfermarkt-match")
+    starter(record, "home", 0)["isCaptain"] = number
 
     with pytest.raises(InvalidRecordError):
         writer.write(record)
@@ -170,9 +181,9 @@ def test_writer_refuses_a_non_finite_number(tmp_path: Path, number: float) -> No
 )
 def test_writer_refuses_a_bad_partition(tmp_path: Path, partition: str) -> None:
     with pytest.raises(InvalidRecordError, match="Invalid partition"):
-        RecordWriter("mackolik-match", partition, raw_dir=tmp_path)
+        RecordWriter("transfermarkt-fixture", partition, raw_dir=tmp_path)
 
 
 def test_writer_refuses_an_unknown_kind(tmp_path: Path) -> None:
     with pytest.raises(InvalidRecordError, match="Unknown record kind"):
-        RecordWriter("mackolik-standings", "ucl-2005", raw_dir=tmp_path)
+        RecordWriter("transfermarkt-standings", "ucl-2005", raw_dir=tmp_path)

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "an empty headline",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  },
+  {
+    "name": "an empty date of birth",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  },
+  {
+    "name": "a height field",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward",
+      "height": "1,76 m"
+    }
+  },
+  {
+    "name": "a player id with a slash",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001/",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  },
+  {
+    "name": "a missing fetch time",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  },
+  {
+    "name": "a URL without a scheme",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "www.transfermarkt.com/x/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward"
+    }
+  }
+]

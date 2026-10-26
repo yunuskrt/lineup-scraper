@@ -299,4 +299,11 @@ Append to the **Deviations recorded during implementation** list in § Notes:
   - Request volume: ~200 fixture pages, ≤ ~3,600 match reports and the pool's player pages. No block was seen in 9 requests; the old repo's 500-page-per-run cap (old `players/save_html_pages.py:80-81`) hints that rate limits exist, **unverified**
   - A hybrid with Mackolik for Turkish alias spellings: deferred
 
+**Deviations recorded during implementation**
+
+- `src/raw/envelope.ts` also exports `isoDateSchema` and `refSchema` (`{ sourceId, name }`), which all three kinds share. § Changes had said only line 4 changes
+- `extract/tests/test_records.py` keeps every test, adapted to the new kinds. The error-message and NaN tests now use a starter's `name` and `isCaptain`, since no Transfermarkt kind has a numeric field. Its non-ASCII test strings are now `\u` escapes, so an editor can't normalise them away
+- The fixture kind's "another source" invalid example uses `statsbomb`, so `grep -ri mackolik src extract schemas` finds nothing
+- Added at review, by request: `.claude/skills/todo/actions/spec.md:70` now gives `extract/spiders/transfermarkt_matches.py` as its example path, so `/todo spec` isn't nudged towards a Mackolik spider
+
 ## History

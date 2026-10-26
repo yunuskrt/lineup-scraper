@@ -1,0 +1,202 @@
+[
+  {
+    "name": "a lower-case competition code",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "xx1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a text date instead of the datum link",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "15/10/00",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a date with Arabic-Indic digits",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "٢٠٠٠-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a numeric season id",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": 2000,
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a team id with letters",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "v9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "an empty team name",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": ""
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a kick-off time field",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0",
+      "time": "3:00 PM"
+    }
+  },
+  {
+    "name": "another source",
+    "record": {
+      "source": "statsbomb",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "an extra key on a team reference",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK",
+        "shortName": "KFK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  }
+]

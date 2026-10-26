@@ -1,0 +1,46 @@
+[
+  {
+    "name": "a played league row",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-lig/gesamtspielplan/wettbewerb/XX1?saison_id=2000",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "XX1",
+      "seasonId": "2000",
+      "round": "2. Matchday",
+      "date": "2000-10-15",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK"
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor"
+      },
+      "result": "2:0"
+    }
+  },
+  {
+    "name": "a tournament row with no season, round, date or result",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9100002",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-kupa/gesamtspielplan/pokalwettbewerb/WC06",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "competitionCode": "WC06",
+      "seasonId": null,
+      "round": null,
+      "date": null,
+      "home": {
+        "sourceId": "9101",
+        "name": "Ardenia"
+      },
+      "away": {
+        "sourceId": "9102",
+        "name": "Belmora"
+      },
+      "result": null
+    }
+  }
+]

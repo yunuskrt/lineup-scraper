@@ -1,0 +1,511 @@
+[
+  {
+    "name": "a 2000-01-style final on penalties with a +N goal",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9200001",
+      "sourceUrl": "https://www.transfermarkt.com/spielbericht/index/spielbericht/9200001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "round": "Final",
+      "date": "2001-05-23",
+      "result": "5:4",
+      "resultNote": "on pens",
+      "home": {
+        "sourceId": "9101",
+        "name": "Ardenia",
+        "tablePosition": null,
+        "formation": "Starting Line-up: 5-4-1",
+        "starters": [
+          {
+            "sourceId": "70000",
+            "name": "Ardenia Oyuncu 0",
+            "shirtNumber": "1",
+            "style": "top: 80%; left: 40%;",
+            "isCaptain": true
+          },
+          {
+            "sourceId": "70001",
+            "name": "Ardenia Oyuncu 1",
+            "shirtNumber": "2",
+            "style": "top: 57%; left: 22%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70002",
+            "name": "Ardenia Oyuncu 2",
+            "shirtNumber": "3",
+            "style": "top: 51%; left: 39%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70003",
+            "name": "Ardenia Oyuncu 3",
+            "shirtNumber": "4",
+            "style": "top: 45%; left: 56%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70004",
+            "name": "Ardenia Oyuncu 4",
+            "shirtNumber": "5",
+            "style": "top: 39%; left: 73%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70005",
+            "name": "Ardenia Oyuncu 5",
+            "shirtNumber": "6",
+            "style": "top: 33%; left: 20%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70006",
+            "name": "Ardenia Oyuncu 6",
+            "shirtNumber": "7",
+            "style": "top: 27%; left: 37%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70007",
+            "name": "Ardenia Oyuncu 7",
+            "shirtNumber": "8",
+            "style": "top: 21%; left: 54%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70008",
+            "name": "Ardenia Oyuncu 8",
+            "shirtNumber": "9",
+            "style": "top: 15%; left: 71%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70009",
+            "name": "Ardenia Oyuncu 9",
+            "shirtNumber": "10",
+            "style": "top: 9%; left: 18%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "70010",
+            "name": "Ardenia Oyuncu 10",
+            "shirtNumber": "11",
+            "style": "top: 3%; left: 35%;",
+            "isCaptain": false
+          }
+        ],
+        "bench": [
+          {
+            "sourceId": "70050",
+            "name": "Ardenia Yedek 0",
+            "shirtNumber": "20",
+            "position": "GK"
+          },
+          {
+            "sourceId": "70051",
+            "name": "Ardenia Yedek 1",
+            "shirtNumber": "21",
+            "position": null
+          },
+          {
+            "sourceId": "70052",
+            "name": "Ardenia Yedek 2",
+            "shirtNumber": "22",
+            "position": null
+          }
+        ]
+      },
+      "away": {
+        "sourceId": "9102",
+        "name": "Belmora",
+        "tablePosition": null,
+        "formation": "Starting Line-up: 4-4-2 Diamond",
+        "starters": [
+          {
+            "sourceId": "71000",
+            "name": "Belmora Oyuncu 0",
+            "shirtNumber": "1",
+            "style": "top: 80%; left: 40%;",
+            "isCaptain": true
+          },
+          {
+            "sourceId": "71001",
+            "name": "Belmora Oyuncu 1",
+            "shirtNumber": "2",
+            "style": "top: 57%; left: 22%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71002",
+            "name": "Belmora Oyuncu 2",
+            "shirtNumber": "3",
+            "style": "top: 51%; left: 39%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71003",
+            "name": "Belmora Oyuncu 3",
+            "shirtNumber": "4",
+            "style": "top: 45%; left: 56%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71004",
+            "name": "Belmora Oyuncu 4",
+            "shirtNumber": "5",
+            "style": "top: 39%; left: 73%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71005",
+            "name": "Belmora Oyuncu 5",
+            "shirtNumber": "6",
+            "style": "top: 33%; left: 20%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71006",
+            "name": "Belmora Oyuncu 6",
+            "shirtNumber": "7",
+            "style": "top: 27%; left: 37%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71007",
+            "name": "Belmora Oyuncu 7",
+            "shirtNumber": "8",
+            "style": "top: 21%; left: 54%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71008",
+            "name": "Belmora Oyuncu 8",
+            "shirtNumber": "9",
+            "style": "top: 15%; left: 71%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71009",
+            "name": "Belmora Oyuncu 9",
+            "shirtNumber": "10",
+            "style": "top: 9%; left: 18%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "71010",
+            "name": "Belmora Oyuncu 10",
+            "shirtNumber": "11",
+            "style": "top: 3%; left: 35%;",
+            "isCaptain": false
+          }
+        ],
+        "bench": [
+          {
+            "sourceId": "71050",
+            "name": "Belmora Yedek 0",
+            "shirtNumber": "20",
+            "position": "GK"
+          },
+          {
+            "sourceId": "71051",
+            "name": "Belmora Yedek 1",
+            "shirtNumber": "21",
+            "position": null
+          },
+          {
+            "sourceId": "71052",
+            "name": "Belmora Yedek 2",
+            "shirtNumber": "22",
+            "position": null
+          }
+        ]
+      },
+      "events": [
+        {
+          "box": "goal",
+          "side": "away",
+          "clock": "background-position: -72px -0px;",
+          "addedTime": null,
+          "players": [
+            {
+              "sourceId": "71009",
+              "name": "Belmora Oyuncu 9"
+            }
+          ],
+          "text": "0:1 Belmora Oyuncu 9, Penalty, 1. Tournament Goal"
+        },
+        {
+          "box": "goal",
+          "side": "home",
+          "clock": "background-position: -324px -288px;",
+          "addedTime": "+2",
+          "players": [
+            {
+              "sourceId": "70010",
+              "name": "Ardenia Oyuncu 10"
+            },
+            {
+              "sourceId": "70007",
+              "name": "Ardenia Oyuncu 7"
+            }
+          ],
+          "text": "+2 1:1 Ardenia Oyuncu 10, Header, 1. Tournament Goal Assist: Ardenia Oyuncu 7"
+        },
+        {
+          "box": "card",
+          "side": "home",
+          "clock": "background-position: -0px -433px;",
+          "addedTime": null,
+          "players": [
+            {
+              "sourceId": "70004",
+              "name": "Ardenia Oyuncu 4"
+            }
+          ],
+          "text": "Ardenia Oyuncu 4 1. Yellow card , Foul"
+        },
+        {
+          "box": "substitution",
+          "side": "away",
+          "clock": null,
+          "addedTime": null,
+          "players": [
+            {
+              "sourceId": "71051",
+              "name": "Belmora Yedek 1"
+            },
+            {
+              "sourceId": "71008",
+              "name": "Belmora Oyuncu 8"
+            }
+          ],
+          "text": "Belmora Yedek 1 Belmora Oyuncu 8, Not reported"
+        }
+      ]
+    }
+  },
+  {
+    "name": "a goalless league match with a missing formation",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9200002",
+      "sourceUrl": "https://www.transfermarkt.com/kuzey-fk_guney-spor/index/spielbericht/9200002",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "round": "1. Matchday",
+      "date": "2023-08-12",
+      "result": "0:0",
+      "resultNote": "(0:0)",
+      "home": {
+        "sourceId": "9001",
+        "name": "Kuzey FK",
+        "tablePosition": null,
+        "formation": "Starting Line-up: 4-2-3-1",
+        "starters": [
+          {
+            "sourceId": "80000",
+            "name": "Kuzey Oyuncu 0",
+            "shirtNumber": "1",
+            "style": "top: 80%; left: 40%;",
+            "isCaptain": true
+          },
+          {
+            "sourceId": "80001",
+            "name": "Kuzey Oyuncu 1",
+            "shirtNumber": "2",
+            "style": "top: 57%; left: 22%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80002",
+            "name": "Kuzey Oyuncu 2",
+            "shirtNumber": "3",
+            "style": "top: 51%; left: 39%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80003",
+            "name": "Kuzey Oyuncu 3",
+            "shirtNumber": "4",
+            "style": "top: 45%; left: 56%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80004",
+            "name": "Kuzey Oyuncu 4",
+            "shirtNumber": "5",
+            "style": "top: 39%; left: 73%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80005",
+            "name": "Kuzey Oyuncu 5",
+            "shirtNumber": "6",
+            "style": "top: 33%; left: 20%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80006",
+            "name": "Kuzey Oyuncu 6",
+            "shirtNumber": "7",
+            "style": "top: 27%; left: 37%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80007",
+            "name": "Kuzey Oyuncu 7",
+            "shirtNumber": "8",
+            "style": "top: 21%; left: 54%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80008",
+            "name": "Kuzey Oyuncu 8",
+            "shirtNumber": "9",
+            "style": "top: 15%; left: 71%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80009",
+            "name": "Kuzey Oyuncu 9",
+            "shirtNumber": "10",
+            "style": "top: 9%; left: 18%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "80010",
+            "name": "Kuzey Oyuncu 10",
+            "shirtNumber": "11",
+            "style": "top: 3%; left: 35%;",
+            "isCaptain": false
+          }
+        ],
+        "bench": [
+          {
+            "sourceId": "80050",
+            "name": "Kuzey Yedek 0",
+            "shirtNumber": "20",
+            "position": "GK"
+          },
+          {
+            "sourceId": "80051",
+            "name": "Kuzey Yedek 1",
+            "shirtNumber": "21",
+            "position": null
+          },
+          {
+            "sourceId": "80052",
+            "name": "Kuzey Yedek 2",
+            "shirtNumber": "22",
+            "position": null
+          }
+        ]
+      },
+      "away": {
+        "sourceId": "9002",
+        "name": "Güney Spor",
+        "tablePosition": "Position: 16",
+        "formation": null,
+        "starters": [
+          {
+            "sourceId": "81000",
+            "name": "Güney Oyuncu 0",
+            "shirtNumber": "1",
+            "style": "top: 80%; left: 40%;",
+            "isCaptain": true
+          },
+          {
+            "sourceId": "81001",
+            "name": "Güney Oyuncu 1",
+            "shirtNumber": "2",
+            "style": "top: 57%; left: 22%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81002",
+            "name": "Güney Oyuncu 2",
+            "shirtNumber": "3",
+            "style": "top: 51%; left: 39%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81003",
+            "name": "Güney Oyuncu 3",
+            "shirtNumber": "4",
+            "style": "top: 45%; left: 56%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81004",
+            "name": "Güney Oyuncu 4",
+            "shirtNumber": "5",
+            "style": "top: 39%; left: 73%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81005",
+            "name": "Güney Oyuncu 5",
+            "shirtNumber": "6",
+            "style": "top: 33%; left: 20%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81006",
+            "name": "Güney Oyuncu 6",
+            "shirtNumber": "7",
+            "style": "top: 27%; left: 37%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81007",
+            "name": "Güney Oyuncu 7",
+            "shirtNumber": "8",
+            "style": "top: 21%; left: 54%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81008",
+            "name": "Güney Oyuncu 8",
+            "shirtNumber": "9",
+            "style": "top: 15%; left: 71%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81009",
+            "name": "Güney Oyuncu 9",
+            "shirtNumber": "10",
+            "style": "top: 9%; left: 18%;",
+            "isCaptain": false
+          },
+          {
+            "sourceId": "81010",
+            "name": "Güney Oyuncu 10",
+            "shirtNumber": "11",
+            "style": "top: 3%; left: 35%;",
+            "isCaptain": false
+          }
+        ],
+        "bench": [
+          {
+            "sourceId": "81050",
+            "name": "Güney Yedek 0",
+            "shirtNumber": "20",
+            "position": "GK"
+          },
+          {
+            "sourceId": "81051",
+            "name": "Güney Yedek 1",
+            "shirtNumber": "21",
+            "position": null
+          },
+          {
+            "sourceId": "81052",
+            "name": "Güney Yedek 2",
+            "shirtNumber": "22",
+            "position": null
+          }
+        ]
+      },
+      "events": []
+    }
+  }
+]

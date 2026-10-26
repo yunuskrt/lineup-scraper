@@ -13,12 +13,12 @@ This todo file is for developer-side use.
 - [x] **Phase S03 — Schema Copy & Targets**: `schema.prisma` copy, Prisma client, `db:check` drift guard, Neon targets.
 - [x] **Phase S04 — Dataset Schema**: Zod schema for the final dataset, ported `normalizeName`, mirrors of every DB CHECK.
 - [x] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
-- [ ] **Phase S06 — Fetch Harness**: Scrapy with disk cache, robots.txt, auto-throttle, retries, fixture-tested parsers. (was B15)
-- [ ] **Phase S07 — Match Metadata Extract**: Fixtures, scores, dates, stages and competitions across the season range. (was B16)
+- [ ] **Phase S06 — Fetch Harness**: Scrapy with disk cache, auto-throttle, retries, fixture-tested Transfermarkt parsers. (was B15)
+- [ ] **Phase S07 — Match Metadata Extract**: Transfermarkt fixture lists: scores, dates, stages and competitions across the season range. (was B16)
 - [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs. (was B17)
 - [ ] **Phase S09 — Cultural Footprint**: Wikipedia and Wikidata articles, pageviews and match nicknames. (was B18)
 - [ ] **Phase S10 — Memorability Engine**: Signal scoring with era-bucket normalisation, the shortlist, pure and tested. (was B19)
-- [ ] **Phase S11 — Lineup Extract**: Starting XIs, formations, positions and events for the shortlist only. (was B20)
+- [ ] **Phase S11 — Lineup Extract**: Transfermarkt match reports: XIs, formations, coordinates to slots, and events, for the shortlist only. (was B20)
 - [ ] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.
 - [ ] **Phase S13 — Guessability Gate**: All 11 starters resolved with alias sets; writes `sides` guessability. (was B21)
 - [ ] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.

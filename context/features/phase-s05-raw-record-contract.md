@@ -106,5 +106,6 @@ These follow the S02 trial (`context/docs/source-trial.md` §§ 2.1, 7). **Raw m
 - Score keys and event detail fields allow an empty string, as sent. Ids, names and the raw text fields must be non-empty
 - Review: `fetchedAt` uses an ASCII pattern, not `z.iso.datetime()`, which the § Rules for raw schemas had called fine. That pattern uses `\d`, which Python's `re` matches in any script, so Python accepted a fullwidth digit Zod refused. The calendar check (no 30 February) is dropped; Python writes the value itself
 - Review: `RecordWriter` dumps with `allow_nan=False`, since `jsonschema` accepts NaN as a `number` and `NaN` isn't JSON. Today every number is an integer, which already refuses NaN; the guard is for future float fields
+- 2026-10-26, fix `2026-10-26-transfermarkt-plan`: the Mackolik kinds were replaced by `transfermarkt-fixture`, `transfermarkt-match` and `transfermarkt-player`, after the source switch
 
 ## History

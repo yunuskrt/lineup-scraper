@@ -26,3 +26,4 @@ Not Started
 - S04 Dataset Schema: dataset Zod schema, normalizeName, CHECK mirrors
 - S05 Raw Record Contract: Zod raw kinds, JSON Schema, Python writer
 - Fix Transfermarkt Context: source switch docs, verified selectors
+- Fix Transfermarkt Plan: raw kinds swapped, Mackolik code removed
