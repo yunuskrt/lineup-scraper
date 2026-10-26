@@ -5,6 +5,7 @@ description = "Offline ETL for the Lineup match pool: extraction"
 requires-python = ">=3.13,<3.14"
 dependencies = [
     "jsonschema>=4.26.0",
+    "scrapy>=2.19.0",
 ]
 
 [dependency-groups]

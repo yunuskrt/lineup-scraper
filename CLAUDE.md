@@ -15,7 +15,9 @@ Four separate repositories, one backend:
 
 **This repo.** It produces the match pool: it extracts real matches and XIs, resolves them, scores them, gates them and loads them into Postgres and the bucket. It is never deployed and serves no traffic.
 
-**Data source.** Transfermarkt (English site), decided 2026-10-26; Mackolik is superseded. Facts, verified selectors and pitfalls: `context/docs/transfermarkt-source.md`. The old Transfermarkt scraper is described in `context/docs/legacy_transfermarkt_scraper_reference.md`. `project-overview.md` § Sources names it primary (backend `95d7fce`, 2026-10-26).
+**Data source.** Transfermarkt (English site), decided 2026-10-26; Mackolik is superseded. Facts, verified selectors and pitfalls: `context/docs/transfermarkt-source.md`. The old Transfermarkt scraper is described in `context/docs/legacy_transfermarkt_scraper_reference.md`. `project-overview.md` § Sources names it primary (backend `95d7fce`, 2026-10-26). **Transfermarkt pages are saved by the user in their own browser**, because the site challenges automated requests; code only parses them (`transfermarkt-source.md` § 8).
+
+**Manual work.** Some phases need the user: saving pages, approving crawls and loads. The full list is `context/docs/manual-work.md`; a phase's `todo.md` line ends in a 👤 note, and its spec has a `## Your part` section.
 
 **No code is shared between repos.** No package, no submodule, no cross-repo import. This repo keeps its own copy of the database schema; **the backend owns it**. This repo must build with the other three deleted.
 
@@ -37,7 +39,8 @@ Four separate repositories, one backend:
 - **Install**: `npm install` and `uv sync`
 - **Test**: `npm test` and `uv run pytest`
 - **Lint**: `npm run lint` and `uv run ruff check` and `uv run mypy extract`
-- **Extract**: `uv run scrapy crawl <spider> -a <arg>=<value>` (S06 fixes the exact form)
+- **Extract, automated sources**: `uv run python -m extract.crawl <spider> -a <arg>=<value>`. It exits 1 if the spider was blocked or a record was invalid; plain `scrapy crawl` exits 0 even then
+- **Import hand-saved pages**: `uv run python -m extract.inbox` (S06b). It reads `data/inbox/`, parses, and files pages under `data/pages/`
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)
 - **There is no migrate command.** Schema changes are backend phases.
@@ -53,3 +56,5 @@ Four separate repositories, one backend:
 - No LLM is a source for a lineup, score, date, player name or alias
 - Python never writes to Postgres or the bucket; TypeScript never fetches a source
 - Until release, `robots.txt` and terms don't block a source; never bypass a technical block, the throttle or the cache (`coding-standards-scraper.md` § Sources)
+- **Never fetch Transfermarkt with code**: no spider, script, browser UA or Playwright MCP session. Only the user saves its pages
+- **Tell the user about manual work first.** When a phase, spec or step needs them, open the reply with a short "👤 Your part" block (what, how many, where it goes). Keep `manual-work.md`, the 👤 note and the spec's `## Your part` in step

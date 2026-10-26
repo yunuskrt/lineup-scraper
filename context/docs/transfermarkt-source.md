@@ -6,6 +6,7 @@ The source this repo collects from, and the facts every fetching and parsing pha
 - **Why:** it is the only probed source with a formation and pitch coordinates for every starter, back to 2000–01. The data contract can't play a match without a formation (`data-contract.md` § 9.2).
 - **Shared spec:** `project-overview.md` § Sources names Transfermarkt primary for development. The backend changed it on 2026-10-26 (`lineup-backend` `95d7fce`), and plan fix P0 is done.
 - **Licence:** Transfermarkt must be licensed or replaced before the app is marketed (`coding-standards-scraper.md` § Sources).
+- **Collection: pages saved by hand.** Transfermarkt challenges automated requests (§ 8), so no spider, script or Playwright session fetches it. The user saves pages in their own browser; `extract.inbox` parses them. The steps for the user are in `manual-work.md`.
 
 ## 1. Where to look
 
@@ -77,16 +78,37 @@ From the reference § 12, with this repo's rule:
 2. 12-hour clock bugs and `"20" + YY` → no text dates; use the `datum/` link. No kick-off times are stored.
 3. Lost half-time score and an unclear full-time score on `AET` / `on pens` → the full-time score is counted from the goal events; `sb-endstand` is the shootout on `on pens`.
 4. Tri-state `null` flags → `extraTime` is always a boolean.
-5. Duplicated rows on rerun → the Scrapy cache and idempotent writes.
+5. Duplicated rows on rerun → the page store (`data/pages/`) and idempotent writes.
 6. `raise "Page not parsed"` → real exceptions.
-7. No throttle, retry or backoff → Scrapy AutoThrottle, retries, one request at a time (`coding-standards-scraper.md` § Sources).
+7. No throttle, retry or backoff → no automated Transfermarkt requests at all (§ 8). The harness throttles the sources it does fetch.
 8. Lookups re-read per match → load once.
 9. Files opened without an encoding → always UTF-8.
 10. Filters on English team names → filter on numeric club ids.
 11. Copy-pasted parsers per competition → one parser, per-competition config.
 
-## 7. Fetching rules
+## 7. What to collect
 
-- Send `Accept-Language: en-US,en;q=0.9` with every request: labels and formats are English-dependent.
-- Fetch only what a phase needs: fixture lists for the universe (S07), match reports for the shortlist (S11, ≤ ~3,600 pages, `match-pool-scope.md` § 3), player pages for pool players (S08).
+- Collect only what a phase needs: fixture lists for the universe (S07), match reports for the shortlist (S11, ≤ ~3,600 pages, `match-pool-scope.md` § 3), player pages only if S08 needs them. Each phase generates the exact list of links for the user.
+- The English site only (`www.transfermarkt.com`): labels and formats are English-dependent.
 - **Images:** Transfermarkt photos and crests are copyrighted and trademarked. Don't bulk-upload them (`project-overview.md` § Data Architecture); S18 decides.
+
+## 8. Collection: pages saved by hand
+
+**The block.** On 2026-10-26 the S06a harness sent 8 requests with the honest UA `lineup-scraper/0.1 (personal, non-commercial; development)`. All 8 got `202` with `X-Amzn-Waf-Action: challenge` (AWS WAF behind CloudFront) and a page that loads `token.awswaf.com/…/challenge.js`. The step-4 probes weren't challenged only because they sent a desktop Chrome UA, as did the old repo (old `transfermarkt/*/save_html_pages.py`, Chrome 91). A block stops a source (`coding-standards-scraper.md` § Sources), so:
+
+- **Never** fetch Transfermarkt with a spider, a script, a fake browser UA, or a browser driven by code or the Playwright MCP
+- The S06a harness stays (`extract/crawl.py`, `BlockGuard`, the guarded cache). It serves sources that allow automated access (Wikipedia and Wikidata, S09). A later Transfermarkt retry with the honest UA is allowed only with the user's approval, and `BlockGuard` stops it at the first challenge
+
+**The flow** (built in S06b):
+
+1. A phase writes a link list (for example `data/work/inbox-lists/s07-fixtures.md`) and tells the user the size of the batch.
+2. The user opens each link in their own browser and saves it as HTML only into `data/inbox/` (`manual-work.md` § How to save a page).
+3. `uv run python -m extract.inbox`:
+   - Reads each file's `og:url`, which every probed page carries, including the `saison_id`
+   - Classifies the page (fixture list, match report, player) and refuses challenge pages with `extract.middlewares.is_challenge_html`
+   - Parses the page with the S06b parsers and writes raw records through `RecordWriter`
+   - Moves the file to `data/pages/transfermarkt/<kind>/<id>.html`, the local page store, which replaces the HTTP cache for Transfermarkt
+   - Reports what's missing from the phase's list
+4. `fetchedAt` is the saved file's modification time in UTC: when the user saved it.
+
+`data/inbox/` and `data/pages/` are gitignored, like `data/cache/`. Parser test fixtures are hand-saved pages too, copied into `extract/tests/fixtures/transfermarkt/` and committed.

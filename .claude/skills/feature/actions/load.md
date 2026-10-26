@@ -9,6 +9,7 @@
    - Update H1 heading to include feature name (e.g., `# Current Feature: Add Navbar`)
    - Write goals as bullet points under ## Goals
    - Write any additional notes/context under ## Notes
+   - If the spec has `## Your part`, copy it into ## Notes under a **👤 Your part** heading, unchanged
    - Set Status to "Not Started"
 
-3. Confirm spec loaded and show the feature summary
+3. Confirm spec loaded and show the feature summary. If there is a 👤 Your part, open the summary with it

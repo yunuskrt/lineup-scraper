@@ -41,6 +41,8 @@ If a target file already exists, show what would change and ask before overwriti
 - **Remove or merge sections** that would be empty or filler; e.g. fold a one-line dependency into Notes instead of giving it its own block
 - **Keep `## Status`, `## Goals` and `## Notes`.** The `/feature` workflow reads and writes them, and deviations are recorded under `## Notes` per `context/ai-interaction.md`
 - Extra sections go between `## Goals` and `## Notes`, ordered however reads best for that phase
+- **`## Your part`, right after `## Goals`, whenever the phase needs the user:** saving Transfermarkt pages (they are never fetched by code; `context/docs/transfermarkt-source.md` § 8), approving a crawl or a load, or a decision outside the repo. Give numbered steps: what to open or save, how many, where it goes (`data/inbox/`), the command to run after, and when in the build it happens. Point to `context/docs/manual-work.md` § How to save a page instead of repeating it
+- If the user's part differs from `context/docs/manual-work.md`, update that file's row in the same turn (it's a context file, not `todo.md`)
 
 Reference skeleton:
 
@@ -76,4 +78,4 @@ Not Started
 
 ## Reporting
 
-Report the files created, one line each with its scope, the intended build order, and remind that implementation starts by copying the first spec into `context/current-feature.md` per the workflow in `context/ai-interaction.md`.
+If any spec has a `## Your part`, **open the report with a "👤 Your part" block** (what, how many, when). Then report the files created, one line each with its scope, the intended build order, and remind that implementation starts by copying the first spec into `context/current-feature.md` per the workflow in `context/ai-interaction.md`.

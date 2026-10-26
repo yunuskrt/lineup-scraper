@@ -17,10 +17,13 @@ Read on demand:
 - `docs/` - Setup record, build order, display requirements from the web, source-trial report, backend specs (`docs/backend-specs/`, read-only)
 - `docs/match-pool-scope.md` - Which matches become playable: scope, budgets, floors and ceilings (S07–S18)
 - `docs/collection-phases.md` - Which phases fetch from websites, what they collect, and how it reaches the database
-- `docs/transfermarkt-source.md` - The data source: link types, verified selectors, ids, slots and pitfalls
+- `docs/manual-work.md` - **What the user does by hand**, phase by phase (saving Transfermarkt pages, approvals), and how
+- `docs/transfermarkt-source.md` - The data source: link types, verified selectors, ids, slots, pitfalls, and why pages are saved by hand
 - `docs/legacy_transfermarkt_scraper_reference.md` - How the old Transfermarkt scraper worked (selectors from 2024; read with the source doc)
 - `features/` - Phase specs, named `phase-s<NN>-<kebab-title>.md` (split: `phase-s11a-…`)
 - `fixes/` - Fix specs, shaped like `features/`
 - `research/` - Research prompts for `/research`
 
 Workflow per phase: `/todo current` → `/todo spec` → `/feature load <spec>` → `/feature start` → `/feature review` → `/feature test` → `/todo done` → `/feature complete`.
+
+**Where am I, and what do I do?** `/todo current` names the phase and opens with "👤 Your part" when the phase needs you. The 👤 note on a `todo.md` line, the spec's `## Your part`, and `docs/manual-work.md` say the same thing at three levels of detail.

@@ -12,5 +12,6 @@
    - Nothing started → strip any 🟡 and trailing partial note, leaving a plain `- [ ]` line
    - Everything done → leave the line as-is and say it's ready for `/todo done`; do not check the box here
    - Keep the brackets as `- [ ]` in every case
-6. Finish with the shortest path to close out the phase — ordered, actionable steps
-7. Do not implement anything — this is a status check, not a build step
+6. List the user's manual items for the phase (from the spec's `## Your part` and `context/docs/manual-work.md`), each as done or not
+7. Finish with the shortest path to close out the phase — ordered, actionable steps; mark the user's steps with 👤
+8. Do not implement anything — this is a status check, not a build step

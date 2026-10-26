@@ -25,6 +25,7 @@ todo.md is a single flat checklist. Every line looks like:
 - `- [ ]` = not started, `- [ ] 🟡` = partially implemented, `- [x]` = complete
 - **Never put anything but a space or `x` inside the brackets.** GitHub-flavored Markdown only recognizes `[ ]`, `[x]` and `[X]` — any other character stops the line rendering as a checkbox. Partial state is the 🟡 marker after the box, never `[~]` or `[-]`.
 - The 🟡 marker is optionally followed by a short ` — partially done: ...` note at the end of the line. `/todo remaining` keeps both in sync; you can also set them by hand.
+- A line may end in a ` — 👤 you: <short task>` note: the phase needs the user's manual work (saving pages, approvals). It sits before any partial note. The steps are in the spec's `## Your part`, and the full list is `context/docs/manual-work.md`.
 - **Line order = build order.** Completed phases sit at the top, in the order they were finished; incomplete phases follow. A 🟡 phase is still incomplete and stays in the incomplete section.
 - **Current phase** = the first `- [ ]` line in the file.
 

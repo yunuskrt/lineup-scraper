@@ -26,11 +26,12 @@ The app is unreleased, and the real data is for development only.
 - Never bypass a technical block: no CAPTCHA solving, login or paywall workarounds, proxy or IP rotation. A block stops that source.
 - Stay gentle: one request at a time per domain, AutoThrottle, retries with backoff, an honest `USER_AGENT`, and the HTTP cache, so each page is fetched once.
 - **The Playwright MCP is for looking, never for collecting.** Use it to read a source's pages, check whether they need JavaScript, find the JSON requests behind them and study the DOM for a parser. Records come only from spiders and parsers; a site that needs JavaScript uses `scrapy-playwright`.
-- Parser fixtures are saved from the spider's response, not from the browser's rendered page.
+- Parser fixtures are saved from the spider's response, not from the browser's rendered page. **Transfermarkt is the exception:** its fixtures are pages the user saved by hand as HTML only (`docs/manual-work.md`), because no code fetches it.
 - The dataset stays in this private repo.
 - **Before the app is marketed**, every source is licensed or replaced. The S02 report lists which ones need it.
 - **Transfermarkt** (the source since 2026-10-26, `docs/transfermarkt-source.md`):
-  - Send `Accept-Language: en-US,en;q=0.9`.
+  - **Pages are saved by the user, never fetched by code.** It challenges automated requests (AWS WAF). No spider, script, browser UA or Playwright session collects it; `extract.inbox` parses what the user saved (`docs/transfermarkt-source.md` § 8).
+  - The English site only.
   - Take match dates only from the page's `datum/YYYY-MM-DD` link, never from the date text.
   - Key every entity on its numeric id; never filter or join on a team or player name.
   - Port from the old repo by reading it; never run or import its code. Don't port the reference's § 12 bugs (`docs/transfermarkt-source.md` § 6).

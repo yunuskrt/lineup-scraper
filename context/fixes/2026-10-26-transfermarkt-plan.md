@@ -15,6 +15,8 @@ This fix does **two jobs**. /feature applies the first now; the second is guidan
 - **Update `context/todo.md`** lines S06, S07 and S11 to name Transfermarkt
 - **Record a deviation** in `context/features/phase-s05-raw-record-contract.md` § Notes: the kinds were replaced by this fix
 
+> **Update, 2026-10-26 (after this fix):** Transfermarkt challenges automated requests (AWS WAF), so P3–P6 no longer use spiders for Transfermarkt. Its pages are saved by the user and parsed by `extract.inbox`. Where P3–P6 say "fetch" or "spider", read `context/docs/transfermarkt-source.md` § 8 and `context/docs/manual-work.md` instead. P1's data-integrity rules still apply.
+
 **Guidance for later phases** (not implemented here): P0 is done in `lineup-backend` by the user; P1 and P3–P7 are read by `/todo spec` when it writes S06, S07, S08, S11 and S18.
 
 Companion fix: `context/fixes/2026-10-26-transfermarkt-context.md`, which creates `context/docs/transfermarkt-source.md`. Apply it first: this plan cites that doc's sections.
