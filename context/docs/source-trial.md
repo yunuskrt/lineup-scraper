@@ -1,5 +1,7 @@
 # Source Trial (S02)
 
+> **Superseded for the source choice on 2026-10-26.** This repo now uses Transfermarkt: Mackolik has no formations, which the data contract requires (`docs/transfermarkt-source.md`). The evidence below stays valid as a record of Mackolik and the other sources.
+
 Which sources the scraper uses, for what, and over which seasons. Produced by `/research source-trial` from `context/research/source-trial.md`, against the spec `context/features/phase-s02-source-trial.md`.
 
 - **Every URL was accessed on 2026-10-25** unless a row says otherwise.

@@ -15,6 +15,8 @@ Four separate repositories, one backend:
 
 **This repo.** It produces the match pool: it extracts real matches and XIs, resolves them, scores them, gates them and loads them into Postgres and the bucket. It is never deployed and serves no traffic.
 
+**Data source.** Transfermarkt (English site), decided 2026-10-26; Mackolik is superseded. Facts, verified selectors and pitfalls: `context/docs/transfermarkt-source.md`. The old Transfermarkt scraper is described in `context/docs/legacy_transfermarkt_scraper_reference.md`. `project-overview.md` § Sources names it primary (backend `95d7fce`, 2026-10-26).
+
 **No code is shared between repos.** No package, no submodule, no cross-repo import. This repo keeps its own copy of the database schema; **the backend owns it**. This repo must build with the other three deleted.
 
 ## Context Files

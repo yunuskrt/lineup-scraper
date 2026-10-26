@@ -29,6 +29,11 @@ The app is unreleased, and the real data is for development only.
 - Parser fixtures are saved from the spider's response, not from the browser's rendered page.
 - The dataset stays in this private repo.
 - **Before the app is marketed**, every source is licensed or replaced. The S02 report lists which ones need it.
+- **Transfermarkt** (the source since 2026-10-26, `docs/transfermarkt-source.md`):
+  - Send `Accept-Language: en-US,en;q=0.9`.
+  - Take match dates only from the page's `datum/YYYY-MM-DD` link, never from the date text.
+  - Key every entity on its numeric id; never filter or join on a team or player name.
+  - Port from the old repo by reading it; never run or import its code. Don't port the reference's § 12 bugs (`docs/transfermarkt-source.md` § 6).
 
 ## Python
 

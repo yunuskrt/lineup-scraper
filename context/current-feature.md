@@ -25,3 +25,4 @@ Not Started
 - S03 Schema Copy & Targets: schema copy, Prisma client, db:check, ingest
 - S04 Dataset Schema: dataset Zod schema, normalizeName, CHECK mirrors
 - S05 Raw Record Contract: Zod raw kinds, JSON Schema, Python writer
+- Fix Transfermarkt Context: source switch docs, verified selectors

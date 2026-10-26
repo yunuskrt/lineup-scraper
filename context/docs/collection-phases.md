@@ -6,12 +6,12 @@ Which phases fetch from websites, what they collect, and how it reaches the data
 
 | Phase | Collects | From | Writes | Feeds |
 | --- | --- | --- | --- | --- |
-| **S07** Match Metadata Extract | Fixtures, scores, dates, stages, competitions for the whole universe | Sources picked in S02 (e.g. Mackolik, openfootball) | `data/raw/<source>/matches/` | S08, S10 |
+| **S07** Match Metadata Extract | Fixtures, scores, dates, stages, competitions for the whole universe | Transfermarkt fixture lists (`transfermarkt-source.md` § 2) | `data/raw/transfermarkt/fixture/` | S08, S10 |
 | **S09** Cultural Footprint | Match articles, pageviews, nicknames | Wikipedia and Wikidata APIs | `data/raw/wikipedia/`, `data/raw/wikidata/` | S10 |
-| **S11** Lineup Extract | Starting XIs, formations, positions, goals and cards, **for the shortlist only** | Sources picked in S02 | `data/raw/<source>/lineups/` | S12, S13 |
-| **S18** Image Ingest | Player images, club crests, their licence metadata, **for pool entities only** | Wikimedia Commons (or none: initials) | `data/raw/images/` | S18's upload |
+| **S11** Lineup Extract | Starting XIs, formations, coordinates, goals and cards, **for the shortlist only** | Transfermarkt match reports | `data/raw/transfermarkt/match/` | S12, S13 |
+| **S18** Image Ingest | Player images, club crests, their licence metadata, **for pool entities only** | Wikimedia Commons (or none: initials). Not Transfermarkt images | `data/raw/images/` | S18's upload |
 
-**May fetch:** S08 and S12, if canonical display names or extra aliases come from Wikidata labels (S08 notes). The fetch is a Python step in that phase.
+**May fetch:** S08, for Transfermarkt player pages (DOB for disambiguation) and Wikidata labels; S12, if extra aliases come from Wikidata. The fetch is a Python step in that phase.
 
 ## Phases that fetch nothing but set up fetching
 
