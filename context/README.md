@@ -15,7 +15,9 @@ Loaded on startup:
 Read on demand:
 
 - `docs/` - Setup record, build order, display requirements from the web, source-trial report, backend specs (`docs/backend-specs/`, read-only)
-- `docs/match-pool-scope.md` - Which matches become playable: scope, budgets, floors and ceilings (S07–S18)
+- `docs/match-pool-scope.md` - Which matches become playable: the curated groups, clubs, derbies, limits and floors (S07–S18)
+- `docs/link-map.md` - Every page type, how one leads to the next, and which columns each one feeds
+- `docs/backend-requests.md` - Schema changes the scraper needs from the backend, and their status
 - `docs/collection-phases.md` - Which phases fetch from websites, what they collect, and how it reaches the database
 - `docs/manual-work.md` - **What the user does by hand**, phase by phase (saving Transfermarkt pages, approvals), and how
 - `docs/transfermarkt-source.md` - The data source: link types, verified selectors, ids, slots, pitfalls, and why pages are saved by hand

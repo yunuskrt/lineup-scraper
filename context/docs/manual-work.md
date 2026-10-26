@@ -11,7 +11,7 @@ Everything in this project that needs **you**, not code. The `todo.md` line of a
    - **Chrome or Edge:** ⌘S (Ctrl+S) → Format **Webpage, HTML Only**
    - **Safari:** File → Save As → Format **Page Source**
    - **Firefox:** ⌘S (Ctrl+S) → **Web Page, HTML only**
-3. Save it into **`data/inbox/`** in this repo. Any file name is fine: the importer reads the page's own URL (`og:url`) from inside the file.
+3. Save it into **`data/inbox/`** in this repo, under the file name its link list gives (`data/work/inbox-lists/`, `link-map.md` § 8). A wrong name does no harm: the importer reads the page's own URL (`og:url`) from inside the file.
 4. When a batch is saved, run `uv run python -m extract.inbox` (built in S06b). It parses every page, files it under `data/pages/`, and lists anything it couldn't use, such as a challenge page saved by mistake, so you can save that one again.
 
 Go at a normal browsing pace. If the site shows you a check, solve it as you normally would; that's you, not code.
@@ -22,10 +22,14 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | --- | --- | --- | --- | --- |
 | S06a | Nothing | — | — | — |
 | S06b | Save the 8 parser-fixture pages listed in `features/phase-s06b-transfermarkt-parsers.md` § Your part | 8 pages, ~5 min | After `/feature start` of S06b | **Done** (2026-10-27) |
-| S07 | Save the fixture-list pages S07 generates as a list: one page per competition-season | ~250 pages (7 leagues × 26 seasons, plus UCL, UEL, World Cups and Euros) | During S07; the list may come in batches | Pending |
-| S08 | Possibly save player pages, only for players whose names clash. S08 decides whether any are needed | Unknown, likely small | During S08 | Pending |
+| S06c | Nothing to save. Try the link list, progress and check tools on the pages already saved | — | During S06c | Pending |
+| S07 | Save one head-to-head sample (Fenerbahçe–Galatasaray), then the listing pages on S07's list: fixture lists for the Champions League, Europa League, World Cups and Euros, plus head-to-head pages or league fixture lists for the league pairs (`link-map.md` § 2) | ~94 pages with head-to-heads, ~247 without | During S07 | Pending |
+| S08 | Nothing to save | — | — | — |
+| S11 | Save one match report per pool match, from the list S11 writes (`match-pool-scope.md` § 1) | ~2,000, in batches of ~300 | During S11 | Pending |
+| S11b | Save the profile page of every starter in the saved match reports, from the list S11b writes after each batch. Match reports show only short names (`link-map.md` § 4) | ~5,000–8,000; each player once | During S11b, in batches | Pending |
 | S09 | Nothing to save: Wikipedia and Wikidata are fetched by the harness. You approve each crawl | — | During S09 | Pending |
-| S11 | Save the match-report pages for the shortlist, from a list S11 generates | First batch ~300; at most ~3,600 over time (`match-pool-scope.md` § 3) | During S11, in batches | Pending |
-| S15 | Approve each database load. `production` needs your explicit instruction | — | During S15 | Pending |
+| S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend`. Then approve each database load. `production` needs your explicit instruction | — | Before and during S15 | Pending |
+
+**In all:** about 7,100–10,250 pages. At 15–20 seconds a page that is 30–55 hours, most of it the player pages. The progress tool (S06c) shows where you are at any time.
 
 **Always yours, in every phase:** approving commits, approving every automated crawl, and the decisions a spec asks for at `/feature load`.

@@ -88,7 +88,7 @@ From the reference § 12, with this repo's rule:
 
 ## 7. What to collect
 
-- Collect only what a phase needs: fixture lists for the universe (S07), match reports for the shortlist (S11, ≤ ~3,600 pages, `match-pool-scope.md` § 3), player pages only if S08 needs them. Each phase generates the exact list of links for the user.
+- Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, ~94–247), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
 - The English site only (`www.transfermarkt.com`): labels and formats are English-dependent.
 - **Images:** Transfermarkt photos and crests are copyrighted and trademarked. Don't bulk-upload them (`project-overview.md` § Data Architecture); S18 decides.
 
