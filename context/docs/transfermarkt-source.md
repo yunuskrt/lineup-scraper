@@ -32,7 +32,7 @@ Base `https://www.transfermarkt.com`; page links are relative. The numeric id at
 | Player profile | `/{slug}/profil/spieler/{id}` | Name, DOB, citizenship, position | Works (§ 4) |
 | Team page | `/{slug}/startseite/verein/{id}` | Name, crest URL | Works |
 
-Competition codes: `GB1`, `ES1`, `IT1`, `L1`, `TR1`, `CL`, `EL`, `WM{YY}`, `EM{YY}` come from the old repo. Only `IT1` and `CL` were probed live. **`FR1` (Ligue 1), `PO1` (Primeira Liga) and `EM00` are unverified.**
+Competition codes: `GB1`, `ES1`, `IT1`, `L1`, `TR1`, `CL`, `EL`, `WM{YY}`, `EM{YY}` come from the old repo. Only `IT1` and `CL` were probed live. **The World Cup is `FIWC` with `saison_id` = tournament year − 1:** the old `WM06` link redirected to `/pokalwettbewerb/FIWC/saison_id/2005` (saved page, 2026-10-27). The Euro probably works the same way; unverified. **`FR1` (Ligue 1), `PO1` (Primeira Liga) and `EM00` are unverified.**
 
 ## 3. Entities, ids and linking
 

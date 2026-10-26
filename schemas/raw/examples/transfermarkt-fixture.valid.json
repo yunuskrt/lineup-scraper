@@ -9,6 +9,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -31,6 +32,7 @@
       "competitionCode": "WC06",
       "seasonId": null,
       "round": null,
+      "stage": "FI",
       "date": null,
       "home": {
         "sourceId": "9101",

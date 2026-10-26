@@ -10,6 +10,9 @@ export const DATA_DIRS = {
   reports: path.join(DATA_ROOT, 'reports'),
   curation: path.join(DATA_ROOT, 'curation'),
   dataset: path.join(DATA_ROOT, 'dataset'),
+  // Pages the user saved, before and after import
+  inbox: path.join(DATA_ROOT, 'inbox'),
+  pages: path.join(DATA_ROOT, 'pages'),
 } as const;
 
 export type DataDirName = keyof typeof DATA_DIRS;

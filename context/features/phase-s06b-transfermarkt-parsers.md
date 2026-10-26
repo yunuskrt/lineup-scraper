@@ -89,5 +89,16 @@ Not Started
 **Deviations recorded during implementation**
 
 - 2026-10-26, before start: rewritten for hand-saved pages after the S06a capture hit an AWS WAF challenge. The record-yielding spiders and the live run were dropped; the `extract.inbox` import and `## Your part` were added
+- **HTML library: `parsel`** (installed with Scrapy, typed, CSS and XPath). No new dependency
+- **The fixture kind gained `stage`** (nullable): knockout rows carry their own cell (`QF`, `SF`, `FI`, `Ro16 3`), while the box headline only says `Knockout stage`. S10 needs the stage for every match. `src/raw/transfermarkt-fixture.ts`, the generated schema and the examples were updated
+- **Cup and tournament dates** sit in phone-only header rows (`show-for-small`) above each day's matches, not in the match row. Rule for every list page: walk each innermost table's rows in order; a match takes the last `datum/` link above it in that table. All 652 rows on the 4 pages get an ISO date
+- **The World Cup link redirected:** `…/pokalwettbewerb/WM06` was saved with `og:url` `…/pokalwettbewerb/FIWC/saison_id/2005`. The World Cup code is `FIWC`, with `saison_id` = tournament year − 1; it's filed as `fiwc-2005`. Counts recorded: CL 2023–24 = 125, WC 2006 = 64
+- **Two `div.sb-endstand` boxes** (desktop and mobile): the first is used. The half-time note is joined without a separator (`(<span>1:</span>0)` → `(1:0)`); everything else joins text with spaces
+- **Event players** are matched by any `/spieler/{id}` link (the name link is `/leistungsdatendetails/spieler/{id}`; the `/profil/` link wraps an image), named from link text, link title or the image title
+- **An identical page saved twice is deleted from the inbox** after the "already imported" report, so it isn't reported again. A differing one is left, as the spec says
+- `extract.inbox.main(argv, dirs)` takes the data folders, so the exit-code test needs no patching
+- Review: the importer refuses a page whose `og:url` isn't on `https://www.transfermarkt.com/`, so another site's page can't enter as Transfermarkt data
+- Review: `--expect` no longer stops on a link it can't classify: it lists it as "(unrecognised link)", and trims Markdown punctuation (`)`, `|`, `]`) from links. A list must use the **canonical** links (for example `FIWC/saison_id/2005`, not `WM06`), since a redirected link is stored under its canonical key
+- Review: the table position reads `(.//p)[1]`, the first `p` in the team box. `.//p[1]` could join several
 
 ## History

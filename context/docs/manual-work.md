@@ -21,7 +21,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | Phase | What you do | Size | When | Status |
 | --- | --- | --- | --- | --- |
 | S06a | Nothing | — | — | — |
-| S06b | Save the 8 parser-fixture pages listed in `features/phase-s06b-transfermarkt-parsers.md` § Your part | 8 pages, ~5 min | After `/feature start` of S06b | Pending |
+| S06b | Save the 8 parser-fixture pages listed in `features/phase-s06b-transfermarkt-parsers.md` § Your part | 8 pages, ~5 min | After `/feature start` of S06b | **Done** (2026-10-27) |
 | S07 | Save the fixture-list pages S07 generates as a list: one page per competition-season | ~250 pages (7 leagues × 26 seasons, plus UCL, UEL, World Cups and Euros) | During S07; the list may come in batches | Pending |
 | S08 | Possibly save player pages, only for players whose names clash. S08 decides whether any are needed | Unknown, likely small | During S08 | Pending |
 | S09 | Nothing to save: Wikipedia and Wikidata are fetched by the harness. You approve each crawl | — | During S09 | Pending |

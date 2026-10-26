@@ -11,4 +11,7 @@ DATA_DIRS: Final[Mapping[str, Path]] = {
     "reports": DATA_ROOT / "reports",
     "curation": DATA_ROOT / "curation",
     "dataset": DATA_ROOT / "dataset",
+    # Pages the user saved, before and after import
+    "inbox": DATA_ROOT / "inbox",
+    "pages": DATA_ROOT / "pages",
 }

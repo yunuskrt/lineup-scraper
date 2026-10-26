@@ -30,6 +30,8 @@ data/cache/
 data/raw/
 data/work/
 data/reports/
+data/inbox/
+data/pages/
 
 # Temp
 .temp/

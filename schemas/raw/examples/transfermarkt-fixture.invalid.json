@@ -9,6 +9,7 @@
       "competitionCode": "xx1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -31,6 +32,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "15/10/00",
       "home": {
         "sourceId": "9001",
@@ -53,6 +55,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "٢٠٠٠-10-15",
       "home": {
         "sourceId": "9001",
@@ -75,6 +78,7 @@
       "competitionCode": "XX1",
       "seasonId": 2000,
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -97,6 +101,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "v9001",
@@ -119,6 +124,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -141,6 +147,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -164,6 +171,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",
@@ -186,6 +194,7 @@
       "competitionCode": "XX1",
       "seasonId": "2000",
       "round": "2. Matchday",
+      "stage": null,
       "date": "2000-10-15",
       "home": {
         "sourceId": "9001",

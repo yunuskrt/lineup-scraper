@@ -15,7 +15,7 @@ This todo file is for developer-side use.
 - [x] **Phase S03 — Schema Copy & Targets**: `schema.prisma` copy, Prisma client, `db:check` drift guard, Neon targets.
 - [x] **Phase S04 — Dataset Schema**: Zod schema for the final dataset, ported `normalizeName`, mirrors of every DB CHECK.
 - [x] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
-- [ ] **Phase S06 — Fetch Harness**: Scrapy harness for automated sources (S06a); Transfermarkt parsers and `extract.inbox` import of hand-saved pages (S06b). (was B15) — 👤 you: save 8 fixture pages (S06b)
+- [x] **Phase S06 — Fetch Harness**: Scrapy harness for automated sources (S06a); Transfermarkt parsers and `extract.inbox` import of hand-saved pages (S06b). (was B15)
 - [ ] **Phase S07 — Match Metadata Extract**: Transfermarkt fixture lists: scores, dates, stages and competitions across the season range. (was B16) — 👤 you: save ~250 fixture-list pages
 - [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs. (was B17) — 👤 you: maybe a few player pages, if names clash
 - [ ] **Phase S09 — Cultural Footprint**: Wikipedia and Wikidata articles, pageviews and match nicknames. (was B18) — 👤 you: approve each API crawl

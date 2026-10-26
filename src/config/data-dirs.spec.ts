@@ -2,11 +2,13 @@ import path from 'node:path';
 import { DATA_DIRS } from '@/config/data-dirs.js';
 
 describe('DATA_DIRS', () => {
-  it('names the six data folders', () => {
+  it('names the eight data folders', () => {
     expect(Object.keys(DATA_DIRS).sort()).toEqual([
       'cache',
       'curation',
       'dataset',
+      'inbox',
+      'pages',
       'raw',
       'reports',
       'work',
