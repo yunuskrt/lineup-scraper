@@ -1,8 +1,10 @@
 # Match Pool Scope
 
-Which real matches end up playable, and how many. Read by S07, S08, S10, S11, S13, S14, S15, S16 and S18.
+Which real matches end up playable, and how many. Read by S07, S08, S10, S11, S11b, S13, S14, S15, S18, S19 and S20.
 
 **Decided on 2026-10-27:** the pool is a set of **curated match groups**, each kept whole. This replaces the earlier funnel (a ~25,000-match universe, scored, then cut to a shortlist), which needed far more hand-saved pages. Counts are estimates; S07 replaces them with real ones.
+
+**This is the target, not the build.** The repo proves the pipeline on a 3-match pilot (S20, `enrichment-guide.md` § 4). The user then grows the pool towards this target in their own time: about 100 matches next, then the rest. The database holds whatever part is complete at the time.
 
 ---
 
@@ -62,9 +64,9 @@ The first six are the spec's rivalry list (`project-overview.md` § A); Der Klas
 | --- | --- | --- |
 | Total pool | **≤ 3,000** | Spec § Ingestion strategy: 1,500–3,000 |
 | Match reports saved | One per pool match, ~2,000 | No buffer: the groups are fixed, not ranked |
-| Any single club | Reported, not capped | The groups decide; S16 shows the share |
+| Any single club | Reported, not capped | The groups decide; the dashboard shows the share |
 
-S16 reports every cell below its floor. A miss is a coverage gap; it is never filled with matches outside the groups.
+The dashboard (S19) shows every cell below its floor. A miss is a coverage gap; it is never filled with matches outside the groups. While the pool is still growing, most cells are below their floor, and that's expected.
 
 | Cell | Floor |
 | --- | --- |
@@ -81,7 +83,7 @@ At about 2,000 matches: ~44,000 lineup rows, an estimated 5,000–8,000 players,
 
 1. **In:** every match of every group in § 1, plus `data/curation/pool-include.json` (hand-picked extras, e.g. a famous group-stage match).
 2. **Out:** `data/curation/excluded-matches.json` (abandoned, awarded and walkover matches), and any match the gate (S13) drops because an XI can't be resolved.
-3. **The score still exists.** The backend serves a match only if its `memorability_scores.score` clears `POOL_THRESHOLD` (45 for `world_cup`, `euro`, `ucl`; 60 for `league` and `uel`; data contract § 8). S10 scores every pool match and calibrates so every group match clears its threshold; S16 checks it. If calibration can't make a group clear, the threshold is retuned in the backend first, never worked around.
+3. **The score still exists.** The backend serves a match only if its `memorability_scores.score` clears `POOL_THRESHOLD` (45 for `world_cup`, `euro`, `ucl`; 60 for `league` and `uel`; data contract § 8). S10 scores every pool match from match data alone (no Wikipedia signal) and calibrates so every group match clears its threshold; the dashboard checks it. If calibration can't make a group clear, the threshold is retuned in the backend first, never worked around.
 
 ---
 
@@ -92,8 +94,9 @@ At about 2,000 matches: ~44,000 lineup rows, an estimated 5,000–8,000 players,
 | S07 | § 1 and § 2: which listing pages to save, and the pool match list built from them |
 | S08 | § 2: the curated clubs and their Transfermarkt ids |
 | S10 | § 4.3: scores and calibration for every pool match |
-| S11 | Match reports for every pool match, then player pages for every starter |
+| S11, S11b | The link lists: match reports for pool matches, then player pages for their starters |
 | S13 | § 4.2: what the gate drops |
 | S14, S15 | Only the pool and its clubs and players go into the dataset and the database |
-| S16 | § 3: floors and coverage gaps, per group, competition, era bucket and club |
+| S19 | § 3: floors and coverage gaps, per group, competition, era bucket and club |
 | S18 | Images for pool players and clubs only |
+| S20 | The pilot: 3 matches from the groups (`enrichment-guide.md` § 4) |

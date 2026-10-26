@@ -90,14 +90,14 @@ From the reference § 12, with this repo's rule:
 
 - Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, ~94–247), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
 - The English site only (`www.transfermarkt.com`): labels and formats are English-dependent.
-- **Images:** Transfermarkt photos and crests are copyrighted and trademarked. Don't bulk-upload them (`project-overview.md` § Data Architecture); S18 decides.
+- **Images:** the user saves crests and photos by hand in S18 (decided 2026-10-27). Photos and crests are copyrighted and trademarked, so each image's licence is checked before release (`project-overview.md` § Data Architecture).
 
 ## 8. Collection: pages saved by hand
 
 **The block.** On 2026-10-26 the S06a harness sent 8 requests with the honest UA `lineup-scraper/0.1 (personal, non-commercial; development)`. All 8 got `202` with `X-Amzn-Waf-Action: challenge` (AWS WAF behind CloudFront) and a page that loads `token.awswaf.com/…/challenge.js`. The step-4 probes weren't challenged only because they sent a desktop Chrome UA, as did the old repo (old `transfermarkt/*/save_html_pages.py`, Chrome 91). A block stops a source (`coding-standards-scraper.md` § Sources), so:
 
 - **Never** fetch Transfermarkt with a spider, a script, a fake browser UA, or a browser driven by code or the Playwright MCP
-- The S06a harness stays (`extract/crawl.py`, `BlockGuard`, the guarded cache). It serves sources that allow automated access (Wikipedia and Wikidata, S09). A later Transfermarkt retry with the honest UA is allowed only with the user's approval, and `BlockGuard` stops it at the first challenge
+- The S06a harness stays (`extract/crawl.py`, `BlockGuard`, the guarded cache). It serves any source that allows automated access, if a later phase needs one (Wikipedia was dropped with S09 on 2026-10-27). A later Transfermarkt retry with the honest UA is allowed only with the user's approval, and `BlockGuard` stops it at the first challenge
 
 **The flow** (built in S06b):
 

@@ -23,13 +23,16 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S06a | Nothing | — | — | — |
 | S06b | Save the 8 parser-fixture pages listed in `features/phase-s06b-transfermarkt-parsers.md` § Your part | 8 pages, ~5 min | After `/feature start` of S06b | **Done** (2026-10-27) |
 | S06c | Nothing to save. Try the link list, progress and check tools on the pages already saved | — | During S06c | Pending |
-| S07 | Save one head-to-head sample (Fenerbahçe–Galatasaray), then the listing pages on S07's list: fixture lists for the Champions League, Europa League, World Cups and Euros, plus head-to-head pages or league fixture lists for the league pairs (`link-map.md` § 2) | ~94 pages with head-to-heads, ~247 without | During S07 | Pending |
+| S07 | Save 1 Süper Lig fixture list (for the pilot derby) and 1 Fenerbahçe–Galatasaray head-to-head page (decides how the league groups are listed, `link-map.md` § 2) | 2 pages | During S07 | Pending |
 | S08 | Nothing to save | — | — | — |
-| S11 | Save one match report per pool match, from the list S11 writes (`match-pool-scope.md` § 1) | ~2,000, in batches of ~300 | During S11 | Pending |
-| S11b | Save the profile page of every starter in the saved match reports, from the list S11b writes after each batch. Match reports show only short names (`link-map.md` § 4) | ~5,000–8,000; each player once | During S11b, in batches | Pending |
-| S09 | Nothing to save: Wikipedia and Wikidata are fetched by the harness. You approve each crawl | — | During S09 | Pending |
-| S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend`. Then approve each database load. `production` needs your explicit instruction | — | Before and during S15 | Pending |
+| S11 | Save the pilot's 2 new match reports (Italy–France 2006, the derby) | 2 pages | During S11 | Pending |
+| S11b | Save the profile pages of the pilot's starters, from the list S11b writes | ~66 pages | During S11b | Pending |
+| S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | Pending |
+| S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
+| S18 | Save a crest per club and a photo per player, from the list S18 writes. Check each image's licence before release | One per club and player | During S18 | Pending |
 
-**In all:** about 7,100–10,250 pages. At 15–20 seconds a page that is 30–55 hours, most of it the player pages. The progress tool (S06c) shows where you are at any time.
+**In all, for the pilot:** about 70 pages, under half an hour.
 
-**Always yours, in every phase:** approving commits, approving every automated crawl, and the decisions a spec asks for at `/feature load`.
+**After S20: your enrichment.** The rest of the pool is yours to save in your own time, by `enrichment-guide.md`: about 100 matches next, then the rest. The whole pool is about 2,000 match reports and 5,000–8,000 player pages (`match-pool-scope.md`); the dashboard (S19) shows what's left.
+
+**Always yours, in every phase:** approving commits and loads, and the decisions a spec asks for at `/feature load`.

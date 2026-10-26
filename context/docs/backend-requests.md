@@ -27,3 +27,16 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 - **Before release:** Transfermarkt must be licensed or replaced. Replacing it leaves these columns as history; dropping them is a later backend migration.
 
 **Then, in the scraper:** copy `schema.prisma` and `data-contract.md`, add the column to the dataset schema (S14) and the loader (S15), and `npm run db:check` must pass.
+
+---
+
+## Shared spec changes
+
+`project-overview.md` must stay identical in all four repos, so the scraper never edits it alone. These decisions of 2026-10-27 differ from it, and need one change applied to every repo's copy:
+
+| Section | Says now | Decided |
+| --- | --- | --- |
+| Data Architecture § Ingestion strategy | Ingest metadata for the full range, score it, take lineups for a shortlist | Curated match groups, each kept whole (`match-pool-scope.md`); built as a 3-match pilot, then grown by hand |
+| § A Scoring signals, § Sources | Cultural footprint from Wikipedia and Wikidata | Dropped: no Wikipedia signal; scores come from match data |
+| § A Rules, Hard Constraint 13 | The memorability threshold decides what enters the pool | The groups decide; scores are calibrated so every group match clears the threshold the backend serves by |
+| Data Architecture, images | Prefer generated silhouettes, initials or Wikimedia Commons | The user saves crests and photos by hand; each licence is checked before release |

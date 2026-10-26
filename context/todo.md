@@ -16,21 +16,30 @@ This todo file is for developer-side use.
 - [x] **Phase S04 — Dataset Schema**: Zod schema for the final dataset, ported `normalizeName`, mirrors of every DB CHECK.
 - [x] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
 - [x] **Phase S06 — Fetch Harness**: Scrapy harness for automated sources (S06a); Transfermarkt parsers and `extract.inbox` import of hand-saved pages (S06b). (was B15)
-- [ ] **Phase S06c — Collection Tools**: Link lists with save-as file names and folders; progress and check tools for saved, imported and parsed pages.
-- [ ] **Phase S07 — Pool Selection**: Curated groups (derbies, big-club league clashes, UCL knockouts, UEL finals, World Cup and Euro knockouts) into the pool match list, every match once. (was B16) — 👤 you: save ~94–247 listing pages
+- [ ] **Phase S06c — Collection Tools**: Link lists with save-as file names and folders; check and progress commands that skip what's already saved.
+- [ ] **Phase S07 — Pool & Link Lists**: Curated groups as config, the full listing-page link list, and the pool match list from saved listings, every match once. (was B16) — 👤 you: save 1 Süper Lig fixture list and 1 head-to-head page
 - [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs, keyed on Transfermarkt ids. (was B17)
-- [ ] **Phase S11 — Lineup Extract**: Transfermarkt match reports for every pool match: XIs, formations, coordinates to slots, and events. (was B20) — 👤 you: save ~2,000 match pages in batches of ~300
-- [ ] **Phase S11b — Player Pages**: Every pool starter's profile: display name, full name, caps, date of birth, into the player crosswalk. — 👤 you: save ~5,000–8,000 player pages in batches
-- [ ] **Phase S09 — Cultural Footprint**: Wikipedia and Wikidata articles, pageviews and match nicknames. (was B18) — 👤 you: approve each API crawl
-- [ ] **Phase S10 — Memorability Engine**: Scores every pool match with era-bucket normalisation, calibrated so every group clears its threshold; pure and tested. (was B19)
+- [ ] **Phase S11 — Lineup Extract**: Match reports to XIs, formations, coordinates to slots, and events; the match-report link list. (was B20) — 👤 you: save 2 pilot match pages
+- [ ] **Phase S11b — Player Pages**: Full name and caps added to the parser; the player link list, each player once. — 👤 you: save ~66 pilot player pages
 - [ ] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.
+- [ ] **Phase S10 — Memorability Engine**: Match-data signals, era-bucket normalisation, calibrated so every group clears its threshold; pure and tested. (was B19)
 - [ ] **Phase S13 — Guessability Gate**: All 11 starters resolved with alias sets; writes `sides` guessability. (was B21)
 - [ ] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.
-- [ ] **Phase S15 — DB Loader**: Idempotent diff-sync into a chosen Neon branch, chunked, dry run, counts only; writes `transfermarkt_id`. — 👤 you: build backend request R1 first, approve each load
-- [ ] **Phase S19 — Progress Dashboard**: One simple local page: pages saved, imported and parsed per list, dataset and database counts.
-- [ ] **Phase S16 — Pool QA Report**: Pool size and coverage gaps per group, competition, era and club. (was B22)
+- [ ] **Phase S15 — DB Loader**: Idempotent diff-sync into a chosen Neon branch, chunked, dry run, counts only; writes `transfermarkt_id`. — 👤 you: build backend request R1 first
+- [ ] **Phase S19 — Dashboard**: One local page: link lists with saved and missing pages, parse errors, duplicates, gate failures, pool coverage, dataset and database counts. (absorbs S16)
+- [ ] **Phase S20 — Pilot & Enrichment Guide**: The 3 pilot matches end to end into `ingest`, and the guide for growing the pool yourself. — 👤 you: approve the load, play the pilot in the app
+
+### Later: images
+
 - [ ] **Phase S17 — Storage Client**: Bucket choice, content-hash key scheme, idempotent uploads. (was half of B23)
-- [ ] **Phase S18 — Image Ingest**: Licence check, attribution, upload, then `crest_key` and `image_key`. (was B24)
+- [ ] **Phase S18 — Image Import**: An image list and folder per club and player, then resize, upload, `crest_key` and `image_key`. (was B24) — 👤 you: save the images
+
+### After S20: your enrichment
+
+Not phases: you run the guide (`docs/enrichment-guide.md`) in your own time, and ask for fixes when something breaks.
+
+- About 100 matches next, spread over the groups and eras, reusing every club and player already saved
+- Then the rest of the pool (`docs/match-pool-scope.md`), at your pace
 
 ---
 
@@ -38,3 +47,8 @@ This todo file is for developer-side use.
 
 - New league and season packs, once the pipeline is cheap to extend
 - Collecting real misspellings from live play into aliases (needs a backend export first)
+
+## Dropped
+
+- **S09 Cultural Footprint** (2026-10-27): Wikipedia isn't part of the pipeline. It may still help choose matches, never as data
+- **S16 Pool QA Report** (2026-10-27): folded into the S19 dashboard

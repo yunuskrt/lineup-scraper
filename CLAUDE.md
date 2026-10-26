@@ -15,9 +15,11 @@ Four separate repositories, one backend:
 
 **This repo.** It produces the match pool: it extracts real matches and XIs, resolves them, scores them, gates them and loads them into Postgres and the bucket. It is never deployed and serves no traffic.
 
+**Goal (decided 2026-10-27).** Not to collect the whole pool. The repo delivers the link lists, the pipeline, a local dashboard and the method (`context/docs/enrichment-guide.md`), proven end to end on a 3-match pilot. The user then saves pages and grows the database in their own time: 100 matches next, then the rest.
+
 **Data source.** Transfermarkt (English site), decided 2026-10-26; Mackolik is superseded. Facts, verified selectors and pitfalls: `context/docs/transfermarkt-source.md`. The old Transfermarkt scraper is described in `context/docs/legacy_transfermarkt_scraper_reference.md`. `project-overview.md` § Sources names it primary (backend `95d7fce`, 2026-10-26). **Transfermarkt pages are saved by the user in their own browser**, because the site challenges automated requests; code only parses them (`transfermarkt-source.md` § 8).
 
-**Manual work.** Some phases need the user: saving pages, approving crawls and loads. The full list is `context/docs/manual-work.md`; a phase's `todo.md` line ends in a 👤 note, and its spec has a `## Your part` section.
+**Manual work.** Some phases need the user: saving pages and images, approving loads. The full list is `context/docs/manual-work.md`; a phase's `todo.md` line ends in a 👤 note, and its spec has a `## Your part` section.
 
 **No code is shared between repos.** No package, no submodule, no cross-repo import. This repo keeps its own copy of the database schema; **the backend owns it**. This repo must build with the other three deleted.
 

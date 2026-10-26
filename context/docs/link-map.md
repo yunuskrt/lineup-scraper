@@ -17,7 +17,7 @@ Config: the pool groups (match-pool-scope.md § 1)       no page; S07 writes the
          ├─ Club      /verein/{id}                      never saved: id and name come from the pages above
          └─ Player    /profil/spieler/{id}              every starter, once, ~5,000–8,000   S11b
 
-Wikipedia / Wikidata  (APIs, fetched by code, each crawl approved by you)   per pool match   S09
+Images (later)        a crest per club, a photo per player, saved by you      S18
 ```
 
 - **Every page you save is on a list.** A phase writes the list from the pages already saved: S07 from the config, S11 from the pool match list, S11b from the saved match reports. Each line gives the link, the file name to save it as, and the folder (§ 8).
@@ -48,7 +48,7 @@ The match ids of the pool come from listing pages. Which kind S07 uses for the l
 | Box headline (`1.Matchday`, `Group A`) | `round` | `matches.stage` | English display text, rewritten by S08 |
 | Knockout cell (`QF`, `FI`, `Ro16 3`) | `stage` | `matches.stage`; the group test for knockouts | Wins over `round` |
 | Home and away `verein/{id}` links | `home`, `away` | `clubs.transfermarkt_id`, `match_teams.club_id`, `side`; the group test for derbies and clashes | The name seen here becomes a `club_aliases` row |
-| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report |
+| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report. On penalties it seems to add the shootout to the score (`6:4 on pens` for a 1:1 won 5:3), where the match report shows the shootout alone (S11 verifies) |
 
 ---
 
@@ -80,7 +80,7 @@ The match ids of the pool come from listing pages. Which kind S07 uses for the l
 | Its name (`Zidane`, `Kily Gonzá.`) | `starters[].name` | An alias candidate only | **Short and sometimes cut off**: never the display name |
 | Shirt number, captain icon | `shirtNumber`, `isCaptain` | Not stored | |
 | `table.ersatzbank` | `bench` | Not stored | Full names; a check against the player pages |
-| Player photos (`img.a.transfermarkt.technology`) | — | Never used | Copyrighted (`transfermarkt-source.md` § 7) |
+| Player photos (`img.a.transfermarkt.technology`) | — | Not parsed | Images are saved by you in S18; licence checked before release |
 
 ---
 
@@ -104,7 +104,7 @@ The match ids of the pool come from listing pages. Which kind S07 uses for the l
 | `Citizenship:` | `citizenship` | Not stored | Same |
 | `Position:` | `position` | Not stored | `lineups.position` comes from the slot, never from here |
 | Header `Caps/Goals:` | — (added in S11b) | Star-power signal (S10) | The spec names caps as a star-power input |
-| Portrait | — | Never used | Copyrighted |
+| Portrait | — | Not parsed | Same: S18 |
 
 ---
 
@@ -121,7 +121,7 @@ The match ids of the pool come from listing pages. Which kind S07 uses for the l
 | `clubs.name`, `short_name` | `data/curation/` (Transfermarkt's `FC Bayern Munich` becomes an alias) |
 | `clubs.kind` | The competition: a side in a World Cup or Euro is a `national_team` |
 | `club_aliases` | Every name the listing pages and match reports used for that id |
-| `clubs.crest_key` | S18; not from Transfermarkt |
+| `clubs.crest_key` | S18: an image you save |
 
 ---
 
@@ -153,10 +153,10 @@ So in a 4-4-2 the goalkeeper is slot 0, the back four are 1–4 (right back firs
 | `player_aliases` | Player profile (h1, full name), match report (short name), curation |
 | `matches.transfermarkt_id`, `slug`, `date`, `stage` | Listing page, confirmed by the match report |
 | `matches.extra_time`, `shootout_*` | Match report |
-| `matches.nickname` | Wikipedia (S09) |
+| `matches.nickname` | `data/curation/` (optional; Wikipedia isn't a pipeline source) |
 | `match_teams.*`, `lineups.*`, `match_events.*` | Match report |
 | `memorability_scores` | Computed (S10) from all of the above |
-| `clubs.crest_key`, `players.image_key` | S18, not Transfermarkt |
+| `clubs.crest_key`, `players.image_key` | S18: images you save, uploaded to the bucket |
 
 The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`backend-requests.md`).
 
@@ -170,13 +170,16 @@ The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`ba
 | `extract.inbox` (built) | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html` |
 | Progress | Per list: how many are saved, imported and parsed, and what's missing |
 | Check | For one link or id: saved? imported? parsed? which records? |
-| Dashboard (S19) | One local page with all of the above, plus dataset and database counts |
+| Dashboard (S19) | One local page with all of the above, plus duplicates, gate failures, pool coverage, dataset and database counts |
+
+The loop that uses them is `enrichment-guide.md` § 2.
 
 ---
 
 ## 9. Unverified
 
 - Head-to-head pages: link, layout, and whether they list every meeting
+- A fixture row's result on penalties (shootout added to the score?)
 - Euro fixture links (probably like `FIWC`), and the codes `FR1` and `PO1`
 - The clock sprite → minute rule
 - How the event text marks an own goal and a penalty

@@ -15,7 +15,8 @@ Loaded on startup:
 Read on demand:
 
 - `docs/` - Setup record, build order, display requirements from the web, source-trial report, backend specs (`docs/backend-specs/`, read-only)
-- `docs/match-pool-scope.md` - Which matches become playable: the curated groups, clubs, derbies, limits and floors (S07–S18)
+- `docs/match-pool-scope.md` - Which matches become playable: the curated groups, clubs, derbies, limits and floors (S07–S20)
+- `docs/enrichment-guide.md` - **How you grow the database yourself** after the pilot: the loop, the link levels, the pilot, fixing mistakes
 - `docs/link-map.md` - Every page type, how one leads to the next, and which columns each one feeds
 - `docs/backend-requests.md` - Schema changes the scraper needs from the backend, and their status
 - `docs/collection-phases.md` - Which phases fetch from websites, what they collect, and how it reaches the database
