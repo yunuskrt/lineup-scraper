@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "competitions": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]+$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "league",
+              "ucl",
+              "uel",
+              "world_cup",
+              "euro"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "urlSlug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "linkStyle": {
+            "type": "string",
+            "enum": [
+              "league",
+              "cup"
+            ]
+          },
+          "seasons": {
+            "type": "object",
+            "properties": {
+              "first": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "last": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "step": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "first",
+              "last",
+              "step"
+            ],
+            "additionalProperties": false
+          },
+          "groups": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "derbies",
+                "clashes",
+                "ucl-knockouts",
+                "uel-finals",
+                "world-cup-knockouts",
+                "euro-knockouts"
+              ]
+            }
+          },
+          "isVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "code",
+          "kind",
+          "name",
+          "urlSlug",
+          "linkStyle",
+          "seasons",
+          "groups",
+          "isVerified"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clubs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "league": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]+$"
+          },
+          "id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[0-9]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "key",
+          "name",
+          "league",
+          "id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "derbies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "clubs": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              },
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "name",
+          "clubs"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "knockoutStages": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "enum": [
+          "derbies",
+          "clashes",
+          "ucl-knockouts",
+          "uel-finals",
+          "world-cup-knockouts",
+          "euro-knockouts"
+        ]
+      },
+      "additionalProperties": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "required": [
+    "competitions",
+    "clubs",
+    "derbies",
+    "knockoutStages"
+  ],
+  "additionalProperties": false
+}

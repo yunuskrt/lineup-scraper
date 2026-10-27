@@ -38,7 +38,7 @@ Links are found level by level, so a list can only hold what the level above has
 
 | Level | List | Known once | Size, whole pool |
 | --- | --- | --- | --- |
-| 1 | Listing pages | Now: written from the config | ~94–247 |
+| 1 | Listing pages | Now: written from the config (`extract.lists.listings`) | 247 |
 | 2 | Match reports | Their listing page is saved | ~2,000 |
 | 3 | Player pages | Their match report is saved; players already saved are left out | ~5,000–8,000 |
 | 4 | Images (later) | The club or player is in the dataset | One per club and player |

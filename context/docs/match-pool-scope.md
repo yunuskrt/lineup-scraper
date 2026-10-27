@@ -54,7 +54,7 @@ The first six are the spec's rivalry list (`project-overview.md` § A); Der Klas
 | Primeira Liga | Porto, Benfica |
 | Süper Lig | Galatasaray, Fenerbahçe, Beşiktaş |
 
-24 clubs, 29 same-league pairs: the 7 derbies and 22 clash pairs. A pair only meets in seasons when both clubs are in the top flight (Juventus 2006-07, Atlético 2000–02 and Manchester City 2001-02 weren't). Opponents in the tournament groups are loaded as ordinary clubs.
+22 clubs, 29 same-league pairs: the 7 derbies and 22 clash pairs. A pair only meets in seasons when both clubs are in the top flight (Juventus 2006-07, Atlético 2000–02 and Manchester City 2001-02 weren't). Opponents in the tournament groups are loaded as ordinary clubs.
 
 ---
 

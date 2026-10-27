@@ -10,7 +10,7 @@ There are two ways in:
 
 | Phase | Collects | From | How | Writes | Feeds |
 | --- | --- | --- | --- | --- | --- |
-| **S07** Pool Selection | The match ids, dates, teams and stages of every pool group (`match-pool-scope.md` § 1) | Transfermarkt fixture lists or head-to-head pages (`link-map.md` § 2) | 👤 Saved by hand, from a link list S07 writes | `data/raw/transfermarkt/fixture/` | S08, S11 |
+| **S07** Pool Selection | The match ids, dates, teams and stages of every pool group (`match-pool-scope.md` § 1) | Transfermarkt fixture lists (`link-map.md` § 2) | 👤 Saved by hand, from a link list S07 writes | `data/raw/transfermarkt/fixture/` | S08, S11 |
 | **S11** Lineup Extract | Starting XIs, formations, coordinates, goals and cards, for every pool match | Transfermarkt match reports | 👤 Saved by hand, in batches, from a link list S11 writes | `data/raw/transfermarkt/match/` | S11b, S08, S13 |
 | **S11b** Player Pages | Display name, full name, caps, date of birth, citizenship, for every pool starter | Transfermarkt player profiles | 👤 Saved by hand, in batches, from a link list S11b writes | `data/raw/transfermarkt/player/` | S08, S10, S12 |
 | **S18** Image Import | A crest per club and a photo per player, **for pool entities only** | Wherever the user saves them from; the licence is checked before release | 👤 Saved by hand, from a list S18 writes | `data/images/` | S18's upload |

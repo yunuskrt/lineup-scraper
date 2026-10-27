@@ -1,0 +1,396 @@
+{
+  "competitions": [
+    {
+      "code": "GB1",
+      "kind": "league",
+      "name": "Premier League",
+      "urlSlug": "premier-league",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "ES1",
+      "kind": "league",
+      "name": "LaLiga",
+      "urlSlug": "laliga",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "IT1",
+      "kind": "league",
+      "name": "Serie A",
+      "urlSlug": "serie-a",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": true
+    },
+    {
+      "code": "L1",
+      "kind": "league",
+      "name": "Bundesliga",
+      "urlSlug": "bundesliga",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "FR1",
+      "kind": "league",
+      "name": "Ligue 1",
+      "urlSlug": "ligue-1",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "PO1",
+      "kind": "league",
+      "name": "Liga Portugal",
+      "urlSlug": "liga-portugal",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "TR1",
+      "kind": "league",
+      "name": "Süper Lig",
+      "urlSlug": "super-lig",
+      "linkStyle": "league",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "derbies",
+        "clashes"
+      ],
+      "isVerified": true
+    },
+    {
+      "code": "CL",
+      "kind": "ucl",
+      "name": "UEFA Champions League",
+      "urlSlug": "uefa-champions-league",
+      "linkStyle": "cup",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "ucl-knockouts",
+        "derbies"
+      ],
+      "isVerified": true
+    },
+    {
+      "code": "EL",
+      "kind": "uel",
+      "name": "UEFA Cup / Europa League",
+      "urlSlug": "europa-league",
+      "linkStyle": "cup",
+      "seasons": {
+        "first": 2000,
+        "last": 2025,
+        "step": 1
+      },
+      "groups": [
+        "uel-finals",
+        "derbies"
+      ],
+      "isVerified": false
+    },
+    {
+      "code": "FIWC",
+      "kind": "world_cup",
+      "name": "World Cup",
+      "urlSlug": "weltmeisterschaft",
+      "linkStyle": "cup",
+      "seasons": {
+        "first": 2001,
+        "last": 2021,
+        "step": 4
+      },
+      "groups": [
+        "world-cup-knockouts"
+      ],
+      "isVerified": true
+    },
+    {
+      "code": "EURO",
+      "kind": "euro",
+      "name": "European Championship",
+      "urlSlug": "europameisterschaft",
+      "linkStyle": "cup",
+      "seasons": {
+        "first": 1999,
+        "last": 2023,
+        "step": 4
+      },
+      "groups": [
+        "euro-knockouts"
+      ],
+      "isVerified": true
+    }
+  ],
+  "clubs": [
+    {
+      "key": "manchester-united",
+      "name": "Manchester United",
+      "league": "GB1",
+      "id": "985"
+    },
+    {
+      "key": "manchester-city",
+      "name": "Manchester City",
+      "league": "GB1",
+      "id": "281"
+    },
+    {
+      "key": "liverpool",
+      "name": "Liverpool",
+      "league": "GB1",
+      "id": null
+    },
+    {
+      "key": "chelsea",
+      "name": "Chelsea",
+      "league": "GB1",
+      "id": null
+    },
+    {
+      "key": "arsenal",
+      "name": "Arsenal",
+      "league": "GB1",
+      "id": "11"
+    },
+    {
+      "key": "tottenham",
+      "name": "Tottenham Hotspur",
+      "league": "GB1",
+      "id": null
+    },
+    {
+      "key": "real-madrid",
+      "name": "Real Madrid",
+      "league": "ES1",
+      "id": "418"
+    },
+    {
+      "key": "barcelona",
+      "name": "Barcelona",
+      "league": "ES1",
+      "id": "131"
+    },
+    {
+      "key": "atletico-madrid",
+      "name": "Atlético Madrid",
+      "league": "ES1",
+      "id": "13"
+    },
+    {
+      "key": "ac-milan",
+      "name": "AC Milan",
+      "league": "IT1",
+      "id": "5"
+    },
+    {
+      "key": "inter",
+      "name": "Inter",
+      "league": "IT1",
+      "id": "46"
+    },
+    {
+      "key": "juventus",
+      "name": "Juventus",
+      "league": "IT1",
+      "id": "506"
+    },
+    {
+      "key": "bayern-munich",
+      "name": "Bayern Munich",
+      "league": "L1",
+      "id": "27"
+    },
+    {
+      "key": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "league": "L1",
+      "id": "16"
+    },
+    {
+      "key": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "league": "FR1",
+      "id": "583"
+    },
+    {
+      "key": "marseille",
+      "name": "Marseille",
+      "league": "FR1",
+      "id": null
+    },
+    {
+      "key": "lyon",
+      "name": "Lyon",
+      "league": "FR1",
+      "id": "1041"
+    },
+    {
+      "key": "porto",
+      "name": "Porto",
+      "league": "PO1",
+      "id": "720"
+    },
+    {
+      "key": "benfica",
+      "name": "Benfica",
+      "league": "PO1",
+      "id": "294"
+    },
+    {
+      "key": "galatasaray",
+      "name": "Galatasaray",
+      "league": "TR1",
+      "id": "141"
+    },
+    {
+      "key": "fenerbahce",
+      "name": "Fenerbahçe",
+      "league": "TR1",
+      "id": "36"
+    },
+    {
+      "key": "besiktas",
+      "name": "Beşiktaş",
+      "league": "TR1",
+      "id": "114"
+    }
+  ],
+  "derbies": [
+    {
+      "name": "El Clásico",
+      "clubs": [
+        "real-madrid",
+        "barcelona"
+      ]
+    },
+    {
+      "name": "Manchester derby",
+      "clubs": [
+        "manchester-united",
+        "manchester-city"
+      ]
+    },
+    {
+      "name": "Derby della Madonnina",
+      "clubs": [
+        "ac-milan",
+        "inter"
+      ]
+    },
+    {
+      "name": "Kıtalar Arası Derbi",
+      "clubs": [
+        "fenerbahce",
+        "galatasaray"
+      ]
+    },
+    {
+      "name": "Le Classique",
+      "clubs": [
+        "paris-saint-germain",
+        "marseille"
+      ]
+    },
+    {
+      "name": "O Clássico",
+      "clubs": [
+        "porto",
+        "benfica"
+      ]
+    },
+    {
+      "name": "Der Klassiker",
+      "clubs": [
+        "bayern-munich",
+        "borussia-dortmund"
+      ]
+    }
+  ],
+  "knockoutStages": {
+    "ucl-knockouts": [
+      "QF",
+      "SF",
+      "FI"
+    ],
+    "uel-finals": [
+      "FI"
+    ],
+    "world-cup-knockouts": [
+      "Ro16",
+      "QF",
+      "SF",
+      "FI"
+    ],
+    "euro-knockouts": [
+      "Ro16",
+      "QF",
+      "SF",
+      "FI"
+    ]
+  }
+}

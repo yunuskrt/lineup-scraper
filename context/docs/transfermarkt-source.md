@@ -26,13 +26,13 @@ Base `https://www.transfermarkt.com`; page links are relative. The numeric id at
 | --- | --- | --- | --- |
 | League season fixtures | `/{slug}/gesamtspielplan/wettbewerb/{CODE}?saison_id={YYYY}` | Every match of the season: teams, score, match link | Works (IT1 2000: 306/306) |
 | Cup season fixtures | `/{slug}/gesamtspielplan/pokalwettbewerb/{CODE}/saison_id/{YYYY}` | Every match link | Works; use a scan of all `/spielbericht/` links (§ 4) |
-| Tournament fixtures | `/{slug}/gesamtspielplan/pokalwettbewerb/{CODE}{YY}` | World Cup and Euro matches | **Unverified** (not probed) |
+| Tournament fixtures | `/{slug}/gesamtspielplan/pokalwettbewerb/{FIWC or EURO}/saison_id/{year − 1}` | World Cup and Euro matches | Works (`fiwc-2005`, `euro-2003`; the old `WM06` and `EM04` links redirect here) |
 | Match report | `/{home}_{away}/index/spielbericht/{id}` or `/spielbericht/index/spielbericht/{id}` | Header, score, XIs with formation and coordinates, bench, events | Works with the new selectors (§ 4) |
 | Team in a season | `/{slug}/startseite/verein/{id}/saison_id/{YYYY}` | The team's id, as linked from match pages | Works |
 | Player profile | `/{slug}/profil/spieler/{id}` | Name, DOB, citizenship, position | Works (§ 4) |
 | Team page | `/{slug}/startseite/verein/{id}` | Name, crest URL | Works |
 
-Competition codes: `GB1`, `ES1`, `IT1`, `L1`, `TR1`, `CL`, `EL`, `WM{YY}`, `EM{YY}` come from the old repo. Only `IT1` and `CL` were probed live. **The World Cup is `FIWC` with `saison_id` = tournament year − 1:** the old `WM06` link redirected to `/pokalwettbewerb/FIWC/saison_id/2005` (saved page, 2026-10-27). The Euro probably works the same way; unverified. **`FR1` (Ligue 1), `PO1` (Primeira Liga) and `EM00` are unverified.**
+Competition codes: `GB1`, `ES1`, `IT1`, `L1`, `TR1`, `CL`, `EL`, `WM{YY}`, `EM{YY}` come from the old repo. Only `IT1` and `CL` were probed live. **The World Cup is `FIWC` with `saison_id` = tournament year − 1:** the old `WM06` link redirected to `/pokalwettbewerb/FIWC/saison_id/2005` (saved page, 2026-10-27). **The Euro is `EURO` the same way:** `EM04` redirected to `/pokalwettbewerb/EURO/saison_id/2003` (saved page, 2026-10-27), so Euro 2000 is `saison_id` 1999. `TR1` is verified by `tr1-2002`. **`GB1`, `ES1`, `L1`, `FR1`, `PO1` and `EL` are unverified**; one sample of each is in `s07-verify`.
 
 ## 3. Entities, ids and linking
 
@@ -88,7 +88,7 @@ From the reference § 12, with this repo's rule:
 
 ## 7. What to collect
 
-- Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, ~94–247), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
+- Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, 247), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
 - The English site only (`www.transfermarkt.com`): labels and formats are English-dependent.
 - **Images:** the user saves crests and photos by hand in S18 (decided 2026-10-27). Photos and crests are copyrighted and trademarked, so each image's licence is checked before release (`project-overview.md` § Data Architecture).
 

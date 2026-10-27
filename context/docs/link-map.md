@@ -10,8 +10,8 @@ Checked against the 8 saved pages in `extract/tests/fixtures/transfermarkt/` on 
 
 ```text
 Config: the pool groups (match-pool-scope.md § 1)       no page; S07 writes the links
- └─ Listing page                                        ~94–247 pages               S07
-     │   fixture lists (leagues, CL, EL, World Cup, Euro), or head-to-head pages for the league pairs
+ └─ Listing page                                        247 pages                   S07
+     │   fixture lists: leagues, CL, EL, World Cup, Euro
      │   ▼ S07 keeps the rows that belong to a group: the pool match list
      └─ Match report  /spielbericht/{id}                one per pool match, ~2,000   S11
          ├─ Club      /verein/{id}                      never saved: id and name come from the pages above
@@ -28,15 +28,14 @@ Images (later)        a crest per club, a photo per player, saved by you      S1
 
 ## 2. Listing pages
 
-The match ids of the pool come from listing pages. Which kind S07 uses for the league groups is decided there:
+The match ids of the pool come from fixture lists. The full list is `data/work/link-lists/s07-listings.json`, written from `data/curation/pool.json` by `uv run python -m extract.lists.listings` (S07a); one sample of each unverified pattern is in `s07-verify.json`:
 
 | Page | Link | For | Count | Status |
 | --- | --- | --- | --- | --- |
-| League fixture list | `/{slug}/gesamtspielplan/wettbewerb/{CODE}?saison_id={YYYY}` | Derbies and clashes | 7 leagues × 26 = 182 | Verified; parser built (S06b) |
-| Head-to-head | The club page's head-to-head link, for one pair | Derbies and clashes | 29 pairs, one or a few pages each | **Unverified.** S07 asks for one saved sample; if it lists every meeting with its match link, it replaces the 182 |
-| Cup fixture list | `/{slug}/gesamtspielplan/pokalwettbewerb/{CODE}/saison_id/{YYYY}` | `CL` knockouts, `EL` finals | 26 + 26 | Verified |
+| League fixture list | `/{slug}/gesamtspielplan/wettbewerb/{CODE}?saison_id={YYYY}` | Derbies and clashes | 7 leagues × 26 = 182 | Pattern verified (`IT1`, `TR1`); codes `GB1`, `ES1`, `L1`, `FR1`, `PO1` unverified |
+| Cup fixture list | `/{slug}/gesamtspielplan/pokalwettbewerb/{CODE}/saison_id/{YYYY}` | `CL` knockouts, `EL` finals | 26 + 26 | Verified for `CL`; `EL` (and the UEFA Cup years under it) unverified |
 | World Cup | `/{slug}/gesamtspielplan/pokalwettbewerb/FIWC/saison_id/{year − 1}` | Knockouts | 6 | Verified |
-| Euro | Probably as the World Cup | Knockouts | 7 | Unverified |
+| Euro | `/{slug}/gesamtspielplan/pokalwettbewerb/EURO/saison_id/{year − 1}` | Knockouts | 7 | Verified (`euro-2003`, saved 2026-10-27; the old `EM04` link redirects here) |
 
 **Fixture list → raw kind `transfermarkt-fixture`**, one record per match row:
 
@@ -182,9 +181,8 @@ The loop that uses them is `enrichment-guide.md` § 2.
 
 ## 9. Unverified
 
-- Head-to-head pages: link, layout, and whether they list every meeting
 - A fixture row's result on penalties (shootout added to the score?)
-- Euro fixture links (probably like `FIWC`), and the codes `FR1` and `PO1`
+- The codes `GB1`, `ES1`, `L1`, `FR1`, `PO1` and `EL`: one sample each in `s07-verify`
 - The clock sprite → minute rule
 - How the event text marks an own goal and a penalty
 - The `Name in home country:` label on player pages
