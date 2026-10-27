@@ -1,4 +1,4 @@
-import { FUZZY_THRESHOLD, similarity } from '@/aliases/similarity.js';
+import { canClear, FUZZY_THRESHOLD, similarity } from '@/aliases/similarity.js';
 import type { Side } from '@/dataset/enums.js';
 import { normalizeName } from '@/names/normalize.js';
 
@@ -60,12 +60,6 @@ function sharedIn(at: At, entries: Entry[]): SharedAlias[] {
   return [...owners]
     .filter(([, players]) => players.length > 1)
     .map(([alias, players]) => ({ ...at, alias, players }));
-}
-
-// Edits are at least the length gap: a cheap bound
-function canClear(a: string, b: string): boolean {
-  const longest = Math.max(a.length, b.length);
-  return 1 - Math.abs(a.length - b.length) / longest > FUZZY_THRESHOLD;
 }
 
 function fuzzyIn(at: At, entries: Entry[]): FuzzyNeighbour[] {

@@ -33,3 +33,14 @@ export function similarity(a: string, b: string): number {
   if (longest === 0) return 1;
   return 1 - editDistance(a, b) / longest;
 }
+
+// Edits ≥ the length gap: a cheap bound
+export function canClear(a: string, b: string): boolean {
+  const longest = Math.max(a.length, b.length);
+  return 1 - Math.abs(a.length - b.length) / longest > FUZZY_THRESHOLD;
+}
+
+// Two different aliases a typo could confuse
+export function areNeighbours(a: string, b: string): boolean {
+  return a !== b && canClear(a, b) && similarity(a, b) > FUZZY_THRESHOLD;
+}

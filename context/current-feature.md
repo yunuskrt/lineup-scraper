@@ -30,3 +30,4 @@ Not Started
 - S11b Player Pages: profile links, names and caps, 65-player pilot list
 - S12 Alias Sets: names, surnames, full names, curation, XI clash checks
 - S10 Memorability Engine: signals, era percentiles, floors over thresholds
+- S13 Guessability Gate: play-time rules, guessability, sides block

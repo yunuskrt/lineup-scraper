@@ -29,6 +29,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S11b | Save the profile pages of the pilot's starters, from the list S11b writes. Steps: `features/phase-s11b-player-pages.md` § Your part | 65 pages, ~25 min | After `/feature start` of S11b | **Done** (2026-10-27) |
 | S12 | Nothing to save. Optionally, nicknames in `data/curation/aliases.json` after reading `data/reports/aliases.md` | — | After S12's run | — |
 | S10 | Nothing to save | — | — | — |
+| S13 | Nothing to save. A match that fails for an alias is fixed in `data/curation/aliases.json` | — | After S13's run, if any fails | — |
 | S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | Pending |
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |

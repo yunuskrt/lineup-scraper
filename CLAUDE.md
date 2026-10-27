@@ -52,6 +52,7 @@ Four separate repositories, one backend:
 - **Lineups** (S11): `npm run lineups` reads the saved match reports of resolved matches into formations, slots, scores and events (`data/work/lineups/matches.json`, `data/reports/lineups.md`); run `npm run resolve` first
 - **Aliases** (S12): `npm run aliases` builds each player's aliases from the saved pages and `data/curation/aliases.json` (`data/work/aliases/players.json`, `data/reports/aliases.md`); run `npm run lineups` first
 - **Scores** (S10): `npm run scores` scores every match with a saved report from its stage, rivalry, drama and star power, normalised within each era bucket, so every pool match clears its threshold (`data/work/scores/matches.json`, `data/reports/scores.md`); run `npm run lineups` first
+- **Gate** (S13): `npm run gate` checks both XIs of every scored match against the backend's play-time rules and writes each side's `guessability` beside `starPower` (`data/work/gate/matches.json`, `data/reports/gate.md`); run `npm run aliases` and `npm run scores` first
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)
 - **There is no migrate command.** Schema changes are backend phases.

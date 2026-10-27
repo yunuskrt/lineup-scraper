@@ -1,4 +1,8 @@
-import { FUZZY_THRESHOLD, similarity } from '@/aliases/similarity.js';
+import {
+  areNeighbours,
+  FUZZY_THRESHOLD,
+  similarity,
+} from '@/aliases/similarity.js';
 
 // From the backend's matcher.spec.ts
 describe('similarity', () => {
@@ -36,5 +40,19 @@ describe('similarity', () => {
     ['xavi', 'xabi', 0.75],
   ])('scores %s / %s at %d', (a, b, score) => {
     expect(similarity(a, b)).toBeCloseTo(score);
+  });
+});
+
+describe('areNeighbours', () => {
+  it('pairs two different aliases above the threshold', () => {
+    expect(areNeighbours('pennock', 'pennoch')).toBe(true);
+    expect(areNeighbours('harlow', 'harlowe')).toBe(true);
+  });
+
+  it('never pairs an alias with itself, or names too far apart', () => {
+    expect(areNeighbours('pennock', 'pennock')).toBe(false);
+    expect(areNeighbours('xavi', 'xabi')).toBe(false);
+    expect(areNeighbours('harlow', 'harlowezz')).toBe(false);
+    expect(areNeighbours('', 'x')).toBe(false);
   });
 });
