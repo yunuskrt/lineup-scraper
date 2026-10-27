@@ -61,21 +61,25 @@ def match_report_url(match_id: str) -> str:
     return f"{HOME}spielbericht/index/spielbericht/{match_id}"
 
 
+# 2002 → `2002-03`; None if unknown
+def match_season(
+    match: PoolMatch, competitions: Mapping[str, Competition]
+) -> str | None:
+    competition = competitions.get(match["competitionCode"])
+    season_id = match["seasonId"]
+    if competition is None or season_id is None:
+        return None
+    return season_label(competition, int(season_id))
+
+
 def match_link(
     match: PoolMatch, competitions: Mapping[str, Competition], group: str
 ) -> Link:
-    competition = competitions.get(match["competitionCode"])
-    season_id = match["seasonId"]
-    season = (
-        season_label(competition, int(season_id))
-        if competition is not None and season_id is not None
-        else None
-    )
     return link(
         match_report_url(match["sourceId"]),
         group=group,
         competition=match["competitionCode"],
-        season=season,
+        season=match_season(match, competitions),
     )
 
 

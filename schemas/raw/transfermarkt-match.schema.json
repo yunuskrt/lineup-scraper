@@ -87,6 +87,10 @@
                 "type": "string",
                 "minLength": 1
               },
+              "profilePath": {
+                "type": "string",
+                "pattern": "^\\/[A-Za-z0-9_.%-]+\\/profil\\/spieler\\/[0-9]+$"
+              },
               "shirtNumber": {
                 "anyOf": [
                   {
@@ -109,6 +113,7 @@
             "required": [
               "sourceId",
               "name",
+              "profilePath",
               "shirtNumber",
               "style",
               "isCaptain"
@@ -218,6 +223,10 @@
                 "type": "string",
                 "minLength": 1
               },
+              "profilePath": {
+                "type": "string",
+                "pattern": "^\\/[A-Za-z0-9_.%-]+\\/profil\\/spieler\\/[0-9]+$"
+              },
               "shirtNumber": {
                 "anyOf": [
                   {
@@ -240,6 +249,7 @@
             "required": [
               "sourceId",
               "name",
+              "profilePath",
               "shirtNumber",
               "style",
               "isCaptain"

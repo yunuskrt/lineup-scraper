@@ -54,6 +54,39 @@
           "type": "null"
         }
       ]
+    },
+    "fullName": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "nameInHomeCountry": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "capsGoals": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
     }
   },
   "required": [
@@ -64,7 +97,10 @@
     "headline",
     "dateOfBirth",
     "citizenship",
-    "position"
+    "position",
+    "fullName",
+    "nameInHomeCountry",
+    "capsGoals"
   ],
   "additionalProperties": false
 }

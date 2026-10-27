@@ -25,6 +25,9 @@ function profile(
     dateOfBirth,
     citizenship: null,
     position: null,
+    fullName: null,
+    nameInHomeCountry: null,
+    capsGoals: null,
   };
   return [id, page] as const;
 }
@@ -33,6 +36,7 @@ function starter(id: string, name: string) {
   return {
     sourceId: id,
     name,
+    profilePath: `/p/profil/spieler/${id}`,
     shirtNumber: null,
     style: 'top: 80%; left: 40%;',
     isCaptain: false,

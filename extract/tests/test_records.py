@@ -10,6 +10,7 @@ from extract.records import (
     InvalidRecordError,
     JsonValue,
     RecordWriter,
+    read_records,
     validate_record,
 )
 
@@ -187,3 +188,36 @@ def test_writer_refuses_a_bad_partition(tmp_path: Path, partition: str) -> None:
 def test_writer_refuses_an_unknown_kind(tmp_path: Path) -> None:
     with pytest.raises(InvalidRecordError, match="Unknown record kind"):
         RecordWriter("transfermarkt-standings", "ucl-2005", raw_dir=tmp_path)
+
+
+def test_reads_records_in_file_order_skipping_blank_lines(tmp_path: Path) -> None:
+    for partition, source_id in (("b-2005", "2"), ("a-2005", "1")):
+        record = first_valid("transfermarkt-fixture")
+        record["sourceId"] = source_id
+        RecordWriter("transfermarkt-fixture", partition, raw_dir=tmp_path).write(record)
+    path = tmp_path / "transfermarkt" / "fixture" / "a-2005.ndjson"
+    path.write_text(path.read_text(encoding="utf-8") + "\n  \n", encoding="utf-8")
+
+    records = read_records("transfermarkt-fixture", tmp_path)
+
+    assert [r["sourceId"] for r in records] == ["1", "2"]
+
+
+def test_reads_no_records_from_an_empty_folder(tmp_path: Path) -> None:
+    assert read_records("transfermarkt-player", tmp_path) == []
+
+
+def test_a_broken_line_names_its_file_and_line(tmp_path: Path) -> None:
+    writer = RecordWriter("transfermarkt-fixture", "ucl-2005", raw_dir=tmp_path)
+    writer.write(first_valid("transfermarkt-fixture"))
+    writer.path.write_text(
+        writer.path.read_text(encoding="utf-8") + '{"sourceId": "Sec\n',
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidRecordError) as raised:
+        read_records("transfermarkt-fixture", tmp_path)
+    message = str(raised.value)
+    assert "fixture/ucl-2005.ndjson:2" in message
+    assert "--reparse" in message
+    assert "Sec" not in message

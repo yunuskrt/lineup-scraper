@@ -179,7 +179,56 @@ def test_reads_a_player_page() -> None:
     assert player["dateOfBirth"] == "14/12/1996 (29)"
     assert player["citizenship"] == "Brazil Italy"
     assert player["position"] == "Attack - Centre-Forward"
+    assert player["fullName"] == "Raphael Dias Belloli"
+    assert player["nameInHomeCountry"] is None
+    assert player["capsGoals"] == "43 / 12"
     validate_record("transfermarkt-player", cast(dict[str, JsonValue], player))
+
+
+@pytest.mark.parametrize(
+    ("name", "path", "full_name", "home_name", "caps"),
+    [
+        # Retired; the full name under the home label
+        ("player-206", "oliver-kahn", None, "Oliver Rolf Kahn", "86 / 0"),
+        # Never capped: no caps line at all
+        ("player-6877", "batista", "Joao Casemiro Marques Batista", None, None),
+    ],
+)
+def test_reads_a_retired_players_names_and_caps(
+    name: str, path: str, full_name: str | None, home_name: str | None, caps: str | None
+) -> None:
+    player_id = name.removeprefix("player-")
+    url = f"{BASE}/{path}/profil/spieler/{player_id}"
+    player = parse_player(page(name), url, FETCHED)
+    assert (player["fullName"], player["nameInHomeCountry"]) == (full_name, home_name)
+    assert player["capsGoals"] == caps
+    validate_record("transfermarkt-player", cast(dict[str, JsonValue], player))
+
+
+def test_a_player_page_without_caps_or_full_name_gives_null() -> None:
+    html = (
+        page("player-411295")
+        .replace("Caps/Goals:", "Something:")
+        .replace("Full name:", "Other:")
+    )
+    player = parse_player(html, f"{BASE}/raphinha/profil/spieler/411295", FETCHED)
+    assert (player["fullName"], player["capsGoals"]) == (None, None)
+
+
+@pytest.mark.parametrize(
+    "match_id", ["990248", "1153409", "4126774", "53491", "1118844"]
+)
+def test_every_starter_keeps_its_profile_link(match_id: str) -> None:
+    report = match(match_id)
+    starters = report["home"]["starters"] + report["away"]["starters"]
+    assert len(starters) == 22
+    for starter in starters:
+        assert re.fullmatch(
+            rf"/[a-z0-9-]+/profil/spieler/{starter['sourceId']}",
+            starter["profilePath"],
+        )
+    if match_id == "990248":
+        assert starters[0]["profilePath"] == "/oliver-kahn/profil/spieler/206"
 
 
 def test_a_page_without_starters_raises_a_named_error() -> None:

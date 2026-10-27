@@ -124,6 +124,7 @@ function side(key: string, clubId: string, bench: string[]): RawSide {
     starters: saved.starters.map(([sourceId, style]) => ({
       sourceId,
       name: `Player ${sourceId}`,
+      profilePath: `/p/profil/spieler/${sourceId}`,
       shirtNumber: null,
       style,
       isCaptain: false,

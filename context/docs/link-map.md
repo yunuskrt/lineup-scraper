@@ -78,7 +78,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | `div.sb-team` → `a.sb-vereinslink` | `home.sourceId`, `home.name` (and away) | `match_teams.club_id` | |
 | Each side's `p` (`Position: 16`) | `tablePosition` | Stakes signal only | Absent on matchday 1 and in cups |
 | `div.formation-subtitle` | `formation` | `match_teams.formation` | The leading lines; diamonds mapped in `data/curation/formations.json` (§ 6) |
-| 11 × `div.formation-player-container` | `starters[].sourceId` | `players.transfermarkt_id`, `lineups.player_id` | Also the S11b link |
+| 11 × `div.formation-player-container` | `starters[].sourceId`, `starters[].profilePath` | `players.transfermarkt_id`, `lineups.player_id` | `profilePath` (`/oliver-kahn/profil/spieler/206`) is the S11b link |
 | Its `style` (`top: 80%; left: 40%;`) | `starters[].style` | `lineups.slot`, then `lineups.position` (§ 6) | |
 | Its name (`Zidane`, `Kily Gonzá.`) | `starters[].name` | An alias candidate only | **Short and sometimes cut off**: never the display name |
 | Shirt number, captain icon | `shirtNumber`, `isCaptain` | Not stored | |
@@ -92,7 +92,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | | |
 | --- | --- |
 | Link | `/{slug}/profil/spieler/{id}` |
-| Found from | The starters of every saved match report, plus goal scorers who came off the bench |
+| Found from | The starters of every saved pool match report: `uv run python -m extract.lists.player_pages` writes `s11b-players` and `s11b-pilot` (S11b), each player once, from each starter's own link |
 | Count | Every distinct starter in the pool, saved once: **~5,000–8,000** |
 | Raw kind | `transfermarkt-player`, one record per page (`src/raw/transfermarkt-player.ts`) |
 | Decided | 2026-10-27: every starter's page is saved, since the match report only shows a short name |
@@ -101,12 +101,12 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | --- | --- | --- | --- |
 | The URL's `spieler/{id}` | `sourceId` | `players.transfermarkt_id`, `players.slug` | |
 | The h1 (`#11 Raphinha`) | `headline` | `players.name`, and an alias | Shirt number stripped; diacritics kept |
-| Info table `Full name:` (`Raphael Dias Belloli`) | — (added in S11b) | `player_aliases` | |
-| Info table `Name in home country:` | — (added in S11b) | `player_aliases` (transliteration) | Seen on some players; unverified |
+| Info table `Full name:` (`Raphael Dias Belloli`) | `fullName` | `player_aliases` (S12) | Never the display name. On 6 of the 66 saved pages |
+| Info table `Name in home country:` (`Oliver Rolf Kahn`) | `nameInHomeCountry` | `player_aliases` (S12) | Also the full name, in the home spelling, on 36 of 66; may be Cyrillic (`135`), so S12 needs a Latin form. No page has both labels; 24 have neither |
 | `Date of birth/Age:` | `dateOfBirth` | Not stored | Tells two players with one name apart (S08) |
 | `Citizenship:` | `citizenship` | Not stored | Same |
 | `Position:` | `position` | Not stored | `lineups.position` comes from the slot, never from here |
-| Header `Caps/Goals:` | — (added in S11b) | Star-power signal (S10) | The spec names caps as a star-power input |
+| Header `Caps/Goals:` (`43 / 12`) | `capsGoals`, as shown | Star-power signal (S10) | Retired players too; always `N / M`. A player never capped has no line: `null` (`6877`) |
 | Portrait | — | Not parsed | Same: S18 |
 
 ---
@@ -188,4 +188,3 @@ The loop that uses them is `enrichment-guide.md` § 2.
 
 - The codes `GB1`, `ES1`, `L1`, `FR1`, `PO1` and `EL`: one sample each in `s07-verify`
 - How the event text marks an own goal (the running score settles its side) and a second yellow. A straight red card is `Red card` (`53491`, `1118844`)
-- The `Name in home country:` label on player pages

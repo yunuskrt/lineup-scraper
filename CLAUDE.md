@@ -48,6 +48,7 @@ Four separate repositories, one backend:
 - **Pool match list** (S07b): `npm run pool` writes `data/work/pool/matches.json` and `data/reports/pool.md` from the saved fixture lists
 - **Resolve** (S08a, S08b): `npm run resolve` assigns permanent slugs to competitions, clubs, matches and players (`data/curation/crosswalk/`) and writes `data/work/resolved/`; run `npm run pool` first
 - **Match-report link lists** (S11): `uv run python -m extract.lists.match_reports` writes `s11-match-reports` (every pool match) and `s11-pilot` from `data/work/pool/matches.json`
+- **Player link lists** (S11b): `uv run python -m extract.lists.player_pages` writes `s11b-players` (every starter of every saved pool match report, each once) and `s11b-pilot`
 - **Lineups** (S11): `npm run lineups` reads the saved match reports of resolved matches into formations, slots, scores and events (`data/work/lineups/matches.json`, `data/reports/lineups.md`); run `npm run resolve` first
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)

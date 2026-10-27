@@ -9,7 +9,10 @@
       "headline": "",
       "dateOfBirth": "14/12/1996 (29)",
       "citizenship": "Brazil Italy",
-      "position": "Attack - Centre-Forward"
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   },
   {
@@ -22,7 +25,10 @@
       "headline": "#11 Örnek Oyuncu",
       "dateOfBirth": "",
       "citizenship": "Brazil Italy",
-      "position": "Attack - Centre-Forward"
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   },
   {
@@ -36,7 +42,10 @@
       "dateOfBirth": "14/12/1996 (29)",
       "citizenship": "Brazil Italy",
       "position": "Attack - Centre-Forward",
-      "height": "1,76 m"
+      "height": "1,76 m",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   },
   {
@@ -49,7 +58,10 @@
       "headline": "#11 Örnek Oyuncu",
       "dateOfBirth": "14/12/1996 (29)",
       "citizenship": "Brazil Italy",
-      "position": "Attack - Centre-Forward"
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   },
   {
@@ -61,7 +73,10 @@
       "headline": "#11 Örnek Oyuncu",
       "dateOfBirth": "14/12/1996 (29)",
       "citizenship": "Brazil Italy",
-      "position": "Attack - Centre-Forward"
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   },
   {
@@ -74,7 +89,26 @@
       "headline": "#11 Örnek Oyuncu",
       "dateOfBirth": "14/12/1996 (29)",
       "citizenship": "Brazil Italy",
-      "position": "Attack - Centre-Forward"
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
+    }
+  },
+  {
+    "name": "caps as a number",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "#11 Örnek Oyuncu",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward",
+      "fullName": "Ardenia Oyuncu Tam Adı",
+      "nameInHomeCountry": null,
+      "capsGoals": 12
     }
   }
 ]

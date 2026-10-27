@@ -10,6 +10,11 @@ export const transfermarktPlayerSchema = z.strictObject({
   dateOfBirth: rawTextSchema.nullable(),
   citizenship: rawTextSchema.nullable(),
   position: rawTextSchema.nullable(),
+  // The info table's `Full name:`, as shown
+  fullName: rawTextSchema.nullable(),
+  nameInHomeCountry: rawTextSchema.nullable(),
+  // The header's `Caps/Goals:` as shown (`43 / 12`)
+  capsGoals: rawTextSchema.nullable(),
 });
 
 export type TransfermarktPlayer = z.infer<typeof transfermarktPlayerSchema>;

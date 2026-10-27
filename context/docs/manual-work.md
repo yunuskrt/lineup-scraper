@@ -26,7 +26,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S07 | Save the 2002–03 Süper Lig fixture list (the pilot derby) and the Euro 2004 fixture list (verifies the Euro link). Steps: `features/phase-s07a-pool-config-listings.md` § Your part | 2 pages, ~5 min | After `/feature start` of S07a | **Done** (2026-10-27) |
 | S08 | Nothing to save | — | — | — |
 | S11 | Save the pilot's 2 new match reports (Italy–France 2006, the derby). Steps: `features/phase-s11-lineup-extract.md` § Your part | 2 pages, ~5 min | Before S11's real run | **Done** (2026-10-27) |
-| S11b | Save the profile pages of the pilot's starters, from the list S11b writes | ~66 pages | During S11b | Pending |
+| S11b | Save the profile pages of the pilot's starters, from the list S11b writes. Steps: `features/phase-s11b-player-pages.md` § Your part | 65 pages, ~25 min | After `/feature start` of S11b | **Done** (2026-10-27) |
 | S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | Pending |
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |

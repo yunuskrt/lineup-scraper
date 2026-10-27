@@ -1,20 +1,12 @@
 # Current Feature
 
-<!-- Feature Name -->
-
 ## Status
-
-<!-- Not Started|In Progress|Completed -->
 
 Not Started
 
 ## Goals
 
-<!-- Goals & requirements -->
-
 ## Notes
-
-<!-- Any extra notes -->
 
 ## History
 
@@ -35,3 +27,4 @@ Not Started
 - S08a Resolve Clubs & Matches: crosswalk, slugs, club names, stages
 - S08b Resolve Players: player crosswalk, names from pages, waiting list
 - S11 Lineup Extract: XIs to slots, scores, shootout kicks, reparse
+- S11b Player Pages: profile links, names and caps, 65-player pilot list

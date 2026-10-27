@@ -48,13 +48,14 @@ def player_ref(link: Selector, what: str) -> Ref:
 def starters(box: SelectorList[Selector], side: str) -> list[Starter]:
     found: list[Starter] = []
     for player in box.xpath('.//div[@class="formation-player-container"]'):
-        ref = player_ref(
-            player.xpath('.//span[@class="formation-number-name"]/a')[0],
-            f"{side} starter span.formation-number-name > a",
-        )
+        link = player.xpath('.//span[@class="formation-number-name"]/a')[0]
+        ref = player_ref(link, f"{side} starter span.formation-number-name > a")
         found.append(
             {
                 **ref,
+                "profilePath": require(
+                    link.attrib.get("href"), f"{side} starter profile link"
+                ),
                 "shirtNumber": text_or_none(
                     player.xpath('.//div[contains(@class, "tm-shirt-number")]')
                 ),

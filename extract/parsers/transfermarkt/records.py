@@ -28,6 +28,7 @@ class TransfermarktFixture(TypedDict):
 class Starter(TypedDict):
     sourceId: str
     name: str
+    profilePath: str
     shirtNumber: str | None
     style: str
     isCaptain: bool
@@ -87,3 +88,6 @@ class TransfermarktPlayer(TypedDict):
     dateOfBirth: str | None
     citizenship: str | None
     position: str | None
+    fullName: str | None
+    nameInHomeCountry: str | None
+    capsGoals: str | None

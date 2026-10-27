@@ -7,9 +7,15 @@ import {
   refSchema,
 } from '@/raw/envelope.js';
 
+// As linked: `/oliver-kahn/profil/spieler/206`
+const profilePathSchema = z
+  .string()
+  .regex(/^\/[A-Za-z0-9_.%-]+\/profil\/spieler\/[0-9]+$/);
+
 const starterSchema = z.strictObject({
   sourceId: digitsSchema,
   name: rawTextSchema,
+  profilePath: profilePathSchema,
   shirtNumber: rawTextSchema.nullable(),
   // `top: 80%; left: 40%;` as sent; S11 maps it to a slot
   style: rawTextSchema,

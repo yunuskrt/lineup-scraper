@@ -88,3 +88,25 @@ class RecordWriter:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         with self.path.open("a", encoding="utf-8", newline="\n") as file:
             file.write(f"{line}\n")
+
+
+# Validated records; errors name file and line
+def read_records(kind: str, raw_dir: Path = DATA_DIRS["raw"]) -> list[Record]:
+    source, _, name = kind.partition("-")
+    records: list[Record] = []
+    for path in sorted((raw_dir / source / name).glob("*.ndjson")):
+        lines = path.read_text(encoding="utf-8").splitlines()
+        for number, line in enumerate(lines, start=1):
+            if not line.strip():
+                continue
+            at = f"{name}/{path.name}:{number}"
+            try:
+                record = json.loads(line)
+                validate_record(kind, record)
+            except (json.JSONDecodeError, InvalidRecordError) as error:
+                raise InvalidRecordError(
+                    f"Invalid {kind} record: {at}. After a parser change, run "
+                    "`uv run python -m extract.inbox --reparse`"
+                ) from error
+            records.append(record)
+    return records

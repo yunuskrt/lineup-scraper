@@ -39,8 +39,8 @@ Links are found level by level, so a list can only hold what the level above has
 | Level | List | Known once | Size, whole pool |
 | --- | --- | --- | --- |
 | 1 | Listing pages | Now: written from the config (`extract.lists.listings`) | 247 |
-| 2 | Match reports | Their listing page is saved | ~2,000 |
-| 3 | Player pages | Their match report is saved; players already saved are left out | ~5,000–8,000 |
+| 2 | Match reports | Their listing page is saved (`extract.lists.match_reports`) | ~2,000 |
+| 3 | Player pages | Their match report is saved (`extract.lists.player_pages`); players already saved are left out | ~5,000–8,000 |
 | 4 | Images (later) | The club or player is in the dataset | One per club and player |
 
 ---
@@ -53,7 +53,7 @@ Links are found level by level, so a list can only hold what the level above has
 | Italy – France, 2006 World Cup final (`spielbericht/53491`) | `world_cup`, national teams, extra time and a shootout, a red card | The match report |
 | One Fenerbahçe – Galatasaray league derby (season picked in S07) | `league`, a derby, a matchday stage | 1 Süper Lig fixture list, the match report |
 
-Plus the player pages of all 66 starters: **~70 pages in all**. The pilot's link lists are written by the phases that need them (S07, S11, S11b).
+Plus the player pages of all 65 starters (66 places; one player starts twice): **~70 pages in all**. The pilot's link lists are written by the phases that need them (S07, S11, S11b).
 
 ---
 

@@ -30,6 +30,15 @@ def header_label(page: Selector, label: str) -> str | None:
     return None
 
 
+# A header item's text after its label
+def header_value(page: Selector, label: str) -> str | None:
+    for item in page.xpath('//li[contains(@class, "data-header__label")]'):
+        shown = text(item)
+        if shown.lower().startswith(label):
+            return shown[len(label) :].strip() or None
+    return None
+
+
 # The info table is richer (dual citizenship); the header is a fallback
 def parse_player(html: str, url: str, fetched_at: str) -> TransfermarktPlayer:
     page = Selector(text=html)
@@ -47,4 +56,7 @@ def parse_player(html: str, url: str, fetched_at: str) -> TransfermarktPlayer:
         or header_label(page, "date of birth"),
         "citizenship": info.get("Citizenship:") or header_label(page, "citizenship"),
         "position": info.get("Position:") or header_label(page, "position"),
+        "fullName": info.get("Full name:"),
+        "nameInHomeCountry": info.get("Name in home country:"),
+        "capsGoals": header_value(page, "caps/goals:"),
     }
