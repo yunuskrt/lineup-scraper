@@ -16,6 +16,8 @@ export function isReserved(slug: string): boolean {
 export interface Wanted {
   key: string;
   base: string | null;
+  // Tried in order before `<base>-<key>`
+  fallbacks?: string[];
 }
 
 export interface Extended {
@@ -34,14 +36,16 @@ export function extendCrosswalk(
   const taken = new Set(Object.values(previous));
   const added: string[] = [];
   const unslugged: Extended['unslugged'] = [];
-  for (const { key, base } of wanted) {
+  for (const { key, base, fallbacks = [] } of wanted) {
     if (Object.hasOwn(crosswalk, key)) continue;
     if (base === null) {
       unslugged.push({ key, reason: 'name has no Latin letters' });
     } else if (isReserved(base)) {
       unslugged.push({ key, reason: 'slug starts with a reserved prefix' });
     } else {
-      const slug = taken.has(base) ? `${base}-${key}` : base;
+      const slug =
+        [base, ...fallbacks, `${base}-${key}`].find((s) => !taken.has(s)) ??
+        base;
       if (taken.has(slug)) {
         unslugged.push({ key, reason: 'slug is taken' });
         continue;

@@ -18,7 +18,7 @@ This todo file is for developer-side use.
 - [x] **Phase S06 — Fetch Harness**: Scrapy harness for automated sources (S06a); Transfermarkt parsers and `extract.inbox` import of hand-saved pages (S06b). (was B15)
 - [x] **Phase S06c — Collection Tools**: Link lists with save-as file names and folders; an import log for history; check and progress commands that skip what's already saved.
 - [x] **Phase S07 — Pool & Link Lists**: Curated groups as config, the full listing-page link list, and the pool match list from saved listings, every match once. (was B16)
-- [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs, keyed on Transfermarkt ids. (was B17)
+- [x] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs, keyed on Transfermarkt ids. (was B17)
 - [ ] **Phase S11 — Lineup Extract**: Match reports to XIs, formations, coordinates to slots, and events; the match-report link list. (was B20) — 👤 you: save 2 pilot match pages
 - [ ] **Phase S11b — Player Pages**: Full name and caps added to the parser; the player link list, each player once. — 👤 you: save ~66 pilot player pages
 - [ ] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.

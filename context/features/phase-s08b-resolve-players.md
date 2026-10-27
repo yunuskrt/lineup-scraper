@@ -2,7 +2,7 @@
 
 ## Status
 
-Not Started
+Complete
 
 ## Goals
 
@@ -33,4 +33,18 @@ Not Started
   - Errors and reports name ids and slugs, never an XI
 - Verification: `npm test`, `npm run lint`, `npm run typecheck`. `npm run resolve` on the real store: `411295` → `raphinha`, every other starter of the 3 saved match reports listed as waiting; a second run changes no byte
 
+**Deviations recorded during implementation**
+
+- **Only pool matches' reports count** (the data rule "only the pool is loaded"). Today that's `990248` alone: `1153409` and `4126774` were S06b parser samples, not pool matches, and Raphinha (`411295`) plays in none. So the real run gives **0 player slugs and 22 starters waiting**, not the `411295` → `raphinha` the Verification line expected
+- **Only starters need a saved page** (decided by the user, 2026-10-27). A substitute or event player with a saved page still gets a slug; one without stays unlinked (`match_events.player_id` may be `NULL`). Bench and event names are alias candidates
+- **`extendCrosswalk` takes `fallbacks`**, tried before `<base>-<id>`; players pass `<base>-<birth year>`. Clubs are unchanged
+- The latest saved copy of a page wins (`fetchedAt`), if a report or profile was imported twice
+- `crosswalk/players.json` is guarded like the others; it's committed as `{}` until the first player page of a pool match is saved
+- Output key `aliasCandidates` holds the other names; S12 builds the aliases from them
+- `link-map.md` § 7 and `CLAUDE.md` § Commands name the player slugs
+- Real run, 2026-10-27: 37 clubs, 61 matches, 0 players, **22 starters waiting** (the 2001 final's XIs); a second run changes no byte
+- Test: a headline that is only a shirt number (`#9`) gave the slug `9`, because the strip pattern needed a space after the number. It now strips `#<n>` at the end too, so such a page is reported with no slug
+
 ## History
+
+- 2026-10-27: player crosswalk and resolver; starters only need a page; 22 waiting on the pool

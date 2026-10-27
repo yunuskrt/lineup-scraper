@@ -200,6 +200,20 @@ describe('resolve', () => {
     expect(report).toContain('club `777`: no name seen');
   });
 
+  it('lists the player section when players are given', () => {
+    const report = renderReport(resolve(input([DERBY])), {
+      players: [],
+      crosswalk: {},
+      added: { '411295': 'raphinha' },
+      waiting: ['7603'],
+      clashes: [],
+      unslugged: [],
+    });
+    expect(report).toContain('players `411295` → `raphinha`');
+    expect(report).toContain('Starters waiting for a player page: 1.');
+    expect(report).toContain('- `7603`');
+  });
+
   it('reports ids and slugs only', () => {
     const report = renderReport(
       resolve(input([DERBY, match('4', { stage: 'PO' })])),

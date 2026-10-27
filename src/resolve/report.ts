@@ -1,3 +1,4 @@
+import type { PlayersResolved } from '@/resolve/players.js';
 import type { Resolved } from '@/resolve/resolve.js';
 
 function section(title: string, lines: string[]): string[] {
@@ -6,14 +7,43 @@ function section(title: string, lines: string[]): string[] {
     : [`## ${title}`, '', ...lines.map((l) => `- ${l}`), ''];
 }
 
+function playerLines(players: PlayersResolved): string[] {
+  return [
+    `Players: ${players.players.length}. Starters waiting for a player page: ${players.waiting.length}.`,
+    '',
+    ...section(
+      'Player slug clashes (birth year or id added)',
+      players.clashes.map((c) => `\`${c}\``),
+    ),
+    ...section(
+      'No player slug (add one to crosswalk/players.json by hand)',
+      players.unslugged.map((u) => `\`${u.key}\`: ${u.reason}`),
+    ),
+    ...section(
+      'Starters waiting for a player page (S11b)',
+      players.waiting.map((id) => `\`${id}\``),
+    ),
+  ];
+}
+
 // Ids, slugs and codes only, never an XI
-export function renderReport(resolved: Resolved): string {
+export function renderReport(
+  resolved: Resolved,
+  players?: PlayersResolved,
+): string {
   const added = (['competitions', 'clubs', 'matches'] as const).flatMap(
     (entity) =>
       Object.entries(resolved.added[entity]).map(
         ([key, slug]: [string, string]) => `${entity} \`${key}\` → \`${slug}\``,
       ),
   );
+  if (players) {
+    added.push(
+      ...Object.entries(players.added).map(
+        ([key, slug]: [string, string]) => `players \`${key}\` → \`${slug}\``,
+      ),
+    );
+  }
   const lines = [
     '# Resolve',
     '',
@@ -38,6 +68,7 @@ export function renderReport(resolved: Resolved): string {
       'Default shortName (set one in data/curation/club-names.json)',
       resolved.defaultShortNames,
     ),
+    ...(players ? playerLines(players) : []),
   ];
   return `${lines.join('\n').trimEnd()}\n`;
 }

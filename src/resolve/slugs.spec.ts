@@ -48,6 +48,13 @@ describe('extendCrosswalk', () => {
     expect(result.crosswalk['1234']).toBe('arsenal-1234');
   });
 
+  it('tries the fallbacks before the id', () => {
+    const result = extendCrosswalk({ '1': 'ronaldo' }, [
+      { key: '2', base: 'ronaldo', fallbacks: ['ronaldo-1985'] },
+    ]);
+    expect(result.crosswalk['2']).toBe('ronaldo-1985');
+  });
+
   it('leaves a reserved, empty or still-taken slug unassigned', () => {
     const result = extendCrosswalk({ '1': 'a', '2': 'a-3' }, [
       { key: '9', base: 'club-brugge' },

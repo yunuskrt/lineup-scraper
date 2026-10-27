@@ -20,14 +20,20 @@ import {
 } from '@/resolve/curation.js';
 import { renderReport } from '@/resolve/report.js';
 import { resolve, type Crosswalks } from '@/resolve/resolve.js';
+import { resolvePlayers } from '@/resolve/players.js';
 import { changedEntries, duplicateSlugs } from '@/resolve/slugs.js';
-import { transfermarktMatchSchema } from '@/raw/transfermarkt-match.js';
+import type { TransfermarktFixture } from '@/raw/transfermarkt-fixture.js';
+import {
+  transfermarktMatchSchema,
+  type TransfermarktMatch,
+} from '@/raw/transfermarkt-match.js';
+import { transfermarktPlayerSchema } from '@/raw/transfermarkt-player.js';
 
 const CROSSWALK_DIR = path.join(DATA_DIRS.curation, 'crosswalk');
 const RESOLVED_DIR = path.join(DATA_DIRS.work, 'resolved');
 const RAW_DIR = path.join(DATA_DIRS.raw, 'transfermarkt');
 const ENTITIES = ['competitions', 'clubs', 'matches'] as const;
-type Entity = (typeof ENTITIES)[number];
+type Entity = (typeof ENTITIES)[number] | 'players';
 
 function readJson<T>(file: string, schema: z.ZodType<T>, fallback: T): T {
   if (!existsSync(file)) return fallback;
@@ -48,30 +54,48 @@ function ndjsonLines(kind: string): { line: string; at: string }[] {
     );
 }
 
+// Names the file and line, never the record
+function readRecords<T>(kind: string, schema: z.ZodType<T>): T[] {
+  return ndjsonLines(kind).map(({ line, at }) => {
+    let value: unknown;
+    try {
+      value = JSON.parse(line);
+    } catch {
+      throw new Error(`Invalid JSON in ${kind} records: ${at}`);
+    }
+    const parsed = schema.safeParse(value);
+    if (!parsed.success) throw new Error(`Invalid ${kind} record: ${at}`);
+    return parsed.data;
+  });
+}
+
+// The latest saved copy of each page
+function latest<T extends { sourceId: string; fetchedAt: string }>(
+  records: T[],
+): Map<string, T> {
+  const byId = new Map<string, T>();
+  for (const record of records) {
+    const kept = byId.get(record.sourceId);
+    if (!kept || record.fetchedAt > kept.fetchedAt)
+      byId.set(record.sourceId, record);
+  }
+  return byId;
+}
+
 // Every name each club id was shown with
-function readNames(): NameCounts {
+function readNames(
+  fixtures: TransfermarktFixture[],
+  reports: TransfermarktMatch[],
+): NameCounts {
   const names: NameCounts = new Map();
   const count = (id: string, name: string) => {
     const counts = names.get(id) ?? new Map<string, number>();
     counts.set(name, (counts.get(name) ?? 0) + 1);
     names.set(id, counts);
   };
-  for (const { line, at } of ndjsonLines('fixture')) {
-    const row = parseFixtureLine(line, at);
-    count(row.home.sourceId, row.home.name);
-    count(row.away.sourceId, row.away.name);
-  }
-  for (const { line, at } of ndjsonLines('match')) {
-    let value: unknown;
-    try {
-      value = JSON.parse(line);
-    } catch {
-      throw new Error(`Invalid JSON in match records: ${at}`);
-    }
-    const parsed = transfermarktMatchSchema.safeParse(value);
-    if (!parsed.success) throw new Error(`Invalid match record: ${at}`);
-    count(parsed.data.home.sourceId, parsed.data.home.name);
-    count(parsed.data.away.sourceId, parsed.data.away.name);
+  for (const { home, away } of [...fixtures, ...reports]) {
+    count(home.sourceId, home.name);
+    count(away.sourceId, away.name);
   }
   return names;
 }
@@ -106,14 +130,18 @@ function readCrosswalk(entity: Entity, problems: string[]): Crosswalk {
   return current;
 }
 
-function readCrosswalks(): { crosswalks: Crosswalks; problems: string[] } {
+function readCrosswalks(): {
+  crosswalks: Crosswalks;
+  players: Crosswalk;
+  problems: string[];
+} {
   const problems: string[] = [];
   const crosswalks: Crosswalks = {
     competitions: readCrosswalk('competitions', problems),
     clubs: readCrosswalk('clubs', problems),
     matches: readCrosswalk('matches', problems),
   };
-  return { crosswalks, problems };
+  return { crosswalks, players: readCrosswalk('players', problems), problems };
 }
 
 function write(file: string, value: unknown): void {
@@ -122,7 +150,7 @@ function write(file: string, value: unknown): void {
 }
 
 function main(): number {
-  const { crosswalks, problems } = readCrosswalks();
+  const { crosswalks, players: playerWalk, problems } = readCrosswalks();
   if (problems.length > 0) {
     for (const problem of problems) console.error(problem);
     console.error(
@@ -130,6 +158,10 @@ function main(): number {
     );
     return 1;
   }
+  const fixtures = ndjsonLines('fixture').map(({ line, at }) =>
+    parseFixtureLine(line, at),
+  );
+  const reports = latest(readRecords('match', transfermarktMatchSchema));
   const resolved = resolve({
     config: readPoolConfig(),
     matches: readJson(
@@ -137,7 +169,7 @@ function main(): number {
       z.array(poolMatchSchema),
       [],
     ),
-    names: readNames(),
+    names: readNames(fixtures, [...reports.values()]),
     clubNames: readJson(
       path.join(DATA_DIRS.curation, 'club-names.json'),
       clubNamesSchema,
@@ -153,6 +185,15 @@ function main(): number {
     ),
     crosswalks,
   });
+  // Only the pool's players: its resolved matches' reports
+  const poolReports = resolved.matches.flatMap(
+    (m) => reports.get(m.transfermarktId) ?? [],
+  );
+  const players = resolvePlayers(
+    poolReports,
+    latest(readRecords('player', transfermarktPlayerSchema)),
+    playerWalk,
+  );
   for (const entity of ENTITIES) {
     write(
       path.join(CROSSWALK_DIR, `${entity}.json`),
@@ -160,21 +201,27 @@ function main(): number {
     );
     write(path.join(RESOLVED_DIR, `${entity}.json`), resolved[entity]);
   }
+  write(path.join(CROSSWALK_DIR, 'players.json'), players.crosswalk);
+  write(path.join(RESOLVED_DIR, 'players.json'), players.players);
   write(path.join(RESOLVED_DIR, 'seasons.json'), resolved.seasons);
   const report = path.join(DATA_DIRS.reports, 'resolve.md');
   mkdirSync(path.dirname(report), { recursive: true });
-  writeFileSync(report, renderReport(resolved));
-  const added = Object.values(resolved.added).reduce(
-    (n, w) => n + Object.keys(w).length,
-    0,
-  );
+  writeFileSync(report, renderReport(resolved, players));
+  const added =
+    Object.values(resolved.added).reduce(
+      (n, w) => n + Object.keys(w).length,
+      0,
+    ) + Object.keys(players.added).length;
   console.log(
     `competitions ${resolved.competitions.length}, seasons ${resolved.seasons.length}, ` +
-      `clubs ${resolved.clubs.length}, matches ${resolved.matches.length}`,
+      `clubs ${resolved.clubs.length}, matches ${resolved.matches.length}, ` +
+      `players ${players.players.length}`,
   );
   console.log(
     `new slugs ${added}, held back ${resolved.held.length}, ` +
-      `unmapped stages ${resolved.unmappedStages.length}, no slug ${resolved.unslugged.length}`,
+      `unmapped stages ${resolved.unmappedStages.length}, ` +
+      `no slug ${resolved.unslugged.length + players.unslugged.length}, ` +
+      `starters waiting for a player page ${players.waiting.length}`,
   );
   console.log(`report -> ${report}`);
   return 0;
