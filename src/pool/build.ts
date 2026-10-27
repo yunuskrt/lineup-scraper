@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { poolGroupSchema } from '@/pool/config.js';
 import { groupsFor, type PoolGroup, type PoolRules } from '@/pool/groups.js';
 import { digitsSchema } from '@/raw/envelope.js';
 import {
@@ -31,18 +32,19 @@ export function parseFixtureLine(
 export type MatchGroup = PoolGroup | 'included';
 
 // Keys in alphabetical order: the file's key order
-export interface PoolMatch {
-  away: string;
-  competitionCode: string;
-  date: string | null;
-  groups: MatchGroup[];
-  home: string;
-  result: string | null;
-  round: string | null;
-  seasonId: string | null;
-  sourceId: string;
-  stage: string | null;
-}
+export const poolMatchSchema = z.strictObject({
+  away: digitsSchema,
+  competitionCode: z.string().min(1),
+  date: z.string().nullable(),
+  groups: z.array(z.union([poolGroupSchema, z.literal('included')])),
+  home: digitsSchema,
+  result: z.string().nullable(),
+  round: z.string().nullable(),
+  seasonId: digitsSchema.nullable(),
+  sourceId: digitsSchema,
+  stage: z.string().nullable(),
+});
+export type PoolMatch = z.infer<typeof poolMatchSchema>;
 
 export interface Conflict {
   sourceId: string;

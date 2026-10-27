@@ -1,0 +1,143 @@
+{
+  "5": {
+    "name": "AC Milan",
+    "shortName": "MIL"
+  },
+  "11": {
+    "name": "Arsenal",
+    "shortName": "ARS"
+  },
+  "13": {
+    "name": "Atlético Madrid",
+    "shortName": "ATM"
+  },
+  "16": {
+    "name": "Borussia Dortmund",
+    "shortName": "BVB"
+  },
+  "27": {
+    "name": "Bayern Munich",
+    "shortName": "BAY"
+  },
+  "36": {
+    "name": "Fenerbahçe",
+    "shortName": "FEN"
+  },
+  "46": {
+    "name": "Inter",
+    "shortName": "INT"
+  },
+  "114": {
+    "name": "Beşiktaş",
+    "shortName": "BJK"
+  },
+  "131": {
+    "name": "Barcelona",
+    "shortName": "BAR"
+  },
+  "141": {
+    "name": "Galatasaray",
+    "shortName": "GAL"
+  },
+  "281": {
+    "name": "Manchester City",
+    "shortName": "MCI"
+  },
+  "294": {
+    "name": "Benfica",
+    "shortName": "BEN"
+  },
+  "399": {
+    "name": "Leeds United",
+    "shortName": "LEE"
+  },
+  "418": {
+    "name": "Real Madrid",
+    "shortName": "RMA"
+  },
+  "506": {
+    "name": "Juventus",
+    "shortName": "JUV"
+  },
+  "583": {
+    "name": "Paris Saint-Germain",
+    "shortName": "PSG"
+  },
+  "720": {
+    "name": "Porto",
+    "shortName": "FCP"
+  },
+  "897": {
+    "name": "Deportivo La Coruña",
+    "shortName": "DEP"
+  },
+  "985": {
+    "name": "Manchester United",
+    "shortName": "MUN"
+  },
+  "1041": {
+    "name": "Lyon",
+    "shortName": "LYO"
+  },
+  "1049": {
+    "name": "Valencia",
+    "shortName": "VAL"
+  },
+  "3262": {
+    "shortName": "GER"
+  },
+  "3299": {
+    "shortName": "ENG"
+  },
+  "3300": {
+    "shortName": "POR"
+  },
+  "3375": {
+    "shortName": "ESP"
+  },
+  "3376": {
+    "shortName": "ITA"
+  },
+  "3377": {
+    "shortName": "FRA"
+  },
+  "3378": {
+    "shortName": "GRE"
+  },
+  "3379": {
+    "shortName": "NED"
+  },
+  "3384": {
+    "shortName": "SUI"
+  },
+  "3433": {
+    "shortName": "AUS"
+  },
+  "3436": {
+    "shortName": "DEN"
+  },
+  "3437": {
+    "shortName": "ARG"
+  },
+  "3439": {
+    "shortName": "BRA"
+  },
+  "3441": {
+    "shortName": "GHA"
+  },
+  "3445": {
+    "shortName": "CZE"
+  },
+  "3557": {
+    "shortName": "SWE"
+  },
+  "3699": {
+    "shortName": "UKR"
+  },
+  "5750": {
+    "shortName": "ECU"
+  },
+  "6303": {
+    "shortName": "MEX"
+  }
+}

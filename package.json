@@ -17,6 +17,7 @@
     "format:check": "prettier --check \"src/**/*.ts\" \"*.{json,ts}\"",
     "noop": "tsx src/noop/main.ts",
     "pool": "tsx src/pool/main.ts",
+    "resolve": "tsx src/resolve/main.ts",
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:check": "prisma migrate diff --from-config-datasource --to-schema prisma/schema.prisma --exit-code",

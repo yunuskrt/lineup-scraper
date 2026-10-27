@@ -1,0 +1,13 @@
+{
+  "stages": {
+    "FI": "Final",
+    "FI 3rd": "Third-place play-off",
+    "SF": "Semi-final",
+    "QF": "Quarter-final",
+    "Ro16": "Round of 16"
+  },
+  "rounds": [
+    { "pattern": "^([0-9]+)\\.Matchday$", "text": "Matchday $1" },
+    { "pattern": "^(Group [A-Z0-9]+)$", "text": "$1" }
+  ]
+}

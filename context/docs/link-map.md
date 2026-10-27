@@ -118,8 +118,8 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 
 | Column | From |
 | --- | --- |
-| `clubs.transfermarkt_id`, `clubs.slug` | The `verein/{id}` on listing pages and match reports |
-| `clubs.name`, `short_name` | `data/curation/` (Transfermarkt's `FC Bayern Munich` becomes an alias) |
+| `clubs.transfermarkt_id`, `clubs.slug` | The `verein/{id}` on listing pages and match reports; the slug is fixed forever in `data/curation/crosswalk/clubs.json` by `npm run resolve` (S08a) |
+| `clubs.name`, `short_name` | `data/curation/club-names.json`, else Transfermarkt's most used name and its first 3 letters (Transfermarkt's `FC Bayern Munich` becomes an alias) |
 | `clubs.kind` | The competition: a side in a World Cup or Euro is a `national_team` |
 | `club_aliases` | Every name the listing pages and match reports used for that id |
 | `clubs.crest_key` | S18: an image you save |
@@ -145,14 +145,14 @@ So in a 4-4-2 the goalkeeper is slot 0, the back four are 1–4 (right back firs
 
 | Column | Page |
 | --- | --- |
-| `competitions.*` | Config and curation, keyed by the listing's competition code |
+| `competitions.*` | `data/curation/pool.json`, keyed by the listing's competition code; slug in `crosswalk/competitions.json` (S08a) |
 | `seasons.*` | Listing page URL |
 | `clubs.transfermarkt_id`, `slug`, `club_aliases` | Listing page, match report |
 | `clubs.name`, `short_name`, `kind` | Curation, competition kind |
 | `players.transfermarkt_id`, `slug` | Match report |
 | `players.name` | **Player profile** |
 | `player_aliases` | Player profile (h1, full name), match report (short name), curation |
-| `matches.transfermarkt_id`, `slug`, `date`, `stage` | Listing page, confirmed by the match report |
+| `matches.transfermarkt_id`, `slug`, `date`, `stage` | Listing page, confirmed by the match report; slug in `crosswalk/matches.json`, stage text from `data/curation/stage-names.json` (S08a) |
 | `matches.extra_time`, `shootout_*` | Match report |
 | `matches.nickname` | `data/curation/` (optional; Wikipedia isn't a pipeline source) |
 | `match_teams.*`, `lineups.*`, `match_events.*` | Match report |

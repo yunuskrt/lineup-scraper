@@ -122,7 +122,7 @@
     {
       "code": "CL",
       "kind": "ucl",
-      "name": "UEFA Champions League",
+      "name": "Champions League",
       "urlSlug": "uefa-champions-league",
       "linkStyle": "cup",
       "seasons": {
@@ -172,7 +172,7 @@
     {
       "code": "EURO",
       "kind": "euro",
-      "name": "European Championship",
+      "name": "Euro",
       "urlSlug": "europameisterschaft",
       "linkStyle": "cup",
       "seasons": {
