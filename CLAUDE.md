@@ -50,6 +50,7 @@ Four separate repositories, one backend:
 - **Match-report link lists** (S11): `uv run python -m extract.lists.match_reports` writes `s11-match-reports` (every pool match) and `s11-pilot` from `data/work/pool/matches.json`
 - **Player link lists** (S11b): `uv run python -m extract.lists.player_pages` writes `s11b-players` (every starter of every saved pool match report, each once) and `s11b-pilot`
 - **Lineups** (S11): `npm run lineups` reads the saved match reports of resolved matches into formations, slots, scores and events (`data/work/lineups/matches.json`, `data/reports/lineups.md`); run `npm run resolve` first
+- **Aliases** (S12): `npm run aliases` builds each player's aliases from the saved pages and `data/curation/aliases.json` (`data/work/aliases/players.json`, `data/reports/aliases.md`); run `npm run lineups` first
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)
 - **There is no migrate command.** Schema changes are backend phases.

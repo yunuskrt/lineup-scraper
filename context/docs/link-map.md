@@ -154,7 +154,7 @@ So in a 4-4-2 the goalkeeper is slot 0, the back four are 1–4 (right back firs
 | `players.transfermarkt_id` | Match report |
 | `players.slug` | **Player profile**: the name, fixed forever in `crosswalk/players.json` by `npm run resolve` (S08b); a clash adds the birth year, then the id. Only a pool match's player with a saved profile gets one |
 | `players.name` | **Player profile** (shirt number stripped) |
-| `player_aliases` | Player profile (h1, full name), match report (short name), curation |
+| `player_aliases` | `npm run aliases` (S12), in this order: the display name, its surname, the match report's short names, the profile's full name, then `data/curation/aliases.json`. Names with a `.` or no Latin letters are dropped |
 | `matches.transfermarkt_id`, `slug`, `date`, `stage` | Listing page, confirmed by the match report; slug in `crosswalk/matches.json`, stage text from `data/curation/stage-names.json` (S08a) |
 | `matches.extra_time`, `shootout_*` | Match report |
 | `matches.nickname` | `data/curation/` (optional; Wikipedia isn't a pipeline source) |

@@ -21,7 +21,7 @@ This todo file is for developer-side use.
 - [x] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs, keyed on Transfermarkt ids. (was B17)
 - [x] **Phase S11 — Lineup Extract**: Match reports to XIs, formations, coordinates to slots, and events; the match-report link list. (was B20)
 - [x] **Phase S11b — Player Pages**: Full name and caps added to the parser; the player link list, each player once.
-- [ ] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.
+- [x] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.
 - [ ] **Phase S10 — Memorability Engine**: Match-data signals, era-bucket normalisation, calibrated so every group clears its threshold; pure and tested. (was B19)
 - [ ] **Phase S13 — Guessability Gate**: All 11 starters resolved with alias sets; writes `sides` guessability. (was B21)
 - [ ] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.

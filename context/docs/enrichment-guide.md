@@ -27,7 +27,7 @@ Every step is a dashboard button (§ 6) or the terminal command behind it.
 | 4 | Import what you saved | **Import** (`uv run python -m extract.inbox`) | S06b |
 | 5 | Read what's missing and what failed | Progress and failures views (`uv run python -m extract.progress`, `extract.check <page>`) | S06c, S19 |
 | 6 | Repeat 2–5 one level down: listing pages → match reports → player pages | — | — |
-| 7 | Build the dataset: resolve, aliases, score, gate, validate | **Build** | S08–S14 |
+| 7 | Build the dataset: resolve, lineups, aliases, score, gate, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, …) | **Build** | S08–S14 |
 | 8 | Read duplicates, gate failures and validation errors; fix names in `data/curation/` | Failures view | S19 |
 | 9 | Dry-run the load, read the counts, then load into `ingest` | **Dry run**, then **Load** | S15 |
 | 10 | Play the new matches in the app | — | — |
@@ -66,6 +66,7 @@ Plus the player pages of all 65 starters (66 places; one player starts twice): *
 | A parse error on a page | Keep the page; ask for a fix. It's a selector change, tested on that page; then `uv run python -m extract.inbox --reparse` re-reads every stored page |
 | A match fails the gate | The dashboard says why (a missing player page, a formation it can't read) |
 | A wrong name, alias or club name | Fix it in `data/curation/`, then rebuild; never in code |
+| A missing nickname, or an alias that shouldn't count | Add it to, or remove it with, `data/curation/aliases.json` under the player's Transfermarkt id: `{ "7438": { "add": ["Kily"], "remove": [] } }`; then `npm run aliases`. Its report lists aliases two starters share and near-misses inside an XI |
 
 ---
 

@@ -72,18 +72,20 @@ const clubSchema = z.strictObject({
     }),
 });
 
+export const playerAliasesSchema = z
+  .array(aliasSchema)
+  .min(1)
+  // The (player_id, normalized) unique key
+  .refine(
+    (aliases) => new Set(aliases.map(normalizeName)).size === aliases.length,
+    { error: 'Aliases must not normalize alike' },
+  );
+
 const playerSchema = z.strictObject({
   slug: ownSlugSchema,
   name: textSchema,
   imageKey: objectKeySchema.nullable(),
-  aliases: z
-    .array(aliasSchema)
-    .min(1)
-    // The (player_id, normalized) unique key
-    .refine(
-      (aliases) => new Set(aliases.map(normalizeName)).size === aliases.length,
-      { error: 'Aliases must not normalize alike' },
-    ),
+  aliases: playerAliasesSchema,
 });
 
 const lineupEntrySchema = z.strictObject({
