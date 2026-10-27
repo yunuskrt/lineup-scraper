@@ -159,7 +159,7 @@ So in a 4-4-2 the goalkeeper is slot 0, the back four are 1–4 (right back firs
 | `matches.extra_time`, `shootout_*` | Match report |
 | `matches.nickname` | `data/curation/` (optional; Wikipedia isn't a pipeline source) |
 | `match_teams.*`, `lineups.*`, `match_events.*` | Match report |
-| `memorability_scores` | Computed (S10) from all of the above |
+| `memorability_scores` | `npm run scores` (S10): stage and rivalry from the listing and the pool groups, drama from the match report, star power from the player pages' caps; `sides.*.starPower` too, `guessability` from S13 |
 | `clubs.crest_key`, `players.image_key` | S18: images you save, uploaded to the bucket |
 
 The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`backend-requests.md`).

@@ -27,7 +27,7 @@ Every step is a dashboard button (§ 6) or the terminal command behind it.
 | 4 | Import what you saved | **Import** (`uv run python -m extract.inbox`) | S06b |
 | 5 | Read what's missing and what failed | Progress and failures views (`uv run python -m extract.progress`, `extract.check <page>`) | S06c, S19 |
 | 6 | Repeat 2–5 one level down: listing pages → match reports → player pages | — | — |
-| 7 | Build the dataset: resolve, lineups, aliases, score, gate, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, …) | **Build** | S08–S14 |
+| 7 | Build the dataset: resolve, lineups, aliases, score, gate, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, `npm run scores`, …) | **Build** | S08–S14 |
 | 8 | Read duplicates, gate failures and validation errors; fix names in `data/curation/` | Failures view | S19 |
 | 9 | Dry-run the load, read the counts, then load into `ingest` | **Dry run**, then **Load** | S15 |
 | 10 | Play the new matches in the app | — | — |

@@ -29,3 +29,4 @@ Not Started
 - S11 Lineup Extract: XIs to slots, scores, shootout kicks, reparse
 - S11b Player Pages: profile links, names and caps, 65-player pilot list
 - S12 Alias Sets: names, surnames, full names, curation, XI clash checks
+- S10 Memorability Engine: signals, era percentiles, floors over thresholds
