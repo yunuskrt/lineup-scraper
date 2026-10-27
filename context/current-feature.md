@@ -31,3 +31,4 @@ Not Started
 - S06b Transfermarkt Parsers: parsers, inbox import of saved pages
 - S06c Collection Tools: link lists, import log, progress and check
 - S07a Pool Config & Listing Links: pool.json, 247 listing links, pilot
+- S07b Pool Match List: npm run pool, group rules, 61 matches so far

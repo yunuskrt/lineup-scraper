@@ -45,6 +45,7 @@ Four separate repositories, one backend:
 - **Import hand-saved pages**: `uv run python -m extract.inbox` (S06b). It reads `data/inbox/`, parses, files pages under `data/pages/` and logs each file to `data/work/import-log.ndjson`
 - **Link lists and progress** (S06c): `uv run python -m extract.links show|open|new <list>`, `uv run python -m extract.progress`, `uv run python -m extract.check <link | kind:key>`
 - **Listing link lists** (S07a): `uv run python -m extract.lists.listings` writes `s07-listings`, `s07-verify` and `s07-pilot` from `data/curation/pool.json`
+- **Pool match list** (S07b): `npm run pool` writes `data/work/pool/matches.json` and `data/reports/pool.md` from the saved fixture lists
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)
 - **There is no migrate command.** Schema changes are backend phases.

@@ -37,6 +37,8 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | World Cup | `/{slug}/gesamtspielplan/pokalwettbewerb/FIWC/saison_id/{year − 1}` | Knockouts | 6 | Verified |
 | Euro | `/{slug}/gesamtspielplan/pokalwettbewerb/EURO/saison_id/{year − 1}` | Knockouts | 7 | Verified (`euro-2003`, saved 2026-10-27; the old `EM04` link redirects here) |
 
+`npm run pool` (S07b) turns the saved fixture lists into the pool match list, `data/work/pool/matches.json`: the rows of § 1's groups, every match once (`match-pool-scope.md` § 1). S11's match-report list is read from it.
+
 **Fixture list → raw kind `transfermarkt-fixture`**, one record per match row:
 
 | On the page | Raw field | Database | Note |
@@ -47,7 +49,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | Box headline (`1.Matchday`, `Group A`) | `round` | `matches.stage` | English display text, rewritten by S08 |
 | Knockout cell (`QF`, `FI`, `Ro16 3`) | `stage` | `matches.stage`; the group test for knockouts | Wins over `round` |
 | Home and away `verein/{id}` links | `home`, `away` | `clubs.transfermarkt_id`, `match_teams.club_id`, `side`; the group test for derbies and clashes | The name seen here becomes a `club_aliases` row |
-| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report. On penalties it seems to add the shootout to the score (`6:4 on pens` for a 1:1 won 5:3), where the match report shows the shootout alone (S11 verifies) |
+| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report. On penalties it isn't settled: the saved lists show `5:4 on pens` for the 2001 CL final (`990248`), the same as its match report's `sb-endstand`, and `6:4 on pens` for the 2006 World Cup final (`53491`), whose match report isn't saved yet. S11 compares them |
 
 ---
 

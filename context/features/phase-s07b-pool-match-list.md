@@ -2,7 +2,7 @@
 
 ## Status
 
-Not Started
+Complete
 
 ## Goals
 
@@ -31,4 +31,21 @@ Not Started
   - Deterministic output; timestamps never in the file
 - Verification: `npm test`, `npm run lint`, `npm run typecheck`. `npm run pool` on the real raw records: the pilot derby is in Derbies, the 2000–01 CL final (`990248`) in Champions League knockouts, the 2006 World Cup final (`53491`) in World Cup knockouts, and a second run leaves `matches.json` byte-identical
 
+**Deviations recorded during implementation**
+
+- **The curation lists are committed as `[]`** (`data/curation/pool-include.json`, `excluded-matches.json`); the stage treats an absent one as empty rather than creating it, since a stage never writes curation
+- **List entries are `{sourceId, note}`.** An included match gets the group `included`; an excluded one wins over every group
+- **`result` is in the output too**, as raw text, beside `stage` and `round` (the Notes already carry it); S11 doesn't read it for scores
+- **A conflict compares** `competitionCode`, `seasonId`, `date`, `home` and `away`; `stage`, `round` and `result` come from the first row. `npm run pool` exits 1 while a conflict stands
+- Undated matches sort last. The report names seasons as `<code> <saison_id>` (`FIWC 2005`), since S08 makes the labels
+- Test rows and config live in `src/pool/spec-fixtures.ts`, so one spec doesn't import another
+- `CLAUDE.md` § Commands names `npm run pool`
+- **Penalties note in `link-map.md` § 2 corrected:** the CL 2001 final shows `5:4 on pens` on its fixture list, the same as its match report's shootout, so the earlier "adds the shootout" reading isn't confirmed. S11 settles it
+- Real run, 2026-10-27: 989 fixture rows from 6 listing pages give **61 pool matches** (derbies 4, clashes 8, ucl-knockouts 26, world-cup-knockouts 16, euro-knockouts 7), 0 conflicts. `1118844` is in derbies, `990248` in ucl-knockouts, `53491` in world-cup-knockouts; a second run is byte-identical
+- Review: a match is checked for a conflict when **any** copy is in a group, not only the first; otherwise a disagreement on teams could drop it silently
+- Review: a malformed NDJSON line now fails naming its file and line, like an invalid record
+- Test: `parseFixtureLine` moved from `main.ts` to `build.ts`, so the line parsing is tested without files
+
 ## History
+
+- 2026-10-27: `npm run pool`, group rules, conflicts, report; 61 pool matches from 6 listing pages
