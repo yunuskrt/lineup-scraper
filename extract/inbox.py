@@ -6,36 +6,36 @@ from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Final, Literal, cast
-
-from parsel import Selector
+from typing import Final, cast
 
 from extract.data_dirs import DATA_DIRS
-from extract.middlewares import is_challenge_html
-from extract.parsers.transfermarkt.common import MATCH_ID, PLAYER_ID, ParseError, id_in
+from extract.import_log import (
+    IMPORT_LOG,
+    LogLine,
+    Result,
+    append_log,
+    read_log,
+    timestamp,
+)
+from extract.pages import (
+    HOME,
+    Page,
+    RefusedPageError,
+    classify,
+    inbox_files,
+    og_url,
+    raw_counts,
+    read_page,
+    stored_pages,
+    stored_path,
+)
+from extract.parsers.transfermarkt.common import ParseError
 from extract.parsers.transfermarkt.fixtures import parse_fixture_list
 from extract.parsers.transfermarkt.match import parse_match_report
 from extract.parsers.transfermarkt.player import parse_player
 from extract.records import InvalidRecordError, JsonValue, RecordWriter, validate_record
 
-type Kind = Literal["fixture", "match", "player"]
-
-COMPETITION: Final = re.compile(r"/(?:pokal)?wettbewerb/([A-Z0-9]+)")
-SEASON: Final = re.compile(r"saison_id[=/]([0-9]+)")
-OG_URL: Final = '//meta[@property="og:url"]/@content'
 LINK: Final = re.compile(r"https://www\.transfermarkt\.com/\S+")
-HOME: Final = "https://www.transfermarkt.com/"
-
-
-class RefusedPageError(ValueError):
-    pass
-
-
-@dataclass(frozen=True)
-class Page:
-    kind: Kind
-    key: str
-    url: str
 
 
 @dataclass
@@ -44,38 +44,48 @@ class Report:
     duplicates: list[str] = field(default_factory=list)
     refused: list[tuple[str, str]] = field(default_factory=list)
     missing: list[str] = field(default_factory=list)
-
-
-def classify(url: str) -> Page:
-    if "/gesamtspielplan/" in url:
-        code = id_in(url, COMPETITION)
-        if code is None:
-            raise RefusedPageError("fixture list without a competition code")
-        season = id_in(url, SEASON)
-        key = f"{code}-{season}" if season else code
-        return Page("fixture", key.lower(), url)
-    if (match_id := id_in(url, MATCH_ID)) is not None:
-        return Page("match", match_id, url)
-    if (player_id := id_in(url, PLAYER_ID)) is not None:
-        return Page("player", player_id, url)
-    raise RefusedPageError("unknown page type (not a fixture list, match or player)")
+    log: list[LogLine] = field(default_factory=list)
 
 
 # When the user saved the file
 def saved_at(path: Path) -> str:
-    moment = datetime.fromtimestamp(path.stat().st_mtime, UTC)
-    return moment.strftime("%Y-%m-%dT%H:%M:%SZ")
+    return timestamp(datetime.fromtimestamp(path.stat().st_mtime, UTC))
 
 
-def read_page(html: str) -> Page:
-    if is_challenge_html(html):
-        raise RefusedPageError("challenge page, save it again")
-    url = Selector(text=html).xpath(OG_URL).get()
-    if not url:
-        raise RefusedPageError("no og:url: not a Transfermarkt page saved as HTML")
-    if not url.startswith(HOME):
-        raise RefusedPageError("og:url is not on www.transfermarkt.com")
-    return classify(url)
+def log_line(
+    at: str,
+    file: str,
+    page: Page | None,
+    result: Result,
+    reason: str | None = None,
+    records: int = 0,
+    url: str | None = None,
+) -> LogLine:
+    return {
+        "at": at,
+        "file": file,
+        "url": page.url if page else url,
+        "kind": page.kind if page else None,
+        "key": page.key if page else None,
+        "result": result,
+        "reason": reason,
+        "records": records,
+        "backfilled": False,
+    }
+
+
+# Best effort: a refused file may still name its page
+def identify(path: Path) -> tuple[str | None, Page | None]:
+    try:
+        url = og_url(path.read_text(encoding="utf-8"))
+    except UnicodeDecodeError:
+        return None, None
+    if url is None or not url.startswith(HOME):
+        return url, None
+    try:
+        return url, classify(url)
+    except RefusedPageError:
+        return url, None
 
 
 def parse_page(page: Page, html: str, fetched_at: str) -> list[Mapping[str, JsonValue]]:
@@ -100,7 +110,7 @@ class Importer:
         self._writers: dict[tuple[str, str], RecordWriter] = {}
 
     def stored(self, page: Page) -> Path:
-        return self._pages_dir / "transfermarkt" / page.kind / f"{page.key}.html"
+        return stored_path(self._pages_dir, page.kind, page.key)
 
     def write(self, page: Page, records: Sequence[Mapping[str, JsonValue]]) -> None:
         kind = f"transfermarkt-{page.kind}"
@@ -115,7 +125,7 @@ class Importer:
         for record in records:
             writer.write(record)
 
-    def take(self, path: Path, report: Report) -> None:
+    def take(self, path: Path, report: Report, at: str) -> None:
         raw = path.read_bytes()
         page = read_page(raw.decode("utf-8"))
         target = self.stored(page)
@@ -124,11 +134,16 @@ class Importer:
                 raise RefusedPageError(f"differs from the stored page {target.name}")
             path.unlink()
             report.duplicates.append(path.name)
+            report.log.append(log_line(at, path.name, page, "duplicate"))
             return
-        self.write(page, parse_page(page, raw.decode("utf-8"), saved_at(path)))
+        records = parse_page(page, raw.decode("utf-8"), saved_at(path))
+        self.write(page, records)
         target.parent.mkdir(parents=True, exist_ok=True)
         path.replace(target)
         report.imported[page.kind] += 1
+        report.log.append(
+            log_line(at, path.name, page, "imported", records=len(records))
+        )
 
 
 def expected_missing(link_list: Path, pages_dir: Path) -> list[str]:
@@ -151,23 +166,58 @@ def import_inbox(
     raw_dir: Path,
     partition: str = "inbox",
     expect: Path | None = None,
+    log: Path | None = None,
+    now: datetime | None = None,
 ) -> Report:
     report = Report()
+    at = timestamp(now or datetime.now(UTC))
     importer = Importer(pages_dir, raw_dir, partition)
-    files = sorted(p for p in inbox.glob("*") if p.suffix.lower() in {".html", ".htm"})
-    for path in files:
+    for path in inbox_files(inbox):
         try:
-            importer.take(path, report)
+            importer.take(path, report, at)
         except (
             RefusedPageError,
             ParseError,
             InvalidRecordError,
             UnicodeDecodeError,
         ) as error:
-            report.refused.append((path.name, str(error).splitlines()[0]))
+            reason = str(error).splitlines()[0]
+            report.refused.append((path.name, reason))
+            url, page = identify(path)
+            report.log.append(log_line(at, path.name, page, "refused", reason, url=url))
     if expect is not None:
         report.missing = expected_missing(expect, pages_dir)
+    if log is not None:
+        append_log(log, report.log)
     return report
+
+
+# Log lines for pages imported before the log existed
+def backfill_log(pages_dir: Path, raw_dir: Path, log: Path) -> int:
+    logged = {
+        (line["kind"], line["key"])
+        for line in read_log(log)
+        if line["result"] == "imported"
+    }
+    records = raw_counts(raw_dir)
+    lines: list[LogLine] = []
+    for (kind, key), path in stored_pages(pages_dir).items():
+        if (kind, key) in logged:
+            continue
+        lines.append(
+            {
+                "at": saved_at(path),
+                "file": path.name,
+                "url": og_url(path.read_text(encoding="utf-8")),
+                "kind": kind,
+                "key": key,
+                "result": "imported",
+                "reason": None,
+                "records": sum(records.get((kind, key), Counter()).values()),
+                "backfilled": True,
+            }
+        )
+    return append_log(log, lines)
 
 
 def print_report(report: Report) -> None:
@@ -187,13 +237,20 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
     parser = argparse.ArgumentParser(prog="python -m extract.inbox")
     parser.add_argument("--partition", default="inbox")
     parser.add_argument("--expect", type=Path)
+    parser.add_argument("--backfill-log", action="store_true")
     args = parser.parse_args(argv)
+    log = dirs["work"] / IMPORT_LOG
+    if args.backfill_log:
+        added = backfill_log(dirs["pages"], dirs["raw"], log)
+        print(f"backfilled: {added} log lines")
+        return 0
     report = import_inbox(
         dirs["inbox"],
         dirs["pages"],
         dirs["raw"],
         partition=args.partition,
         expect=args.expect,
+        log=log,
     )
     print_report(report)
     return 1 if report.refused else 0

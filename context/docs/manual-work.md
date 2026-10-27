@@ -22,7 +22,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | --- | --- | --- | --- | --- |
 | S06a | Nothing | — | — | — |
 | S06b | Save the 8 parser-fixture pages listed in `features/phase-s06b-transfermarkt-parsers.md` § Your part | 8 pages, ~5 min | After `/feature start` of S06b | **Done** (2026-10-27) |
-| S06c | Nothing to save. Try the link list, progress and check tools on the pages already saved | — | During S06c | Pending |
+| S06c | Nothing to save. Try the progress, check and open-links commands on the pages already saved (`features/phase-s06c-collection-tools.md` § Your part) | ~5 min | After `/feature test` of S06c | **Done** (2026-10-27) |
 | S07 | Save 1 Süper Lig fixture list (for the pilot derby) and 1 Fenerbahçe–Galatasaray head-to-head page (decides how the league groups are listed, `link-map.md` § 2) | 2 pages | During S07 | Pending |
 | S08 | Nothing to save | — | — | — |
 | S11 | Save the pilot's 2 new match reports (Italy–France 2006, the derby) | 2 pages | During S11 | Pending |

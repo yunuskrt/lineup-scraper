@@ -29,3 +29,4 @@ Not Started
 - Fix Transfermarkt Plan: raw kinds swapped, Mackolik code removed
 - S06a Scrapy Harness: polite harness, WAF guard, hand-saved page flow
 - S06b Transfermarkt Parsers: parsers, inbox import of saved pages
+- S06c Collection Tools: link lists, import log, progress and check

@@ -166,11 +166,14 @@ The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`ba
 
 | Tool | What it does |
 | --- | --- |
-| Link list, `data/work/inbox-lists/<list>.md` | One line per page: the link, the file name to save it as, and the folder (`data/inbox/`). Already-saved pages are left out |
-| `extract.inbox` (built) | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html` |
-| Progress | Per list: how many are saved, imported and parsed, and what's missing |
-| Check | For one link or id: saved? imported? parsed? which records? |
-| Import log (S06c) | One line per import: when, which file, which link, the kind and id, and the result. The dashboard's history |
+| Link list, `data/work/link-lists/<list>.json` | The full list, written by the phase that finds the links (`extract.links.write_link_list`). One entry per page: `url`, `kind`, `key`, `saveAs` (`match-53491.html`), and optional `group`, `competition`, `season`. Each page once |
+| To-save list, `data/work/inbox-lists/<list>.md` | `uv run python -m extract.links show <list>`: only what's still to save, with the link, the file name and the folder (`data/inbox/`). Pages in the inbox but not imported are marked |
+| `extract.links new <list> <link>...` | Makes a list by hand |
+| `extract.links open <list> [--count N]` | Opens the next N unsaved links in your own browser (default 5). It never requests a page itself |
+| `extract.inbox` | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html` |
+| Import log, `data/work/import-log.ndjson` | One line per inbox file: `at`, `file`, `url`, `kind`, `key`, `result` (`imported`, `duplicate`, `refused`), `reason`, `records`, `backfilled`. Never page text. The dashboard's history. `extract.inbox --backfill-log` adds pages imported before the log |
+| `extract.progress [<list>...] [--by group\|competition\|season] [--json]` | Per list: imported, parsed, in the inbox and missing, as `23/1000 (2.3%)`; pages imported but not parsed |
+| `extract.check <link \| kind:key>` | For one page: its lists, the inbox file, the stored page, its records and its log lines. Exit 0 once parsed |
 | Dashboard (S19) | A local app with all of the above: progress, history, failures, and buttons for each step (`enrichment-guide.md` § 6) |
 
 The loop that uses them is `enrichment-guide.md` § 2.

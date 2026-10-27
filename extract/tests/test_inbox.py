@@ -1,37 +1,14 @@
 import json
-import os
-import shutil
 from pathlib import Path
 
 import pytest
 
-from extract.inbox import RefusedPageError, Report, classify, import_inbox, main
+from extract.import_log import LogLine, read_log
+from extract.inbox import backfill_log, import_inbox, main
+from extract.pages import RefusedPageError, classify
+from extract.tests.saved_pages import Dirs
 
-FIXTURES = Path(__file__).resolve().parent / "fixtures" / "transfermarkt"
-SAVED_AT = 1_793_059_200  # 2026-10-27T00:00:00Z
 TM = "https://www.transfermarkt.com"
-
-
-class Dirs:
-    def __init__(self, root: Path) -> None:
-        self.inbox = root / "inbox"
-        self.pages = root / "pages"
-        self.raw = root / "raw"
-        self.inbox.mkdir()
-
-    def save(self, fixture: str, as_name: str | None = None) -> Path:
-        target = self.inbox / (as_name or f"{fixture}.html")
-        shutil.copyfile(FIXTURES / f"{fixture}.html", target)
-        os.utime(target, (SAVED_AT, SAVED_AT))
-        return target
-
-    def run(self, expect: Path | None = None) -> Report:
-        return import_inbox(self.inbox, self.pages, self.raw, "probe", expect)
-
-
-@pytest.fixture
-def dirs(tmp_path: Path) -> Dirs:
-    return Dirs(tmp_path)
 
 
 def test_imports_and_files_each_kind(dirs: Dirs) -> None:
@@ -192,8 +169,8 @@ def test_refuses_an_unknown_url() -> None:
 
 
 def test_exit_code_is_one_when_a_page_is_refused(dirs: Dirs) -> None:
-    folders = {"inbox": dirs.inbox, "pages": dirs.pages, "raw": dirs.raw}
     dirs.save("player-411295")
+    folders = dirs.folders()
     assert main([], folders) == 0
     (dirs.inbox / "bad.html").write_text("<html></html>", encoding="utf-8")
     assert main([], folders) == 1
@@ -250,3 +227,86 @@ def test_a_bad_partition_refuses_without_writing(dirs: Dirs) -> None:
     ]
     assert not dirs.raw.exists()
     assert not dirs.pages.exists()
+
+
+def test_logs_one_line_per_file_with_the_run_time(dirs: Dirs) -> None:
+    dirs.save("match-990248")
+    dirs.run()
+    dirs.save("match-990248", "again.html")
+    (dirs.inbox / "bad.html").write_text(
+        '<meta property="og:url" content="https://www.transfermarkt.com/x/startseite/verein/1">',
+        encoding="utf-8",
+    )
+
+    dirs.run()
+
+    lines = read_log(dirs.log)
+    assert [(line["file"], line["result"]) for line in lines] == [
+        ("match-990248.html", "imported"),
+        ("again.html", "duplicate"),
+        ("bad.html", "refused"),
+    ]
+    assert {line["at"] for line in lines} == {"2026-10-27T12:00:00Z"}
+    imported, duplicate, refused = lines
+    assert (imported["kind"], imported["key"], imported["records"]) == (
+        "match",
+        "990248",
+        1,
+    )
+    assert imported["url"] == f"{TM}/spielbericht/index/spielbericht/990248"
+    assert duplicate["records"] == 0
+    assert refused["url"] == f"{TM}/x/startseite/verein/1"
+    assert refused["kind"] is None
+    assert refused["reason"] is not None
+    assert refused["reason"].startswith("unknown page type")
+    assert not any(line["backfilled"] for line in lines)
+
+
+def test_a_refused_page_with_a_known_key_logs_it(dirs: Dirs) -> None:
+    dirs.save("match-990248")
+    dirs.run()
+    changed = dirs.save("match-990248", "changed.html")
+    changed.write_text(
+        changed.read_text(encoding="utf-8") + "<!-- x -->", encoding="utf-8"
+    )
+
+    dirs.run()
+
+    last = read_log(dirs.log)[-1]
+    assert (last["result"], last["kind"], last["key"]) == ("refused", "match", "990248")
+
+
+def test_the_log_holds_no_page_text(dirs: Dirs) -> None:
+    dirs.save("match-990248")
+    dirs.save("player-411295")
+
+    dirs.run()
+
+    text = dirs.log.read_text(encoding="utf-8")
+    assert "Kahn" not in text and "Raphinha" not in text
+    assert all(set(line) == set(LogLine.__annotations__) for line in read_log(dirs.log))
+
+
+def test_an_empty_inbox_adds_no_log_lines(dirs: Dirs) -> None:
+    dirs.run()
+    dirs.run()
+    assert not dirs.log.exists()
+
+
+def test_backfill_logs_pages_imported_before_the_log(dirs: Dirs) -> None:
+    dirs.save("match-990248")
+    dirs.save("fixtures-cl-2000")
+    import_inbox(dirs.inbox, dirs.pages, dirs.raw, "probe")
+    dirs.save("player-411295")
+    dirs.run()
+
+    assert main(["--backfill-log"], dirs.folders()) == 0
+
+    backfilled = [line for line in read_log(dirs.log) if line["backfilled"]]
+    assert [(line["kind"], line["key"], line["records"]) for line in backfilled] == [
+        ("fixture", "cl-2000", 157),
+        ("match", "990248", 1),
+    ]
+    assert {line["at"] for line in backfilled} == {"2026-10-27T00:00:00Z"}
+    assert backfilled[1]["url"] == f"{TM}/spielbericht/index/spielbericht/990248"
+    assert backfill_log(dirs.pages, dirs.raw, dirs.log) == 0

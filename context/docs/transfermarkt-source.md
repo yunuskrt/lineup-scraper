@@ -101,14 +101,14 @@ From the reference § 12, with this repo's rule:
 
 **The flow** (built in S06b):
 
-1. A phase writes a link list (for example `data/work/inbox-lists/s07-fixtures.md`) and tells the user the size of the batch.
+1. A phase writes a link list (`data/work/link-lists/<list>.json`, for example `s07-fixtures`) and tells the user the size of the batch. `uv run python -m extract.links show <list>` writes the to-save copy, `data/work/inbox-lists/<list>.md`; `extract.links open <list>` opens the next links in the user's browser (`link-map.md` § 8).
 2. The user opens each link in their own browser and saves it as HTML only into `data/inbox/` (`manual-work.md` § How to save a page).
 3. `uv run python -m extract.inbox`:
    - Reads each file's `og:url`, which every probed page carries, including the `saison_id`
    - Classifies the page (fixture list, match report, player) and refuses challenge pages with `extract.middlewares.is_challenge_html`
    - Parses the page with the S06b parsers and writes raw records through `RecordWriter`
    - Moves the file to `data/pages/transfermarkt/<kind>/<id>.html`, the local page store, which replaces the HTTP cache for Transfermarkt
-   - Reports what's missing from the phase's list
+   - Reports what's missing from the phase's list, and appends one line per file to `data/work/import-log.ndjson`
 4. `fetchedAt` is the saved file's modification time in UTC: when the user saved it.
 
 `data/inbox/` and `data/pages/` are gitignored, like `data/cache/`. Parser test fixtures are hand-saved pages too, copied into `extract/tests/fixtures/transfermarkt/` and committed.

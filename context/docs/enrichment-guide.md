@@ -22,10 +22,10 @@ Every step is a dashboard button (§ 6) or the terminal command behind it.
 | # | You do | Dashboard | Built in |
 | --- | --- | --- | --- |
 | 1 | Pick the next batch: a group, a competition, a season, or what the dashboard suggests | Progress view | S19 |
-| 2 | Open its links in your browser, a few tabs at a time | **Open next links** | S06c, S19 |
+| 2 | Open its links in your browser, a few tabs at a time | **Open next links** (`uv run python -m extract.links open <list>`) | S06c, S19 |
 | 3 | Save each page as **HTML only** into `data/inbox/`, under the file name shown (`manual-work.md` § How to save a page) | — | — |
 | 4 | Import what you saved | **Import** (`uv run python -m extract.inbox`) | S06b |
-| 5 | Read what's missing and what failed | Progress and failures views | S06c, S19 |
+| 5 | Read what's missing and what failed | Progress and failures views (`uv run python -m extract.progress`, `extract.check <page>`) | S06c, S19 |
 | 6 | Repeat 2–5 one level down: listing pages → match reports → player pages | — | — |
 | 7 | Build the dataset: resolve, aliases, score, gate, validate | **Build** | S08–S14 |
 | 8 | Read duplicates, gate failures and validation errors; fix names in `data/curation/` | Failures view | S19 |
