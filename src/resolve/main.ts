@@ -1,15 +1,9 @@
 import { execFileSync } from 'node:child_process';
-import {
-  existsSync,
-  mkdirSync,
-  readdirSync,
-  readFileSync,
-  writeFileSync,
-} from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';
 import { DATA_DIRS } from '@/config/data-dirs.js';
-import { parseFixtureLine, poolMatchSchema } from '@/pool/build.js';
+import { parseFixtureLine, poolMatchesSchema } from '@/pool/build.js';
 import { readPoolConfig } from '@/pool/config.js';
 import type { NameCounts } from '@/resolve/clubs.js';
 import {
@@ -28,58 +22,16 @@ import {
   type TransfermarktMatch,
 } from '@/raw/transfermarkt-match.js';
 import { transfermarktPlayerSchema } from '@/raw/transfermarkt-player.js';
+import { latest, ndjsonLines, readRecords } from '@/raw/read.js';
 
 const CROSSWALK_DIR = path.join(DATA_DIRS.curation, 'crosswalk');
 const RESOLVED_DIR = path.join(DATA_DIRS.work, 'resolved');
-const RAW_DIR = path.join(DATA_DIRS.raw, 'transfermarkt');
 const ENTITIES = ['competitions', 'clubs', 'matches'] as const;
 type Entity = (typeof ENTITIES)[number] | 'players';
 
 function readJson<T>(file: string, schema: z.ZodType<T>, fallback: T): T {
   if (!existsSync(file)) return fallback;
   return schema.parse(JSON.parse(readFileSync(file, 'utf8')));
-}
-
-function ndjsonLines(kind: string): { line: string; at: string }[] {
-  const dir = path.join(RAW_DIR, kind);
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((f) => f.endsWith('.ndjson'))
-    .toSorted()
-    .flatMap((file) =>
-      readFileSync(path.join(dir, file), 'utf8')
-        .split('\n')
-        .map((line, i) => ({ line, at: `${kind}/${file}:${i + 1}` }))
-        .filter(({ line }) => line.trim() !== ''),
-    );
-}
-
-// Names the file and line, never the record
-function readRecords<T>(kind: string, schema: z.ZodType<T>): T[] {
-  return ndjsonLines(kind).map(({ line, at }) => {
-    let value: unknown;
-    try {
-      value = JSON.parse(line);
-    } catch {
-      throw new Error(`Invalid JSON in ${kind} records: ${at}`);
-    }
-    const parsed = schema.safeParse(value);
-    if (!parsed.success) throw new Error(`Invalid ${kind} record: ${at}`);
-    return parsed.data;
-  });
-}
-
-// The latest saved copy of each page
-function latest<T extends { sourceId: string; fetchedAt: string }>(
-  records: T[],
-): Map<string, T> {
-  const byId = new Map<string, T>();
-  for (const record of records) {
-    const kept = byId.get(record.sourceId);
-    if (!kept || record.fetchedAt > kept.fetchedAt)
-      byId.set(record.sourceId, record);
-  }
-  return byId;
 }
 
 // Every name each club id was shown with
@@ -166,7 +118,7 @@ function main(): number {
     config: readPoolConfig(),
     matches: readJson(
       path.join(DATA_DIRS.work, 'pool', 'matches.json'),
-      z.array(poolMatchSchema),
+      poolMatchesSchema,
       [],
     ),
     names: readNames(fixtures, [...reports.values()]),

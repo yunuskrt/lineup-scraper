@@ -52,7 +52,7 @@ Checked live on 2026-10-26 (T1–T9 in the evidence table of the context fix).
 | `div.sb-team sb-heim` / `sb-gast` → `a.sb-vereinslink` | Works | — |
 | Table position from `homeBox` for both sides (§ 12 #1) | Bug | Each box's own `p` (`Position: 16`); absent on matchday 1 and in cups |
 | `p.sb-datum hide-for-small` date text | **Format changed:** `8/12/23` → `12/08/23` | The `datum/YYYY-MM-DD` link on the page (present on all three probed matches). Never parse the text date |
-| `div.sb-endstand`, `div.sb-halbzeit` | Works | On `on pens`, `sb-endstand` is the **shootout** score |
+| `div.sb-endstand`, `div.sb-halbzeit` | Works | On `on pens`, `sb-endstand` is the shootout on `990248` (`5:4`) but the score plus the shootout on `53491` (`6:4` for 1:1 and 5:3). The shootout comes from `#sb-elfmeterscheissen`: each kick's clock `span` has the title `Scored`, `Missed` or `Saved` (S11) |
 | Formation `div.large-7 … aufstellung-unterueberschrift` | **Class renamed** | `div.formation-subtitle`, text `Starting Line-up: 4-4-2 Diamond` |
 | Starters `div.aufstellung-spieler-container` | **Renamed** | `div.formation-player-container` (11 per side), `style="top: 80%; left: 40%;"` |
 | Starter name `span.aufstellung-rueckennummer-name > a` | **Renamed** | `span.formation-number-name > a` |
@@ -62,12 +62,12 @@ Checked live on 2026-10-26 (T1–T9 in the evidence table of the context fix).
 | Player DOB `%b %d, %Y` | **Format changed** | `DD/MM/YYYY (age)` |
 | Crest host `tmssl.akamaized.net` | **Changed** | `img.a.transfermarkt.technology/wappen/head/{id}.png` |
 
-**Unverified:** the clock-sprite → minute rule. One check agrees: `-324px -288px` with `+2` is 90+2, if a cell is 36 px and a row holds 10 minutes. Verify it on fixtures with known minutes before relying on it. A card at `-0px -433px` doesn't fit the 36 px grid; it may mean "minute unknown".
+**Clock sprite → minute** (S11, `src/lineups/events.ts`): `background-position: -Xpx -Ypx` is minute `1 + X/36 + 10·Y/36`; with added time (`+2`) that minute is the end of the half (`-324px -288px` `+2` is 90+2). Checked against each page's own timeline (`div.sb-zeitleiste`, `sb-120-minuten` with extra time, else `sb-90-minuten`) on the 3 pilot reports: all 13 goals and red cards agree, from 3' to Zidane's red card at 110'. A sprite off the 36 px grid (`-0px -433px`, seen on cards) is an unknown minute: the event is kept with `minute: null` and left out of the load.
 
 ## 5. Formation, slots and positions
 
-- **Formation:** take the digits of the formation text (`3-5-2 flat` → `3-5-2`). Diamonds name the shape, not the lines, so map them explicitly: `4-4-2 Diamond` → `4-1-2-1-2`, `3-4-3 Diamond` → `3-1-2-1-3`, `5-4-1 Diamond` → `5-1-2-1-1`. The result must pass `formationSchema`. **Unverified:** strings that aren't among the old dataset's 25.
-- **Slots:** slot 0 is the starter at `top:80%`. Sort the other ten by `top`, descending; chunk them by the formation's line sizes; inside each line sort by `left`, **descending**, since `left:73%` is the right back in the old repo's `data/positions/positions.json`. Number slots 1–10 in that order. This separates the lines in all 18,404 old XIs.
+- **Formation:** take the leading lines of the formation text (`3-5-2 flat` → `3-5-2`, `4-4-2 double 6` → `4-4-2`; the old dataset's styles are `flat`, `Attacking`, `Defending`, `double 6`). Diamonds name the shape, not the lines, so they're mapped in `data/curation/formations.json` (S11): `4-4-2 Diamond` → `4-1-2-1-2`, `3-4-3 Diamond` → `3-1-2-1-3`, `5-4-1 Diamond` → `5-1-2-1-1`. The result must pass `formationSchema`; otherwise the side has no formation. `data/reports/lineups.md` lists every formation text seen, so a new named shape can be added.
+- **Slots:** slot 0 is the starter at `top:80%`. Sort the other ten by `top`, descending; chunk them by the formation's line sizes; inside each line sort by `left`, **descending**, since `left:73%` is the right back in the old repo's `data/positions/positions.json`. Number slots 1–10 in that order. This separates the lines in all 18,404 old XIs. S11 refuses a side whose lines overlap in `top` or share a `left`: a diamond read as `4-4-2` fails, since its holding and attacking midfielders share `left: 40%`.
 - **Position:** always `positionForSlot(formation, slot)` (`data-contract.md` § 6.6). Never copy a Transfermarkt role label.
 
 ## 6. Pitfalls: do not port
@@ -76,7 +76,7 @@ From the reference § 12, with this repo's rule:
 
 1. Away table position read from the home box → read each side's own box.
 2. 12-hour clock bugs and `"20" + YY` → no text dates; use the `datum/` link. No kick-off times are stored.
-3. Lost half-time score and an unclear full-time score on `AET` / `on pens` → the full-time score is counted from the goal events; `sb-endstand` is the shootout on `on pens`.
+3. Lost half-time score and an unclear full-time score on `AET` / `on pens` → the full-time score is counted from the goal events' running score and the shootout from its kicks; `sb-endstand` is only a check.
 4. Tri-state `null` flags → `extraTime` is always a boolean.
 5. Duplicated rows on rerun → the page store (`data/pages/`) and idempotent writes.
 6. `raise "Page not parsed"` → real exceptions.
@@ -110,5 +110,6 @@ From the reference § 12, with this repo's rule:
    - Moves the file to `data/pages/transfermarkt/<kind>/<id>.html`, the local page store, which replaces the HTTP cache for Transfermarkt
    - Reports what's missing from the phase's list, and appends one line per file to `data/work/import-log.ndjson`
 4. `fetchedAt` is the saved file's modification time in UTC: when the user saved it.
+5. After a parser change, `uv run python -m extract.inbox --reparse` rebuilds every raw record from the stored pages. It parses them all first and changes nothing if one fails.
 
 `data/inbox/` and `data/pages/` are gitignored, like `data/cache/`. Parser test fixtures are hand-saved pages too, copied into `extract/tests/fixtures/transfermarkt/` and committed.

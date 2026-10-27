@@ -2,7 +2,11 @@ import type { PoolMatch } from '@/pool/build.js';
 import { CONFIG } from '@/pool/spec-fixtures.js';
 import type { StageNames } from '@/resolve/curation.js';
 import { renderReport } from '@/resolve/report.js';
-import { resolve, type ResolveInput } from '@/resolve/resolve.js';
+import {
+  resolve,
+  resolvedMatchSchema,
+  type ResolveInput,
+} from '@/resolve/resolve.js';
 
 const STAGES: StageNames = {
   stages: { FI: 'Final', QF: 'Quarter-final' },
@@ -158,6 +162,13 @@ describe('resolve', () => {
     expect(JSON.stringify(b.matches)).toBe(JSON.stringify(a.matches));
     expect(JSON.stringify(b.clubs)).toBe(JSON.stringify(a.clubs));
     expect(JSON.stringify(b.crosswalks)).toBe(JSON.stringify(a.crosswalks));
+  });
+
+  it('writes matches the next stage can read back', () => {
+    const { matches } = resolve(input([DERBY, FINAL]));
+    const written: unknown = JSON.parse(JSON.stringify(matches));
+
+    expect(resolvedMatchSchema.array().parse(written)).toEqual(matches);
   });
 
   it('suffixes the second of two clubs with one display name', () => {

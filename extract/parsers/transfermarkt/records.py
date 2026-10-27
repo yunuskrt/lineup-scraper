@@ -58,6 +58,11 @@ class Event(TypedDict):
     text: str
 
 
+class Kick(TypedDict):
+    side: Literal["home", "away"]
+    outcome: str
+
+
 class TransfermarktMatch(TypedDict):
     source: Source
     sourceId: str
@@ -70,6 +75,7 @@ class TransfermarktMatch(TypedDict):
     home: Side
     away: Side
     events: list[Event]
+    shootout: list[Kick]
 
 
 class TransfermarktPlayer(TypedDict):

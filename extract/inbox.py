@@ -1,5 +1,6 @@
 import argparse
 import re
+import shutil
 import sys
 from collections import Counter
 from collections.abc import Mapping, Sequence
@@ -192,6 +193,26 @@ def import_inbox(
     return report
 
 
+# Rebuilds raw records from every stored page, after a parser change
+def reparse_store(pages_dir: Path, raw_dir: Path, partition: str) -> Counter[str]:
+    importer = Importer(pages_dir, raw_dir, partition)
+    parsed: list[tuple[Page, list[Mapping[str, JsonValue]]]] = []
+    for path in stored_pages(pages_dir).values():
+        html = path.read_text(encoding="utf-8")
+        page = read_page(html)
+        records = parse_page(page, html, saved_at(path))
+        for record in records:
+            validate_record(f"transfermarkt-{page.kind}", record)
+        parsed.append((page, records))
+    # Every page parsed: only now replace the old records
+    shutil.rmtree(raw_dir / "transfermarkt", ignore_errors=True)
+    counts: Counter[str] = Counter()
+    for page, records in parsed:
+        importer.write(page, records)
+        counts[page.kind] += 1
+    return counts
+
+
 # Log lines for pages imported before the log existed
 def backfill_log(pages_dir: Path, raw_dir: Path, log: Path) -> int:
     logged = {
@@ -238,11 +259,21 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
     parser.add_argument("--partition", default="inbox")
     parser.add_argument("--expect", type=Path)
     parser.add_argument("--backfill-log", action="store_true")
+    parser.add_argument("--reparse", action="store_true")
     args = parser.parse_args(argv)
     log = dirs["work"] / IMPORT_LOG
     if args.backfill_log:
         added = backfill_log(dirs["pages"], dirs["raw"], log)
         print(f"backfilled: {added} log lines")
+        return 0
+    if args.reparse:
+        try:
+            counts = reparse_store(dirs["pages"], dirs["raw"], args.partition)
+        except (RefusedPageError, ParseError, InvalidRecordError) as error:
+            print(f"reparse stopped, raw records unchanged: {error}", file=sys.stderr)
+            return 1
+        parts = ", ".join(f"{n} {kind}" for kind, n in sorted(counts.items()))
+        print(f"reparsed: {parts or 'nothing'}")
         return 0
     report = import_inbox(
         dirs["inbox"],

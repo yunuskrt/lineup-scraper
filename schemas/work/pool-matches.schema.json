@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "away": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      },
+      "competitionCode": {
+        "type": "string",
+        "minLength": 1
+      },
+      "date": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "derbies",
+                "clashes",
+                "ucl-knockouts",
+                "uel-finals",
+                "world-cup-knockouts",
+                "euro-knockouts"
+              ]
+            },
+            {
+              "type": "string",
+              "const": "included"
+            }
+          ]
+        }
+      },
+      "home": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      },
+      "result": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "round": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "seasonId": {
+        "anyOf": [
+          {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sourceId": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      },
+      "stage": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "away",
+      "competitionCode",
+      "date",
+      "groups",
+      "home",
+      "result",
+      "round",
+      "seasonId",
+      "sourceId",
+      "stage"
+    ],
+    "additionalProperties": false
+  }
+}

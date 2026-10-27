@@ -1,12 +1,16 @@
+import { readFileSync } from 'node:fs';
 import {
   buildPool,
   matchListSchema,
   parseFixtureLine,
+  poolMatchesSchema,
   renderMatches,
 } from '@/pool/build.js';
 import { poolRules } from '@/pool/groups.js';
 import { CONFIG, row } from '@/pool/spec-fixtures.js';
 import { renderReport } from '@/pool/report.js';
+import { POOL_MATCHES_SCHEMA_FILE } from '@/pool/schema-file.js';
+import { renderSchema } from '@/raw/schema-files.js';
 
 const RULES = poolRules(CONFIG);
 const derby = row('TR1', '36', '141', {
@@ -136,6 +140,14 @@ describe('matchListSchema', () => {
     expect(
       matchListSchema.safeParse([{ sourceId: '1', note: ' ' }]).success,
     ).toBe(false);
+  });
+});
+
+describe('poolMatchesSchema', () => {
+  it('schemas/work/pool-matches.schema.json is current (run `npm run schemas`)', () => {
+    expect(readFileSync(POOL_MATCHES_SCHEMA_FILE, 'utf8')).toBe(
+      renderSchema(poolMatchesSchema),
+    );
   });
 });
 

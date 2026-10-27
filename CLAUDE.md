@@ -42,11 +42,13 @@ Four separate repositories, one backend:
 - **Test**: `npm test` and `uv run pytest`
 - **Lint**: `npm run lint` and `uv run ruff check` and `uv run mypy extract`
 - **Extract, automated sources**: `uv run python -m extract.crawl <spider> -a <arg>=<value>`. It exits 1 if the spider was blocked or a record was invalid; plain `scrapy crawl` exits 0 even then
-- **Import hand-saved pages**: `uv run python -m extract.inbox` (S06b). It reads `data/inbox/`, parses, files pages under `data/pages/` and logs each file to `data/work/import-log.ndjson`
+- **Import hand-saved pages**: `uv run python -m extract.inbox` (S06b). It reads `data/inbox/`, parses, files pages under `data/pages/` and logs each file to `data/work/import-log.ndjson`. After a parser change, `--reparse` rebuilds the raw records from `data/pages/` (S11)
 - **Link lists and progress** (S06c): `uv run python -m extract.links show|open|new <list>`, `uv run python -m extract.progress`, `uv run python -m extract.check <link | kind:key>`
 - **Listing link lists** (S07a): `uv run python -m extract.lists.listings` writes `s07-listings`, `s07-verify` and `s07-pilot` from `data/curation/pool.json`
 - **Pool match list** (S07b): `npm run pool` writes `data/work/pool/matches.json` and `data/reports/pool.md` from the saved fixture lists
 - **Resolve** (S08a, S08b): `npm run resolve` assigns permanent slugs to competitions, clubs, matches and players (`data/curation/crosswalk/`) and writes `data/work/resolved/`; run `npm run pool` first
+- **Match-report link lists** (S11): `uv run python -m extract.lists.match_reports` writes `s11-match-reports` (every pool match) and `s11-pilot` from `data/work/pool/matches.json`
+- **Lineups** (S11): `npm run lineups` reads the saved match reports of resolved matches into formations, slots, scores and events (`data/work/lineups/matches.json`, `data/reports/lineups.md`); run `npm run resolve` first
 - **Transform and load**: `npm run <stage>` (each phase names its stage)
 - **Schema**: `npm run db:generate`, `npm run db:check` (fails if `schema.prisma` drifted from the database)
 - **There is no migrate command.** Schema changes are backend phases.

@@ -34,3 +34,4 @@ Not Started
 - S07b Pool Match List: npm run pool, group rules, 61 matches so far
 - S08a Resolve Clubs & Matches: crosswalk, slugs, club names, stages
 - S08b Resolve Players: player crosswalk, names from pages, waiting list
+- S11 Lineup Extract: XIs to slots, scores, shootout kicks, reparse

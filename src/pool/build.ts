@@ -46,6 +46,9 @@ export const poolMatchSchema = z.strictObject({
 });
 export type PoolMatch = z.infer<typeof poolMatchSchema>;
 
+// data/work/pool/matches.json
+export const poolMatchesSchema = z.array(poolMatchSchema);
+
 export interface Conflict {
   sourceId: string;
   fields: string[];

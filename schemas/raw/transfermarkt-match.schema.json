@@ -381,6 +381,30 @@
         ],
         "additionalProperties": false
       }
+    },
+    "shootout": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "side": {
+            "type": "string",
+            "enum": [
+              "home",
+              "away"
+            ]
+          },
+          "outcome": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "side",
+          "outcome"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
@@ -394,7 +418,8 @@
     "resultNote",
     "home",
     "away",
-    "events"
+    "events",
+    "shootout"
   ],
   "additionalProperties": false
 }

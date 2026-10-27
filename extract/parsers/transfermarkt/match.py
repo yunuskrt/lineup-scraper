@@ -17,6 +17,7 @@ from extract.parsers.transfermarkt.common import (
 from extract.parsers.transfermarkt.records import (
     BenchPlayer,
     Event,
+    Kick,
     Ref,
     Side,
     Starter,
@@ -148,6 +149,23 @@ def events(page: Selector) -> list[Event]:
     return found
 
 
+# The box id is misspelt on the page
+def shootout(page: Selector) -> list[Kick]:
+    kicks: list[Kick] = []
+    for item in page.xpath('//div[@id="sb-elfmeterscheissen"]//li'):
+        classes = item.attrib.get("class", "")
+        if "sb-aktion-heim" not in classes and "sb-aktion-gast" not in classes:
+            continue
+        outcome = item.xpath('.//div[@class="sb-aktion-uhr"]/span/@title').get()
+        kicks.append(
+            {
+                "side": "home" if "sb-aktion-heim" in classes else "away",
+                "outcome": require(outcome, "sb-elfmeterscheissen kick title"),
+            }
+        )
+    return kicks
+
+
 def parse_match_report(html: str, url: str, fetched_at: str) -> TransfermarktMatch:
     page = Selector(text=html)
     match_id = require(id_in(url, MATCH_ID), "match id in the URL")
@@ -173,4 +191,5 @@ def parse_match_report(html: str, url: str, fetched_at: str) -> TransfermarktMat
         "home": team_side(page, HOME_TEAM, lineup.xpath(HOME_LINEUP), "home"),
         "away": team_side(page, AWAY_TEAM, lineup.xpath(AWAY_LINEUP)[:1], "away"),
         "events": events(page),
+        "shootout": shootout(page),
     }

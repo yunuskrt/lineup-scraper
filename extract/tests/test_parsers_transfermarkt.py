@@ -82,7 +82,7 @@ def test_dates_a_cup_row_from_the_header_above_it() -> None:
 def test_reads_the_2001_final() -> None:
     final = match("990248")
     assert (final["round"], final["date"]) == ("Final", "2001-05-23")
-    # On pens, the score box is the shootout
+    # Here the score box is the shootout alone
     assert (final["result"], final["resultNote"]) == ("5:4", "on pens")
     assert final["home"]["formation"] == "Starting Line-up: 5-4-1"
     assert final["away"]["formation"] == "Starting Line-up: 4-4-2 Diamond"
@@ -118,7 +118,55 @@ def test_reads_a_goalless_2023_match() -> None:
     )
 
 
-@pytest.mark.parametrize("match_id", ["990248", "1153409", "4126774"])
+def kick_count(record: TransfermarktMatch) -> Counter[tuple[str, str]]:
+    return Counter((k["side"], k["outcome"]) for k in record["shootout"])
+
+
+def test_reads_every_shootout_kick_in_order() -> None:
+    final = match("990248")
+    assert len(final["shootout"]) == 14
+    assert final["shootout"][:2] == [
+        {"side": "home", "outcome": "Missed"},
+        {"side": "away", "outcome": "Scored"},
+    ]
+    assert kick_count(final) == {
+        ("home", "Scored"): 5,
+        ("home", "Missed"): 1,
+        ("home", "Saved"): 1,
+        ("away", "Scored"): 4,
+        ("away", "Saved"): 3,
+    }
+    assert match("1153409")["shootout"] == []
+
+
+def test_reads_the_2006_final_whose_box_adds_the_score() -> None:
+    final = match("53491")
+    # 1:1 after extra time, 5:3 on kicks, shown as 6:4
+    assert (final["result"], final["resultNote"]) == ("6:4", "on pens")
+    assert kick_count(final) == {
+        ("home", "Scored"): 5,
+        ("away", "Scored"): 3,
+        ("away", "Missed"): 1,
+    }
+    cards = [e for e in final["events"] if e["box"] == "card"]
+    red = next(e for e in cards if "Red card" in e["text"])
+    assert (red["side"], red["clock"]) == (
+        "away",
+        "background-position: -324px -360px;",
+    )
+
+
+def test_reads_the_derby_half_time_note_and_two_red_cards() -> None:
+    derby = match("1118844")
+    assert (derby["result"], derby["resultNote"]) == ("6:0", "(2:0)")
+    assert [e["box"] for e in derby["events"]].count("goal") == 6
+    reds = [e["side"] for e in derby["events"] if "Red card" in e["text"]]
+    assert reds == ["home", "away"]
+
+
+@pytest.mark.parametrize(
+    "match_id", ["990248", "1153409", "4126774", "53491", "1118844"]
+)
 def test_every_match_record_is_valid(match_id: str) -> None:
     validate_record("transfermarkt-match", cast(dict[str, JsonValue], match(match_id)))
 

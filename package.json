@@ -21,7 +21,8 @@
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:check": "prisma migrate diff --from-config-datasource --to-schema prisma/schema.prisma --exit-code",
-    "schemas": "tsx src/raw/export.ts && tsx src/pool/export.ts"
+    "schemas": "tsx src/raw/export.ts && tsx src/pool/export.ts",
+    "lineups": "tsx src/lineups/main.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "7.10.0",

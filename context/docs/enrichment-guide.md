@@ -63,7 +63,7 @@ Plus the player pages of all 66 starters: **~70 pages in all**. The pilot's link
 | --- | --- |
 | The importer refuses a page as a challenge | Save it again once the site loads normally |
 | A page saved twice | Nothing: the importer keeps one copy per id |
-| A parse error on a page | Keep the page; ask for a fix. It's a selector change, tested on that page |
+| A parse error on a page | Keep the page; ask for a fix. It's a selector change, tested on that page; then `uv run python -m extract.inbox --reparse` re-reads every stored page |
 | A match fails the gate | The dashboard says why (a missing player page, a formation it can't read) |
 | A wrong name, alias or club name | Fix it in `data/curation/`, then rebuild; never in code |
 

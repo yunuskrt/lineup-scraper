@@ -310,3 +310,52 @@ def test_backfill_logs_pages_imported_before_the_log(dirs: Dirs) -> None:
     assert {line["at"] for line in backfilled} == {"2026-10-27T00:00:00Z"}
     assert backfilled[1]["url"] == f"{TM}/spielbericht/index/spielbericht/990248"
     assert backfill_log(dirs.pages, dirs.raw, dirs.log) == 0
+
+
+def raw_files(dirs: Dirs) -> dict[str, bytes]:
+    root = dirs.raw / "transfermarkt"
+    return {
+        p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*.ndjson")
+    }
+
+
+def test_reparse_rebuilds_raw_records_from_the_stored_pages(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-990248")
+    dirs.save("match-53491")
+    dirs.save("fixtures-cl-2000")
+    dirs.run()
+    fresh = raw_files(dirs)
+    # Records written by an older parser, and a stray partition
+    match_file = dirs.raw / "transfermarkt" / "match" / "probe.ndjson"
+    old = [json.loads(line) for line in match_file.read_text().splitlines()]
+    for record in old:
+        del record["shootout"]
+    match_file.write_text("".join(json.dumps(r) + "\n" for r in old))
+    (dirs.raw / "transfermarkt" / "match" / "stray.ndjson").write_text("{}\n")
+
+    assert main(["--reparse", "--partition", "probe"], dirs.folders()) == 0
+
+    assert raw_files(dirs) == fresh
+    assert "reparsed: 1 fixture, 2 match" in capsys.readouterr().out
+    assert not dirs.log.read_text().count("reparse")
+
+
+def test_reparse_changes_nothing_when_a_stored_page_fails(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-990248")
+    dirs.save("match-1118844")
+    dirs.run()
+    before = raw_files(dirs)
+    stored = dirs.pages / "transfermarkt" / "match" / "990248.html"
+    stored.write_text(
+        stored.read_text(encoding="utf-8").replace("formation-player-container", "x"),
+        encoding="utf-8",
+    )
+
+    assert main(["--reparse"], dirs.folders()) == 1
+
+    assert raw_files(dirs) == before
+    assert "raw records unchanged" in capsys.readouterr().err

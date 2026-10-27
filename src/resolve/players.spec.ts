@@ -47,6 +47,7 @@ function report(): TransfermarktMatch {
     date: '2001-05-23',
     result: '5:4',
     resultNote: 'on pens',
+    shootout: [],
     home: {
       sourceId: '27',
       name: 'FC Bayern Munich',

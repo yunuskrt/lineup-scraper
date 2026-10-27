@@ -42,7 +42,13 @@ const eventSchema = z.strictObject({
   text: rawTextSchema,
 });
 
-// One match report; `result` is the shootout on pens
+// One kick; `outcome` is `Scored`, `Missed` or `Saved`
+const kickSchema = z.strictObject({
+  side: z.enum(['home', 'away']),
+  outcome: rawTextSchema,
+});
+
+// One match report; on pens `result` may or may not add the score
 export const transfermarktMatchSchema = z.strictObject({
   ...envelopeFields('transfermarkt'),
   round: rawTextSchema,
@@ -52,6 +58,7 @@ export const transfermarktMatchSchema = z.strictObject({
   home: sideSchema,
   away: sideSchema,
   events: z.array(eventSchema),
+  shootout: z.array(kickSchema),
 });
 
 export type TransfermarktMatch = z.infer<typeof transfermarktMatchSchema>;

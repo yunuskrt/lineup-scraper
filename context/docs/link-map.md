@@ -2,7 +2,7 @@
 
 Which pages the project reads, how each one leads to the next, and which database columns each one feeds. Selectors are in `transfermarkt-source.md` § 4, columns in `data-contract.md` § 2, the pool in `match-pool-scope.md`.
 
-Checked against the 8 saved pages in `extract/tests/fixtures/transfermarkt/` on 2026-10-27.
+Checked against the 10 saved pages in `extract/tests/fixtures/transfermarkt/` on 2026-10-27.
 
 ---
 
@@ -49,7 +49,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | Box headline (`1.Matchday`, `Group A`) | `round` | `matches.stage` | English display text, rewritten by S08 |
 | Knockout cell (`QF`, `FI`, `Ro16 3`) | `stage` | `matches.stage`; the group test for knockouts | Wins over `round` |
 | Home and away `verein/{id}` links | `home`, `away` | `clubs.transfermarkt_id`, `match_teams.club_id`, `side`; the group test for derbies and clashes | The name seen here becomes a `club_aliases` row |
-| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report. On penalties it isn't settled: the saved lists show `5:4 on pens` for the 2001 CL final (`990248`), the same as its match report's `sb-endstand`, and `6:4 on pens` for the 2006 World Cup final (`53491`), whose match report isn't saved yet. S11 compares them |
+| Result link text (`2:2`) | `result` | Nothing | The loaded score comes from the match report. On penalties it's inconsistent: `5:4 on pens` is the shootout alone for the 2001 CL final (`990248`), `6:4 on pens` the score plus the shootout for the 2006 World Cup final (`53491`, 1:1 and 5:3). `data/reports/lineups.md` compares every one (S11) |
 
 ---
 
@@ -58,24 +58,26 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | | |
 | --- | --- |
 | Link | `/{home}_{away}/index/spielbericht/{id}` |
-| Found from | The pool match list (S07) |
+| Found from | The pool match list (S07): `uv run python -m extract.lists.match_reports` writes `s11-match-reports` and `s11-pilot` (S11) |
 | Count | **~2,000**, one per pool match |
 | Raw kind | `transfermarkt-match`, one record per page (`src/raw/transfermarkt-match.ts`) |
+| Read by | `npm run lineups` (S11): `data/work/lineups/matches.json`, per resolved match, and `data/reports/lineups.md`. A report whose date or teams differ from its listing is held back |
 
 | On the page | Raw field | Database | Note |
 | --- | --- | --- | --- |
 | The URL's `spielbericht/{id}` | `sourceId` | `matches.transfermarkt_id`, `matches.slug` | Same id as the fixture row |
 | `p.sb-datum`: round text | `round` | `matches.stage` | Fills the stage if the listing had none |
 | `p.sb-datum`: `datum/` link | `date` | `matches.date` | Must agree with the listing |
-| `div.sb-endstand` | `result` | `matches.shootout_home`, `shootout_away` | On `on pens` this is the **shootout** score |
-| `div.sb-halbzeit` (`(1:0)`, `on pens`, `AET`) | `resultNote` | `matches.extra_time`; half-time score for the comeback signal | |
-| `#sb-tore` goal events | `events` (`box: goal`) | `match_teams.goals` (counted), `match_events` (`goal`, `own_goal`, `penalty_goal`) | Kind from the event text; side = the side it counts for |
-| `#sb-karten` card events | `events` (`box: card`) | `match_events` (`red_card`) | Yellow cards are dropped |
+| `div.sb-endstand` | `result` | A check only | Without `on pens` it must equal the counted goals. On `on pens` it shows the shootout (`990248`: `5:4`) **or** the score plus the shootout (`53491`: `6:4` for 1:1 and 5:3), so it must equal one of the two |
+| `#sb-elfmeterscheissen` kicks (the id is misspelt on the page) | `shootout` (`side`, `outcome`: `Scored`, `Missed`, `Saved`) | `matches.shootout_home`, `shootout_away` | The `Scored` kicks per side. Added in S11; `extract.inbox --reparse` rebuilds older records |
+| `div.sb-halbzeit` (`(1:0)`, `on pens`, `AET`) | `resultNote` | `matches.extra_time`; half-time score for the comeback signal | `AET` or `on pens` is extra time. Without a `(1:0)` note, half time is counted from the goals' minutes |
+| `#sb-tore` goal events | `events` (`box: goal`) | `match_teams.goals` (counted), `match_events` (`goal`, `own_goal`, `penalty_goal`) | Each goal's running score (`0:1`) gives the side it counts for. `, Penalty,` in the text is a penalty; a scorer from the other side's sheet is an own goal |
+| `#sb-karten` card events | `events` (`box: card`) | `match_events` (`red_card`) | A red card or a second yellow; yellow cards are dropped |
 | `#sb-wechsel` substitutions | `events` (`box: substitution`) | Not stored | Substitutes are never answers |
-| Event clock sprite and `+2` | `clock`, `addedTime` | `match_events.minute`, `added_time` | Sprite → minute is unverified |
+| Event clock sprite and `+2` | `clock`, `addedTime` | `match_events.minute`, `added_time` | `1 + X/36 + 10·Y/36`, checked against the page's timeline (`transfermarkt-source.md` § 4). Off the grid: minute unknown, not loaded |
 | `div.sb-team` → `a.sb-vereinslink` | `home.sourceId`, `home.name` (and away) | `match_teams.club_id` | |
 | Each side's `p` (`Position: 16`) | `tablePosition` | Stakes signal only | Absent on matchday 1 and in cups |
-| `div.formation-subtitle` | `formation` | `match_teams.formation` | Digits only; diamonds mapped (§ 6) |
+| `div.formation-subtitle` | `formation` | `match_teams.formation` | The leading lines; diamonds mapped in `data/curation/formations.json` (§ 6) |
 | 11 × `div.formation-player-container` | `starters[].sourceId` | `players.transfermarkt_id`, `lineups.player_id` | Also the S11b link |
 | Its `style` (`top: 80%; left: 40%;`) | `starters[].style` | `lineups.slot`, then `lineups.position` (§ 6) | |
 | Its name (`Zidane`, `Kily Gonzá.`) | `starters[].name` | An alias candidate only | **Short and sometimes cut off**: never the display name |
@@ -184,8 +186,6 @@ The loop that uses them is `enrichment-guide.md` § 2.
 
 ## 9. Unverified
 
-- A fixture row's result on penalties (shootout added to the score?)
 - The codes `GB1`, `ES1`, `L1`, `FR1`, `PO1` and `EL`: one sample each in `s07-verify`
-- The clock sprite → minute rule
-- How the event text marks an own goal and a penalty
+- How the event text marks an own goal (the running score settles its side) and a second yellow. A straight red card is `Red card` (`53491`, `1118844`)
 - The `Name in home country:` label on player pages

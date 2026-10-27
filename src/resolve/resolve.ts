@@ -1,4 +1,6 @@
+import { z } from 'zod';
 import { matchSeasonIssue } from '@/dataset/season.js';
+import { digitsSchema, isoDateSchema } from '@/raw/envelope.js';
 import type { CompetitionKind } from '@/dataset/enums.js';
 import type { PoolMatch } from '@/pool/build.js';
 import type { PoolConfig } from '@/pool/config.js';
@@ -48,17 +50,19 @@ export interface ResolvedClub {
   transfermarktId: string;
 }
 
-export interface ResolvedMatch {
-  away: string;
-  competition: string;
-  date: string;
-  groups: string[];
-  home: string;
-  season: string;
-  slug: string;
-  stage: string | null;
-  transfermarktId: string;
-}
+// data/work/resolved/matches.json, read by later stages
+export const resolvedMatchSchema = z.strictObject({
+  away: z.string().min(1),
+  competition: z.string().min(1),
+  date: isoDateSchema,
+  groups: z.array(z.string()),
+  home: z.string().min(1),
+  season: z.string().min(1),
+  slug: z.string().min(1),
+  stage: z.string().nullable(),
+  transfermarktId: digitsSchema,
+});
+export type ResolvedMatch = z.infer<typeof resolvedMatchSchema>;
 
 export interface Held {
   id: string;

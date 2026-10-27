@@ -281,6 +281,24 @@
           ],
           "text": "Belmora Yedek 1 Belmora Oyuncu 8, Not reported"
         }
+      ],
+      "shootout": [
+        {
+          "side": "home",
+          "outcome": "Missed"
+        },
+        {
+          "side": "away",
+          "outcome": "Scored"
+        },
+        {
+          "side": "home",
+          "outcome": "Scored"
+        },
+        {
+          "side": "away",
+          "outcome": "Saved"
+        }
       ]
     }
   },
@@ -505,7 +523,8 @@
           }
         ]
       },
-      "events": []
+      "events": [],
+      "shootout": []
     }
   }
 ]
