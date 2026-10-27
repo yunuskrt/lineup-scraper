@@ -16,7 +16,7 @@ This todo file is for developer-side use.
 - [x] **Phase S04 — Dataset Schema**: Zod schema for the final dataset, ported `normalizeName`, mirrors of every DB CHECK.
 - [x] **Phase S05 — Raw Record Contract**: Zod raw records exported to JSON Schema, validated by Python before writing.
 - [x] **Phase S06 — Fetch Harness**: Scrapy harness for automated sources (S06a); Transfermarkt parsers and `extract.inbox` import of hand-saved pages (S06b). (was B15)
-- [ ] **Phase S06c — Collection Tools**: Link lists with save-as file names and folders; check and progress commands that skip what's already saved.
+- [ ] **Phase S06c — Collection Tools**: Link lists with save-as file names and folders; an import log for history; check and progress commands that skip what's already saved.
 - [ ] **Phase S07 — Pool & Link Lists**: Curated groups as config, the full listing-page link list, and the pool match list from saved listings, every match once. (was B16) — 👤 you: save 1 Süper Lig fixture list and 1 head-to-head page
 - [ ] **Phase S08 — Entity Resolution**: Clubs, competitions, seasons and players deduped into permanent slugs, keyed on Transfermarkt ids. (was B17)
 - [ ] **Phase S11 — Lineup Extract**: Match reports to XIs, formations, coordinates to slots, and events; the match-report link list. (was B20) — 👤 you: save 2 pilot match pages
@@ -26,7 +26,7 @@ This todo file is for developer-side use.
 - [ ] **Phase S13 — Guessability Gate**: All 11 starters resolved with alias sets; writes `sides` guessability. (was B21)
 - [ ] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.
 - [ ] **Phase S15 — DB Loader**: Idempotent diff-sync into a chosen Neon branch, chunked, dry run, counts only; writes `transfermarkt_id`. — 👤 you: build backend request R1 first
-- [ ] **Phase S19 — Dashboard**: One local page: link lists with saved and missing pages, parse errors, duplicates, gate failures, pool coverage, dataset and database counts. (absorbs S16)
+- [ ] **Phase S19 — Dashboard**: Local app: progress counts and percentages by group, competition and season; history; every failure with its reason; buttons to open links, import, build and load into `ingest`. (absorbs S16)
 - [ ] **Phase S20 — Pilot & Enrichment Guide**: The 3 pilot matches end to end into `ingest`, and the guide for growing the pool yourself. — 👤 you: approve the load, play the pilot in the app
 
 ### Later: images

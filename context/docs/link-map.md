@@ -170,7 +170,8 @@ The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`ba
 | `extract.inbox` (built) | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html` |
 | Progress | Per list: how many are saved, imported and parsed, and what's missing |
 | Check | For one link or id: saved? imported? parsed? which records? |
-| Dashboard (S19) | One local page with all of the above, plus duplicates, gate failures, pool coverage, dataset and database counts |
+| Import log (S06c) | One line per import: when, which file, which link, the kind and id, and the result. The dashboard's history |
+| Dashboard (S19) | A local app with all of the above: progress, history, failures, and buttons for each step (`enrichment-guide.md` § 6) |
 
 The loop that uses them is `enrichment-guide.md` § 2.
 

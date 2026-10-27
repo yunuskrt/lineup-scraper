@@ -28,6 +28,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S11 | Save the pilot's 2 new match reports (Italy–France 2006, the derby) | 2 pages | During S11 | Pending |
 | S11b | Save the profile pages of the pilot's starters, from the list S11b writes | ~66 pages | During S11b | Pending |
 | S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | Pending |
+| S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
 | S18 | Save a crest per club and a photo per player, from the list S18 writes. Check each image's licence before release | One per club and player | During S18 | Pending |
 
