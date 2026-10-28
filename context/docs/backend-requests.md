@@ -4,7 +4,7 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 
 | # | Request | Needed by | Asked | Status |
 | --- | --- | --- | --- | --- |
-| R1 | Transfermarkt ids on clubs, players and matches | S15 | 2026-10-27 | Open |
+| R1 | Transfermarkt ids on clubs, players and matches | S15 | 2026-10-27 | **Done** (2026-10-28) |
 
 ---
 
@@ -28,7 +28,8 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 
 **Then, in the scraper:** copy `schema.prisma` and `data-contract.md`, add the column to the dataset schema (S14) and the loader (S15), and `npm run db:check` must pass.
 
-- **Dataset side done** (S14, 2026-10-28): `transfermarktId` is in `src/dataset/schema.ts` and `data/dataset/`, nullable and unique per list. The loader still waits for the columns.
+- **Dataset side done** (S14, 2026-10-28): `transfermarktId` is in `src/dataset/schema.ts` and `data/dataset/`, nullable and unique per list.
+- **Built** (2026-10-28): backend `2482cd6`, migration `20261028105720_transfermarkt_ids`, deployed to `dev` and `ingest` (`production` gets it with B45). The scraper copied `schema.prisma` and `data-contract.md`; `npm run db:check` against `ingest` reports no drift. S15 writes the columns.
 
 ---
 
