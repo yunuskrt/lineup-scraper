@@ -1,3 +1,4 @@
+import type { ApplyReport } from '@/load/apply.js';
 import { TABLES, type Plan } from '@/load/plan.js';
 
 // Counts only: never a name, an alias or an XI
@@ -30,4 +31,25 @@ export function changeCount(plan: Plan): number {
       plan[table].delete.length,
     0,
   );
+}
+
+// What was written, per table, counts only
+export function renderReport(report: ApplyReport, plan: Plan): string[] {
+  const width = Math.max(...TABLES.map((table) => table.length));
+  const total = TABLES.reduce(
+    (sum, t) => sum + report[t].created + report[t].updated + report[t].deleted,
+    0,
+  );
+  return [
+    ...TABLES.map((table) => {
+      const { created, updated, deleted } = report[table];
+      const { create, update, same } = plan[table];
+      const rows = create.length + update.length + same;
+      return (
+        `${table.padEnd(width)} ${String(rows).padStart(6)} rows: ` +
+        `${created} created, ${updated} updated, ${deleted} deleted`
+      );
+    }),
+    `rows written: ${total}`,
+  ];
 }

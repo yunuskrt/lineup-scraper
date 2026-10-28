@@ -32,12 +32,6 @@ export function parseArgs(argv: readonly string[]): ArgsResult {
 
 // Production: env, flag and confirm, all three
 export function checkTarget(target: LoadTarget, args: LoadArgs): TargetResult {
-  if (args.apply) {
-    return {
-      success: false,
-      error: '--apply arrives in S15b; this is a dry run only',
-    };
-  }
   if (args.target !== null && args.target !== target) {
     return {
       success: false,

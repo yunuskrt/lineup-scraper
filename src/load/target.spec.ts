@@ -26,11 +26,17 @@ describe('checkTarget', () => {
     });
   });
 
-  it('refuses --apply until S15b', () => {
-    expect(checkTarget('ingest', { ...DRY, apply: true })).toEqual({
-      success: false,
-      error: expect.stringContaining('S15b'),
+  it('lets --apply through on ingest and disposable', () => {
+    expect(checkTarget('disposable', { ...DRY, apply: true })).toEqual({
+      success: true,
+      allowProduction: false,
     });
+  });
+
+  it('still needs --target production --confirm to apply on production', () => {
+    expect(checkTarget('production', { ...DRY, apply: true }).success).toBe(
+      false,
+    );
   });
 
   it('refuses a --target that differs from LOAD_TARGET', () => {

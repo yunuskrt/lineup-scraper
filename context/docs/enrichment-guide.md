@@ -29,7 +29,7 @@ Every step is a dashboard button (§ 6) or the terminal command behind it.
 | 6 | Repeat 2–5 one level down: listing pages → match reports → player pages | — | — |
 | 7 | Build the dataset: resolve, lineups, aliases, score, gate, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, `npm run scores`, `npm run gate`, `npm run dataset`); commit `data/dataset/` | **Build** | S08–S14 |
 | 8 | Read duplicates, gate failures and validation errors; fix names in `data/curation/` | Failures view | S19 |
-| 9 | Dry-run the load (`npm run load`), read the counts, then load into `ingest` | **Dry run**, then **Load** | S15 |
+| 9 | Dry-run the load (`npm run load`), read the counts, then load into `ingest` (`npm run load -- --apply`) | **Dry run**, then **Load** | S15 |
 | 10 | Play the new matches in the app | — | — |
 
 ## 3. Which links come from where

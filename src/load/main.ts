@@ -4,10 +4,12 @@ import { DATA_DIRS } from '@/config/data-dirs.js';
 import { loadEnv } from '@/config/load-env.js';
 import { formatEnvIssues } from '@/config/parse-env.js';
 import { createPrismaClient } from '@/db/client.js';
+import { applyChunks } from '@/load/apply.js';
+import { planChunks } from '@/load/chunks.js';
 import { planLoad } from '@/load/plan.js';
 import { preflight } from '@/load/preflight.js';
 import { readStored } from '@/load/read.js';
-import { changeCount, renderPlan } from '@/load/report.js';
+import { changeCount, renderPlan, renderReport } from '@/load/report.js';
 import { wantedRows } from '@/load/rows.js';
 import { checkTarget, parseArgs } from '@/load/target.js';
 
@@ -40,7 +42,8 @@ async function main(argv: string[]): Promise<number> {
     console.error(guard.error);
     return 1;
   }
-  console.log(`target ${target}, dry run`);
+  const mode = args.args.apply ? 'apply' : 'dry run';
+  console.log(`target ${target}, ${mode}`);
 
   const checked = preflight(
     DATA_DIRS.dataset,
@@ -67,9 +70,17 @@ async function main(argv: string[]): Promise<number> {
     const wanted = wantedRows(checked.dataset);
     const plan = planLoad(wanted, await readStored(prisma, wanted));
     for (const line of renderPlan(plan)) console.log(line);
-    console.log(
-      `changes a load would make: ${changeCount(plan)} (nothing written)`,
+    if (!args.args.apply) {
+      console.log(
+        `changes a load would make: ${changeCount(plan)} (nothing written)`,
+      );
+      return 0;
+    }
+    const chunks = planChunks(plan, wanted);
+    const report = await applyChunks(prisma, chunks, (name) =>
+      console.log(`committed: ${name}`),
     );
+    for (const line of renderReport(report, plan)) console.log(line);
     return 0;
   } finally {
     await prisma.$disconnect();
