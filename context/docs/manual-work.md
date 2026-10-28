@@ -32,6 +32,8 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S13 | Nothing to save. A match that fails for an alias is fixed in `data/curation/aliases.json` | — | After S13's run, if any fails | — |
 | S14 | Nothing to save | — | — | — |
 | S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | **Done** (2026-10-28) |
+| S15a | Nothing: the dry run only reads `ingest` | — | — | — |
+| S15b | Approve the `lineup_loader` role on `ingest` and put its connection string in `.env`; approve a disposable branch for the e2e run. Steps: `features/phase-s15b-loader-apply.md` § Your part | ~10 min | During S15b | Pending |
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
 | S18 | Save a crest per club and a photo per player, from the list S18 writes. Check each image's licence before release | One per club and player | During S18 | Pending |

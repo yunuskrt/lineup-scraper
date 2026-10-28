@@ -32,3 +32,4 @@ Not Started
 - S10 Memorability Engine: signals, era percentiles, floors over thresholds
 - S13 Guessability Gate: play-time rules, guessability, sides block
 - S14 Dataset Build: committed dataset, gate-passed only, manifest
+- S15a Loader Plan & Dry Run: preflight, read-only plan, counts

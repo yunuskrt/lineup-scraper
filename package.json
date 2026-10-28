@@ -26,7 +26,8 @@
     "aliases": "tsx src/aliases/main.ts",
     "scores": "tsx src/score/main.ts",
     "gate": "tsx src/gate/main.ts",
-    "dataset": "tsx src/dataset/main.ts"
+    "dataset": "tsx src/dataset/main.ts",
+    "load": "tsx src/load/main.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "7.10.0",
