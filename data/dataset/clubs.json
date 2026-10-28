@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "bayern-munich",
+    "kind": "club",
+    "name": "Bayern Munich",
+    "shortName": "BAY",
+    "crestKey": null,
+    "transfermarktId": "27",
+    "aliases": [
+      "FC Bayern Munich"
+    ]
+  },
+  {
+    "slug": "fenerbahce",
+    "kind": "club",
+    "name": "Fenerbahçe",
+    "shortName": "FEN",
+    "crestKey": null,
+    "transfermarktId": "36",
+    "aliases": [
+      "Fenerbahce"
+    ]
+  },
+  {
+    "slug": "france",
+    "kind": "national_team",
+    "name": "France",
+    "shortName": "FRA",
+    "crestKey": null,
+    "transfermarktId": "3377",
+    "aliases": []
+  },
+  {
+    "slug": "galatasaray",
+    "kind": "club",
+    "name": "Galatasaray",
+    "shortName": "GAL",
+    "crestKey": null,
+    "transfermarktId": "141",
+    "aliases": []
+  },
+  {
+    "slug": "italy",
+    "kind": "national_team",
+    "name": "Italy",
+    "shortName": "ITA",
+    "crestKey": null,
+    "transfermarktId": "3376",
+    "aliases": []
+  },
+  {
+    "slug": "valencia",
+    "kind": "club",
+    "name": "Valencia",
+    "shortName": "VAL",
+    "crestKey": null,
+    "transfermarktId": "1049",
+    "aliases": [
+      "Valencia CF"
+    ]
+  }
+]

@@ -22,6 +22,7 @@ function players(prefix: string, label: string): DatasetInput['players'] {
     slug: `${prefix}-${slot}`,
     name: `${label} ${slot}`,
     imageKey: null,
+    transfermarktId: null,
     aliases: [`${label} ${slot}`],
   }));
 }
@@ -46,6 +47,7 @@ const VALID: DatasetInput = {
       name: 'Northgate United',
       shortName: 'NGU',
       crestKey: 'crests/northgate.png',
+      transfermarktId: '985',
       aliases: ['Northgate', 'NGU'],
     },
     {
@@ -54,6 +56,7 @@ const VALID: DatasetInput = {
       name: 'Rivermouth',
       shortName: 'RVM',
       crestKey: null,
+      transfermarktId: null,
       aliases: [],
     },
     {
@@ -62,6 +65,7 @@ const VALID: DatasetInput = {
       name: 'Ardenia',
       shortName: 'ARD',
       crestKey: null,
+      transfermarktId: null,
       aliases: [],
     },
     {
@@ -70,6 +74,7 @@ const VALID: DatasetInput = {
       name: 'Belmora',
       shortName: 'BEL',
       crestKey: null,
+      transfermarktId: null,
       aliases: [],
     },
   ],
@@ -82,6 +87,7 @@ const VALID: DatasetInput = {
   matches: [
     {
       slug: 'northgate-rivermouth-2005-05-03',
+      transfermarktId: '990248',
       competitionSlug: 'northern-league',
       season: '2004-05',
       date: '2005-05-03',
@@ -134,6 +140,7 @@ const VALID: DatasetInput = {
     },
     {
       slug: 'ardenia-belmora-2006-07-09',
+      transfermarktId: null,
       competitionSlug: 'world-cup',
       season: '2006',
       date: '2006-07-09',
@@ -713,5 +720,32 @@ describe('formatDatasetIssues', () => {
     expect(formatDatasetIssues(result.error)).toBe(
       'Invalid dataset:\n  matches[0].home.lineup[5].position: Position must match the formation',
     );
+  });
+});
+
+describe('transfermarktId', () => {
+  it('allows many nulls in a list', () => {
+    expect(issuesOf(VALID)).toEqual([]);
+  });
+
+  it.each(['clubs', 'players', 'matches'] as const)(
+    'refuses a duplicate in %s',
+    (key) => {
+      const input = edited((copy) => {
+        copy[key][0].transfermarktId = '7';
+        copy[key][1].transfermarktId = '7';
+      });
+      expect(issuesOf(input)).toEqual([
+        `${key}.1.transfermarktId: Duplicate Transfermarkt id`,
+      ]);
+    },
+  );
+
+  it('refuses an id that is not digits', () => {
+    const input = edited((copy) => {
+      copy.players[0].transfermarktId = 'tm-206';
+    });
+    expect(issuesOf(input)).toHaveLength(1);
+    expect(issuesOf(input)[0]).toMatch(/^players\.0\.transfermarktId: /);
   });
 });

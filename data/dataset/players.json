@@ -1,0 +1,686 @@
+[
+  {
+    "slug": "amedeo-carboni",
+    "name": "Amedeo Carboni",
+    "imageKey": null,
+    "transfermarktId": "7566",
+    "aliases": [
+      "Amedeo Carboni",
+      "Carboni"
+    ]
+  },
+  {
+    "slug": "andrea-pirlo",
+    "name": "Andrea Pirlo",
+    "imageKey": null,
+    "transfermarktId": "5817",
+    "aliases": [
+      "Andrea Pirlo",
+      "Pirlo"
+    ]
+  },
+  {
+    "slug": "ariel-ortega",
+    "name": "Ariel Ortega",
+    "imageKey": null,
+    "transfermarktId": "4147",
+    "aliases": [
+      "Ariel Ortega",
+      "Ortega",
+      "Arnaldo Ariel Ortega"
+    ]
+  },
+  {
+    "slug": "ayhan-akman",
+    "name": "Ayhan Akman",
+    "imageKey": null,
+    "transfermarktId": "6876",
+    "aliases": [
+      "Ayhan Akman",
+      "Akman"
+    ]
+  },
+  {
+    "slug": "batista",
+    "name": "Batista",
+    "imageKey": null,
+    "transfermarktId": "6877",
+    "aliases": [
+      "Batista",
+      "Joao Casemiro Marques Batista"
+    ]
+  },
+  {
+    "slug": "bixente-lizarazu",
+    "name": "Bixente Lizarazu",
+    "imageKey": null,
+    "transfermarktId": "210",
+    "aliases": [
+      "Bixente Lizarazu",
+      "Lizarazu"
+    ]
+  },
+  {
+    "slug": "bulent-korkmaz",
+    "name": "Bülent Korkmaz",
+    "imageKey": null,
+    "transfermarktId": "3380",
+    "aliases": [
+      "Bülent Korkmaz",
+      "Korkmaz"
+    ]
+  },
+  {
+    "slug": "christian",
+    "name": "Christian",
+    "imageKey": null,
+    "transfermarktId": "3371",
+    "aliases": [
+      "Christian",
+      "Christian Correa Dionisio"
+    ]
+  },
+  {
+    "slug": "claude-makelele",
+    "name": "Claude Makélélé",
+    "imageKey": null,
+    "transfermarktId": "4182",
+    "aliases": [
+      "Claude Makélélé",
+      "Makélélé",
+      "Claude Makélélé Sinda"
+    ]
+  },
+  {
+    "slug": "emre-asik",
+    "name": "Emre Aşık",
+    "imageKey": null,
+    "transfermarktId": "3379",
+    "aliases": [
+      "Emre Aşık",
+      "Aşık"
+    ]
+  },
+  {
+    "slug": "ergun-penbe",
+    "name": "Ergün Penbe",
+    "imageKey": null,
+    "transfermarktId": "8052",
+    "aliases": [
+      "Ergün Penbe",
+      "Penbe"
+    ]
+  },
+  {
+    "slug": "eric-abidal",
+    "name": "Éric Abidal",
+    "imageKey": null,
+    "transfermarktId": "5283",
+    "aliases": [
+      "Éric Abidal",
+      "Abidal",
+      "Éric-Sylvain Bilal Abidal"
+    ]
+  },
+  {
+    "slug": "fabien-barthez",
+    "name": "Fabien Barthez",
+    "imageKey": null,
+    "transfermarktId": "3289",
+    "aliases": [
+      "Fabien Barthez",
+      "Barthez",
+      "Fabien Alain Barthez"
+    ]
+  },
+  {
+    "slug": "fabio-cannavaro",
+    "name": "Fabio Cannavaro",
+    "imageKey": null,
+    "transfermarktId": "5775",
+    "aliases": [
+      "Fabio Cannavaro",
+      "Cannavaro"
+    ]
+  },
+  {
+    "slug": "fabio-grosso",
+    "name": "Fabio Grosso",
+    "imageKey": null,
+    "transfermarktId": "6091",
+    "aliases": [
+      "Fabio Grosso",
+      "Grosso"
+    ]
+  },
+  {
+    "slug": "fabio-pinto",
+    "name": "Fabio Pinto",
+    "imageKey": null,
+    "transfermarktId": "149480",
+    "aliases": [
+      "Fabio Pinto",
+      "Pinto",
+      "Fabio Nascimento Pinto"
+    ]
+  },
+  {
+    "slug": "faryd-mondragon",
+    "name": "Faryd Mondragón",
+    "imageKey": null,
+    "transfermarktId": "6100",
+    "aliases": [
+      "Faryd Mondragón",
+      "Mondragón",
+      "Faryd Camilo Mondragón Alí"
+    ]
+  },
+  {
+    "slug": "fatih-akyel",
+    "name": "Fatih Akyel",
+    "imageKey": null,
+    "transfermarktId": "6857",
+    "aliases": [
+      "Fatih Akyel",
+      "Akyel"
+    ]
+  },
+  {
+    "slug": "florent-malouda",
+    "name": "Florent Malouda",
+    "imageKey": null,
+    "transfermarktId": "5461",
+    "aliases": [
+      "Florent Malouda",
+      "Malouda",
+      "Florent Johan Malouda"
+    ]
+  },
+  {
+    "slug": "francesco-totti",
+    "name": "Francesco Totti",
+    "imageKey": null,
+    "transfermarktId": "5958",
+    "aliases": [
+      "Francesco Totti",
+      "Totti"
+    ]
+  },
+  {
+    "slug": "franck-ribery",
+    "name": "Franck Ribéry",
+    "imageKey": null,
+    "transfermarktId": "22068",
+    "aliases": [
+      "Franck Ribéry",
+      "Ribéry",
+      "Franck Henry Pierre Ribéry"
+    ]
+  },
+  {
+    "slug": "gaizka-mendieta",
+    "name": "Gaizka Mendieta",
+    "imageKey": null,
+    "transfermarktId": "7603",
+    "aliases": [
+      "Gaizka Mendieta",
+      "Mendieta",
+      "Gaizka Mendieta Zabala"
+    ]
+  },
+  {
+    "slug": "gennaro-gattuso",
+    "name": "Gennaro Gattuso",
+    "imageKey": null,
+    "transfermarktId": "5813",
+    "aliases": [
+      "Gennaro Gattuso",
+      "Gattuso",
+      "Gennaro Ivan Gattuso"
+    ]
+  },
+  {
+    "slug": "gianluca-zambrotta",
+    "name": "Gianluca Zambrotta",
+    "imageKey": null,
+    "transfermarktId": "5757",
+    "aliases": [
+      "Gianluca Zambrotta",
+      "Zambrotta"
+    ]
+  },
+  {
+    "slug": "gianluigi-buffon",
+    "name": "Gianluigi Buffon",
+    "imageKey": null,
+    "transfermarktId": "5023",
+    "aliases": [
+      "Gianluigi Buffon",
+      "Buffon"
+    ]
+  },
+  {
+    "slug": "giovane-elber",
+    "name": "Giovane Élber",
+    "imageKey": null,
+    "transfermarktId": "198",
+    "aliases": [
+      "Giovane Élber",
+      "Élber",
+      "Élber Giovane de Souza"
+    ]
+  },
+  {
+    "slug": "hakan-unsal",
+    "name": "Hakan Ünsal",
+    "imageKey": null,
+    "transfermarktId": "8050",
+    "aliases": [
+      "Hakan Ünsal",
+      "Ünsal"
+    ]
+  },
+  {
+    "slug": "hasan-salihamidzic",
+    "name": "Hasan Salihamidzic",
+    "imageKey": null,
+    "transfermarktId": "214",
+    "aliases": [
+      "Hasan Salihamidzic",
+      "Salihamidzic"
+    ]
+  },
+  {
+    "slug": "hasan-sas",
+    "name": "Hasan Şaş",
+    "imageKey": null,
+    "transfermarktId": "6102",
+    "aliases": [
+      "Hasan Şaş",
+      "Şaş",
+      "Hasan Gökhan Şaş"
+    ]
+  },
+  {
+    "slug": "jocelyn-angloma",
+    "name": "Jocelyn Angloma",
+    "imageKey": null,
+    "transfermarktId": "51776",
+    "aliases": [
+      "Jocelyn Angloma",
+      "Angloma",
+      "Jocelyn Gaëtan Angloma"
+    ]
+  },
+  {
+    "slug": "john-carew",
+    "name": "John Carew",
+    "imageKey": null,
+    "transfermarktId": "3570",
+    "aliases": [
+      "John Carew",
+      "Carew",
+      "John Alieu Carew"
+    ]
+  },
+  {
+    "slug": "juan-sanchez",
+    "name": "Juan Sánchez",
+    "imageKey": null,
+    "transfermarktId": "7585",
+    "aliases": [
+      "Juan Sánchez",
+      "Sánchez",
+      "Juan Ginés Sánchez Romero"
+    ]
+  },
+  {
+    "slug": "kily-gonzalez",
+    "name": "Kily González",
+    "imageKey": null,
+    "transfermarktId": "7438",
+    "aliases": [
+      "Kily González",
+      "González",
+      "Cristian Alberto González Peret"
+    ]
+  },
+  {
+    "slug": "lilian-thuram",
+    "name": "Lilian Thuram",
+    "imageKey": null,
+    "transfermarktId": "3521",
+    "aliases": [
+      "Lilian Thuram",
+      "Thuram",
+      "Ruddy Lilian Thuram-Ulien"
+    ]
+  },
+  {
+    "slug": "luca-toni",
+    "name": "Luca Toni",
+    "imageKey": null,
+    "transfermarktId": "5980",
+    "aliases": [
+      "Luca Toni",
+      "Toni"
+    ]
+  },
+  {
+    "slug": "marco-materazzi",
+    "name": "Marco Materazzi",
+    "imageKey": null,
+    "transfermarktId": "5778",
+    "aliases": [
+      "Marco Materazzi",
+      "Materazzi"
+    ]
+  },
+  {
+    "slug": "mauricio-pellegrino",
+    "name": "Mauricio Pellegrino",
+    "imageKey": null,
+    "transfermarktId": "7573",
+    "aliases": [
+      "Mauricio Pellegrino",
+      "Pellegrino",
+      "Mauricio Andrés Pellegrino Luna"
+    ]
+  },
+  {
+    "slug": "mauro-camoranesi",
+    "name": "Mauro Camoranesi",
+    "imageKey": null,
+    "transfermarktId": "5762",
+    "aliases": [
+      "Mauro Camoranesi",
+      "Camoranesi",
+      "Mauro Germán Camoranesi Serra"
+    ]
+  },
+  {
+    "slug": "mehmet-scholl",
+    "name": "Mehmet Scholl",
+    "imageKey": null,
+    "transfermarktId": "217",
+    "aliases": [
+      "Mehmet Scholl",
+      "Scholl",
+      "Mehmet Tobias Scholl"
+    ]
+  },
+  {
+    "slug": "miroslav-stevic",
+    "name": "Miroslav Stevic",
+    "imageKey": null,
+    "transfermarktId": "135",
+    "aliases": [
+      "Miroslav Stevic",
+      "Stevic"
+    ]
+  },
+  {
+    "slug": "ogun-temizkanoglu",
+    "name": "Ogün Temizkanoğlu",
+    "imageKey": null,
+    "transfermarktId": "6932",
+    "aliases": [
+      "Ogün Temizkanoğlu",
+      "Temizkanoğlu"
+    ]
+  },
+  {
+    "slug": "oliver-kahn",
+    "name": "Oliver Kahn",
+    "imageKey": null,
+    "transfermarktId": "206",
+    "aliases": [
+      "Oliver Kahn",
+      "Kahn",
+      "Oliver Rolf Kahn"
+    ]
+  },
+  {
+    "slug": "owen-hargreaves",
+    "name": "Owen Hargreaves",
+    "imageKey": null,
+    "transfermarktId": "201",
+    "aliases": [
+      "Owen Hargreaves",
+      "Hargreaves",
+      "Owen Lee Hargreaves"
+    ]
+  },
+  {
+    "slug": "pablo-aimar",
+    "name": "Pablo Aimar",
+    "imageKey": null,
+    "transfermarktId": "3411",
+    "aliases": [
+      "Pablo Aimar",
+      "Aimar",
+      "Pablo César Aimar Giordano"
+    ]
+  },
+  {
+    "slug": "patrick-vieira",
+    "name": "Patrick Vieira",
+    "imageKey": null,
+    "transfermarktId": "3183",
+    "aliases": [
+      "Patrick Vieira",
+      "Vieira",
+      "Patrick Paul Vieira"
+    ]
+  },
+  {
+    "slug": "patrik-andersson",
+    "name": "Patrik Andersson",
+    "imageKey": null,
+    "transfermarktId": "191",
+    "aliases": [
+      "Patrik Andersson",
+      "Andersson",
+      "Patrik Jonas Andersson"
+    ]
+  },
+  {
+    "slug": "roberto-ayala",
+    "name": "Roberto Ayala",
+    "imageKey": null,
+    "transfermarktId": "7565",
+    "aliases": [
+      "Roberto Ayala",
+      "Ayala",
+      "Roberto Fabián Ayala"
+    ]
+  },
+  {
+    "slug": "ruben-baraja",
+    "name": "Rubén Baraja",
+    "imageKey": null,
+    "transfermarktId": "4191",
+    "aliases": [
+      "Rubén Baraja",
+      "Baraja",
+      "Rubén Baraja Vegas"
+    ]
+  },
+  {
+    "slug": "rustu-recber",
+    "name": "Rüştü Reçber",
+    "imageKey": null,
+    "transfermarktId": "4077",
+    "aliases": [
+      "Rüştü Reçber",
+      "Reçber"
+    ]
+  },
+  {
+    "slug": "samuel-johnson",
+    "name": "Samuel Johnson",
+    "imageKey": null,
+    "transfermarktId": "6936",
+    "aliases": [
+      "Samuel Johnson",
+      "Johnson"
+    ]
+  },
+  {
+    "slug": "samuel-kuffour",
+    "name": "Samuel Kuffour",
+    "imageKey": null,
+    "transfermarktId": "208",
+    "aliases": [
+      "Samuel Kuffour",
+      "Kuffour",
+      "Samuel Osei Kuffour"
+    ]
+  },
+  {
+    "slug": "santiago-canizares",
+    "name": "Santiago Cañizares",
+    "imageKey": null,
+    "transfermarktId": "7562",
+    "aliases": [
+      "Santiago Cañizares",
+      "Cañizares",
+      "José Santiago Cañizares Ruiz"
+    ]
+  },
+  {
+    "slug": "serhat-akin",
+    "name": "Serhat Akın",
+    "imageKey": null,
+    "transfermarktId": "2903",
+    "aliases": [
+      "Serhat Akın",
+      "Akın",
+      "Niyazi Serhat Akın"
+    ]
+  },
+  {
+    "slug": "simone-perrotta",
+    "name": "Simone Perrotta",
+    "imageKey": null,
+    "transfermarktId": "5922",
+    "aliases": [
+      "Simone Perrotta",
+      "Perrotta"
+    ]
+  },
+  {
+    "slug": "stefan-effenberg",
+    "name": "Stefan Effenberg",
+    "imageKey": null,
+    "transfermarktId": "197",
+    "aliases": [
+      "Stefan Effenberg",
+      "Effenberg"
+    ]
+  },
+  {
+    "slug": "thierry-henry",
+    "name": "Thierry Henry",
+    "imageKey": null,
+    "transfermarktId": "3207",
+    "aliases": [
+      "Thierry Henry",
+      "Henry",
+      "Thierry Daniel Henry"
+    ]
+  },
+  {
+    "slug": "thomas-linke",
+    "name": "Thomas Linke",
+    "imageKey": null,
+    "transfermarktId": "209",
+    "aliases": [
+      "Thomas Linke",
+      "Linke"
+    ]
+  },
+  {
+    "slug": "tuncay-sanli",
+    "name": "Tuncay Şanlı",
+    "imageKey": null,
+    "transfermarktId": "6934",
+    "aliases": [
+      "Tuncay Şanlı",
+      "Şanlı"
+    ]
+  },
+  {
+    "slug": "umit-davala",
+    "name": "Ümit Davala",
+    "imageKey": null,
+    "transfermarktId": "3381",
+    "aliases": [
+      "Ümit Davala",
+      "Davala"
+    ]
+  },
+  {
+    "slug": "umit-ozat",
+    "name": "Ümit Özat",
+    "imageKey": null,
+    "transfermarktId": "6933",
+    "aliases": [
+      "Ümit Özat",
+      "Özat"
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "imageKey": null,
+    "transfermarktId": "7080",
+    "aliases": [
+      "Washington",
+      "Washington Stecanela Cerqueira"
+    ]
+  },
+  {
+    "slug": "william-gallas",
+    "name": "William Gallas",
+    "imageKey": null,
+    "transfermarktId": "3156",
+    "aliases": [
+      "William Gallas",
+      "Gallas",
+      "William Éric Gallas"
+    ]
+  },
+  {
+    "slug": "willy-sagnol",
+    "name": "Willy Sagnol",
+    "imageKey": null,
+    "transfermarktId": "213",
+    "aliases": [
+      "Willy Sagnol",
+      "Sagnol",
+      "William Sagnol"
+    ]
+  },
+  {
+    "slug": "yusuf-simsek",
+    "name": "Yusuf Şimşek",
+    "imageKey": null,
+    "transfermarktId": "7034",
+    "aliases": [
+      "Yusuf Şimşek",
+      "Şimşek"
+    ]
+  },
+  {
+    "slug": "zinedine-zidane",
+    "name": "Zinédine Zidane",
+    "imageKey": null,
+    "transfermarktId": "3111",
+    "aliases": [
+      "Zinédine Zidane",
+      "Zidane",
+      "Zinédine Yazid Zidane"
+    ]
+  }
+]

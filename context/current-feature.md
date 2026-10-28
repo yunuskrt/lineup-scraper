@@ -31,3 +31,4 @@ Not Started
 - S12 Alias Sets: names, surnames, full names, curation, XI clash checks
 - S10 Memorability Engine: signals, era percentiles, floors over thresholds
 - S13 Guessability Gate: play-time rules, guessability, sides block
+- S14 Dataset Build: committed dataset, gate-passed only, manifest

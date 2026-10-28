@@ -32,6 +32,9 @@ data/work/
 data/reports/
 data/inbox/
 data/pages/
+# Left only if a dataset build is interrupted
+data/dataset.build/
+data/dataset.previous/
 
 # Temp
 .temp/

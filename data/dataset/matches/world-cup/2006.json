@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "2006-07-09-italy-france",
+    "transfermarktId": "53491",
+    "competitionSlug": "world-cup",
+    "season": "2006",
+    "date": "2006-07-09",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "italy",
+    "awayClubSlug": "france",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 5,
+      "away": 3
+    },
+    "home": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-materazzi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-grosso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauro-camoranesi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simone-perrotta",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "francesco-totti",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luca-toni",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-gallas",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-abidal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florent-malouda",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zinedine-zidane"
+      },
+      {
+        "kind": "goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "marco-materazzi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 110,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zinedine-zidane"
+      }
+    ],
+    "memorability": {
+      "score": 75,
+      "signals": {
+        "drama": 0.3833,
+        "eraBucket": 0,
+        "percentile": 0.5,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": true
+        },
+        "rawScore": 0.5813,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6982
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7736
+          }
+        },
+        "stage": 1,
+        "starPower": 0.7359
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-10-27T14:57:30Z"
+    }
+  }
+]

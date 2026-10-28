@@ -24,7 +24,7 @@ This todo file is for developer-side use.
 - [x] **Phase S12 — Alias Sets**: Full, common, surname, mononym, nickname and transliteration aliases, with curation.
 - [x] **Phase S10 — Memorability Engine**: Match-data signals, era-bucket normalisation, calibrated so every group clears its threshold; pure and tested. (was B19)
 - [x] **Phase S13 — Guessability Gate**: All 11 starters resolved with alias sets; writes `sides` guessability. (was B21)
-- [ ] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.
+- [x] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.
 - [ ] **Phase S15 — DB Loader**: Idempotent diff-sync into a chosen Neon branch, chunked, dry run, counts only; writes `transfermarkt_id`. — 👤 you: build backend request R1 first
 - [ ] **Phase S19 — Dashboard**: Local app: progress counts and percentages by group, competition and season; history; every failure with its reason; buttons to open links, import, build and load into `ingest`. (absorbs S16)
 - [ ] **Phase S20 — Pilot & Enrichment Guide**: The 3 pilot matches end to end into `ingest`, and the guide for growing the pool yourself. — 👤 you: approve the load, play the pilot in the app

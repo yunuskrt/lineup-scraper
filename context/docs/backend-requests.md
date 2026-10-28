@@ -28,6 +28,8 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 
 **Then, in the scraper:** copy `schema.prisma` and `data-contract.md`, add the column to the dataset schema (S14) and the loader (S15), and `npm run db:check` must pass.
 
+- **Dataset side done** (S14, 2026-10-28): `transfermarktId` is in `src/dataset/schema.ts` and `data/dataset/`, nullable and unique per list. The loader still waits for the columns.
+
 ---
 
 ## Shared spec changes

@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "2002-11-06-fenerbahce-galatasaray",
+    "transfermarktId": "1118844",
+    "competitionSlug": "super-lig",
+    "season": "2002-03",
+    "date": "2002-11-06",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 6,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-johnson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ogun-temizkanoglu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umit-ozat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yusuf-simsek",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miroslav-stevic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ariel-ortega",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "serhat-akin",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "washington",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "tuncay-sanli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "faryd-mondragon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "umit-davala",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bulent-korkmaz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-unsal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-sas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ayhan-akman",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "batista",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ergun-penbe",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-pinto",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "christian",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "tuncay-sanli"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ariel-ortega"
+      },
+      {
+        "kind": "red_card",
+        "minute": 57,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ariel-ortega"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "serhat-akin"
+      },
+      {
+        "kind": "goal",
+        "minute": 74,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "serhat-akin"
+      },
+      {
+        "kind": "goal",
+        "minute": 78,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "red_card",
+        "minute": 84,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "emre-asik"
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "umit-ozat"
+      }
+    ],
+    "memorability": {
+      "score": 65,
+      "signals": {
+        "drama": 0.35,
+        "eraBucket": 0,
+        "percentile": 0,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.4159,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4818
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3518
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4168
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-10-27T14:57:30Z"
+    }
+  }
+]

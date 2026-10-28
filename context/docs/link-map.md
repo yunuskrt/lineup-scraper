@@ -162,7 +162,9 @@ So in a 4-4-2 the goalkeeper is slot 0, the back four are 1–4 (right back firs
 | `memorability_scores` | `npm run scores` (S10): stage and rivalry from the listing and the pool groups, drama from the match report, star power from the player pages' caps; `sides.*.starPower` too. `sides.*.guessability` from `npm run gate` (S13), which also drops a match whose XI breaks a play-time rule |
 | `clubs.crest_key`, `players.image_key` | S18: images you save, uploaded to the bucket |
 
-The `transfermarkt_id` columns don't exist yet: they are backend request R1 (`backend-requests.md`).
+The `transfermarkt_id` columns don't exist in the database yet: they are backend request R1 (`backend-requests.md`). The dataset already carries them as `transfermarktId` (S14).
+
+Every column above reaches the database through `data/dataset/` (`npm run dataset`, S14): only matches that passed the gate, with the competitions, clubs and players they use.
 
 ---
 

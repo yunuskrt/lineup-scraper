@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "champions-league",
+    "kind": "ucl",
+    "name": "Champions League"
+  },
+  {
+    "slug": "super-lig",
+    "kind": "league",
+    "name": "Süper Lig"
+  },
+  {
+    "slug": "world-cup",
+    "kind": "world_cup",
+    "name": "World Cup"
+  }
+]

@@ -52,6 +52,12 @@ const seasonLabelSchema = z.string().regex(/^\d{4}(-\d{2})?$/);
 
 const goalsSchema = z.number().int().nonnegative();
 
+// The source page's id (backend request R1)
+const transfermarktIdSchema = z
+  .string()
+  .regex(/^[0-9]+$/)
+  .nullable();
+
 const competitionSchema = z.strictObject({
   slug: ownSlugSchema,
   kind: competitionKindSchema,
@@ -64,6 +70,7 @@ const clubSchema = z.strictObject({
   name: textSchema,
   shortName: z.string().regex(/^[A-Z0-9]{3}$/, 'Must be 3 capitals or digits'),
   crestKey: objectKeySchema.nullable(),
+  transfermarktId: transfermarktIdSchema,
   // The (club_id, alias) unique key: exact text
   aliases: z
     .array(textSchema)
@@ -85,6 +92,7 @@ const playerSchema = z.strictObject({
   slug: ownSlugSchema,
   name: textSchema,
   imageKey: objectKeySchema.nullable(),
+  transfermarktId: transfermarktIdSchema,
   aliases: playerAliasesSchema,
 });
 
@@ -153,6 +161,7 @@ const memorabilitySchema = z.strictObject({
 
 const matchSchema = z.strictObject({
   slug: ownSlugSchema,
+  transfermarktId: transfermarktIdSchema,
   competitionSlug: slugSchema,
   season: seasonLabelSchema,
   date: isoDateSchema,
@@ -179,12 +188,16 @@ type Lookups = {
 };
 
 const LISTS = ['competitions', 'clubs', 'players', 'matches'] as const;
+// The R1 columns are unique, many nulls aside
+const ID_LISTS = ['clubs', 'players', 'matches'] as const;
 const SIDES = ['home', 'away'] as const;
 
 // One pass: the real dataset has ~20,000 players
-function duplicateIndex(slugs: readonly string[]): number {
+function duplicateIndex(slugs: readonly (string | null)[]): number {
   const seen = new Set<string>();
-  return slugs.findIndex((slug) => seen.size === seen.add(slug).size);
+  return slugs.findIndex(
+    (slug) => slug !== null && seen.size === seen.add(slug).size,
+  );
 }
 
 function checkClubs(match: Match, lookups: Lookups, issue: Issue): void {
@@ -246,6 +259,18 @@ export const datasetSchema = z
           code: 'custom',
           path: [key, index, 'slug'],
           message: 'Duplicate slug',
+        });
+      }
+    }
+
+    for (const key of ID_LISTS) {
+      const ids = data[key].map((item) => item.transfermarktId);
+      const index = duplicateIndex(ids);
+      if (index >= 0) {
+        ctx.addIssue({
+          code: 'custom',
+          path: [key, index, 'transfermarktId'],
+          message: 'Duplicate Transfermarkt id',
         });
       }
     }

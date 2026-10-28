@@ -1,0 +1,32 @@
+{
+  "algorithmVersions": [
+    "s10-v1"
+  ],
+  "counts": {
+    "aliases": 164,
+    "clubs": 6,
+    "competitions": 3,
+    "events": 13,
+    "lineups": 66,
+    "matches": 3,
+    "players": 65
+  },
+  "files": {
+    "clubs.json": "f96b987c356829d376b6a6df406ddab16c1a7218aa6e1eebf1864036e1fa3f34",
+    "competitions.json": "3da57cea913a27f448164f026a8725f21b5b56ee46498c1c84f2c09545dabeb5",
+    "matches/champions-league/2000-01.json": "96a219dd29eb09480040450c9714b89387981b0a824160373058b1ec32d9799a",
+    "matches/super-lig/2002-03.json": "528604ea0a5f1d4a1fe16e9a648e5b525e67a9863479bb9feb6bbc62e2cfcc38",
+    "matches/world-cup/2006.json": "577b9aba11cb1dadd4d5408cf26f197683470ec982cc9427bede2a93f845f41f",
+    "players.json": "81b72be5fb2a937179ecdf3693734b2aed25c9d59a2d1b7a3e334e0ee4fecbf6"
+  },
+  "matchesBy": {
+    "champions-league/2000-01": 1,
+    "super-lig/2002-03": 1,
+    "world-cup/2006": 1
+  },
+  "schemaHash": "3ace996936f1ff791f80302493f18932bd0fb08ccecb5643822c18740136769b",
+  "sources": [
+    "curation",
+    "transfermarkt"
+  ]
+}
