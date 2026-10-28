@@ -28,9 +28,11 @@
     "scores": "tsx src/score/main.ts",
     "gate": "tsx src/gate/main.ts",
     "dataset": "tsx src/dataset/main.ts",
-    "load": "tsx src/load/main.ts"
+    "load": "tsx src/load/main.ts",
+    "storage": "tsx src/storage/main.ts"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "3.1152.0",
     "@prisma/adapter-pg": "7.10.0",
     "@prisma/client": "7.10.0",
     "zod": "^4.6.5"

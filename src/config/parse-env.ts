@@ -1,17 +1,27 @@
-import { envSchema, type Env } from '@/config/env.schema.js';
+import type { z } from 'zod';
+import {
+  envSchema,
+  storageEnvSchema,
+  type Env,
+  type StorageEnv,
+} from '@/config/env.schema.js';
 
 export type EnvIssue = {
   key: string;
   reason: string;
 };
 
-export type ParseEnvResult =
-  { success: true; data: Env } | { success: false; error: EnvIssue[] };
+type Parsed<T> =
+  { success: true; data: T } | { success: false; error: EnvIssue[] };
 
-export function parseEnv(
+export type ParseEnvResult = Parsed<Env>;
+export type ParseStorageEnvResult = Parsed<StorageEnv>;
+
+function parseWith<T>(
+  schema: z.ZodType<T>,
   raw: Record<string, string | undefined>,
-): ParseEnvResult {
-  const result = envSchema.safeParse(raw);
+): Parsed<T> {
+  const result = schema.safeParse(raw);
   if (result.success) {
     return { success: true, data: result.data };
   }
@@ -22,6 +32,18 @@ export function parseEnv(
       reason: issue.message,
     })),
   };
+}
+
+export function parseEnv(
+  raw: Record<string, string | undefined>,
+): ParseEnvResult {
+  return parseWith(envSchema, raw);
+}
+
+export function parseStorageEnv(
+  raw: Record<string, string | undefined>,
+): ParseStorageEnvResult {
+  return parseWith(storageEnvSchema, raw);
 }
 
 export function formatEnvIssues(issues: EnvIssue[]): string {

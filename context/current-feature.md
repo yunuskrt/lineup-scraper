@@ -34,3 +34,4 @@ Not Started
 - S14 Dataset Build: committed dataset, gate-passed only, manifest
 - S15a Loader Plan & Dry Run: preflight, read-only plan, counts
 - S15b Loader Apply: chunked writes, e2e on disposable branches
+- S17 Storage Client: Neon images bucket, hash keys, idempotent uploads

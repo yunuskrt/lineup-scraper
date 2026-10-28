@@ -34,6 +34,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S15 | First, backend request R1 (`backend-requests.md`) is built in `lineup-backend` | — | Before S15 | **Done** (2026-10-28) |
 | S15a | Nothing: the dry run only reads `ingest` | — | — | — |
 | S15b | Approve a disposable branch for the e2e run and put its connection string in `.env` for the run. Steps: `features/phase-s15b-loader-apply.md` § Your part | ~5 min | During S15b | **Done** (2026-10-28) |
+| S17 | Create the `images` bucket and a storage credential on `ingest`, put the credential in `.env`; approve a disposable branch for the e2e run. Steps: `features/phase-s17-storage-client.md` § Your part | ~10 min | During S17 | **Done** (2026-10-28) |
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
 | S18 | Save a crest per club and a photo per player, from the list S18 writes. Check each image's licence before release | One per club and player | During S18 | Pending |

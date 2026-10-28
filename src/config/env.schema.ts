@@ -11,3 +11,17 @@ export const envSchema = z.object({
 
 export type Env = z.infer<typeof envSchema>;
 export type LoadTarget = Env['LOAD_TARGET'];
+
+// AWS names, as the Neon console gives them
+export const storageEnvSchema = z.object({
+  AWS_ENDPOINT_URL_S3: z.url({ protocol: /^https$/ }),
+  AWS_ACCESS_KEY_ID: z.string().min(1),
+  AWS_SECRET_ACCESS_KEY: z.string().min(1),
+  AWS_REGION: z.string().min(1),
+  STORAGE_BUCKET: z
+    .string()
+    .regex(/^[a-z0-9][a-z0-9-]{1,61}[a-z0-9]$/)
+    .default('images'),
+});
+
+export type StorageEnv = z.infer<typeof storageEnvSchema>;

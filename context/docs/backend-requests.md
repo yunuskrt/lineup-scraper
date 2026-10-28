@@ -5,6 +5,7 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 | # | Request | Needed by | Asked | Status |
 | --- | --- | --- | --- | --- |
 | R1 | Transfermarkt ids on clubs, players and matches | S15 | 2026-10-27 | **Done** (2026-10-28) |
+| R2 | Image URLs: bucket keys become `crestUrl` and `imageUrl` (backend B23) | S20 | 2026-10-28 | Pending |
 
 ---
 
@@ -33,6 +34,27 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 
 ---
 
+## R2. Image URLs
+
+**Why:** S17 puts images in Neon Object Storage and S18 writes their keys into `clubs.crest_key` and `players.image_key`. The backend sends `null` for both today (`src/matches/match-refs.ts`: "URLs arrive with B23"), so the pilot shows no image until it turns keys into URLs. Decided 2026-10-28.
+
+**Storage, as built in S17:**
+
+- Neon Object Storage, which branches with the database: each branch has its own objects, beside the rows that point at them
+- Bucket `images`, access `public_read`: anyone can read an object, only a credential can write
+- An object's URL is `<endpoint>/<bucket>/<key>`, path-style. On `ingest`: `https://br-steep-paper-b1z0rlqq.storage.c-5.eu-central-1.aws.neon.tech/images/<key>`
+- Keys: `crests/<club-slug>/<sha256-12>.<ext>` and `players/<player-slug>/<sha256-12>.<ext>`, with `ext` one of `webp`, `png`, `svg`. A key's bytes never change; objects carry `Cache-Control: public, max-age=31536000, immutable` and their real `Content-Type`
+
+**Change (no migration):**
+
+- An `ASSET_BASE_URL` env var, validated at boot: `<endpoint>/<bucket>`, one per environment (`ingest`'s above for development against real data; `production`'s once it has a bucket). Optional: unset, every image stays `null`
+- `crest_key` → `ClubRef.crestUrl` and `image_key` → `RevealedPlayer.imageUrl` as `${ASSET_BASE_URL}/${key}`, wherever they're sent (`match-refs.ts`, `squad-loader.service.ts`, the history and profile views). `null` stays `null`
+- The backend never proxies or fetches an image; clients load the URL straight from the bucket (spec § Data Architecture). Images are shown with `<img>`, so no CORS rule is needed
+
+**Then:** web tightens `imageUrlSchema` to absolute URLs (`scraper-repo-setup.md` § 10). Nothing in the scraper changes: it writes keys, never URLs.
+
+---
+
 ## Shared spec changes
 
 `project-overview.md` must stay identical in all four repos, so the scraper never edits it alone. These decisions of 2026-10-27 differ from it, and need one change applied to every repo's copy:
@@ -43,3 +65,4 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 | § A Scoring signals, § Sources | Cultural footprint from Wikipedia and Wikidata | Dropped: no Wikipedia signal; scores come from match data |
 | § A Rules, Hard Constraint 13 | The memorability threshold decides what enters the pool | The groups decide; scores are calibrated so every group match clears the threshold the backend serves by |
 | Data Architecture, images | Prefer generated silhouettes, initials or Wikimedia Commons | The user saves crests and photos by hand; each licence is checked before release |
+| Tech Stack, Object storage | "A bucket with a free tier (Cloudflare R2, Supabase Storage or Backblaze B2 — decided later)" | Neon Object Storage, in the same project: bucket `images`, `public_read`, branched with the database (S17, 2026-10-28) |
