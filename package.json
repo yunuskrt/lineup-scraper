@@ -30,7 +30,9 @@
     "dataset": "tsx src/dataset/main.ts",
     "load": "tsx src/load/main.ts",
     "storage": "tsx src/storage/main.ts",
-    "images": "tsx src/images/main.ts"
+    "images": "tsx src/images/main.ts",
+    "build": "tsx src/build/main.ts",
+    "verify": "tsx src/verify/main.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.1152.0",

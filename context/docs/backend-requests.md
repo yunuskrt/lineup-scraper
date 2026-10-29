@@ -5,7 +5,7 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 | # | Request | Needed by | Asked | Status |
 | --- | --- | --- | --- | --- |
 | R1 | Transfermarkt ids on clubs, players and matches | S15 | 2026-10-27 | **Done** (2026-10-28) |
-| R2 | Image URLs: bucket keys become `crestUrl` and `imageUrl` (backend B23) | S20 | 2026-10-28 | Pending |
+| R2 | Image URLs: bucket keys become `crestUrl` and `imageUrl` (backend B23) | S20 | 2026-10-28 | **Done** (2026-10-29) |
 
 ---
 
@@ -52,6 +52,8 @@ Schema or contract changes the scraper needs. The backend owns the schema (`data
 - The backend never proxies or fetches an image; clients load the URL straight from the bucket (spec § Data Architecture). Images are shown with `<img>`, so no CORS rule is needed
 
 **Then:** web tightens `imageUrlSchema` to absolute URLs (`scraper-repo-setup.md` § 10). Nothing in the scraper changes: it writes keys, never URLs.
+
+- **Built** (2026-10-29): backend `f5ad59d`, no migration, no contract or `PROTOCOL_VERSION` change. The backend sends `<ASSET_BASE_URL>/<key>`, or `null` when the key or the variable is unset; never a bare key, never a proxy. Keys must not start with `/` (the dataset schema already refuses one). Checked on `ingest`: 6 of 6 catalog crests and one solo reveal's photo answer `200 image/webp`; the check left one guest user and one quit solo session there. The scraper copied the regenerated `data-contract.md` (§ 2.3, 2.5, 2.12, 11). Backend B23 and B24 are dropped: uploading and image ingest belong to the scraper (S17, S18)
 
 ---
 

@@ -37,3 +37,4 @@ Not Started
 - S17 Storage Client: Neon images bucket, hash keys, idempotent uploads
 - S18a Image Lists & Import: image URLs, lists, 71 images filed by id
 - S18b Image Processing & Upload: WebP 128px, centre crop, bucket check
+- S20 Pilot & Enrichment Guide: build, verify, pilot loaded into ingest
