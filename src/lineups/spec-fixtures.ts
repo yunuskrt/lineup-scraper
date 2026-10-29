@@ -119,6 +119,7 @@ function side(key: string, clubId: string, bench: string[]): RawSide {
   return {
     sourceId: clubId,
     name: `Club ${clubId}`,
+    crestUrl: null,
     tablePosition: null,
     formation: saved.formation,
     starters: saved.starters.map(([sourceId, style]) => ({

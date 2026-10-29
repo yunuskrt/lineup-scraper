@@ -101,7 +101,7 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
     args = parser.parse_args(argv)
     lists_dir = dirs["work"] / LINK_LISTS
     names = args.names or list_names(lists_dir)
-    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"])
+    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs.get("images"))
     try:
         results = [
             progress(name, read_link_list(list_path(lists_dir, name)), state, args.by)

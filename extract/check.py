@@ -9,7 +9,9 @@ from extract.import_log import IMPORT_LOG, read_log
 from extract.links import LINK_LISTS, list_names, list_path, read_link_list
 from extract.pages import KINDS, PageId, RefusedPageError, classify, snapshot
 
-USAGE: Final = "a Transfermarkt link, or kind:key (match:990248, fixture:cl-2000)"
+USAGE: Final = (
+    "a Transfermarkt link, or kind:key (match:990248, fixture:cl-2000, crest:27)"
+)
 
 
 def parse_target(target: str) -> PageId:
@@ -24,7 +26,7 @@ def parse_target(target: str) -> PageId:
 
 def check_lines(page: PageId, dirs: Mapping[str, Path]) -> tuple[list[str], bool]:
     kind, key = page
-    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"])
+    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs.get("images"))
     lists_dir = dirs["work"] / LINK_LISTS
     holding = [
         name

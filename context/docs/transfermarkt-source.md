@@ -61,6 +61,8 @@ Checked live on 2026-10-26 (T1–T9 in the evidence table of the context fix).
 | Player h1, info table (`…min-height-audio` fallback) | Works | Strip the `#11` shirt number from the h1 |
 | Player DOB `%b %d, %Y` | **Format changed** | `DD/MM/YYYY (age)` |
 | Crest host `tmssl.akamaized.net` | **Changed** | `img.a.transfermarkt.technology/wappen/head/{id}.png` |
+| Match report crests (S18a) | Works | Each side's box (`div.sb-team sb-heim` / `sb-gast`) holds `img[src*="/wappen/"]`: `…/wappen/normquad/{clubId}_{stamp}.png`, or `{clubId}.png` with no stamp (`36.png`, Fenerbahçe). One club can show both forms in different reports (`141.png`, `141_1751657220.png`) |
+| Player photo (S18a) | Works | `img.data-header__profile-image`, `…/portrait/header/{playerId}-{stamp}.jpg` (139×181), an older `s_{playerId}_{clubId}_{date}_{n}.jpg` (7 of the pilot's 65), or `default.jpg`, a placeholder |
 
 **Clock sprite → minute** (S11, `src/lineups/events.ts`): `background-position: -Xpx -Ypx` is minute `1 + X/36 + 10·Y/36`; with added time (`+2`) that minute is the end of the half (`-324px -288px` `+2` is 90+2). Checked against each page's own timeline (`div.sb-zeitleiste`, `sb-120-minuten` with extra time, else `sb-90-minuten`) on the 3 pilot reports: all 13 goals and red cards agree, from 3' to Zidane's red card at 110'. A sprite off the 36 px grid (`-0px -433px`, seen on cards) is an unknown minute: the event is kept with `minute: null` and left out of the load.
 

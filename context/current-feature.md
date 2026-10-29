@@ -35,3 +35,4 @@ Not Started
 - S15a Loader Plan & Dry Run: preflight, read-only plan, counts
 - S15b Loader Apply: chunked writes, e2e on disposable branches
 - S17 Storage Client: Neon images bucket, hash keys, idempotent uploads
+- S18a Image Lists & Import: image URLs, lists, 71 images filed by id

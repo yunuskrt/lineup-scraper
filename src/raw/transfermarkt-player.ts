@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { envelopeFields, rawTextSchema } from '@/raw/envelope.js';
+import { envelopeFields, rawTextSchema, urlSchema } from '@/raw/envelope.js';
 
 // A player profile page; every field as shown
 export const transfermarktPlayerSchema = z.strictObject({
@@ -15,6 +15,8 @@ export const transfermarktPlayerSchema = z.strictObject({
   nameInHomeCountry: rawTextSchema.nullable(),
   // The header's `Caps/Goals:` as shown (`43 / 12`)
   capsGoals: rawTextSchema.nullable(),
+  // The header photo's src; null for a placeholder
+  imageUrl: urlSchema.nullable(),
 });
 
 export type TransfermarktPlayer = z.infer<typeof transfermarktPlayerSchema>;

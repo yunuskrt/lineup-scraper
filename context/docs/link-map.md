@@ -124,7 +124,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | `clubs.name`, `short_name` | `data/curation/club-names.json`, else Transfermarkt's most used name and its first 3 letters (Transfermarkt's `FC Bayern Munich` becomes an alias) |
 | `clubs.kind` | The competition: a side in a World Cup or Euro is a `national_team` |
 | `club_aliases` | Every name the listing pages and match reports used for that id |
-| `clubs.crest_key` | S18: an image you save |
+| `clubs.crest_key` | S18: the crest you save from the image link a match report shows (`img.a.transfermarkt.technology/wappen/normquad/{id}_{stamp}.png`); S18b resizes and uploads it |
 
 ---
 
@@ -176,7 +176,8 @@ Every column above reaches the database through `data/dataset/` (`npm run datase
 | To-save list, `data/work/inbox-lists/<list>.md` | `uv run python -m extract.links show <list>`: only what's still to save, with the link, the file name and the folder (`data/inbox/`). Pages in the inbox but not imported are marked |
 | `extract.links new <list> <link>...` | Makes a list by hand |
 | `extract.links open <list> [--count N]` | Opens the next N unsaved links in your own browser (default 5). It never requests a page itself |
-| `extract.inbox` | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html` |
+| `extract.inbox` | Parses everything in `data/inbox/` and files it under `data/pages/transfermarkt/<kind>/<id>.html`. Images (S18a) are filed by id under `data/images/transfermarkt/crest/<clubId>.<ext>` and `…/photo/<playerId>.<ext>`, their format read from their first bytes |
+| Image lists (S18a) | Kinds `crest` and `photo`, keyed on the club or player id. The link is the image itself, on `img.a.transfermarkt.technology`; the save-as name is the browser's own (`27_1400571853.png`, `206-1663667692.jpg`, `s_7573_123_2012_1.jpg`), or `crest-<id>` / `photo-<id>` when the browser's name has no stamp to tell them apart. `kind:key` works in `extract.check` (`crest:27`) |
 | Import log, `data/work/import-log.ndjson` | One line per inbox file: `at`, `file`, `url`, `kind`, `key`, `result` (`imported`, `duplicate`, `refused`), `reason`, `records`, `backfilled`. Never page text. The dashboard's history. `extract.inbox --backfill-log` adds pages imported before the log |
 | `extract.progress [<list>...] [--by group\|competition\|season] [--json]` | Per list: imported, parsed, in the inbox and missing, as `23/1000 (2.3%)`; pages imported but not parsed |
 | `extract.check <link \| kind:key>` | For one page: its lists, the inbox file, the stored page, its records and its log lines. Exit 0 once parsed |

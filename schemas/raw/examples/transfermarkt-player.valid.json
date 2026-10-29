@@ -12,7 +12,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": "Ardenia Oyuncu Tam Adı",
       "nameInHomeCountry": null,
-      "capsGoals": "12 / 3"
+      "capsGoals": "12 / 3",
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -28,7 +29,8 @@
       "position": null,
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": null
     }
   }
 ]

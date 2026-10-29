@@ -5,11 +5,12 @@ from extract.data_dirs import DATA_DIRS
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
-def test_names_the_eight_data_folders() -> None:
+def test_names_the_nine_data_folders() -> None:
     assert sorted(DATA_DIRS) == [
         "cache",
         "curation",
         "dataset",
+        "images",
         "inbox",
         "pages",
         "raw",

@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Final, Literal, TypedDict, cast
 
 from extract.data_dirs import DATA_DIRS
+from extract.images import IMAGE_KINDS
 from extract.pages import (
     HOME,
     Kind,
@@ -18,6 +19,7 @@ from extract.pages import (
     classify,
     snapshot,
 )
+from extract.parsers.transfermarkt.common import IMAGE_HOST
 from extract.records import PARTITION
 
 LINK_LISTS: Final = "link-lists"
@@ -60,8 +62,11 @@ def link(
     competition: str | None = None,
     season: str | None = None,
 ) -> Link:
-    if not url.startswith(HOME) or url.split() != [url]:
-        raise RefusedPageError(f"not a single www.transfermarkt.com link: {url!r}")
+    is_known = url.startswith(HOME) or url.startswith(IMAGE_HOST)
+    if not is_known or url.split() != [url]:
+        raise RefusedPageError(
+            f"not a single Transfermarkt page or image link: {url!r}"
+        )
     return Link(classify(url), group, competition, season)
 
 
@@ -114,6 +119,20 @@ def list_names(lists_dir: Path) -> list[str]:
     return sorted(path.stem for path in lists_dir.glob("*.json"))
 
 
+def how_to_save(links: list[Link]) -> list[str]:
+    if links and all(item.page.kind in IMAGE_KINDS for item in links):
+        return [
+            "Open each link: it shows the image alone. Save it with ⌘S (Ctrl+S)",
+            f"into `{INBOX_FOLDER}` under the name shown (the browser's own name,",
+            "or `crest-<id>` / `photo-<id>` where that one can't say which),",
+            "then run `uv run python -m extract.inbox`.",
+        ]
+    return [
+        f"Save each page as **HTML only** into `{INBOX_FOLDER}`, under the name shown,",
+        "then run `uv run python -m extract.inbox` (`context/docs/manual-work.md`).",
+    ]
+
+
 def render(name: str, links: list[Link], state: Snapshot) -> str:
     saved = sum(state.status(item.page.id) in {"imported", "parsed"} for item in links)
     rows = []
@@ -128,8 +147,7 @@ def render(name: str, links: list[Link], state: Snapshot) -> str:
         "",
         f"Saved: {saved}/{len(links)}. Still to save: {len(rows)}.",
         "",
-        f"Save each page as **HTML only** into `{INBOX_FOLDER}`, under the name shown,",
-        "then run `uv run python -m extract.inbox` (`context/docs/manual-work.md`).",
+        *how_to_save(links),
         "",
         "| # | Link | Save as | Folder | Status |",
         "| --- | --- | --- | --- | --- |",
@@ -144,7 +162,7 @@ def render(name: str, links: list[Link], state: Snapshot) -> str:
 
 def show(dirs: Mapping[str, Path], name: str) -> Path:
     links = read_link_list(list_path(dirs["work"] / LINK_LISTS, name))
-    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"])
+    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs.get("images"))
     target = dirs["work"] / INBOX_LISTS / f"{name}.md"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(render(name, links, state), encoding="utf-8")
@@ -156,7 +174,7 @@ def open_next(
     dirs: Mapping[str, Path], name: str, count: int, opener: Opener
 ) -> list[Page]:
     links = read_link_list(list_path(dirs["work"] / LINK_LISTS, name))
-    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"])
+    state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs.get("images"))
     pages = [i.page for i in links if state.status(i.page.id) == "missing"][:count]
     for page in pages:
         opener(page.url)

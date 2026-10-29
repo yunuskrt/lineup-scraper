@@ -5,7 +5,7 @@ from typing import cast
 
 import pytest
 
-from extract.parsers.transfermarkt.common import ParseError
+from extract.parsers.transfermarkt.common import PHOTO_ID, ParseError, image_url
 from extract.parsers.transfermarkt.fixtures import parse_fixture_list
 from extract.parsers.transfermarkt.match import parse_match_report
 from extract.parsers.transfermarkt.player import parse_player
@@ -295,3 +295,39 @@ def test_falls_back_to_the_header_without_the_info_table() -> None:
     assert player["dateOfBirth"] == "14/12/1996 (29)"
     assert player["citizenship"] == "Brazil"
     assert player["position"] == "Centre-Forward"
+
+
+IMG = "https://img.a.transfermarkt.technology"
+
+
+def test_reads_each_sides_crest() -> None:
+    final = match("990248")
+    derby = match("1118844")
+    assert final["home"]["crestUrl"] == (
+        f"{IMG}/wappen/normquad/27_1400571853.png?lm=1789459168"
+    )
+    assert final["away"]["crestUrl"] == (
+        f"{IMG}/wappen/normquad/1049_1439122752.png?lm=1789459228"
+    )
+    # Some crests have no stamp in the name
+    assert derby["home"]["crestUrl"] == f"{IMG}/wappen/normquad/36.png?lm=1789459168"
+
+
+def test_reads_the_header_photo() -> None:
+    player = parse_player(page("player-206"), f"{BASE}/x/profil/spieler/206", FETCHED)
+    assert player["imageUrl"] == (f"{IMG}/portrait/header/206-1464084738.jpg?lm=4711")
+
+
+@pytest.mark.parametrize(
+    ("src", "is_kept"),
+    [
+        (f"{IMG}/portrait/header/206-1464084738.jpg?lm=4711", True),
+        # The older naming, still a real photo
+        (f"{IMG}/portrait/header/s_7573_123_2012_10_23_1.jpg?lm=4711", True),
+        (f"{IMG}/portrait/header/default.jpg?lm=1", False),
+        ("https://example.org/portrait/header/206-1.jpg", False),
+    ],
+)
+def test_keeps_only_a_real_photo(src: str, is_kept: bool) -> None:
+    assert image_url(src, PHOTO_ID) == (src if is_kept else None)
+    assert image_url(None, PHOTO_ID) is None

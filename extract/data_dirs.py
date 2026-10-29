@@ -14,4 +14,6 @@ DATA_DIRS: Final[Mapping[str, Path]] = {
     # Pages the user saved, before and after import
     "inbox": DATA_ROOT / "inbox",
     "pages": DATA_ROOT / "pages",
+    # Crests and photos the user saved, by id
+    "images": DATA_ROOT / "images",
 }

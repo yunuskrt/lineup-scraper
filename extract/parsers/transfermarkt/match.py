@@ -4,12 +4,14 @@ from parsel import Selector, SelectorList
 
 from extract.parsers.transfermarkt.common import (
     ANY_PLAYER_ID,
+    CREST_ID,
     DATUM,
     MATCH_ID,
     PLAYER_ID,
     TEAM_ID,
     ParseError,
     id_in,
+    image_url,
     require,
     text,
     text_or_none,
@@ -104,6 +106,9 @@ def team_side(
     return {
         "sourceId": team_id,
         "name": require(text_or_none(link), f"{side} team name"),
+        "crestUrl": image_url(
+            team.xpath('.//img[contains(@src, "/wappen/")]/@src').get(), CREST_ID
+        ),
         # Each side's own box (reference § 12 #1)
         "tablePosition": text_or_none(team.xpath("(.//p)[1]")),
         "formation": text_or_none(

@@ -19,6 +19,7 @@ class Dirs:
         self.pages = root / "pages"
         self.raw = root / "raw"
         self.work = root / "work"
+        self.images = root / "images"
         self.log = self.work / IMPORT_LOG
         self.inbox.mkdir()
 
@@ -28,6 +29,7 @@ class Dirs:
             "pages": self.pages,
             "raw": self.raw,
             "work": self.work,
+            "images": self.images,
         }
 
     def save(self, fixture: str, as_name: str | None = None) -> Path:
@@ -38,5 +40,12 @@ class Dirs:
 
     def run(self, expect: Path | None = None) -> Report:
         return import_inbox(
-            self.inbox, self.pages, self.raw, "probe", expect, self.log, RUN_AT
+            self.inbox,
+            self.pages,
+            self.raw,
+            "probe",
+            expect,
+            self.log,
+            RUN_AT,
+            images_dir=self.images,
         )

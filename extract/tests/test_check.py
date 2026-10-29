@@ -16,6 +16,11 @@ MATCH = f"{TM}/spielbericht/index/spielbericht/990248"
         ("match:990248", ("match", "990248")),
         ("player:411295", ("player", "411295")),
         ("fixture:CL-2000", ("fixture", "cl-2000")),
+        ("crest:27", ("crest", "27")),
+        (
+            "https://img.a.transfermarkt.technology/portrait/header/206-1.jpg",
+            ("photo", "206"),
+        ),
     ],
 )
 def test_reads_a_link_or_kind_and_key(target: str, page: tuple[str, str]) -> None:
@@ -61,3 +66,15 @@ def test_a_page_in_the_inbox_is_not_done(
 
 def test_a_bad_target_exits_one(dirs: Dirs) -> None:
     assert main(["club:27"], dirs.folders()) == 1
+
+
+def test_reports_a_filed_image(dirs: Dirs, capsys: pytest.CaptureFixture[str]) -> None:
+    (dirs.inbox / "crest-36.png").write_bytes(b"\x89PNG\r\n\x1a\n")
+    dirs.run()
+
+    assert main(["crest:36"], dirs.folders()) == 0
+
+    out = capsys.readouterr().out
+    assert "crest:36  parsed" in out
+    assert "transfermarkt/crest/36.png" in out
+    assert "2026-10-27T12:00:00Z imported (0 records)" in out

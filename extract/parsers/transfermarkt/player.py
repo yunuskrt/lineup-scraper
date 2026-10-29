@@ -1,8 +1,10 @@
 from parsel import Selector
 
 from extract.parsers.transfermarkt.common import (
+    PHOTO_ID,
     PLAYER_ID,
     id_in,
+    image_url,
     require,
     text,
     text_or_none,
@@ -59,4 +61,10 @@ def parse_player(html: str, url: str, fetched_at: str) -> TransfermarktPlayer:
         "fullName": info.get("Full name:"),
         "nameInHomeCountry": info.get("Name in home country:"),
         "capsGoals": header_value(page, "caps/goals:"),
+        "imageUrl": image_url(
+            page.xpath(
+                '//img[contains(@class, "data-header__profile-image")]/@src'
+            ).get(),
+            PHOTO_ID,
+        ),
     }

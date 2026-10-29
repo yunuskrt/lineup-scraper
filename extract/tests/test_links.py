@@ -35,8 +35,8 @@ def test_kind_key_and_save_as_come_from_the_link() -> None:
 @pytest.mark.parametrize(
     ("url", "reason"),
     [
-        ("https://example.org/a/index/spielbericht/1", "not a single www"),
-        (f"{MATCH}\n{PLAYER}", "not a single www"),
+        ("https://example.org/a/index/spielbericht/1", "not a single Transfermarkt"),
+        (f"{MATCH}\n{PLAYER}", "not a single Transfermarkt"),
         (f"{TM}/laurent-blanc/profil/trainer/4589", "unknown page type"),
     ],
 )
@@ -136,3 +136,23 @@ def test_cli_makes_a_list_and_reports_errors(dirs: Dirs) -> None:
         main(["open", "sample", "--count", "-1"], folders, opened.append)
     assert opened == [MATCH, PLAYER]
     assert main(["show", "nothing"], folders) == 1
+
+
+def test_shows_an_image_list_with_image_instructions(dirs: Dirs) -> None:
+    crest = "https://img.a.transfermarkt.technology/wappen/normquad/36.png?lm=1"
+    photo = "https://img.a.transfermarkt.technology/portrait/header/206-14.jpg"
+    write_link_list(dirs.work / LINK_LISTS, "images", [link(crest), link(photo)])
+    (dirs.inbox / "206-14.jpg").write_bytes(b"\xff\xd8\xff")
+
+    text = show(dirs.folders(), "images").read_text(encoding="utf-8")
+
+    assert "Save it with ⌘S" in text
+    assert "HTML only" not in text
+    assert f"| 1 | {crest} | `crest-36.png` | `data/inbox/` | to save |" in text
+    assert "| 2 | " + photo + " | `206-14.jpg` |" in text
+    assert "in inbox, run the import" in text
+
+
+def test_refuses_an_image_link_that_is_no_crest_or_photo() -> None:
+    with pytest.raises(RefusedPageError, match="not a crest or a photo"):
+        link("https://img.a.transfermarkt.technology/flagge/tiny/50.png")

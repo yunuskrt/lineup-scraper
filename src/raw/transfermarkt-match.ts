@@ -5,6 +5,7 @@ import {
   isoDateSchema,
   rawTextSchema,
   refSchema,
+  urlSchema,
 } from '@/raw/envelope.js';
 
 // As linked: `/oliver-kahn/profil/spieler/206`
@@ -32,6 +33,8 @@ const benchSchema = z.strictObject({
 const sideSchema = z.strictObject({
   sourceId: digitsSchema,
   name: rawTextSchema,
+  // The header crest's src; null for a placeholder
+  crestUrl: urlSchema.nullable(),
   tablePosition: rawTextSchema.nullable(),
   formation: rawTextSchema.nullable(),
   starters: z.array(starterSchema),

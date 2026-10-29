@@ -10,6 +10,18 @@ from pathlib import Path
 from typing import Final, cast
 
 from extract.data_dirs import DATA_DIRS
+from extract.images import (
+    IMAGE_KINDS,
+    ImageId,
+    RefusedImageError,
+    check_name,
+    image_files,
+    images_root,
+    name_id,
+    sniff,
+    stored_image,
+    stored_images,
+)
 from extract.import_log import (
     IMPORT_LOG,
     LogLine,
@@ -36,7 +48,9 @@ from extract.parsers.transfermarkt.match import parse_match_report
 from extract.parsers.transfermarkt.player import parse_player
 from extract.records import InvalidRecordError, JsonValue, RecordWriter, validate_record
 
-LINK: Final = re.compile(r"https://www\.transfermarkt\.com/\S+")
+LINK: Final = re.compile(
+    r"https://(?:www\.transfermarkt\.com|img\.a\.transfermarkt\.technology)/\S+"
+)
 
 
 @dataclass
@@ -147,14 +161,71 @@ class Importer:
         )
 
 
-def expected_missing(link_list: Path, pages_dir: Path) -> list[str]:
+def image_line(
+    at: str, file: str, image: ImageId | None, result: Result, reason: str | None = None
+) -> LogLine:
+    return {
+        "at": at,
+        "file": file,
+        "url": None,
+        "kind": image[0] if image else None,
+        "key": image[1] if image else None,
+        "result": result,
+        "reason": reason,
+        "records": 0,
+        "backfilled": False,
+    }
+
+
+# Filed by id; new bytes for a filed id replace it
+def take_image(path: Path, images_dir: Path, report: Report, at: str) -> None:
+    image = check_name(path.name)
+    data = path.read_bytes()
+    suffix = sniff(data)
+    kind, key = image
+    old = stored_image(images_dir, image)
+    if old is not None and old.read_bytes() == data:
+        path.unlink()
+        report.duplicates.append(path.name)
+        report.log.append(image_line(at, path.name, image, "duplicate"))
+        return
+    target = images_root(images_dir) / kind / f"{key}.{suffix}"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if old is not None:
+        old.unlink()
+    path.replace(target)
+    report.imported[kind] += 1
+    reason = "replaced the filed image" if old is not None else None
+    report.log.append(image_line(at, path.name, image, "imported", reason))
+
+
+def import_images(inbox: Path, images_dir: Path, report: Report, at: str) -> None:
+    for path in image_files(inbox):
+        try:
+            take_image(path, images_dir, report, at)
+        except RefusedImageError as error:
+            report.refused.append((path.name, str(error)))
+            report.log.append(
+                image_line(at, path.name, name_id(path.name), "refused", str(error))
+            )
+
+
+def expected_missing(
+    link_list: Path, pages_dir: Path, images_dir: Path | None = None
+) -> list[str]:
     importer = Importer(pages_dir, pages_dir, "inbox")
+    images = stored_images(images_dir) if images_dir is not None else {}
     missing = []
     for found in LINK.findall(link_list.read_text(encoding="utf-8")):
         # Markdown links and tables leave trailing punctuation
         link = found.rstrip(").,;>|]")
         try:
-            if not importer.stored(classify(link)).exists():
+            page = classify(link)
+            if page.kind in IMAGE_KINDS:
+                is_saved = page.id in images
+            else:
+                is_saved = importer.stored(page).exists()
+            if not is_saved:
                 missing.append(link)
         except RefusedPageError:
             missing.append(f"{link} (unrecognised link)")
@@ -169,10 +240,14 @@ def import_inbox(
     expect: Path | None = None,
     log: Path | None = None,
     now: datetime | None = None,
+    images_dir: Path | None = None,
 ) -> Report:
     report = Report()
     at = timestamp(now or datetime.now(UTC))
     importer = Importer(pages_dir, raw_dir, partition)
+    # Without an images folder, images wait in the inbox
+    if images_dir is not None:
+        import_images(inbox, images_dir, report, at)
     for path in inbox_files(inbox):
         try:
             importer.take(path, report, at)
@@ -187,7 +262,7 @@ def import_inbox(
             url, page = identify(path)
             report.log.append(log_line(at, path.name, page, "refused", reason, url=url))
     if expect is not None:
-        report.missing = expected_missing(expect, pages_dir)
+        report.missing = expected_missing(expect, pages_dir, images_dir)
     if log is not None:
         append_log(log, report.log)
     return report
@@ -282,6 +357,7 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
         partition=args.partition,
         expect=args.expect,
         log=log,
+        images_dir=dirs["images"],
     )
     print_report(report)
     return 1 if report.refused else 0

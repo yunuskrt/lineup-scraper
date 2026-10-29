@@ -13,6 +13,7 @@
       "home": {
         "sourceId": "9101",
         "name": "Ardenia",
+        "crestUrl": "https://img.a.transfermarkt.technology/wappen/normquad/27_1400571853.png?lm=1789459168",
         "tablePosition": null,
         "formation": "Starting Line-up: 5-4-1",
         "starters": [
@@ -129,6 +130,7 @@
       "away": {
         "sourceId": "9102",
         "name": "Belmora",
+        "crestUrl": "https://img.a.transfermarkt.technology/wappen/normquad/1049_1439122752.png?lm=1789459228",
         "tablePosition": null,
         "formation": "Starting Line-up: 4-4-2 Diamond",
         "starters": [
@@ -338,6 +340,7 @@
       "home": {
         "sourceId": "9001",
         "name": "Kuzey FK",
+        "crestUrl": null,
         "tablePosition": null,
         "formation": "Starting Line-up: 4-2-3-1",
         "starters": [
@@ -454,6 +457,7 @@
       "away": {
         "sourceId": "9002",
         "name": "Güney Spor",
+        "crestUrl": null,
         "tablePosition": "Position: 16",
         "formation": null,
         "starters": [

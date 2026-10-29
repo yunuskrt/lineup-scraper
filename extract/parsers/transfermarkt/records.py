@@ -44,6 +44,7 @@ class BenchPlayer(TypedDict):
 class Side(TypedDict):
     sourceId: str
     name: str
+    crestUrl: str | None
     tablePosition: str | None
     formation: str | None
     starters: list[Starter]
@@ -91,3 +92,4 @@ class TransfermarktPlayer(TypedDict):
     fullName: str | None
     nameInHomeCountry: str | None
     capsGoals: str | None
+    imageUrl: str | None

@@ -103,3 +103,26 @@ def test_the_text_report_splits_by_a_field(
     assert lines[finals + 2] == "    parsed    1/2 (50.0%)"
     assert "    imported but not parsed: player:411295" in lines[finals:]
     assert lines.index("  (none)") < lines.index("  derbies") < finals
+
+
+IMG = "https://img.a.transfermarkt.technology"
+PNG = b"\x89PNG\r\n\x1a\n" + b"\x00" * 8
+
+
+def test_counts_images_once_filed(dirs: Dirs) -> None:
+    (dirs.inbox / "27_1.png").write_bytes(PNG)
+    dirs.run()
+    (dirs.inbox / "206-1.jpg").write_bytes(b"\xff\xd8\xff")
+    links = [
+        link(f"{IMG}/wappen/normquad/27_1.png"),
+        link(f"{IMG}/portrait/header/206-1.jpg"),
+        link(f"{IMG}/portrait/header/s_7573_123_2012_1.jpg"),
+    ]
+    state = snapshot(dirs.inbox, dirs.pages, dirs.raw, dirs.images)
+
+    tally = progress("images", links, state, None)["tally"]
+
+    assert (tally["imported"], tally["parsed"]) == (1, 1)
+    assert (tally["inInbox"], tally["missing"]) == (1, 1)
+    # An image has nothing to parse
+    assert tally["unparsed"] == []

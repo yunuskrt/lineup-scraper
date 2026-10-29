@@ -8,7 +8,7 @@ export type Source = (typeof SOURCES)[number];
 export const digitsSchema = z.string().regex(/^[0-9]+$/);
 
 // A pattern, not format: jsonschema skips formats
-const urlSchema = z.string().regex(/^https?:\/\/\S+$/);
+export const urlSchema = z.string().regex(/^https?:\/\/\S+$/);
 
 // ASCII digits: Python's \d matches any script
 const utcDatetimeSchema = z

@@ -37,7 +37,8 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S17 | Create the `images` bucket and a storage credential on `ingest`, put the credential in `.env`; approve a disposable branch for the e2e run. Steps: `features/phase-s17-storage-client.md` § Your part | ~10 min | During S17 | **Done** (2026-10-28) |
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
-| S18 | Save a crest per club and a photo per player, from the list S18 writes. Check each image's licence before release | One per club and player | During S18 | Pending |
+| S18a | Save a crest per club and a photo per player from the list S18a writes, into `data/inbox/`, then import. Steps: `features/phase-s18a-image-lists.md` § Your part. Check each image's licence before release | Pilot: 71 images (6 crests, 65 photos), ~20 min | After `/feature start` of S18a | **Done** (2026-10-29) |
+| S18b | Approve a disposable branch for the e2e run; look at the processed pilot images; approve uploading them to `ingest`'s bucket. Steps: `features/phase-s18b-image-upload.md` § Your part | ~10 min | During S18b | Pending |
 
 **In all, for the pilot:** about 70 pages, under half an hour.
 

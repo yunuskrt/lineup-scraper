@@ -87,6 +87,17 @@
           "type": "null"
         }
       ]
+    },
+    "imageUrl": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^https?:\\/\\/\\S+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
     }
   },
   "required": [
@@ -100,7 +111,8 @@
     "position",
     "fullName",
     "nameInHomeCountry",
-    "capsGoals"
+    "capsGoals",
+    "imageUrl"
   ],
   "additionalProperties": false
 }

@@ -32,6 +32,7 @@ data/work/
 data/reports/
 data/inbox/
 data/pages/
+data/images/
 # Left only if a dataset build is interrupted
 data/dataset.build/
 data/dataset.previous/

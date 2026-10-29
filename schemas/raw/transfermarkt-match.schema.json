@@ -52,6 +52,17 @@
           "type": "string",
           "minLength": 1
         },
+        "crestUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^https?:\\/\\/\\S+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "tablePosition": {
           "anyOf": [
             {
@@ -170,6 +181,7 @@
       "required": [
         "sourceId",
         "name",
+        "crestUrl",
         "tablePosition",
         "formation",
         "starters",
@@ -188,6 +200,17 @@
           "type": "string",
           "minLength": 1
         },
+        "crestUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^https?:\\/\\/\\S+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "tablePosition": {
           "anyOf": [
             {
@@ -306,6 +329,7 @@
       "required": [
         "sourceId",
         "name",
+        "crestUrl",
         "tablePosition",
         "formation",
         "starters",

@@ -12,7 +12,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -28,7 +29,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -45,7 +47,8 @@
       "height": "1,76 m",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -61,7 +64,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001/-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -76,7 +80,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -92,7 +97,8 @@
       "position": "Attack - Centre-Forward",
       "fullName": null,
       "nameInHomeCountry": null,
-      "capsGoals": null
+      "capsGoals": null,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
     }
   },
   {
@@ -108,7 +114,24 @@
       "position": "Attack - Centre-Forward",
       "fullName": "Ardenia Oyuncu Tam Adı",
       "nameInHomeCountry": null,
-      "capsGoals": 12
+      "capsGoals": 12,
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/9300001-1464084738.jpg?lm=4711"
+    }
+  },
+  {
+    "name": "a missing image URL",
+    "record": {
+      "source": "transfermarkt",
+      "sourceId": "9300001",
+      "sourceUrl": "https://www.transfermarkt.com/ornek-oyuncu/profil/spieler/9300001",
+      "fetchedAt": "2026-10-26T10:00:00.000Z",
+      "headline": "",
+      "dateOfBirth": "14/12/1996 (29)",
+      "citizenship": "Brazil Italy",
+      "position": "Attack - Centre-Forward",
+      "fullName": null,
+      "nameInHomeCountry": null,
+      "capsGoals": null
     }
   }
 ]

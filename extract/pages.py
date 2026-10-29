@@ -7,14 +7,30 @@ from typing import Final, Literal
 
 from parsel import Selector
 
+from extract.images import (
+    IMAGE_KINDS,
+    ImageKind,
+    image_files,
+    image_from_url,
+    name_id,
+    save_as,
+    stored_images,
+)
 from extract.middlewares import is_challenge_html
-from extract.parsers.transfermarkt.common import MATCH_ID, PLAYER_ID, id_in
+from extract.parsers.transfermarkt.common import (
+    IMAGE_HOST,
+    MATCH_ID,
+    PLAYER_ID,
+    id_in,
+)
 
-type Kind = Literal["fixture", "match", "player"]
+type PageKind = Literal["fixture", "match", "player"]
+type Kind = PageKind | ImageKind
 type PageId = tuple[Kind, str]
 type Status = Literal["missing", "inbox", "imported", "parsed"]
 
-KINDS: Final[tuple[Kind, ...]] = ("fixture", "match", "player")
+PAGE_KINDS: Final[tuple[PageKind, ...]] = ("fixture", "match", "player")
+KINDS: Final[tuple[Kind, ...]] = (*PAGE_KINDS, *IMAGE_KINDS)
 COMPETITION: Final = re.compile(r"/(?:pokal)?wettbewerb/([A-Z0-9]+)")
 SEASON: Final = re.compile(r"saison_id[=/]([0-9]+)")
 OG_URL: Final = '//meta[@property="og:url"]/@content'
@@ -38,10 +54,17 @@ class Page:
 
     @property
     def save_as(self) -> str:
+        if self.kind == "crest" or self.kind == "photo":
+            return save_as(self.kind, self.key, self.url)
         return f"{self.kind}-{self.key}.html"
 
 
 def classify(url: str) -> Page:
+    if url.startswith(IMAGE_HOST):
+        image = image_from_url(url)
+        if image is None:
+            raise RefusedPageError("image link that is not a crest or a photo")
+        return Page(image[0], image[1], url)
     if "/gesamtspielplan/" in url:
         code = id_in(url, COMPETITION)
         if code is None:
@@ -83,7 +106,7 @@ def inbox_files(inbox: Path) -> list[Path]:
 
 def stored_pages(pages_dir: Path) -> dict[PageId, Path]:
     found: dict[PageId, Path] = {}
-    for kind in KINDS:
+    for kind in PAGE_KINDS:
         for path in sorted((pages_dir / "transfermarkt" / kind).glob("*.html")):
             found[(kind, path.stem)] = path
     return found
@@ -113,11 +136,16 @@ class Snapshot:
 
     def status(self, page: PageId) -> Status:
         if page in self.stored:
-            return "parsed" if self.records.get(page) else "imported"
+            # An image has nothing to parse
+            if page[0] in IMAGE_KINDS or self.records.get(page):
+                return "parsed"
+            return "imported"
         return "inbox" if page in self.inbox else "missing"
 
 
-def snapshot(inbox: Path, pages_dir: Path, raw_dir: Path) -> Snapshot:
+def snapshot(
+    inbox: Path, pages_dir: Path, raw_dir: Path, images_dir: Path | None = None
+) -> Snapshot:
     waiting: dict[PageId, str] = {}
     for path in inbox_files(inbox):
         try:
@@ -126,4 +154,11 @@ def snapshot(inbox: Path, pages_dir: Path, raw_dir: Path) -> Snapshot:
             )
         except (RefusedPageError, UnicodeDecodeError):
             continue
-    return Snapshot(waiting, stored_pages(pages_dir), raw_counts(raw_dir))
+    for path in image_files(inbox):
+        if (image := name_id(path.name)) is not None:
+            waiting.setdefault(image, path.name)
+    stored: dict[PageId, Path] = {**stored_pages(pages_dir)}
+    if images_dir is not None:
+        for image, path in stored_images(images_dir).items():
+            stored[image] = path
+    return Snapshot(waiting, stored, raw_counts(raw_dir))

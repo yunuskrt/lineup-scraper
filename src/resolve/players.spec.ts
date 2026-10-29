@@ -28,6 +28,7 @@ function profile(
     fullName: null,
     nameInHomeCountry: null,
     capsGoals: null,
+    imageUrl: null,
   };
   return [id, page] as const;
 }
@@ -55,6 +56,7 @@ function report(): TransfermarktMatch {
     home: {
       sourceId: '27',
       name: 'FC Bayern Munich',
+      crestUrl: null,
       tablePosition: null,
       formation: null,
       starters: [
@@ -74,6 +76,7 @@ function report(): TransfermarktMatch {
     away: {
       sourceId: '1049',
       name: 'Valencia CF',
+      crestUrl: null,
       tablePosition: null,
       formation: null,
       starters: [starter('5', 'Çağlar')],
