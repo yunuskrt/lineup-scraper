@@ -13,6 +13,8 @@ export const DATA_DIRS = {
   // Pages the user saved, before and after import
   inbox: path.join(DATA_ROOT, 'inbox'),
   pages: path.join(DATA_ROOT, 'pages'),
+  // Crests and photos the user saved, by id
+  images: path.join(DATA_ROOT, 'images'),
 } as const;
 
 export type DataDirName = keyof typeof DATA_DIRS;

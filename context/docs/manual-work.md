@@ -38,7 +38,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S19 | Try the dashboard on the pilot: the views, and each button | — | During S19 | Pending |
 | S20 | Approve the pilot's load into `ingest`; play the 3 matches in the app | — | During S20 | Pending |
 | S18a | Save a crest per club and a photo per player from the list S18a writes, into `data/inbox/`, then import. Steps: `features/phase-s18a-image-lists.md` § Your part. Check each image's licence before release | Pilot: 71 images (6 crests, 65 photos), ~20 min | After `/feature start` of S18a | **Done** (2026-10-29) |
-| S18b | Approve a disposable branch for the e2e run; look at the processed pilot images; approve uploading them to `ingest`'s bucket. Steps: `features/phase-s18b-image-upload.md` § Your part | ~10 min | During S18b | Pending |
+| S18b | Check all 71 pilot images in `data/reports/images.html` (name any face cut badly); approve a disposable branch for the e2e run; approve uploading them to `ingest`'s bucket. Steps: `features/phase-s18b-image-upload.md` § Your part | ~10 min | During S18b | **Done** (2026-10-29) |
 
 **In all, for the pilot:** about 70 pages, under half an hour.
 

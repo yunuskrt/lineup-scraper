@@ -54,12 +54,14 @@ export function datasetFiles(
       aliases: dataset.players.reduce((n, p) => n + p.aliases.length, 0),
       clubs: dataset.clubs.length,
       competitions: dataset.competitions.length,
+      crests: dataset.clubs.filter((c) => c.crestKey !== null).length,
       events: dataset.matches.reduce((n, m) => n + m.events.length, 0),
       lineups: dataset.matches.reduce(
         (n, m) => n + m.home.lineup.length + m.away.lineup.length,
         0,
       ),
       matches: dataset.matches.length,
+      photos: dataset.players.filter((p) => p.imageKey !== null).length,
       players: dataset.players.length,
     },
     files: sortedRecord(

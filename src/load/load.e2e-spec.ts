@@ -121,6 +121,15 @@ describe('load into a disposable branch', () => {
       shootoutAway: 4,
     });
     expect(match.date.toISOString()).toBe('2001-05-23T00:00:00.000Z');
+    // The dataset's image keys, exactly (S18b)
+    const kahn = await prisma.player.findUniqueOrThrow({
+      where: { slug: 'oliver-kahn' },
+    });
+    const wanted = pilot.players.find((p) => p.slug === 'oliver-kahn')!;
+    expect(kahn.imageKey).toBe(wanted.imageKey);
+    expect(kahn.imageKey).toMatch(/^players\/oliver-kahn\/[0-9a-f]{12}\.webp$/);
+    expect(await prisma.player.count({ where: { imageKey: null } })).toBe(0);
+    expect(await prisma.club.count({ where: { crestKey: null } })).toBe(0);
   });
 
   it('writes nothing on a rerun, and every updated_at stays', async () => {

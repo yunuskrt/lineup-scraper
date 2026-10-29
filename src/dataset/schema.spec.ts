@@ -46,7 +46,7 @@ const VALID: DatasetInput = {
       kind: 'club',
       name: 'Northgate United',
       shortName: 'NGU',
-      crestKey: 'crests/northgate.png',
+      crestKey: 'crests/northgate/0a1b2c3d4e5f.webp',
       transfermarktId: '985',
       aliases: ['Northgate', 'NGU'],
     },
@@ -360,6 +360,20 @@ describe('datasetSchema', () => {
           i.clubs[0].crestKey = 'https://cdn.example.com/a.png';
         },
         'clubs.0.crestKey: Must be a bucket key, not a URL',
+      ],
+      [
+        "a crest under another club's folder",
+        (i) => {
+          i.clubs[0].crestKey = 'crests/other-club/0a1b2c3d4e5f.webp';
+        },
+        'clubs.0.crestKey: Crest key must be under crests/<slug>/',
+      ],
+      [
+        "a photo under another player's folder",
+        (i) => {
+          i.players[0].imageKey = 'players/someone-else/0a1b2c3d4e5f.webp';
+        },
+        'players.0.imageKey: Image key must be under players/<slug>/',
       ],
       [
         'a root-relative crest',

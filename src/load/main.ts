@@ -1,17 +1,22 @@
 import { spawnSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { DATA_DIRS } from '@/config/data-dirs.js';
-import { loadEnv } from '@/config/load-env.js';
+import type { LoadTarget } from '@/config/env.schema.js';
+import { loadEnv, loadStorageEnv } from '@/config/load-env.js';
 import { formatEnvIssues } from '@/config/parse-env.js';
 import { createPrismaClient } from '@/db/client.js';
+import type { DatasetInput } from '@/dataset/schema.js';
 import { applyChunks } from '@/load/apply.js';
 import { planChunks } from '@/load/chunks.js';
+import { datasetImageKeys, missingImages } from '@/load/images.js';
 import { planLoad } from '@/load/plan.js';
 import { preflight } from '@/load/preflight.js';
 import { readStored } from '@/load/read.js';
 import { changeCount, renderPlan, renderReport } from '@/load/report.js';
 import { wantedRows } from '@/load/rows.js';
-import { checkTarget, parseArgs } from '@/load/target.js';
+import { checkTarget, parseArgs, type LoadArgs } from '@/load/target.js';
+import { createObjectStore } from '@/storage/client.js';
+import { checkStorageTarget } from '@/storage/target.js';
 
 const SCHEMA_FILE = new URL('../../prisma/schema.prisma', import.meta.url);
 
@@ -21,6 +26,35 @@ function schemaMatches(): boolean {
     stdio: 'ignore',
   });
   return result.status === 0;
+}
+
+// Each key's object must be in the target's bucket
+async function checkImages(
+  target: LoadTarget,
+  dataset: DatasetInput,
+  args: LoadArgs,
+): Promise<{ success: true } | { success: false; error: string }> {
+  const keys = datasetImageKeys(dataset);
+  if (keys.length === 0) return { success: true };
+  const storageEnv = loadStorageEnv();
+  if (!storageEnv.success) {
+    return { success: false, error: formatEnvIssues(storageEnv.error) };
+  }
+  const guard = checkStorageTarget(
+    target,
+    storageEnv.data.AWS_ENDPOINT_URL_S3,
+    args,
+  );
+  if (!guard.success) return guard;
+  const missing = await missingImages(createObjectStore(storageEnv.data), keys);
+  if (missing.length > 0) {
+    return {
+      success: false,
+      error: `${missing.length} of ${keys.length} images aren't in the bucket: run npm run images -- --upload first`,
+    };
+  }
+  console.log(`images: all ${keys.length} in the bucket`);
+  return { success: true };
 }
 
 async function main(argv: string[]): Promise<number> {
@@ -62,6 +96,11 @@ async function main(argv: string[]): Promise<number> {
   console.log(
     'preflight: manifest, schema hash, dataset schema and db:check pass',
   );
+  const images = await checkImages(target, checked.dataset, args.args);
+  if (!images.success) {
+    console.error(images.error);
+    return 1;
+  }
 
   const prisma = createPrismaClient(env.data, {
     allowProduction: guard.allowProduction,

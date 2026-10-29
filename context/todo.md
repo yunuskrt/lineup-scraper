@@ -27,7 +27,7 @@ This todo file is for developer-side use.
 - [x] **Phase S14 — Dataset Build**: Assemble, validate and write the committed dataset, deterministic, with a manifest.
 - [x] **Phase S15 — DB Loader**: Idempotent diff-sync into a chosen Neon branch, chunked, dry run, counts only; writes `transfermarkt_id`.
 - [x] **Phase S17 — Storage Client**: Bucket choice, content-hash key scheme, idempotent uploads. (was half of B23)
-- [ ] **Phase S18 — Image Import**: An image list and folder per club and player, then resize, upload, `crest_key` and `image_key`. (was B24) — 👤 you: save the images
+- [x] **Phase S18 — Image Import**: An image list and folder per club and player, then resize, upload, `crest_key` and `image_key`. (was B24)
 - [ ] **Phase S20 — Pilot & Enrichment Guide**: The 3 pilot matches end to end into `ingest`, and the guide for growing the pool yourself. — 👤 you: approve the load, play the pilot in the app
 - [ ] **Phase S19 — Dashboard**: Local app: progress counts and percentages by group, competition and season; history; every failure with its reason; buttons to open links, import, build and load into `ingest`. (absorbs S16)
 

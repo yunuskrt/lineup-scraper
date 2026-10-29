@@ -27,9 +27,10 @@ Every step is a dashboard button (§ 6) or the terminal command behind it.
 | 4 | Import what you saved | **Import** (`uv run python -m extract.inbox`) | S06b |
 | 5 | Read what's missing and what failed | Progress and failures views (`uv run python -m extract.progress`, `extract.check <page>`) | S06c, S19 |
 | 6 | Repeat 2–5 one level down: listing pages → match reports → player pages | — | — |
-| 7 | Build the dataset: resolve, lineups, aliases, score, gate, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, `npm run scores`, `npm run gate`, `npm run dataset`); commit `data/dataset/` | **Build** | S08–S14 |
+| 7 | Build the dataset: resolve, lineups, aliases, score, gate, images, validate (`npm run resolve`, `npm run lineups`, `npm run aliases`, `npm run scores`, `npm run gate`, `npm run images`, `npm run dataset`); commit `data/dataset/` | **Build** | S08–S14, S18 |
 | 8 | Read duplicates, gate failures and validation errors; fix names in `data/curation/` | Failures view | S19 |
-| 9 | Dry-run the load (`npm run load`), read the counts, then load into `ingest` (`npm run load -- --apply`) | **Dry run**, then **Load** | S15 |
+| 8a | Images: `uv run python -m extract.lists.images`, save each crest and photo from `s18-images` into `data/inbox/` with ⌘S, import; then `npm run images` (before `npm run dataset`), check every face and crest in `data/reports/images.html`, and `npm run images -- --upload` | **Images** | S18 |
+| 9 | Dry-run the load (`npm run load`), read the counts, then load into `ingest` (`npm run load -- --apply`). The load stops if an image key isn't in the bucket yet | **Dry run**, then **Load** | S15, S18 |
 | 10 | Play the new matches in the app | — | — |
 
 ## 3. Which links come from where
@@ -41,7 +42,7 @@ Links are found level by level, so a list can only hold what the level above has
 | 1 | Listing pages | Now: written from the config (`extract.lists.listings`) | 247 |
 | 2 | Match reports | Their listing page is saved (`extract.lists.match_reports`) | ~2,000 |
 | 3 | Player pages | Their match report is saved (`extract.lists.player_pages`); players already saved are left out | ~5,000–8,000 |
-| 4 | Images (later) | The club or player is in the dataset | One per club and player |
+| 4 | Crests and photos (`extract.lists.images`) | Their match report and player page are saved | One per club and player |
 
 ---
 
@@ -66,6 +67,8 @@ Plus the player pages of all 65 starters (66 places; one player starts twice): *
 | A parse error on a page | Keep the page; ask for a fix. It's a selector change, tested on that page; then `uv run python -m extract.inbox --reparse` re-reads every stored page |
 | A match fails the gate | `data/reports/gate.md` (later the dashboard) names the side, the slot and the rule. `no player` or `no alias`: save the missing player page. `no alias of their own`: add an alias in `data/curation/aliases.json`. `no formation` or `breaks …`: a formation to map in `data/curation/formations.json`. Then rerun `npm run aliases`, `npm run scores` and `npm run gate` |
 | A wrong name, alias or club name | Fix it in `data/curation/`, then rebuild; never in code |
+| A face cut badly in `data/reports/images.html` | Add a crop for that player to `data/curation/images.json`: `{ "photoCrops": { "oliver-kahn": "centre" } }` (`top`, `centre`, `bottom`, or pixels from the top); then `npm run images` and `npm run dataset` |
+| A crest with a white square behind it, or a wrong photo | Save a better image under the same id (S18a replaces the filed one); then `npm run images` |
 | A missing nickname, or an alias that shouldn't count | Add it to, or remove it with, `data/curation/aliases.json` under the player's Transfermarkt id: `{ "7438": { "add": ["Kily"], "remove": [] } }`; then `npm run aliases`. Its report lists aliases two starters share and near-misses inside an XI |
 
 ---

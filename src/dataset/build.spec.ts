@@ -205,6 +205,23 @@ describe('buildDataset', () => {
     expect(final.score).toEqual({ home: 3, away: 0 });
   });
 
+  it('fills crest and image keys by slug, null without one', () => {
+    const keyed = buildDataset({
+      ...sources(),
+      crestKeys: new Map([['fenerbahce', 'crests/fenerbahce/1.webp']]),
+      imageKeys: new Map([['player-1', 'players/player-1/2.webp']]),
+    }).dataset;
+    const crests = keyed.clubs.map((c) => [c.slug, c.crestKey]);
+    expect(crests).toEqual([
+      ['fenerbahce', 'crests/fenerbahce/1.webp'],
+      ['galatasaray', null],
+    ]);
+    const kahn = keyed.players.find((p) => p.slug === 'player-1');
+    expect(kahn?.imageKey).toBe('players/player-1/2.webp');
+    const manifest = JSON.parse(datasetFiles(keyed, 'h').get('manifest.json')!);
+    expect([manifest.counts.crests, manifest.counts.photos]).toEqual([1, 1]);
+  });
+
   it('repeats exactly', () => {
     const again = buildDataset(sources());
     expect(JSON.stringify(again)).toBe(JSON.stringify(build));

@@ -84,6 +84,9 @@ export interface DatasetSources {
   lineups: Map<string, SourceLineup>;
   scores: Map<string, SourceScore>;
   gate: Map<string, SourceGate>;
+  // By slug; from `npm run images`
+  crestKeys?: Map<string, string>;
+  imageKeys?: Map<string, string>;
 }
 
 export type LeftReason = 'no lineup' | 'not scored' | 'failed the gate';
@@ -209,7 +212,7 @@ export function buildDataset(sources: DatasetSources): DatasetBuild {
     .map((p) => ({
       slug: p.slug,
       name: p.name,
-      imageKey: null,
+      imageKey: sources.imageKeys?.get(p.slug) ?? null,
       transfermarktId: p.transfermarktId,
       aliases: sources.aliases.get(p.transfermarktId) ?? [],
     }))
@@ -228,7 +231,7 @@ export function buildDataset(sources: DatasetSources): DatasetBuild {
           kind: c.kind,
           name: c.name,
           shortName: c.shortName,
-          crestKey: null,
+          crestKey: sources.crestKeys?.get(c.slug) ?? null,
           transfermarktId: c.transfermarktId,
           aliases: c.aliases,
         }))

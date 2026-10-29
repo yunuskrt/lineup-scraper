@@ -48,6 +48,11 @@ const objectKeySchema = z
   .string()
   .regex(/^(?!\/)(?!.*:\/\/)\S+$/, 'Must be a bucket key, not a URL');
 
+// The row's slug names its image folder (S18)
+function keyInFolder(key: string | null, prefix: string, slug: string) {
+  return key === null || key.startsWith(`${prefix}/${slug}/`);
+}
+
 const seasonLabelSchema = z.string().regex(/^\d{4}(-\d{2})?$/);
 
 const goalsSchema = z.number().int().nonnegative();
@@ -64,20 +69,27 @@ const competitionSchema = z.strictObject({
   name: textSchema,
 });
 
-const clubSchema = z.strictObject({
-  slug: ownSlugSchema,
-  kind: clubKindSchema,
-  name: textSchema,
-  shortName: z.string().regex(/^[A-Z0-9]{3}$/, 'Must be 3 capitals or digits'),
-  crestKey: objectKeySchema.nullable(),
-  transfermarktId: transfermarktIdSchema,
-  // The (club_id, alias) unique key: exact text
-  aliases: z
-    .array(textSchema)
-    .refine((aliases) => new Set(aliases).size === aliases.length, {
-      error: 'Club aliases must be unique',
-    }),
-});
+const clubSchema = z
+  .strictObject({
+    slug: ownSlugSchema,
+    kind: clubKindSchema,
+    name: textSchema,
+    shortName: z
+      .string()
+      .regex(/^[A-Z0-9]{3}$/, 'Must be 3 capitals or digits'),
+    crestKey: objectKeySchema.nullable(),
+    transfermarktId: transfermarktIdSchema,
+    // The (club_id, alias) unique key: exact text
+    aliases: z
+      .array(textSchema)
+      .refine((aliases) => new Set(aliases).size === aliases.length, {
+        error: 'Club aliases must be unique',
+      }),
+  })
+  .refine((club) => keyInFolder(club.crestKey, 'crests', club.slug), {
+    error: 'Crest key must be under crests/<slug>/',
+    path: ['crestKey'],
+  });
 
 export const playerAliasesSchema = z
   .array(aliasSchema)
@@ -88,13 +100,18 @@ export const playerAliasesSchema = z
     { error: 'Aliases must not normalize alike' },
   );
 
-const playerSchema = z.strictObject({
-  slug: ownSlugSchema,
-  name: textSchema,
-  imageKey: objectKeySchema.nullable(),
-  transfermarktId: transfermarktIdSchema,
-  aliases: playerAliasesSchema,
-});
+const playerSchema = z
+  .strictObject({
+    slug: ownSlugSchema,
+    name: textSchema,
+    imageKey: objectKeySchema.nullable(),
+    transfermarktId: transfermarktIdSchema,
+    aliases: playerAliasesSchema,
+  })
+  .refine((player) => keyInFolder(player.imageKey, 'players', player.slug), {
+    error: 'Image key must be under players/<slug>/',
+    path: ['imageKey'],
+  });
 
 const lineupEntrySchema = z.strictObject({
   playerSlug: slugSchema,

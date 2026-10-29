@@ -13,7 +13,12 @@
       "mcp__playwright__browser_network_requests",
       "mcp__playwright__browser_close",
       "mcp__neon__list_branches",
-      "mcp__neon__get_database_tables"
+      "mcp__neon__get_database_tables",
+      "mcp__neon__search_docs",
+      "mcp__neon__get_doc",
+      "mcp__neon__list_storage_objects",
+      "mcp__neon__list_storage_buckets",
+      "mcp__neon__get_storage"
     ]
   }
 }

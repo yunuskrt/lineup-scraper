@@ -1,26 +1,7 @@
-import type { ObjectStore } from '@/storage/client.js';
+import { memoryStore } from '@/storage/spec-store.js';
 import { uploadImage } from '@/storage/upload.js';
 
 const BYTES = new Uint8Array([1, 2, 3]);
-
-function memoryStore() {
-  const objects = new Map<string, string>();
-  let puts = 0;
-  const store: ObjectStore = {
-    checkBucket: () => Promise.resolve(),
-    hasObject: (key) => Promise.resolve(objects.has(key)),
-    putObject: (key, _body, contentType) => {
-      puts += 1;
-      objects.set(key, contentType);
-      return Promise.resolve();
-    },
-    countObjects: (prefix) =>
-      Promise.resolve(
-        [...objects.keys()].filter((k) => k.startsWith(prefix)).length,
-      ),
-  };
-  return { store, objects, puts: () => puts };
-}
 
 describe('uploadImage', () => {
   it('uploads a new image under its key', async () => {
@@ -32,7 +13,9 @@ describe('uploadImage', () => {
       contentType: 'image/png',
     });
     expect(result).toMatchObject({ success: true, uploaded: true });
-    expect(result.success && objects.get(result.key)).toBe('image/png');
+    expect(result.success && objects.get(result.key)?.contentType).toBe(
+      'image/png',
+    );
   });
 
   it('uploads nothing on a rerun', async () => {
@@ -47,6 +30,23 @@ describe('uploadImage', () => {
     const second = await uploadImage(store, upload);
     expect(second).toEqual({ ...first, uploaded: false });
     expect(puts()).toBe(1);
+  });
+
+  it('stores the metadata that leads back to the row', async () => {
+    const { store } = memoryStore();
+    const result = await uploadImage(store, {
+      kind: 'player',
+      slug: 'oliver-kahn',
+      bytes: BYTES,
+      contentType: 'image/webp',
+      metadata: { slug: 'oliver-kahn', 'transfermarkt-id': '206' },
+    });
+    if (!result.success) throw new Error(result.error);
+    expect(await store.readMetadata(result.key)).toEqual({
+      slug: 'oliver-kahn',
+      'transfermarkt-id': '206',
+    });
+    expect(await store.readMetadata('players/x/0.webp')).toBeNull();
   });
 
   it('refuses before touching the store', async () => {
