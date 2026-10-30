@@ -33,6 +33,7 @@
     "images": "tsx src/images/main.ts",
     "build": "tsx src/build/main.ts",
     "verify": "tsx src/verify/main.ts",
+    "dashboard": "tsx src/dashboard/main.ts",
     "status": "npm run --silent pool && tsx src/status/main.ts && uv run python -m extract.tracker"
   },
   "dependencies": {

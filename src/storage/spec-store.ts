@@ -26,6 +26,11 @@ export function memoryStore() {
       Promise.resolve(
         [...objects.keys()].filter((k) => k.startsWith(prefix)).toSorted(),
       ),
+    measure: (prefix) => {
+      const mine = [...objects].filter(([k]) => k.startsWith(prefix));
+      const bytes = mine.reduce((sum, [, o]) => sum + o.body.byteLength, 0);
+      return Promise.resolve({ objects: mine.length, bytes });
+    },
     readMetadata: (key) => Promise.resolve(objects.get(key)?.metadata ?? null),
   };
   return { store, objects, puts: () => puts };

@@ -2,7 +2,7 @@
 
 How you grow the database yourself, in your own time, after the pilot. This repo builds the tools and proved them on 3 matches (S20); collecting the rest of the pool is your work, at your pace. When a step fails or the data looks wrong, ask, and the scripts get fixed.
 
-**Status:** verified on the pilot (S20, 2026-10-29). Every command below was run as written: from the saved pages to `ingest`, then played in the app. The dashboard (§ 7) comes with S19, after S20; until then, every step is the terminal command shown.
+**Status:** verified on the pilot (S20, 2026-10-29). Every command below was run as written: from the saved pages to `ingest`, then played in the app. The dashboard (§ 7) shows the progress since S19a; its buttons come with S19b, and until then every step is the terminal command shown.
 
 ---
 
@@ -17,7 +17,7 @@ How you grow the database yourself, in your own time, after the pilot. This repo
 
 ## 2. The loop
 
-Run from the repo root. Each step is the command shown; S19 adds a dashboard button for most of them (§ 7). **The short checklist is `collection-runbook.md`:** it follows `data/inbox-lists/general.csv`, and `npm run status` keeps that file's statuses current after every step.
+Run from the repo root. Each step is the command shown; `npm run dashboard` shows where you stand (§ 7), and S19b adds a button for most of them. **The short checklist is `collection-runbook.md`:** it follows `data/inbox-lists/general.csv`, and `npm run status` keeps that file's statuses current after every step.
 
 | # | You do | Command |
 | --- | --- | --- |
@@ -115,31 +115,26 @@ Every status is recomputed from the real state on each run, never read back from
 
 ## 7. The dashboard (S19)
 
-Not built yet: S19 comes after S20. Until then, use the commands in § 2.
+The views are built (S19a); the buttons come with S19b. Until then, run the commands in § 2 and press **Reload views**.
 
-A local app: `npm run dashboard` opens it in your browser. It reads only local files and the `ingest` branch, and it's reachable only from your machine.
+`npm run dashboard` starts it on `http://127.0.0.1:4319/` and opens it in your browser (`-- --port N` for another port; Ctrl+C stops it). It reads only local files and, on the Sizes tab, the `LOAD_TARGET` branch and its bucket. It never writes, never reads `production`, never requests a Transfermarkt page, and it answers only on your machine.
 
-**Progress.** Read from the 5 CSVs in `data/inbox-lists/` (run `npm run status` first). For each link type, the share of its links at each step of the status ladder: saved / to parse, parsed / to parse, validated / to parse, ingested / to parse (images: saved, uploaded, ingested), with counts and percentages (`23/1,000`, 2.3%). The denominator is every link known so far, and it grows as each level is saved. Broken down by group, competition, season, era and club, and for the whole pool. A warning asks you to check what you've saved (parsed, ingested, images in the bucket) when rows sit at an `error` or below `parsed`.
+Its source is `data/inbox-lists/general.csv`, so **run `npm run status` first**; the other files are the pool (`data/work/pool/matches.json`, `data/curation/pool.json`), the import log and `data/work/status/remote.json`.
 
-**History.** Every import from the import log: when, which file, which link, what it became, and whether it worked. Filterable by kind and date.
-
-**Failures, each with its reason and what to do:**
-
-| Failure | From |
+| Tab | Shows |
 | --- | --- |
-| A challenge page saved by mistake | Import |
-| A page of an unknown kind, or for a match outside the pool | Import |
-| A page that didn't parse | Import |
-| The same page saved twice | Import (one copy is kept) |
-| A match report whose date or teams disagree with its listing | Build |
-| A match missing a player page, or with an unreadable formation | Gate |
-| A player with no usable alias | Gate |
-| A dataset validation error | Build |
-| Rows that differ in the dry run, or schema drift (`db:check`) | Load |
-| A club or player with no image | Images |
-| A loaded match the backend couldn't serve or play | Verify |
+| **Progress** | For each link type, the share of its links at each step of its ladder (Fixture: saved, parsed; Match Report and Player: saved, parsed, validated, ingested; Crest and PlayerPhoto: saved, uploaded, ingested), with counts and percentages (`23/1,000`, 2.3%). Steps are cumulative: `parsed` includes `validated` and `ingested`. Rows at `error` are counted apart. The denominator is every link known so far, and it grows as each level is saved. Then a breakdown by group, competition, season, era or curated club; a player, crest or photo counts under the match block it sits in, and a match counts under both of its clubs |
+| **Coverage** | The floors of `match-pool-scope.md` § 3 (a curated club per era ≥ 20, a league season ≥ 10, a Champions League season ≥ 7, a World Cup or Euro ≥ 7): ingested matches against the floor, with the pool's matches beside them. A cell whose pool is smaller than its floor is "can't reach": a gap in the groups, not in your saving |
+| **Links** | `general.csv` as a table, 100 rows a page, filtered by type, status (or any error), group, competition, season and a search on the id or file name. **Open** opens the link in your own browser |
+| **History** | The import log, newest first, with a count per day; filtered by kind, result and dates |
+| **Failures** | Each with its reason and what to do: rows at `error` (challenge page, parse error, gate rule), files the importer refused that are still in `data/inbox/`, files waiting in `data/inbox/`, and notes from `npm run status` (the database or the bucket not checked) |
+| **Sizes** | Rows and MB per content table, the database size against the Neon Free plan's 1 GB, and objects and MB in the bucket under `crests/` and `players/`. Read when you open the tab and on **Refresh**, so the page doesn't wake the database each time |
 
-**Buttons:**
+**The check-in warning**, over every tab, with the command to run: rows at `error`, files waiting in `data/inbox/`, validated matches or players not yet ingested, images of validated matches not yet uploaded, and a `general.csv` older than the last import or build.
+
+Not shown, on purpose: duplicates the importer skipped (it keeps one copy, so there's nothing to fix; History lists them). Build, load and verify failures appear in the terminal that ran them until S19b runs those commands from the page.
+
+**Buttons (S19b):**
 
 | Button | Does |
 | --- | --- |

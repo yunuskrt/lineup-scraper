@@ -20,6 +20,7 @@ export interface ObjectStore {
   ): Promise<void>;
   countObjects(prefix: string): Promise<number>;
   listKeys(prefix: string): Promise<string[]>;
+  measure(prefix: string): Promise<{ objects: number; bytes: number }>;
   // null when there's no such object
   readMetadata(key: string): Promise<Record<string, string> | null>;
 }
@@ -47,19 +48,25 @@ export function createObjectStore(env: StorageEnv): ObjectStore {
   });
   const Bucket = env.STORAGE_BUCKET;
 
-  async function listAll(Prefix: string): Promise<string[]> {
-    const keys: string[] = [];
+  async function listObjects(
+    Prefix: string,
+  ): Promise<{ key: string; size: number }[]> {
+    const objects: { key: string; size: number }[] = [];
     let ContinuationToken: string | undefined;
     do {
       const page = await client.send(
         new ListObjectsV2Command({ Bucket, Prefix, ContinuationToken }),
       );
       for (const item of page.Contents ?? []) {
-        if (item.Key) keys.push(item.Key);
+        if (item.Key) objects.push({ key: item.Key, size: item.Size ?? 0 });
       }
       ContinuationToken = page.NextContinuationToken;
     } while (ContinuationToken);
-    return keys.toSorted();
+    return objects;
+  }
+
+  async function listAll(Prefix: string): Promise<string[]> {
+    return (await listObjects(Prefix)).map((o) => o.key).toSorted();
   }
 
   return {
@@ -92,6 +99,11 @@ export function createObjectStore(env: StorageEnv): ObjectStore {
     },
     async listKeys(Prefix) {
       return listAll(Prefix);
+    },
+    async measure(Prefix) {
+      const objects = await listObjects(Prefix);
+      const bytes = objects.reduce((sum, o) => sum + o.size, 0);
+      return { objects: objects.length, bytes };
     },
     async readMetadata(Key) {
       try {

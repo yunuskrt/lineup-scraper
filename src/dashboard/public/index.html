@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lineup Collection</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <h1>Lineup collection</h1>
+        <p class="muted">Local and read only · data from <code>npm run status</code></p>
+      </div>
+      <button type="button" id="reload">Reload views</button>
+    </header>
+    <div id="warnings" class="warnings" role="status" aria-live="polite"></div>
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="progress" aria-selected="true">Progress</button>
+      <button type="button" role="tab" data-tab="coverage">Coverage</button>
+      <button type="button" role="tab" data-tab="links">Links</button>
+      <button type="button" role="tab" data-tab="history">History</button>
+      <button type="button" role="tab" data-tab="failures">Failures</button>
+      <button type="button" role="tab" data-tab="sizes">Sizes</button>
+    </nav>
+    <main>
+      <section id="progress" class="view"></section>
+      <section id="coverage" class="view" hidden></section>
+      <section id="links" class="view" hidden></section>
+      <section id="history" class="view" hidden></section>
+      <section id="failures" class="view" hidden></section>
+      <section id="sizes" class="view" hidden></section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

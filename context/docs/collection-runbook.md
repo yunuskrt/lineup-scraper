@@ -66,9 +66,8 @@ After every import, build, upload and load. It only reads, so it's safe any time
 
 ## Check-ins
 
-Ask Claude in this repo whenever you like for:
-- the size of each table and of the bucket;
-- how many links are saved, parsed and ingested;
-- what's failing.
+`npm run dashboard` (`enrichment-guide.md` § 7) shows it all in your browser, read only: progress per link type and per group, competition, season, era and club; the floors; every link; the import history; what's failing; and the size of each table and of the bucket. Run `npm run status` first, and press **Reload views** after each step.
+
+You can also ask Claude in this repo for any of these.
 
 Whole pool: 238 listing pages, ~2,000 match reports, 5,000–8,000 player pages, ~5,300–8,300 images.

@@ -39,3 +39,4 @@ Not Started
 - S18b Image Processing & Upload: WebP 128px, centre crop, bucket check
 - S20 Pilot & Enrichment Guide: build, verify, pilot loaded into ingest
 - Collection Tracker: link CSVs, npm run status, 238 listings, 2,002 pool
+- S19a Dashboard Server & Views: read-only page, 6 tabs, floors, sizes

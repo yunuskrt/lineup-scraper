@@ -18,7 +18,10 @@
       "mcp__neon__get_doc",
       "mcp__neon__list_storage_objects",
       "mcp__neon__list_storage_buckets",
-      "mcp__neon__get_storage"
+      "mcp__neon__get_storage",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click"
     ]
   }
 }
