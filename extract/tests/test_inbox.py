@@ -1,4 +1,5 @@
 import json
+import shutil
 from pathlib import Path
 
 import pytest
@@ -335,7 +336,7 @@ def test_reparse_rebuilds_raw_records_from_the_stored_pages(
     match_file.write_text("".join(json.dumps(r) + "\n" for r in old))
     (dirs.raw / "transfermarkt" / "match" / "stray.ndjson").write_text("{}\n")
 
-    assert main(["--reparse", "--partition", "probe"], dirs.folders()) == 0
+    assert main(["--reparse", "--all", "--partition", "probe"], dirs.folders()) == 0
 
     assert raw_files(dirs) == fresh
     assert "reparsed: 1 fixture, 2 match" in capsys.readouterr().out
@@ -355,7 +356,7 @@ def test_reparse_changes_nothing_when_a_stored_page_fails(
         encoding="utf-8",
     )
 
-    assert main(["--reparse"], dirs.folders()) == 1
+    assert main(["--reparse", "--all"], dirs.folders()) == 1
 
     assert raw_files(dirs) == before
     assert "raw records unchanged" in capsys.readouterr().err
@@ -472,3 +473,35 @@ def test_leaves_images_waiting_without_an_images_folder(dirs: Dirs) -> None:
 
     assert dict(report.imported) == {"match": 1}
     assert [p.name for p in dirs.inbox.iterdir()] == ["27_1.png"]
+
+
+def test_names_each_file_already_saved_and_skips_it(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-990248")
+    dirs.run()
+    dirs.save("match-990248", "again.html")
+
+    assert main([], dirs.folders()) == 0
+
+    assert "again.html: already saved, skipping" in capsys.readouterr().out
+    assert not (dirs.inbox / "again.html").exists()
+
+
+def test_reparse_parses_only_pages_with_no_records(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-990248")
+    dirs.save("match-53491")
+    dirs.run()
+    fresh = raw_files(dirs)
+    shutil.rmtree(dirs.raw / "transfermarkt" / "match")
+    dirs.save("fixtures-cl-2000")
+    dirs.run()
+
+    assert main(["--reparse", "--partition", "probe"], dirs.folders()) == 0
+
+    out = capsys.readouterr().out
+    assert "reparsed: 2 match" in out
+    assert "already parsed, skipping: 1 (--all re-reads them)" in out
+    assert raw_files(dirs)["match/probe.ndjson"] == fresh["match/probe.ndjson"]

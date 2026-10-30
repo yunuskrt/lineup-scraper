@@ -12,6 +12,7 @@ from extract.parsers.transfermarkt.common import (
 from extract.parsers.transfermarkt.records import Ref, TransfermarktFixture
 
 MATCH_LINK = './/a[contains(@href, "/spielbericht/")]'
+SHOWN_SEASON = '//select[@name="saison_id"]/option[@selected]/@value'
 HEADLINE = (
     'ancestor::div[.//*[contains(@class, "content-box-headline")]][1]'
     '//*[contains(@class, "content-box-headline")][1]'
@@ -39,6 +40,10 @@ def parse_fixture_list(
     season_id: str | None,
 ) -> list[TransfermarktFixture]:
     page = Selector(text=html)
+    # Transfermarkt shows another season for a missing one
+    shown = page.xpath(SHOWN_SEASON).get()
+    if season_id is not None and shown is not None and shown != season_id:
+        raise ParseError(f"Shows season {shown}, not {season_id}: no such page")
     records: list[TransfermarktFixture] = []
     seen: set[str] = set()
     tables = page.xpath(f"//table[{MATCH_LINK}][not(.//table)]")

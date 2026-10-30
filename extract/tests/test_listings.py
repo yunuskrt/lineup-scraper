@@ -1,3 +1,4 @@
+import copy
 import json
 from collections import Counter
 from pathlib import Path
@@ -14,6 +15,7 @@ from extract.lists.listings import (
 from extract.pool_config import (
     InvalidPoolConfigError,
     read_pool_config,
+    season_ids,
     season_label,
 )
 from extract.tests.saved_pages import Dirs
@@ -25,16 +27,17 @@ CONFIG = read_pool_config()
 def test_lists_every_season_of_every_competition() -> None:
     links = listings(CONFIG)
 
-    assert len(links) == 247
+    # The Europa League starts in 2009-10 on Transfermarkt
+    assert len(links) == 238
     per_code = Counter(item.competition for item in links)
     assert per_code == {
         **{code: 26 for code in ("GB1", "ES1", "IT1", "L1", "FR1", "PO1", "TR1")},
         "CL": 26,
-        "EL": 26,
+        "EL": 17,
         "FIWC": 6,
         "EURO": 7,
     }
-    assert len({item.page.id for item in links}) == 247
+    assert len({item.page.id for item in links}) == 238
 
 
 def test_builds_league_and_cup_links_with_their_tags() -> None:
@@ -80,18 +83,26 @@ def test_the_pilot_pages_are_the_derby_season_and_euro_2004() -> None:
 
 
 def test_reports_clubs_no_saved_page_has_shown() -> None:
-    assert clubs_without_id(CONFIG) == [
-        "liverpool",
-        "chelsea",
-        "tottenham",
-        "marseille",
-    ]
+    config = copy.deepcopy(CONFIG)
+    config["clubs"][2]["id"] = None
+
+    assert clubs_without_id(config) == ["liverpool"]
+    # Filled from the saved listing pages, 2026-10-30
+    assert clubs_without_id(CONFIG) == []
 
 
 def test_season_labels() -> None:
     league, *_ = CONFIG["competitions"]
     assert season_label(league, 2009) == "2009-10"
     assert season_label(league, 2099) == "2099-00"
+
+
+def test_euro_2020_has_its_own_saison_id_and_label() -> None:
+    euro = next(c for c in CONFIG["competitions"] if c["kind"] == "euro")
+
+    assert season_ids(euro) == [1999, 2003, 2007, 2011, 2015, 2020, 2023]
+    assert season_label(euro, 2020) == "2020"
+    assert season_label(euro, 2023) == "2024"
 
 
 def test_writes_the_three_lists_identically_on_a_rerun(
@@ -106,8 +117,8 @@ def test_writes_the_three_lists_identically_on_a_rerun(
 
     assert sorted(first) == ["s07-listings.json", "s07-pilot.json", "s07-verify.json"]
     assert {p.name: p.read_bytes() for p in lists.iterdir()} == first
-    assert len(json.loads(first["s07-listings.json"])) == 247
-    assert "no Transfermarkt id yet: liverpool" in capsys.readouterr().out
+    assert len(json.loads(first["s07-listings.json"])) == 238
+    assert "no Transfermarkt id yet" not in capsys.readouterr().out
 
 
 def test_refuses_a_config_of_the_wrong_shape(

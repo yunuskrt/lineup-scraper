@@ -90,7 +90,7 @@ From the reference § 12, with this repo's rule:
 
 ## 7. What to collect
 
-- Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, 247), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
+- Collect only what the pool needs (`match-pool-scope.md`, curated groups since 2026-10-27): listing pages for the groups (S07, 238), one match report per pool match (S11, ~2,000), and the player page of every pool starter (S11b, ~5,000–8,000), since the match report shows only a short name such as `Kily Gonzá.`. Each phase writes the exact list of links for the user. The page-by-page map is `link-map.md`.
 - The English site only (`www.transfermarkt.com`): labels and formats are English-dependent.
 - **Images:** the user saves crests and photos by hand in S18 (decided 2026-10-27). Photos and crests are copyrighted and trademarked, so each image's licence is checked before release (`project-overview.md` § Data Architecture).
 
@@ -112,6 +112,6 @@ From the reference § 12, with this repo's rule:
    - Moves the file to `data/pages/transfermarkt/<kind>/<id>.html`, the local page store, which replaces the HTTP cache for Transfermarkt
    - Reports what's missing from the phase's list, and appends one line per file to `data/work/import-log.ndjson`
 4. `fetchedAt` is the saved file's modification time in UTC: when the user saved it.
-5. After a parser change, `uv run python -m extract.inbox --reparse` rebuilds every raw record from the stored pages. It parses them all first and changes nothing if one fails.
+5. After a parser change, `uv run python -m extract.inbox --reparse --all` rebuilds every raw record from the stored pages. It parses them all first and changes nothing if one fails.
 
 `data/inbox/` and `data/pages/` are gitignored, like `data/cache/`. Parser test fixtures are hand-saved pages too, copied into `extract/tests/fixtures/transfermarkt/` and committed.

@@ -47,7 +47,8 @@ export function renderReport(report: ApplyReport, plan: Plan): string[] {
       const rows = create.length + update.length + same;
       return (
         `${table.padEnd(width)} ${String(rows).padStart(6)} rows: ` +
-        `${created} created, ${updated} updated, ${deleted} deleted`
+        `${created} created, ${updated} updated, ${deleted} deleted, ` +
+        `already ingested, skipping: ${same}`
       );
     }),
     `rows written: ${total}`,

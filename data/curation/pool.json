@@ -143,7 +143,7 @@
       "urlSlug": "europa-league",
       "linkStyle": "cup",
       "seasons": {
-        "first": 2000,
+        "first": 2009,
         "last": 2025,
         "step": 1
       },
@@ -203,13 +203,13 @@
       "key": "liverpool",
       "name": "Liverpool",
       "league": "GB1",
-      "id": null
+      "id": "31"
     },
     {
       "key": "chelsea",
       "name": "Chelsea",
       "league": "GB1",
-      "id": null
+      "id": "631"
     },
     {
       "key": "arsenal",
@@ -221,7 +221,7 @@
       "key": "tottenham",
       "name": "Tottenham Hotspur",
       "league": "GB1",
-      "id": null
+      "id": "148"
     },
     {
       "key": "real-madrid",
@@ -281,7 +281,7 @@
       "key": "marseille",
       "name": "Marseille",
       "league": "FR1",
-      "id": null
+      "id": "244"
     },
     {
       "key": "lyon",

@@ -95,7 +95,7 @@ async function upload(args: LoadArgs): Promise<number> {
   const { uploaded, present } = result.counts;
   console.log(
     `target ${target}, bucket ${storageEnv.data.STORAGE_BUCKET}: ` +
-      `uploaded ${uploaded}, already there ${present}`,
+      `uploaded ${uploaded}, already uploaded, skipping: ${present}`,
   );
   return 0;
 }

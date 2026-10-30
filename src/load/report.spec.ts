@@ -120,7 +120,7 @@ describe('renderReport', () => {
     written.players = { created: 1, updated: 1, deleted: 0 };
     const lines = renderReport(written, plan);
     expect(lines.find((l) => l.startsWith('players '))).toMatch(
-      /^players +2 rows: 1 created, 1 updated, 0 deleted$/,
+      /^players +2 rows: 1 created, 1 updated, 0 deleted, already ingested, skipping: 0$/,
     );
     expect(lines.at(-1)).toBe('rows written: 2');
     expect(lines.join('\n')).not.toContain('Kahn');

@@ -16,4 +16,6 @@ DATA_DIRS: Final[Mapping[str, Path]] = {
     "pages": DATA_ROOT / "pages",
     # Crests and photos the user saved, by id
     "images": DATA_ROOT / "images",
+    # The 5 link CSVs `npm run status` writes
+    "inbox-lists": DATA_ROOT / "inbox-lists",
 }

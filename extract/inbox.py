@@ -288,6 +288,31 @@ def reparse_store(pages_dir: Path, raw_dir: Path, partition: str) -> Counter[str
     return counts
 
 
+# Parses only stored pages with no raw records yet
+def reparse_missing(
+    pages_dir: Path, raw_dir: Path, partition: str
+) -> tuple[Counter[str], int]:
+    importer = Importer(pages_dir, raw_dir, partition)
+    have = raw_counts(raw_dir)
+    parsed: list[tuple[Page, list[Mapping[str, JsonValue]]]] = []
+    skipped = 0
+    for page_id, path in stored_pages(pages_dir).items():
+        if have.get(page_id):
+            skipped += 1
+            continue
+        html = path.read_text(encoding="utf-8")
+        page = read_page(html)
+        records = parse_page(page, html, saved_at(path))
+        for record in records:
+            validate_record(f"transfermarkt-{page.kind}", record)
+        parsed.append((page, records))
+    counts: Counter[str] = Counter()
+    for page, records in parsed:
+        importer.write(page, records)
+        counts[page.kind] += 1
+    return counts, skipped
+
+
 # Log lines for pages imported before the log existed
 def backfill_log(pages_dir: Path, raw_dir: Path, log: Path) -> int:
     logged = {
@@ -319,8 +344,8 @@ def backfill_log(pages_dir: Path, raw_dir: Path, log: Path) -> int:
 def print_report(report: Report) -> None:
     counts = ", ".join(f"{n} {kind}" for kind, n in sorted(report.imported.items()))
     print(f"imported: {counts or 'nothing'}")
-    if report.duplicates:
-        print(f"already imported: {len(report.duplicates)}")
+    for name in report.duplicates:
+        print(f"{name}: already saved, skipping")
     for name, reason in report.refused:
         print(f"refused {name}: {reason}")
     if report.missing:
@@ -335,6 +360,8 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
     parser.add_argument("--expect", type=Path)
     parser.add_argument("--backfill-log", action="store_true")
     parser.add_argument("--reparse", action="store_true")
+    # With --reparse: every page, after a parser fix
+    parser.add_argument("--all", action="store_true")
     args = parser.parse_args(argv)
     log = dirs["work"] / IMPORT_LOG
     if args.backfill_log:
@@ -342,13 +369,21 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
         print(f"backfilled: {added} log lines")
         return 0
     if args.reparse:
+        skipped = 0
         try:
-            counts = reparse_store(dirs["pages"], dirs["raw"], args.partition)
+            if args.all:
+                counts = reparse_store(dirs["pages"], dirs["raw"], args.partition)
+            else:
+                counts, skipped = reparse_missing(
+                    dirs["pages"], dirs["raw"], args.partition
+                )
         except (RefusedPageError, ParseError, InvalidRecordError) as error:
             print(f"reparse stopped, raw records unchanged: {error}", file=sys.stderr)
             return 1
         parts = ", ".join(f"{n} {kind}" for kind, n in sorted(counts.items()))
         print(f"reparsed: {parts or 'nothing'}")
+        if skipped:
+            print(f"already parsed, skipping: {skipped} (--all re-reads them)")
         return 0
     report = import_inbox(
         dirs["inbox"],

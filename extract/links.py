@@ -26,6 +26,8 @@ LINK_LISTS: Final = "link-lists"
 INBOX_LISTS: Final = "inbox-lists"
 INBOX_FOLDER: Final = "data/inbox/"
 OPEN_COUNT: Final = 5
+# `open general` reads inbox-lists/general.csv
+GENERAL_LIST: Final = "general"
 
 type Opener = Callable[[str], object]
 type GroupField = Literal["group", "competition", "season"]
@@ -173,6 +175,14 @@ def show(dirs: Mapping[str, Path], name: str) -> Path:
 def open_next(
     dirs: Mapping[str, Path], name: str, count: int, opener: Opener
 ) -> list[Page]:
+    if name == GENERAL_LIST:
+        # Imported here: the tracker imports this module
+        from extract.tracker import next_to_save
+
+        pages = next_to_save(dirs["inbox-lists"], count)
+        for page in pages:
+            opener(page.url)
+        return pages
     links = read_link_list(list_path(dirs["work"] / LINK_LISTS, name))
     state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs.get("images"))
     pages = [i.page for i in links if state.status(i.page.id) == "missing"][:count]

@@ -10,7 +10,7 @@ Checked against the 10 saved pages in `extract/tests/fixtures/transfermarkt/` on
 
 ```text
 Config: the pool groups (match-pool-scope.md § 1)       no page; S07 writes the links
- └─ Listing page                                        247 pages                   S07
+ └─ Listing page                                        238 pages                   S07
      │   fixture lists: leagues, CL, EL, World Cup, Euro
      │   ▼ S07 keeps the rows that belong to a group: the pool match list
      └─ Match report  /spielbericht/{id}                one per pool match, ~2,000   S11
@@ -69,7 +69,7 @@ The match ids of the pool come from fixture lists. The full list is `data/work/l
 | `p.sb-datum`: round text | `round` | `matches.stage` | Fills the stage if the listing had none |
 | `p.sb-datum`: `datum/` link | `date` | `matches.date` | Must agree with the listing |
 | `div.sb-endstand` | `result` | A check only | Without `on pens` it must equal the counted goals. On `on pens` it shows the shootout (`990248`: `5:4`) **or** the score plus the shootout (`53491`: `6:4` for 1:1 and 5:3), so it must equal one of the two |
-| `#sb-elfmeterscheissen` kicks (the id is misspelt on the page) | `shootout` (`side`, `outcome`: `Scored`, `Missed`, `Saved`) | `matches.shootout_home`, `shootout_away` | The `Scored` kicks per side. Added in S11; `extract.inbox --reparse` rebuilds older records |
+| `#sb-elfmeterscheissen` kicks (the id is misspelt on the page) | `shootout` (`side`, `outcome`: `Scored`, `Missed`, `Saved`) | `matches.shootout_home`, `shootout_away` | The `Scored` kicks per side. Added in S11; `extract.inbox --reparse --all` rebuilds older records |
 | `div.sb-halbzeit` (`(1:0)`, `on pens`, `AET`) | `resultNote` | `matches.extra_time`; half-time score for the comeback signal | `AET` or `on pens` is extra time. Without a `(1:0)` note, half time is counted from the goals' minutes |
 | `#sb-tore` goal events | `events` (`box: goal`) | `match_teams.goals` (counted), `match_events` (`goal`, `own_goal`, `penalty_goal`) | Each goal's running score (`0:1`) gives the side it counts for. `, Penalty,` in the text is a penalty; a scorer from the other side's sheet is an own goal |
 | `#sb-karten` card events | `events` (`box: card`) | `match_events` (`red_card`) | A red card or a second yellow; yellow cards are dropped |

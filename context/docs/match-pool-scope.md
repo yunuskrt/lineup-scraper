@@ -12,15 +12,16 @@ Which real matches end up playable, and how many. Read by S07, S08, S10, S11, S1
 
 | Group | Competitions | Seasons | Every match that… | About | Counted so far |
 | --- | --- | --- | --- | --- | --- |
-| **Derbies** | `league`, `ucl`, `uel` | 2000-01 to 2025-26 | Is a meeting of a pair in § 2.1 | ~370 | 4 |
-| **Big-club league clashes** | `league` | 2000-01 to 2025-26 | Is a league match between two curated clubs (§ 2.2) of the same league, and isn't a derby | ~1,130 | 8 |
-| **Champions League knockouts** | `ucl` | 2000-01 to 2025-26 | Is a quarter-final, semi-final or final, every leg | ~330 | 26 |
-| **UEFA Cup / Europa League finals** | `uel` | 2000-01 to 2025-26 | Is the final | 26 | 0 |
-| **World Cup knockouts** | `world_cup` | 2002, 2006, 2010, 2014, 2018, 2022 | Is a knockout match, the third-place match included | 96 | 16 |
-| **Euro knockouts** | `euro` | 2000, 2004, 2008, 2012, 2016, 2020, 2024 | Is a knockout match | 73 | 7 |
-| **Total** | | | | **~2,000** | **61** |
+| **Derbies** | `league`, `ucl`, `uel` | 2000-01 to 2025-26 | Is a meeting of a pair in § 2.1 | ~370 | 372 |
+| **Big-club league clashes** | `league` | 2000-01 to 2025-26 | Is a league match between two curated clubs (§ 2.2) of the same league, and isn't a derby | ~1,130 | 1,123 |
+| **Champions League knockouts** | `ucl` | 2000-01 to 2025-26 | Is a quarter-final, semi-final or final, every leg | ~330 | 332 |
+| **UEFA Cup / Europa League finals** | `uel` | 2009-10 to 2025-26; the UEFA Cup's 2000-01 to 2008-09 are a known gap | Is the final | 26 | 17 |
+| **World Cup knockouts** | `world_cup` | 2002, 2006, 2010, 2014, 2018, 2022 | Is a knockout match, the third-place match included | 96 | 96 |
+| **Euro knockouts** | `euro` | 2000, 2004, 2008, 2012, 2016, 2020, 2024 | Is a knockout match | 73 | 58 |
+| **Total** | | | | **~2,000** | **1,987** |
 
-- **Counted so far** is `npm run pool` (S07b) on the 6 listing pages saved by 2026-10-27 (`it1-2000`, `tr1-2002`, `cl-2000`, `cl-2023`, `fiwc-2005`, `euro-2003`). It grows as you save the rest of `s07-listings`; `data/reports/pool.md` has the current counts.
+- **Counted so far** is `npm run pool` on 237 of the 238 listing pages, saved by 2026-10-30; Euro 2020 (`euro-2020`, 15 matches) is the one still to save. `data/reports/pool.md` has the current counts.
+- **The UEFA Cup gap** (decided 2026-10-30): on Transfermarkt the Europa League (`EL`) starts in 2009-10; its 2000-01 to 2008-09 links show the current season instead. The UEFA Cup is another competition there, so its 9 finals are left out for now: 17 of the group's 26.
 - **Every match once.** A match in two groups (the 2011 Clásico semi-final) is one Transfermarkt id, so one slug and one row. Its groups are all recorded, for QA.
 - **Groups are kept whole.** Every Fenerbahçe–Galatasaray league meeting from 2000-01 to 2025-26 is in, however dull. A match leaves the pool only through the gate (§ 4) or `data/curation/excluded-matches.json`.
 - **Out of scope until the backend changes:** domestic cups (the Turkish Cup derbies, the Copa del Rey Clásicos), the Club World Cup and the Conference League need a new `competition_kind`. The **2026 World Cup** needs `start_year` 2026, which the database refuses. Euro 2020 was played in 2021, and the 2019–20 season ran into August 2020 (S04's `SEASON_EXCEPTIONS`).

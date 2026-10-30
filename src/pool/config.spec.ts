@@ -110,6 +110,11 @@ describe('pool config', () => {
     expect(startYear('league', 2002)).toBe(2002);
   });
 
+  it('reads Euro 2020, saison_id 2020, as 2020', () => {
+    expect(startYear('euro', 2020)).toBe(2020);
+    expect(startYear('euro', 2023)).toBe(2024);
+  });
+
   it('schemas/curation/pool.schema.json is current (run `npm run schemas`)', () => {
     expect(readFileSync(POOL_SCHEMA_FILE, 'utf8')).toBe(
       renderSchema(poolConfigSchema),

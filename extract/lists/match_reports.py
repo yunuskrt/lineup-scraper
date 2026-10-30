@@ -2,7 +2,7 @@ import json
 import sys
 from collections.abc import Mapping
 from pathlib import Path
-from typing import Final, TypedDict, cast
+from typing import Final, NotRequired, TypedDict, cast
 
 from jsonschema import Draft202012Validator
 
@@ -38,6 +38,7 @@ class PoolMatch(TypedDict):
     competitionCode: str
     seasonId: str | None
     groups: list[str]
+    date: NotRequired[str]
 
 
 def pool_matches_path(dirs: Mapping[str, Path]) -> Path:

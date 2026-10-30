@@ -53,6 +53,8 @@ const derbySchema = z.strictObject({
 
 // World Cup and Euro saison_id is the year before
 export function startYear(kind: string, seasonId: number): number {
+  // Euro 2020 (Covid): saison_id 2020, played in 2021
+  if (kind === 'euro' && seasonId === 2020) return 2020;
   return kind === 'world_cup' || kind === 'euro' ? seasonId + 1 : seasonId;
 }
 

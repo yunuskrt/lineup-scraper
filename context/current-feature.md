@@ -38,3 +38,4 @@ Not Started
 - S18a Image Lists & Import: image URLs, lists, 71 images filed by id
 - S18b Image Processing & Upload: WebP 128px, centre crop, bucket check
 - S20 Pilot & Enrichment Guide: build, verify, pilot loaded into ingest
+- Collection Tracker: link CSVs, npm run status, 238 listings, 2,002 pool

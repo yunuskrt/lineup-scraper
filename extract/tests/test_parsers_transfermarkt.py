@@ -47,6 +47,12 @@ def test_reads_every_fixture_row(name: str, code: str, season: str, count: int) 
         validate_record("transfermarkt-fixture", cast(dict[str, JsonValue], record))
 
 
+def test_refuses_a_list_that_shows_another_season() -> None:
+    # Transfermarkt's fallback for a season it doesn't have
+    with pytest.raises(ParseError, match="Shows season 2000, not 2001"):
+        parse_fixture_list(page("fixtures-cl-2000"), BASE, FETCHED, "CL", "2001")
+
+
 def test_dates_a_league_row_from_its_own_datum_link() -> None:
     first = parse_fixture_list(page("fixtures-it1-2000"), BASE, FETCHED, "IT1", "2000")[
         0

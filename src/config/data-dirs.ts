@@ -15,6 +15,8 @@ export const DATA_DIRS = {
   pages: path.join(DATA_ROOT, 'pages'),
   // Crests and photos the user saved, by id
   images: path.join(DATA_ROOT, 'images'),
+  // The 5 link CSVs `npm run status` writes
+  'inbox-lists': path.join(DATA_ROOT, 'inbox-lists'),
 } as const;
 
 export type DataDirName = keyof typeof DATA_DIRS;

@@ -22,7 +22,7 @@
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:check": "prisma migrate diff --from-config-datasource --to-schema prisma/schema.prisma --exit-code",
-    "schemas": "tsx src/raw/export.ts && tsx src/pool/export.ts",
+    "schemas": "tsx src/raw/export.ts && tsx src/pool/export.ts && tsx src/status/export.ts",
     "lineups": "tsx src/lineups/main.ts",
     "aliases": "tsx src/aliases/main.ts",
     "scores": "tsx src/score/main.ts",
@@ -32,7 +32,8 @@
     "storage": "tsx src/storage/main.ts",
     "images": "tsx src/images/main.ts",
     "build": "tsx src/build/main.ts",
-    "verify": "tsx src/verify/main.ts"
+    "verify": "tsx src/verify/main.ts",
+    "status": "npm run --silent pool && tsx src/status/main.ts && uv run python -m extract.tracker"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.1152.0",
