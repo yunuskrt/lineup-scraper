@@ -17,6 +17,7 @@ import {
 } from '@/pool/build.js';
 import { readPoolConfig } from '@/pool/config.js';
 import { poolRules } from '@/pool/groups.js';
+import { listLayoutIds, parseImportLog } from '@/pool/list-layout.js';
 import { renderReport, type ListingState } from '@/pool/report.js';
 import type { TransfermarktFixture } from '@/raw/transfermarkt-fixture.js';
 
@@ -28,6 +29,7 @@ const LISTINGS_FILE = path.join(
 );
 const MATCHES_FILE = path.join(DATA_DIRS.work, 'pool', 'matches.json');
 const REPORT_FILE = path.join(DATA_DIRS.reports, 'pool.md');
+const IMPORT_LOG = path.join(DATA_DIRS.work, 'import-log.ndjson');
 
 const listingEntrySchema = z.looseObject({ kind: z.string(), key: z.string() });
 
@@ -66,6 +68,12 @@ function readListings(): ListingState | null {
   };
 }
 
+// D1: list-layout reports leave the pool
+function readListLayout(): Set<string> {
+  if (!existsSync(IMPORT_LOG)) return new Set();
+  return listLayoutIds(parseImportLog(readFileSync(IMPORT_LOG, 'utf8')));
+}
+
 function write(file: string, text: string): void {
   mkdirSync(path.dirname(file), { recursive: true });
   writeFileSync(file, text);
@@ -78,6 +86,7 @@ function main(): number {
     poolRules(readPoolConfig()),
     readMatchList('pool-include.json'),
     readMatchList('excluded-matches.json'),
+    readListLayout(),
   );
   const listings = readListings();
   write(MATCHES_FILE, renderMatches(build.matches));
@@ -85,7 +94,7 @@ function main(): number {
   console.log(`fixture rows: ${rows.length}`);
   console.log(`pool matches: ${build.matches.length} -> ${MATCHES_FILE}`);
   console.log(
-    `conflicts: ${build.conflicts.length}, excluded: ${build.excluded.length}`,
+    `conflicts: ${build.conflicts.length}, excluded: ${build.excluded.length}, list layout: ${build.listLayout.length}`,
   );
   if (listings) {
     console.log(

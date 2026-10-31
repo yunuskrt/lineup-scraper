@@ -58,6 +58,8 @@ export interface PoolBuild {
   matches: PoolMatch[];
   conflicts: Conflict[];
   excluded: string[];
+  // Refused as a list layout: no formation
+  listLayout: string[];
   // Included ids no saved listing page has
   missingIncludes: string[];
 }
@@ -109,6 +111,7 @@ export function buildPool(
   rules: PoolRules,
   include: MatchList,
   exclude: MatchList,
+  listLayout: ReadonlySet<string> = new Set(),
 ): PoolBuild {
   const byId = new Map<string, TransfermarktFixture[]>();
   for (const row of rows) {
@@ -120,6 +123,7 @@ export function buildPool(
     matches: [],
     conflicts: [],
     excluded: [],
+    listLayout: [],
     missingIncludes: [],
   };
   for (const [sourceId, copies] of byId) {
@@ -136,6 +140,8 @@ export function buildPool(
       result.conflicts.push({ sourceId, fields });
     } else if (excludedIds.has(sourceId)) {
       result.excluded.push(sourceId);
+    } else if (listLayout.has(sourceId)) {
+      result.listLayout.push(sourceId);
     } else {
       result.matches.push(toMatch(first, groups.toSorted()));
     }
@@ -143,6 +149,7 @@ export function buildPool(
   result.matches.sort(byDateThenId);
   result.conflicts.sort((a, b) => Number(a.sourceId) - Number(b.sourceId));
   result.excluded.sort((a, b) => Number(a) - Number(b));
+  result.listLayout.sort((a, b) => Number(a) - Number(b));
   result.missingIncludes = [...included]
     .filter((id) => !byId.has(id))
     .toSorted((a, b) => Number(a) - Number(b));

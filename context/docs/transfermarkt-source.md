@@ -3,7 +3,7 @@
 The source this repo collects from, and the facts every fetching and parsing phase relies on. Decided on 2026-10-26; the evidence is in `context/fixes/2026-10-26-transfermarkt-context.md`.
 
 - **Source:** `https://www.transfermarkt.com`, English site. It replaces Mackolik, whose S02 report (`source-trial.md`) stays as history.
-- **Why:** it is the only probed source with a formation and pitch coordinates for every starter, back to 2000–01. The data contract can't play a match without a formation (`data-contract.md` § 9.2).
+- **Why:** it is the only probed source with a formation and pitch coordinates for every starter, back to 2000–01. The data contract can't play a match without a formation (`data-contract.md` § 9.2). **Exception, found 2026-10-31:** some match reports list the XIs by position group (Goalkeeper; Defenders; Midfielders; Forwards) with no pitch and no formation, the "list layout" (§ 8). Those matches leave the pool
 - **Shared spec:** `project-overview.md` § Sources names Transfermarkt primary for development. The backend changed it on 2026-10-26 (`lineup-backend` `95d7fce`), and plan fix P0 is done.
 - **Licence:** Transfermarkt must be licensed or replaced before the app is marketed (`coding-standards-scraper.md` § Sources).
 - **Collection: pages saved by hand.** Transfermarkt challenges automated requests (§ 8), so no spider, script or Playwright session fetches it. The user saves pages in their own browser; `extract.inbox` parses them. The steps for the user are in `manual-work.md`.
@@ -110,6 +110,8 @@ From the reference § 12, with this repo's rule:
    - Classifies the page (fixture list, match report, player) and refuses challenge pages with `extract.middlewares.is_challenge_html`
    - Parses the page with the S06b parsers and writes raw records through `RecordWriter`
    - Moves the file to `data/pages/transfermarkt/<kind>/<id>.html`, the local page store, which replaces the HTTP cache for Transfermarkt
+   - Moves a file it refuses to `data/inbox/refused/`, so the next import doesn't read it again; `--retry` puts those files back through, after a parser fix. A file imported at last drops its refused copy
+   - Refuses a **list-layout** match report (lineups in `div.aufstellung-box` as a position-group table, no `div.formation-player-container`) with the reason `list layout: no formation`. `npm run pool` reads the import log and leaves out every match whose latest import refused it that way; `data/reports/pool.md` lists them under "Left out: list layout". Parsing the layout was declined on 2026-10-31: its formation would only be the players' usual positions
    - Reports what's missing from the phase's list, and appends one line per file to `data/work/import-log.ndjson`
 4. `fetchedAt` is the saved file's modification time in UTC: when the user saved it.
 5. After a parser change, `uv run python -m extract.inbox --reparse --all` rebuilds every raw record from the stored pages. It parses them all first and changes nothing if one fails.

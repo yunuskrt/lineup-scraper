@@ -32,7 +32,7 @@ export function renderReport(
   const lines = [
     '# Pool match list',
     '',
-    `Matches: ${matches.length}. Conflicts: ${build.conflicts.length}. Excluded: ${build.excluded.length}.`,
+    `Matches: ${matches.length}. Conflicts: ${build.conflicts.length}. Excluded: ${build.excluded.length}. List layout: ${build.listLayout.length}.`,
     '',
     ...table('By group', counts(matches.flatMap((m) => m.groups))),
     ...table('By competition', counts(matches.map((m) => m.competitionCode))),
@@ -52,6 +52,16 @@ export function renderReport(
       lines.push(`- \`${sourceId}\`: ${fields.join(', ')}`);
     }
     lines.push('');
+  }
+  if (build.listLayout.length > 0) {
+    lines.push(
+      '## Left out: list layout',
+      '',
+      'The report lists the XIs by position group, with no formation.',
+      '',
+      ...build.listLayout.map((id) => `- \`${id}\``),
+      '',
+    );
   }
   if (build.missingIncludes.length > 0) {
     lines.push('## Included but not on a saved listing page', '');

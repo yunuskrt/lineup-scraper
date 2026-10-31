@@ -12,6 +12,11 @@ from extract.tests.saved_pages import Dirs
 TM = "https://www.transfermarkt.com"
 
 
+# Refused: moved to inbox/refused/, out of the inbox
+def is_set_aside(path: Path) -> bool:
+    return not path.exists() and (path.parent / "refused" / path.name).exists()
+
+
 def test_imports_and_files_each_kind(dirs: Dirs) -> None:
     dirs.save("fixtures-it1-2000", "anything.html")
     dirs.save("match-990248", "Kaydet.htm")
@@ -69,7 +74,7 @@ def test_leaves_a_differing_page_with_the_same_key(dirs: Dirs) -> None:
     assert report.refused == [
         ("changed.html", "differs from the stored page 990248.html")
     ]
-    assert changed.exists()
+    assert is_set_aside(changed)
 
 
 @pytest.mark.parametrize(
@@ -95,7 +100,7 @@ def test_refuses_and_keeps_pages_it_cannot_use(
     report = dirs.run()
 
     assert len(report.refused) == 1 and report.refused[0][1].startswith(reason)
-    assert bad.exists()
+    assert is_set_aside(bad)
     assert not dirs.raw.exists()
 
 
@@ -109,7 +114,7 @@ def test_a_broken_page_writes_nothing(dirs: Dirs) -> None:
     report = dirs.run()
 
     assert report.refused and "formation-player-container" in report.refused[0][1]
-    assert broken.exists()
+    assert is_set_aside(broken)
     assert not dirs.raw.exists()
 
 
@@ -187,7 +192,7 @@ def test_refuses_a_page_from_another_site(dirs: Dirs) -> None:
     report = dirs.run()
 
     assert report.refused == [("other.html", "og:url is not on www.transfermarkt.com")]
-    assert other.exists()
+    assert is_set_aside(other)
 
 
 def test_a_link_list_survives_markdown_and_unknown_links(
@@ -215,7 +220,7 @@ def test_refuses_a_file_that_is_not_utf8(dirs: Dirs) -> None:
     report = dirs.run()
 
     assert [name for name, _ in report.refused] == ["latin.html"]
-    assert latin.exists()
+    assert is_set_aside(latin)
 
 
 def test_a_bad_partition_refuses_without_writing(dirs: Dirs) -> None:
@@ -442,10 +447,12 @@ def test_refuses_and_keeps_a_bad_image(
 
     assert [n for n, _ in report.refused] == [name]
     assert reason in report.refused[0][1]
-    assert (dirs.inbox / name).exists()
+    assert is_set_aside(dirs.inbox / name)
     assert filed(dirs) == []
     assert read_log(dirs.log)[-1]["result"] == "refused"
-    assert main([], dirs.folders()) == 1
+    # Set aside: refused again only on --retry
+    assert main([], dirs.folders()) == 0
+    assert main(["--retry"], dirs.folders()) == 1
 
 
 def test_counts_saved_images_against_an_expected_list(dirs: Dirs) -> None:
@@ -505,3 +512,91 @@ def test_reparse_parses_only_pages_with_no_records(
     assert "reparsed: 2 match" in out
     assert "already parsed, skipping: 1 (--all re-reads them)" in out
     assert raw_files(dirs)["match/probe.ndjson"] == fresh["match/probe.ndjson"]
+
+
+def test_a_list_layout_report_is_set_aside_with_its_reason(dirs: Dirs) -> None:
+    saved = dirs.save("match-1042014")
+
+    report = dirs.run()
+
+    assert report.refused == [("match-1042014.html", "list layout: no formation")]
+    assert is_set_aside(saved)
+    line = read_log(dirs.log)[-1]
+    assert (line["kind"], line["key"], line["result"]) == (
+        "match",
+        "1042014",
+        "refused",
+    )
+    assert not dirs.raw.exists()
+
+
+def test_a_set_aside_file_is_not_read_again(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-1042014")
+    dirs.save("match-923131")
+    assert main([], dirs.folders()) == 1
+    capsys.readouterr()
+
+    assert main([], dirs.folders()) == 0
+
+    out = capsys.readouterr().out
+    assert "refused match" not in out
+    assert (
+        "refused earlier, waiting in data/inbox/refused/: 2 (--retry tries them again)"
+        in out
+    )
+    assert len(read_log(dirs.log)) == 2
+
+
+def test_retry_puts_refused_files_through_again(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-1042014")
+    dirs.run()
+
+    assert main(["--retry"], dirs.folders()) == 1
+
+    out = capsys.readouterr().out
+    assert "retrying from data/inbox/refused/: 1" in out
+    assert "refused match-1042014.html: list layout: no formation" in out
+    assert "refused earlier" not in out
+    assert is_set_aside(dirs.inbox / "match-1042014.html")
+    assert len(read_log(dirs.log)) == 2
+
+
+def test_a_file_saved_again_replaces_its_refused_copy(dirs: Dirs) -> None:
+    dirs.save("match-1042014", "match.html")
+    dirs.run()
+    dirs.save("match-923131", "match.html")
+
+    report = dirs.run()
+
+    assert report.waiting == 0
+    copies = list((dirs.inbox / "refused").iterdir())
+    assert [c.name for c in copies] == ["match.html"]
+    assert "923131" in copies[0].read_text(encoding="utf-8")
+
+
+def test_a_file_imported_at_last_drops_its_refused_copy(
+    dirs: Dirs, capsys: pytest.CaptureFixture[str]
+) -> None:
+    dirs.save("match-1042014", "match.html")
+    dirs.run()
+    dirs.save("match-990248", "match.html")
+
+    assert main([], dirs.folders()) == 0
+
+    assert not (dirs.inbox / "refused" / "match.html").exists()
+    assert "refused earlier" not in capsys.readouterr().out
+
+
+def test_retry_keeps_a_newer_save_of_the_same_name(dirs: Dirs) -> None:
+    dirs.save("match-1042014", "match.html")
+    dirs.run()
+    dirs.save("match-990248", "match.html")
+
+    assert main(["--retry"], dirs.folders()) == 0
+
+    assert not (dirs.inbox / "refused" / "match.html").exists()
+    assert (dirs.pages / "transfermarkt" / "match" / "990248.html").exists()

@@ -56,6 +56,7 @@ describe('overview and coverageView', () => {
     entries: [entry('Match Report', 'ingested', {}, '1118844')],
     log: [],
     inbox: ['player-9.html'],
+    refused: [],
     notes: [],
     problems: ['No general.csv: run `npm run status`'],
     csvAt: 2,

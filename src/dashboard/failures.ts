@@ -24,6 +24,8 @@ export interface FailureInput {
   entries: readonly Entry[];
   log: readonly LogLine[];
   inbox: readonly string[];
+  // Files the importer set aside in inbox/refused/
+  refused?: readonly string[];
   notes: readonly string[];
   // The last run of each dashboard action
   runs?: readonly RunResult[];
@@ -45,7 +47,10 @@ export function todoFor(reason: string): string {
   if (reason.startsWith('gate:')) {
     return 'Fix it in data/curation/ (enrichment-guide.md § 6), then build';
   }
-  return 'Keep the page and ask for a fix; then run `uv run python -m extract.inbox --reparse --all`';
+  if (reason.startsWith('list layout')) {
+    return 'Nothing: the match leaves the pool (no formation)';
+  }
+  return 'Keep the page and ask for a fix; then run `uv run python -m extract.inbox --retry`';
 }
 
 const RUN_IMPORT = 'Run `uv run python -m extract.inbox`';
@@ -81,15 +86,16 @@ export function failuresOf(input: FailureInput): Failure[] {
       todo: todoFor(reason),
     });
   }
-  // A refused file stays in the inbox until fixed
-  const waiting = new Set(input.inbox);
+  // Refused files wait in refused/ (or the inbox)
+  const setAside = new Set(input.refused ?? []);
+  const waiting = new Set([...input.inbox, ...setAside]);
   const refused = refusals(input.log).filter((line) => waiting.has(line.file));
   for (const line of refused) {
     if (shown.has(`${line.kind}:${line.key}`)) continue;
     const reason = line.reason ?? 'refused';
     failures.push({
       source: 'import',
-      ref: line.file,
+      ref: setAside.has(line.file) ? `refused/${line.file}` : line.file,
       reason,
       todo: todoFor(reason),
     });

@@ -73,11 +73,14 @@ describe('readSnapshot', () => {
       }),
     );
     writeFileSync(path.join(files.inbox, 'player-9.html'), '');
+    mkdirSync(path.join(files.inbox, 'refused'));
+    writeFileSync(path.join(files.inbox, 'refused', 'match-7.html'), '');
     const snapshot = readSnapshot(files);
     expect(snapshot.problems).toEqual([]);
     expect(snapshot.entries[0]?.context.season).toBe('2002-03');
     expect(snapshot.log).toHaveLength(1);
     expect(snapshot.inbox).toEqual(['player-9.html']);
+    expect(snapshot.refused).toEqual(['match-7.html']);
     expect(snapshot.notes).toEqual(['database not checked']);
     expect(snapshot.csvAt).not.toBeNull();
   });

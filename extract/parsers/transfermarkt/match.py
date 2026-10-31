@@ -35,11 +35,18 @@ LINEUP: Final = (
 )
 HOME_LINEUP: Final = './/div[@class="large-6 columns aufstellung-box"]'
 AWAY_LINEUP: Final = './/div[@class="large-6 columns"]'
+# Lineups by position group, with no pitch
+LIST_LAYOUT: Final = './/table//td/b[normalize-space()="Goalkeeper"]'
+LIST_LAYOUT_REASON: Final = "list layout: no formation"
 EVENT_BOXES: Final[tuple[tuple[str, Literal["goal", "card", "substitution"]], ...]] = (
     ("sb-tore", "goal"),
     ("sb-karten", "card"),
     ("sb-wechsel", "substitution"),
 )
+
+
+class ListLayoutError(ParseError):
+    pass
 
 
 def player_ref(link: Selector, what: str) -> Ref:
@@ -68,6 +75,8 @@ def starters(box: SelectorList[Selector], side: str) -> list[Starter]:
             }
         )
     if not found:
+        if box.xpath(LIST_LAYOUT):
+            raise ListLayoutError(LIST_LAYOUT_REASON)
         raise ParseError(f"No {side} starters (div.formation-player-container)")
     return found
 

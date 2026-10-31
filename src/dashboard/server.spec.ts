@@ -26,6 +26,7 @@ const SNAPSHOT: Snapshot = {
   entries: [entry('Player', 'saved'), entry('Player', 'error: bad', {}, '2')],
   log: [],
   inbox: [],
+  refused: [],
   notes: [],
   problems: [],
   csvAt: 2,

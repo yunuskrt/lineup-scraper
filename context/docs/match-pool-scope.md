@@ -84,7 +84,7 @@ At about 2,000 matches: ~44,000 lineup rows, an estimated 5,000–8,000 players,
 ## 4. Selection rules
 
 1. **In:** every match of every group in § 1, plus `data/curation/pool-include.json` (hand-picked extras, e.g. a famous group-stage match).
-2. **Out:** `data/curation/excluded-matches.json` (abandoned, awarded and walkover matches), and any match the gate (S13) drops because an XI can't be resolved.
+2. **Out:** `data/curation/excluded-matches.json` (abandoned, awarded and walkover matches), any match whose report is in Transfermarkt's list layout, with no formation (`transfermarkt-source.md` § 8; left out by `npm run pool` from the import log, listed in `data/reports/pool.md`), and any match the gate (S13) drops because an XI can't be resolved.
 3. **The score still exists.** The backend serves a match only if its `memorability_scores.score` clears `POOL_THRESHOLD` (45 for `world_cup`, `euro`, `ucl`; 60 for `league` and `uel`; data contract § 8). S10 scores every pool match from match data alone (no Wikipedia signal) and calibrates so every group match clears its threshold; the dashboard checks it. If calibration can't make a group clear, the threshold is retuned in the backend first, never worked around.
 
 ---

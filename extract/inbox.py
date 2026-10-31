@@ -51,6 +51,44 @@ from extract.records import InvalidRecordError, JsonValue, RecordWriter, validat
 LINK: Final = re.compile(
     r"https://(?:www\.transfermarkt\.com|img\.a\.transfermarkt\.technology)/\S+"
 )
+# Refused files wait here, out of the next import
+REFUSED: Final = "refused"
+
+
+def refused_dir(inbox: Path) -> Path:
+    return inbox / REFUSED
+
+
+# A newer copy of the same name replaces the old one
+def set_aside(path: Path, inbox: Path) -> None:
+    target = refused_dir(inbox) / path.name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    path.replace(target)
+
+
+# A copy imported at last: drop the refused one
+def clear_refused(name: str, inbox: Path) -> None:
+    (refused_dir(inbox) / name).unlink(missing_ok=True)
+
+
+def refused_files(inbox: Path) -> list[Path]:
+    folder = refused_dir(inbox)
+    if not folder.is_dir():
+        return []
+    return sorted(p for p in folder.iterdir() if p.is_file() and p.name[0] != ".")
+
+
+# Back into the inbox, for --retry
+def retry_refused(inbox: Path) -> int:
+    files = refused_files(inbox)
+    for path in files:
+        target = inbox / path.name
+        # A newer save of the same name wins
+        if target.exists():
+            path.unlink()
+        else:
+            path.replace(target)
+    return len(files)
 
 
 @dataclass
@@ -60,6 +98,8 @@ class Report:
     refused: list[tuple[str, str]] = field(default_factory=list)
     missing: list[str] = field(default_factory=list)
     log: list[LogLine] = field(default_factory=list)
+    # Refused by an earlier run, in refused/
+    waiting: int = 0
 
 
 # When the user saved the file
@@ -203,11 +243,13 @@ def import_images(inbox: Path, images_dir: Path, report: Report, at: str) -> Non
     for path in image_files(inbox):
         try:
             take_image(path, images_dir, report, at)
+            clear_refused(path.name, inbox)
         except RefusedImageError as error:
             report.refused.append((path.name, str(error)))
             report.log.append(
                 image_line(at, path.name, name_id(path.name), "refused", str(error))
             )
+            set_aside(path, inbox)
 
 
 def expected_missing(
@@ -251,6 +293,7 @@ def import_inbox(
     for path in inbox_files(inbox):
         try:
             importer.take(path, report, at)
+            clear_refused(path.name, inbox)
         except (
             RefusedPageError,
             ParseError,
@@ -261,6 +304,9 @@ def import_inbox(
             report.refused.append((path.name, reason))
             url, page = identify(path)
             report.log.append(log_line(at, path.name, page, "refused", reason, url=url))
+            set_aside(path, inbox)
+    waiting = {path.name for path in refused_files(inbox)}
+    report.waiting = len(waiting - {name for name, _ in report.refused})
     if expect is not None:
         report.missing = expected_missing(expect, pages_dir, images_dir)
     if log is not None:
@@ -347,7 +393,12 @@ def print_report(report: Report) -> None:
     for name in report.duplicates:
         print(f"{name}: already saved, skipping")
     for name, reason in report.refused:
-        print(f"refused {name}: {reason}")
+        print(f"refused {name}: {reason} (moved to data/inbox/{REFUSED}/)")
+    if report.waiting:
+        print(
+            f"refused earlier, waiting in data/inbox/{REFUSED}/: {report.waiting}"
+            " (--retry tries them again)"
+        )
     if report.missing:
         print(f"still to save: {len(report.missing)}")
         for link in report.missing:
@@ -362,8 +413,12 @@ def main(argv: list[str], dirs: Mapping[str, Path] = DATA_DIRS) -> int:
     parser.add_argument("--reparse", action="store_true")
     # With --reparse: every page, after a parser fix
     parser.add_argument("--all", action="store_true")
+    # Refused files back through the importer
+    parser.add_argument("--retry", action="store_true")
     args = parser.parse_args(argv)
     log = dirs["work"] / IMPORT_LOG
+    if args.retry:
+        print(f"retrying from data/inbox/{REFUSED}/: {retry_refused(dirs['inbox'])}")
     if args.backfill_log:
         added = backfill_log(dirs["pages"], dirs["raw"], log)
         print(f"backfilled: {added} log lines")

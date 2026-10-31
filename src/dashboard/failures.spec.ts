@@ -8,7 +8,8 @@ describe('todoFor', () => {
   it('follows the runbook', () => {
     expect(todoFor('challenge page')).toMatch(/Save the page again/);
     expect(todoFor('gate: home slot 4: no alias')).toMatch(/data\/curation/);
-    expect(todoFor('No match rows')).toMatch(/--reparse --all/);
+    expect(todoFor('No match rows')).toMatch(/--retry/);
+    expect(todoFor('list layout: no formation')).toMatch(/leaves the pool/);
   });
 });
 
@@ -116,6 +117,29 @@ describe('failuresOf', () => {
         ref: 'Run batch',
         reason: 'npm run build failed (exit 1)',
         todo: 'Read its output under Actions; fix, then run it again',
+      },
+    ]);
+  });
+
+  it('lists a file the importer set aside in refused/', () => {
+    const failures = failuresOf({
+      ...NONE,
+      log: [
+        logLine({
+          file: 'match-1042014.html',
+          result: 'refused',
+          reason: 'list layout: no formation',
+          key: '1042014',
+        }),
+      ],
+      refused: ['match-1042014.html'],
+    });
+    expect(failures).toEqual([
+      {
+        source: 'import',
+        ref: 'refused/match-1042014.html',
+        reason: 'list layout: no formation',
+        todo: 'Nothing: the match leaves the pool (no formation)',
       },
     ]);
   });

@@ -7,7 +7,11 @@ import pytest
 
 from extract.parsers.transfermarkt.common import PHOTO_ID, ParseError, image_url
 from extract.parsers.transfermarkt.fixtures import parse_fixture_list
-from extract.parsers.transfermarkt.match import parse_match_report
+from extract.parsers.transfermarkt.match import (
+    LIST_LAYOUT_REASON,
+    ListLayoutError,
+    parse_match_report,
+)
 from extract.parsers.transfermarkt.player import parse_player
 from extract.parsers.transfermarkt.records import TransfermarktMatch
 from extract.records import JsonValue, validate_record
@@ -243,6 +247,22 @@ def test_a_page_without_starters_raises_a_named_error() -> None:
         parse_match_report(
             broken, f"{BASE}/spielbericht/index/spielbericht/990248", FETCHED
         )
+
+
+@pytest.mark.parametrize("match_id", ["1042014", "923131"])
+def test_a_list_layout_report_raises_its_own_error(match_id: str) -> None:
+    url = f"{BASE}/spielbericht/index/spielbericht/{match_id}"
+    with pytest.raises(ListLayoutError, match=f"^{LIST_LAYOUT_REASON}$"):
+        parse_match_report(page(f"match-{match_id}"), url, FETCHED)
+
+
+def test_a_page_missing_both_layouts_keeps_the_starters_error() -> None:
+    broken = page("match-1042014").replace("Goalkeeper", "Torwart")
+    with pytest.raises(ParseError, match="formation-player-container") as raised:
+        parse_match_report(
+            broken, f"{BASE}/spielbericht/index/spielbericht/1042014", FETCHED
+        )
+    assert not isinstance(raised.value, ListLayoutError)
 
 
 def test_a_page_without_matches_raises_a_named_error() -> None:

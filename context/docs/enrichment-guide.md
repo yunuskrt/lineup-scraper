@@ -98,9 +98,10 @@ Every status is recomputed from the real state on each run, never read back from
 
 | You see | Do |
 | --- | --- |
-| The importer refuses a page as a challenge | Save it again once the site loads normally |
+| The importer refuses a page as a challenge | Save it again once the site loads normally; the refused copy in `data/inbox/refused/` goes when the new one imports |
+| The importer refuses a match report as `list layout: no formation` | Nothing: the report lists the XIs with no formation, so `npm run pool` leaves the match out (`pool.md` lists it) |
 | A page saved twice | Nothing: the importer keeps one copy per id |
-| A parse error on a page | Keep the page; ask for a fix. It's a selector change, tested on that page; then `uv run python -m extract.inbox --reparse --all` re-reads every stored page |
+| A parse error on a page | Keep the page (refused files wait in `data/inbox/refused/`); ask for a fix. It's a selector change, tested on that page; then `uv run python -m extract.inbox --retry` imports the refused files again, and `--reparse --all` re-reads every stored page |
 | `npm run build` stops at a stage | Read that stage's message and its report in `data/reports/`; fix, then run `npm run build` again |
 | A match fails the gate | `data/reports/gate.md` names the side, the slot and the rule. `no player` or `no alias`: save the missing player page. `no alias of their own`: add an alias in `data/curation/aliases.json`. `no formation` or `breaks …`: a formation to map in `data/curation/formations.json`. Then `npm run build` |
 | A wrong name, alias or club name | Fix it in `data/curation/`, then rebuild; never in code |
@@ -128,7 +129,7 @@ Its source is `data/inbox-lists/general.csv`, so **run `npm run status` first**;
 | **Coverage** | The floors of `match-pool-scope.md` § 3 (a curated club per era ≥ 20, a league season ≥ 10, a Champions League season ≥ 7, a World Cup or Euro ≥ 7): ingested matches against the floor, with the pool's matches beside them. A cell whose pool is smaller than its floor is "can't reach": a gap in the groups, not in your saving |
 | **Links** | `general.csv` as a table, 100 rows a page, filtered by type, status (or any error), group, competition, season and a search on the id or file name. **Open** opens the link in your own browser |
 | **History** | The import log, newest first, with a count per day; filtered by kind, result and dates |
-| **Failures** | Each with its reason and what to do: rows at `error` (challenge page, parse error, gate rule), files the importer refused that are still in `data/inbox/`, files waiting in `data/inbox/`, and notes from `npm run status` (the database or the bucket not checked) |
+| **Failures** | Each with its reason and what to do: rows at `error` (challenge page, parse error, gate rule), files the importer refused, waiting in `data/inbox/refused/`, files waiting in `data/inbox/`, and notes from `npm run status` (the database or the bucket not checked) |
 | **Sizes** | Rows and MB per content table, the database size against the Neon Free plan's 1 GB, and objects and MB in the bucket under `crests/` and `players/`. Read when you open the tab and on **Refresh**, so the page doesn't wake the database each time |
 
 **The check-in warning**, over every tab, with the command to run: rows at `error`, files waiting in `data/inbox/`, validated matches or players not yet ingested, images of validated matches not yet uploaded, and a `general.csv` older than the last import or build.

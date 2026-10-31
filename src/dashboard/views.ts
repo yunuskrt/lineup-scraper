@@ -185,6 +185,7 @@ export function failuresView(
     entries: snapshot.entries,
     log: snapshot.log,
     inbox: snapshot.inbox,
+    refused: snapshot.refused,
     notes: [...snapshot.problems, ...snapshot.notes],
     runs,
   });

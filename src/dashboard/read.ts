@@ -42,6 +42,8 @@ export interface Snapshot {
   entries: Entry[];
   log: LogLine[];
   inbox: string[];
+  // Set aside by the importer: inbox/refused/
+  refused: string[];
   notes: string[];
   // A missing or invalid file, and the fix
   problems: string[];
@@ -129,6 +131,7 @@ export function readSnapshot(files: SnapshotFiles = FILES): Snapshot {
     entries,
     log: readLog(files.log, problems),
     inbox: inboxFiles(files.inbox),
+    refused: inboxFiles(path.join(files.inbox, 'refused')),
     notes: readNotes(files.remote, problems),
     problems,
     csvAt: modifiedAt(files.general),

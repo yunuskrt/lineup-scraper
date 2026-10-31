@@ -41,3 +41,4 @@ Not Started
 - Collection Tracker: link CSVs, npm run status, 238 listings, 2,002 pool
 - S19a Dashboard Server & Views: read-only page, 6 tabs, floors, sizes
 - S19b Dashboard Actions & Guided Batch: buttons, run batch, gated load
+- Fix List-Layout Refusals: no-formation reports out, refused/ folder

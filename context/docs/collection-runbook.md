@@ -63,9 +63,12 @@ After every import, build, upload and load. It only reads, so it's safe any time
 | Status | Do |
 | --- | --- |
 | `error: challenge page` | Save the page again once the site loads normally |
-| `error: <parse error>` | Keep the page and ask for a fix; then `uv run python -m extract.inbox --reparse --all` |
+| `error: <parse error>` | Keep the page (it waits in `data/inbox/refused/`) and ask for a fix; then `uv run python -m extract.inbox --retry` |
+| `refused …: list layout: no formation` | Nothing: the report has no formation, so `npm run status` leaves the match out of the pool and its row disappears |
 | `error: gate: <side> slot <n>: <rule>` | Fix in `data/curation/` (`enrichment-guide.md` § 6), then from step 4 |
 | A row stuck at `saved` | The file is still in `data/inbox/`: run step 3 |
+
+A refused file moves to `data/inbox/refused/`, so the next import doesn't repeat it: it prints one line, `refused earlier, waiting in data/inbox/refused/: N`. `--retry` puts them through again; a file you save again under the same name replaces its refused copy.
 
 ## Check-ins
 

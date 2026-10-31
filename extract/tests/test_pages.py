@@ -30,3 +30,14 @@ def test_counts_records_per_page_and_partition(dirs: Dirs) -> None:
 def test_an_unusable_inbox_file_is_ignored(dirs: Dirs) -> None:
     (dirs.inbox / "bad.html").write_text("<html></html>", encoding="utf-8")
     assert snapshot(dirs.inbox, dirs.pages, dirs.raw).inbox == {}
+
+
+def test_a_snapshot_skips_files_set_aside_in_refused(dirs: Dirs) -> None:
+    dirs.save("match-990248")
+    (dirs.inbox / "refused").mkdir()
+    dirs.save("match-53491", "refused/match-53491.html")
+
+    state = snapshot(dirs.inbox, dirs.pages, dirs.raw)
+
+    assert state.status(("match", "990248")) == "inbox"
+    assert state.status(("match", "53491")) == "missing"
