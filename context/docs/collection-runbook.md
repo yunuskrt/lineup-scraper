@@ -30,28 +30,29 @@ Each link appears once. A player or club already listed under an earlier match i
 
 ## Save and import (repeat)
 
-1. `uv run python -m extract.links open general --count 10`: opens the next 10 links still `to save`
+1. Pick links whose status is `to save` in `general.csv`, in any order and any mix of types. `uv run python -m extract.links open general --count 10` (or **Open next links**, up to 50) opens the next ones in the file's order
 2. Save each into `data/inbox/` under its `Save as` name:
-   - a page: ⌘S, **Webpage, HTML Only**
-   - an image: ⌘S on the image itself
-3. `uv run python -m extract.inbox`: imports and parses. A file already stored prints `already saved, skipping`
-4. `npm run status`: updates the 5 CSVs. New rows appear:
-   - match reports, once their listing page is parsed
-   - crests, player pages and photos, right under a match, once its report is parsed
-   - a photo, once its player page is parsed
+   - a page: ⌘S, **Webpage, HTML Only** (the importer reads the page's own URL, so a wrong name does no harm)
+   - an image: ⌘S on the image itself. **Keep its name**: the importer reads the id from it
+3. `uv run python -m extract.inbox && npm run status` (or **Import**, which runs both):
+   - `extract.inbox` imports and parses every file, whatever its type. A file already stored prints `already saved, skipping`
+   - `npm run status` updates the 5 CSVs. **New rows appear only here**, so run it after every import:
+     - crests and player pages, right under a match, once its report is parsed
+     - a photo, right under its player, once the player page is parsed
+     - a crest or player already listed under an earlier match isn't listed again
 
-Save all 238 listing pages first; then go match by match.
+All 238 listing pages are parsed, so every row left is a match report, a crest, a player page or a photo. The order is free: each link is listed once, keyed on its id, and saving one twice costs nothing. **A match loads only once all 22 of its starters' pages are saved**, so saving many match reports first grows the progress fast but loads nothing new for a while; finish a few blocks now and then to see matches reach `ingest` sooner. The total work is the same.
 
-## Build and ingest (after a batch of matches)
+## Build and ingest (whenever you like)
 
-**From the dashboard** (`npm run dashboard`): press **Run batch** (import, status, build, upload images, dry run), read the counts and `data/reports/gate.md`, then **Load into `ingest`** (load, verify, status) and commit `data/dataset/`. The same steps by hand:
+**From the dashboard** (`npm run dashboard`): press **Run batch** (import, status, build, upload images, dry run), read the counts and `data/reports/gate.md`, then **Load into `ingest`** (load, verify, status) and commit `data/dataset/` and `data/curation/`. The same steps by hand:
 
-5. `npm run build`, then read `data/reports/gate.md`, `images.md` and `images.html`
-6. `npm run images -- --upload` (`already uploaded, skipping` for the rest)
-7. `git add data/dataset && git commit`
-8. `npm run load`: the dry run, counts only. Then `npm run load -- --apply` (`already ingested, skipping` for the rest)
-9. `npm run verify`
-10. `npm run status`
+4. `npm run build`, then read `data/reports/gate.md`, `images.md` and `images.html`
+5. `npm run images -- --upload` (`already uploaded, skipping` for the rest)
+6. `git add data/dataset data/curation && git commit`: the build also adds the new matches', clubs' and players' permanent slugs to `data/curation/crosswalk/`
+7. `npm run load`: the dry run, counts only. Then `npm run load -- --apply` (`already ingested, skipping` for the rest)
+8. `npm run verify`
+9. `npm run status`
 
 ## When to run `npm run status`
 
@@ -63,7 +64,7 @@ After every import, build, upload and load. It only reads, so it's safe any time
 | --- | --- |
 | `error: challenge page` | Save the page again once the site loads normally |
 | `error: <parse error>` | Keep the page and ask for a fix; then `uv run python -m extract.inbox --reparse --all` |
-| `error: gate: <side> slot <n>: <rule>` | Fix in `data/curation/` (`enrichment-guide.md` § 6), then from step 5 |
+| `error: gate: <side> slot <n>: <rule>` | Fix in `data/curation/` (`enrichment-guide.md` § 6), then from step 4 |
 | A row stuck at `saved` | The file is still in `data/inbox/`: run step 3 |
 
 ## Check-ins

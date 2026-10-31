@@ -22,16 +22,16 @@ Run from the repo root. Each step is the command shown, or the dashboard button 
 | # | You do | Command | Dashboard |
 | --- | --- | --- | --- |
 | 1 | Pick the next batch: a group, a competition, a season (§ 5) | `uv run python -m extract.progress` | Progress, Coverage |
-| 2 | Write the list for the level you're on (§ 3) | `uv run python -m extract.lists.listings`, `…lists.match_reports`, `…lists.player_pages` or `…lists.images` | — (`npm run status` writes `general.csv`) |
-| 3 | Open its unsaved links in your browser, a few tabs at a time | `uv run python -m extract.links open <list> --count 10` | Open next links (from `general.csv`) |
-| 4 | Save each page as **HTML only** into `data/inbox/`, under the file name shown (`manual-work.md` § How to save a page). Images: ⌘S on the image itself | — | — |
-| 5 | Import what you saved; read what it refused | `uv run python -m extract.inbox` | Import |
+| 2 | Refresh `data/inbox-lists/general.csv`: every link known so far, with its status (§ 3, § 5) | `npm run status` | Refresh status |
+| 3 | Open links still `to save`, in any order and any mix of types, a few tabs at a time | `uv run python -m extract.links open general --count 10` | Open next links (up to 50) |
+| 4 | Save each page as **HTML only** into `data/inbox/`, under the file name shown (`manual-work.md` § How to save a page). Images: ⌘S on the image itself, keeping its name | — | — |
+| 5 | Import what you saved, whatever its type, and refresh `general.csv`: new crest, player and photo rows appear only on `npm run status`; read what the import refused | `uv run python -m extract.inbox && npm run status` | Import (runs both) |
 | 6 | See what's still missing; check one page | `uv run python -m extract.progress`, `uv run python -m extract.check <link>` | Links, Failures |
-| 7 | Repeat 2–6 one level down: listing pages → match reports → player pages → crests and photos | — | — |
+| 7 | Repeat 3–6. A match report reveals its crests and player pages; a player page reveals its photo | — | — |
 | 8 | Build: the 8 stages in order (`pool`, `resolve`, `lineups`, `aliases`, `scores`, `gate`, `images`, `dataset`); it stops at the first that fails and names it | `npm run build` | Build |
 | 9 | Read the reports: `data/reports/gate.md` (matches that failed and why), `images.md` (photos to check by eye), `images.html` (every face and crest); fix names in `data/curation/` (§ 6) and rebuild | — | — |
 | 10 | Upload the new images to `ingest`'s bucket; a rerun uploads nothing | `npm run images -- --upload` | Upload images |
-| 11 | Commit `data/dataset/` | `git add data/dataset && git commit` | — (the page warns while it's uncommitted) |
+| 11 | Commit the dataset and the crosswalk (the build adds new permanent slugs) | `git add data/dataset data/curation && git commit` | — (the page warns while it's uncommitted) |
 | 12 | Dry-run the load and read the counts; it stops if an image isn't in the bucket | `npm run load` | Dry run |
 | 13 | Load into `ingest`; a second run writes 0 rows | `npm run load -- --apply` | Load into `ingest` |
 | 14 | Prove the database serves every match: exits 1 and names the match and the rule otherwise | `npm run verify` | Verify (also after each load) |
@@ -55,7 +55,7 @@ Saving is almost all of the time. Everything after it takes seconds.
 
 ## 3. Which links come from where
 
-Links are found level by level, so a list can only hold what the level above has revealed (`link-map.md` § 1):
+Links are found level by level, so a link can only be listed once the page above it is parsed (`link-map.md` § 1). `general.csv` holds all four levels in one file, each match's links in its block; the per-level lists below remain for the terminal:
 
 | Level | List | Known once | Size, whole pool |
 | --- | --- | --- | --- |
@@ -84,8 +84,9 @@ In all: 3 matches, 6 clubs, 65 players (66 places; one player starts twice), 164
 
 Follow `data/inbox-lists/general.csv` from the top (`collection-runbook.md`). `npm run status` writes it, and the 4 per-type CSVs beside it, from what you've saved:
 
-1. **All 238 listing pages first.** Each parsed listing adds its pool matches to the file.
-2. **Then match by match.** A match block starts as one row, its report. Once that report is parsed, its crests, its 22 starters' pages and, once each page is parsed, their photos appear right under it. A club or player already listed under an earlier match isn't listed again.
+1. **The 238 listing pages are done** (all parsed, 2026-10-30): they put every pool match in the file, one row each.
+2. **Then any order, any mix.** Save any rows still `to save`, of any type, together; one import takes them all, and `npm run status` then adds what they reveal. A match block starts as one row, its report. Once that report is parsed, its crests and its 22 starters' pages appear right under it; once a player page is parsed, its photo appears right under that player. A club or player already listed under an earlier match isn't listed again, and a row can move up when an earlier match's report is parsed later: `#` is a position, not an id.
+   - **A match loads only once all 22 of its starters' pages are saved.** Saving many match reports first grows the progress fast but loads nothing new for a while; finishing a few blocks now and then gets matches into `ingest` sooner. The total work is the same.
 3. **The order is balanced:** the pilot first, then round-robin across the groups, and across the era buckets within a group, oldest first. Wherever you stop, the saved matches spread over every group and era.
 4. **Build and ingest a batch whenever you like** (§ 2, steps 8–14), then `npm run status`.
 
