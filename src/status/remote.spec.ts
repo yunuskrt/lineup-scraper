@@ -1,11 +1,26 @@
 import { readFileSync } from 'node:fs';
 import { renderSchema } from '@/raw/schema-files.js';
+import { failureText } from '@/gate/gate.js';
 import {
+  parseGateFailure,
   remoteStatus,
   remoteStatusSchema,
   type RemoteInput,
 } from '@/status/remote.js';
 import { REMOTE_STATUS_SCHEMA_FILE } from '@/status/schema-file.js';
+
+describe('parseGateFailure', () => {
+  it("reads back the gate's failureText", () => {
+    for (const failure of [
+      { at: 'home slot 1', rule: 'no player' },
+      { at: 'match', rule: 'a player starts for both sides' },
+      { at: 'away', rule: 'rule: with a colon' },
+    ]) {
+      expect(parseGateFailure(failureText(failure))).toEqual(failure);
+    }
+    expect(parseGateFailure('odd')).toEqual({ at: '', rule: 'odd' });
+  });
+});
 
 const KEYS = {
   crests: [

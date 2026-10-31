@@ -1,8 +1,15 @@
 import type { Entry } from '@/dashboard/blocks.js';
 import type { LogLine } from '@/dashboard/history.js';
 import { isError, type LinkType } from '@/dashboard/links.js';
+import type { RunResult } from '@/dashboard/runner.js';
 
-export const FAILURE_SOURCES = ['row', 'import', 'inbox', 'note'] as const;
+export const FAILURE_SOURCES = [
+  'row',
+  'import',
+  'inbox',
+  'note',
+  'run',
+] as const;
 export type FailureSource = (typeof FAILURE_SOURCES)[number];
 
 export interface Failure {
@@ -18,6 +25,8 @@ export interface FailureInput {
   log: readonly LogLine[];
   inbox: readonly string[];
   notes: readonly string[];
+  // The last run of each dashboard action
+  runs?: readonly RunResult[];
 }
 
 export const LOG_KIND: Record<LinkType, LogLine['kind']> = {
@@ -101,6 +110,15 @@ export function failuresOf(input: FailureInput): Failure[] {
       ref: 'npm run status',
       reason: note,
       todo: 'Check `.env` (LOAD_TARGET, DATABASE_URL, the storage keys)',
+    });
+  }
+  for (const run of input.runs ?? []) {
+    if (run.exitCode === 0) continue;
+    failures.push({
+      source: 'run',
+      ref: run.label,
+      reason: `${run.failedStep ?? 'a step'} failed (exit ${run.exitCode})`,
+      todo: 'Read its output under Actions; fix, then run it again',
     });
   }
   return failures;

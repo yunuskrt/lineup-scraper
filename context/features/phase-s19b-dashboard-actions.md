@@ -2,7 +2,7 @@
 
 ## Status
 
-Not Started
+Complete
 
 ## Goals
 
@@ -70,13 +70,13 @@ Saving pages here is optional and small (2 pages); the rest of the pool stays yo
 
 ## Decisions
 
-To settle at `/feature load`:
+Settled at `/feature load`, 2026-10-30: all three as proposed.
 
-- **D1. Uncommitted `data/dataset/` warns, it doesn't block.** The load reads the files, not git; the commit stays yours (`git add data/dataset && git commit`).
+- **D1. Uncommitted `data/dataset/` warns, it doesn't block** (approved). The load reads the files, not git; the commit stays yours (`git add data/dataset && git commit`).
   - Alternative: refuse Dry run and Load until `data/dataset/` is committed
-- **D2. Load into `ingest` also runs Verify and Refresh status.** It stops before them if the load fails.
+- **D2. Load into `ingest` also runs Verify and Refresh status** (approved). It stops before them if the load fails.
   - Alternative: Load only; Verify is its own button
-- **D3. Run batch includes Upload images** before the dry run, since the dry run stops unless every image key is in the bucket. The upload writes to the bucket without a separate confirmation: pressing Run batch is the approval, and an existing key is never uploaded again.
+- **D3. Run batch includes Upload images** (approved) before the dry run, since the dry run stops unless every image key is in the bucket. The upload writes to the bucket without a separate confirmation: pressing Run batch is the approval, and an existing key is never uploaded again.
   - Alternative: Run batch stops after Build; Upload images is its own confirmed step
 
 ## Notes
@@ -96,5 +96,28 @@ To settle at `/feature load`:
   - `npm test`: the allowlist (no unknown id, `N` bounds), the runner (one at a time, `409`, stops at the first failing step and names it, last result kept), the load gate (target, a passed dry run, manifest hash, busy), the token and `Origin` checks, the batch step order. All use an injected spawn and no process
   - `npm run lint`, `npm run typecheck`, `npm run format:check`
   - on the real data: Your part 1–2; after a load, a second Dry run shows 0 changes
+
+**Deviations recorded during implementation**
+
+- **Each branch command also gets `--target ingest`** (upload, dry run, load, verify), so the command itself refuses another branch, not just the page's gate
+- **`.env` is read fresh:** Node's `loadEnvFile` never overrides a variable already set, so a child started with the dashboard's environment would keep the `LOAD_TARGET` of when it started. Commands now get the shell's environment from before `.env` was loaded and read `.env` themselves; the gates re-read `LOAD_TARGET` from `.env` on every check. Changing `.env` while the dashboard runs takes effect on the next press
+- **The load gate also closes when the dry run found 0 changes** ("The dry run found nothing to load"). A load uses its dry run up, and a new Dry run or Run batch clears the previous one when it starts
+- **The confirmation shows the dry run's own output** (the loader's per-table counts and its change count), not a re-parsed table
+- **A press with no `Origin` header is refused too**, not just a foreign one; a body may hold only `count`
+- **`--no-open`** starts the dashboard without opening a browser (used for the smoke test)
+- **npm steps run as `npm run --silent`**, so the output has no npm banner lines
+- **`host.ts`** holds the port, the host and the host and origin checks, so `guard.ts` and `server.ts` don't import each other
+- **Failures lists a failed button** (source "Action": the step that failed and its exit code)
+- **Smoke test on the real data, 2026-10-30,** on port 4329 (your S19a dashboard still held 4319):
+  - the guards: no token, a foreign or missing origin → `403`; an unknown action, `count` 500, an extra key or a body that isn't JSON → `400`; Load before a dry run → `403` "Run a dry run first"
+  - **Dry run** streamed over SSE: 0 changes, all 71 images in the bucket; a second press while it ran got `409`; Load then stayed closed, "The dry run found nothing to load"
+  - **Verify** passed (all 3 matches servable and playable); **Check schema** passed; **Refresh status** pressed in the page streamed its output and refreshed the views
+  - Claude ran no Import, Build, Upload or Load: those are Your part
+- 753 TypeScript tests (29 new) and 321 Python tests pass; typecheck, lint, format clean
+- **Fixed during Your part, 2026-10-31: `npm run status` rejected the gate's failures.** The gate writes each failure as text (`failureText`: `"home slot 1: no player"`), but the Collection Tracker's reader expected `{at, rule}` objects. It never showed until a build ran with a match failing the gate: your Run batch built Porto – Benfica and Arsenal – Liverpool, which wait for 39 player pages. So the last step of Load into `ingest` failed after the load and the verify had both passed. `src/status/main.ts` now reads the text through `parseGateFailure` (`src/status/remote.ts`, tested against `failureText`); `npm run status` passes again
+- **Your Load into `ingest`, 2026-10-31:** 3 `memorability_scores` updates written. Scores are percentiles within an era bucket, so the 2 newly scored 2000-01 matches raised the 3 pilot scores (for example 65 → 82.5 and 75 → 87.5), with a new `computedAt`. Verify passed (all 3 matches); a second dry run shows 0 changes. `data/dataset/` (manifest and 3 match files) goes into this feature's commit
+- **Your part 1–2, 2026-10-31:** done. Run batch, a confirmed load, Build then Dry run (0 changes, Load closed), and the guard with `LOAD_TARGET=disposable` all behaved as written; `.env` is back on `ingest`
+- **Run batch's `npm run resolve` gave the whole pool its permanent slugs:** `data/curation/crosswalk/` grew to 100 clubs, 11 competitions, 2,002 matches and 68 players (from 37, 5, 61 and 65); no existing slug changed. These are committed with this feature, since slugs are permanent once given
+- **`/feature test`:** `system.spec.ts` runs the real spawner on a local `node -e` (no network, no shell): lines with their stream, the exit code, argv passed as given (`$HOME; ls` stays text) and `127` for a missing command. `server.spec.ts` now also covers the event stream (start, step, end; nothing after the page leaves). 758 TypeScript tests (34 new in this feature) and 321 Python tests pass; typecheck, lint, format clean. Not unit tested, on purpose: `manifestHash`, `isDatasetDirty` and `currentTarget` (file and git reads; `targetFrom` is tested), `main.ts`, and the page's `app.js` (no component tests), all proved in Your part
 
 ## History

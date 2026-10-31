@@ -87,4 +87,36 @@ describe('failuresOf', () => {
       ['note', 'npm run status'],
     ]);
   });
+
+  it('lists the failed last run of a dashboard action', () => {
+    const run = {
+      id: 'batch' as const,
+      label: 'Run batch',
+      startedAt: '',
+      endedAt: '',
+      tail: [],
+      lastStep: { label: 'npm run build', lines: [] },
+    };
+    const failures = failuresOf({
+      ...NONE,
+      runs: [
+        { ...run, exitCode: 1, failedStep: 'npm run build' },
+        {
+          ...run,
+          id: 'status',
+          label: 'Refresh status',
+          exitCode: 0,
+          failedStep: null,
+        },
+      ],
+    });
+    expect(failures).toEqual([
+      {
+        source: 'run',
+        ref: 'Run batch',
+        reason: 'npm run build failed (exit 1)',
+        todo: 'Read its output under Actions; fix, then run it again',
+      },
+    ]);
+  });
 });

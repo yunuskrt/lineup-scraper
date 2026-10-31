@@ -22,9 +22,21 @@ export const remoteStatusSchema = z.strictObject({
 
 export type RemoteStatus = z.infer<typeof remoteStatusSchema>;
 
+export interface GateFailure {
+  at: string;
+  rule: string;
+}
+
 export interface GateResult {
   transfermarktId: string;
-  failures: { at: string; rule: string }[];
+  failures: GateFailure[];
+}
+
+// The gate writes `${at}: ${rule}` (failureText)
+export function parseGateFailure(text: string): GateFailure {
+  const split = text.indexOf(': ');
+  if (split === -1) return { at: '', rule: text };
+  return { at: text.slice(0, split), rule: text.slice(split + 2) };
 }
 
 export interface StoredRows {

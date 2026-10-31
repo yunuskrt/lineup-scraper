@@ -2,7 +2,7 @@
 
 How you grow the database yourself, in your own time, after the pilot. This repo builds the tools and proved them on 3 matches (S20); collecting the rest of the pool is your work, at your pace. When a step fails or the data looks wrong, ask, and the scripts get fixed.
 
-**Status:** verified on the pilot (S20, 2026-10-29). Every command below was run as written: from the saved pages to `ingest`, then played in the app. The dashboard (§ 7) shows the progress since S19a; its buttons come with S19b, and until then every step is the terminal command shown.
+**Status:** verified on the pilot (S20, 2026-10-29). Every command below was run as written: from the saved pages to `ingest`, then played in the app. The dashboard (§ 7) shows the progress and runs most steps from buttons (S19); every step is also the terminal command shown.
 
 ---
 
@@ -17,25 +17,25 @@ How you grow the database yourself, in your own time, after the pilot. This repo
 
 ## 2. The loop
 
-Run from the repo root. Each step is the command shown; `npm run dashboard` shows where you stand (§ 7), and S19b adds a button for most of them. **The short checklist is `collection-runbook.md`:** it follows `data/inbox-lists/general.csv`, and `npm run status` keeps that file's statuses current after every step.
+Run from the repo root. Each step is the command shown, or the dashboard button beside it (`npm run dashboard`, § 7). **The short checklist is `collection-runbook.md`:** it follows `data/inbox-lists/general.csv`, and `npm run status` keeps that file's statuses current after every step.
 
-| # | You do | Command |
-| --- | --- | --- |
-| 1 | Pick the next batch: a group, a competition, a season (§ 5) | `uv run python -m extract.progress` |
-| 2 | Write the list for the level you're on (§ 3) | `uv run python -m extract.lists.listings`, `…lists.match_reports`, `…lists.player_pages` or `…lists.images` |
-| 3 | Open its unsaved links in your browser, a few tabs at a time | `uv run python -m extract.links open <list> --count 10` |
-| 4 | Save each page as **HTML only** into `data/inbox/`, under the file name shown (`manual-work.md` § How to save a page). Images: ⌘S on the image itself | — |
-| 5 | Import what you saved; read what it refused | `uv run python -m extract.inbox` |
-| 6 | See what's still missing; check one page | `uv run python -m extract.progress`, `uv run python -m extract.check <link>` |
-| 7 | Repeat 2–6 one level down: listing pages → match reports → player pages → crests and photos | — |
-| 8 | Build: the 8 stages in order (`pool`, `resolve`, `lineups`, `aliases`, `scores`, `gate`, `images`, `dataset`); it stops at the first that fails and names it | `npm run build` |
-| 9 | Read the reports: `data/reports/gate.md` (matches that failed and why), `images.md` (photos to check by eye), `images.html` (every face and crest); fix names in `data/curation/` (§ 6) and rebuild | — |
-| 10 | Upload the new images to `ingest`'s bucket; a rerun uploads nothing | `npm run images -- --upload` |
-| 11 | Commit `data/dataset/` | `git add data/dataset && git commit` |
-| 12 | Dry-run the load and read the counts; it stops if an image isn't in the bucket | `npm run load` |
-| 13 | Load into `ingest`; a second run writes 0 rows | `npm run load -- --apply` |
-| 14 | Prove the database serves every match: exits 1 and names the match and the rule otherwise | `npm run verify` |
-| 15 | Play the new matches in the app (§ 8) | — |
+| # | You do | Command | Dashboard |
+| --- | --- | --- | --- |
+| 1 | Pick the next batch: a group, a competition, a season (§ 5) | `uv run python -m extract.progress` | Progress, Coverage |
+| 2 | Write the list for the level you're on (§ 3) | `uv run python -m extract.lists.listings`, `…lists.match_reports`, `…lists.player_pages` or `…lists.images` | — (`npm run status` writes `general.csv`) |
+| 3 | Open its unsaved links in your browser, a few tabs at a time | `uv run python -m extract.links open <list> --count 10` | Open next links (from `general.csv`) |
+| 4 | Save each page as **HTML only** into `data/inbox/`, under the file name shown (`manual-work.md` § How to save a page). Images: ⌘S on the image itself | — | — |
+| 5 | Import what you saved; read what it refused | `uv run python -m extract.inbox` | Import |
+| 6 | See what's still missing; check one page | `uv run python -m extract.progress`, `uv run python -m extract.check <link>` | Links, Failures |
+| 7 | Repeat 2–6 one level down: listing pages → match reports → player pages → crests and photos | — | — |
+| 8 | Build: the 8 stages in order (`pool`, `resolve`, `lineups`, `aliases`, `scores`, `gate`, `images`, `dataset`); it stops at the first that fails and names it | `npm run build` | Build |
+| 9 | Read the reports: `data/reports/gate.md` (matches that failed and why), `images.md` (photos to check by eye), `images.html` (every face and crest); fix names in `data/curation/` (§ 6) and rebuild | — | — |
+| 10 | Upload the new images to `ingest`'s bucket; a rerun uploads nothing | `npm run images -- --upload` | Upload images |
+| 11 | Commit `data/dataset/` | `git add data/dataset && git commit` | — (the page warns while it's uncommitted) |
+| 12 | Dry-run the load and read the counts; it stops if an image isn't in the bucket | `npm run load` | Dry run |
+| 13 | Load into `ingest`; a second run writes 0 rows | `npm run load -- --apply` | Load into `ingest` |
+| 14 | Prove the database serves every match: exits 1 and names the match and the rule otherwise | `npm run verify` | Verify (also after each load) |
+| 15 | Play the new matches in the app (§ 8) | — | — |
 
 How long the pilot took (2026-10-29):
 
@@ -115,9 +115,9 @@ Every status is recomputed from the real state on each run, never read back from
 
 ## 7. The dashboard (S19)
 
-The views are built (S19a); the buttons come with S19b. Until then, run the commands in § 2 and press **Reload views**.
+Views (S19a) and buttons (S19b). Every button runs a command of § 2, so the terminal stays an option for each step.
 
-`npm run dashboard` starts it on `http://127.0.0.1:4319/` and opens it in your browser (`-- --port N` for another port; Ctrl+C stops it). It reads only local files and, on the Sizes tab, the `LOAD_TARGET` branch and its bucket. It never writes, never reads `production`, never requests a Transfermarkt page, and it answers only on your machine.
+`npm run dashboard` starts it on `http://127.0.0.1:4319/` and opens it in your browser (`-- --port N` for another port; Ctrl+C stops it). The views read only local files and, on the Sizes tab, the `LOAD_TARGET` branch and its bucket. Only the buttons write, each by running its command. It never reads or writes `production`, never requests a Transfermarkt page, and it answers only on your machine.
 
 Its source is `data/inbox-lists/general.csv`, so **run `npm run status` first**; the other files are the pool (`data/work/pool/matches.json`, `data/curation/pool.json`), the import log and `data/work/status/remote.json`.
 
@@ -132,21 +132,29 @@ Its source is `data/inbox-lists/general.csv`, so **run `npm run status` first**;
 
 **The check-in warning**, over every tab, with the command to run: rows at `error`, files waiting in `data/inbox/`, validated matches or players not yet ingested, images of validated matches not yet uploaded, and a `general.csv` older than the last import or build.
 
-Not shown, on purpose: duplicates the importer skipped (it keeps one copy, so there's nothing to fix; History lists them). Build, load and verify failures appear in the terminal that ran them until S19b runs those commands from the page.
+Not shown, on purpose: duplicates the importer skipped (it keeps one copy, so there's nothing to fix; History lists them). A button whose command failed is listed under Failures too, with the step that failed; its output stays in the Output panel.
 
-**Buttons (S19b):**
+**Buttons (S19b),** in the Actions bar above the tabs:
 
-| Button | Does |
+| Button | Runs |
 | --- | --- |
-| Open next links | Opens the next few links of a list in your own browser, for you to save. It never fetches a page itself |
-| Import | Runs the importer on `data/inbox/` |
-| Build | Runs `npm run build` |
-| Check schema | Runs `db:check` |
-| Dry run | Shows what a load would change, counts only |
-| Load into `ingest` | Loads after a confirmation, only once a dry run has passed; then runs `npm run verify` |
+| Open next links | `uv run python -m extract.links open general --count N` (N 1–50, default 10): the next links of `general.csv` still `to save`, in your own browser. It never fetches a page itself |
+| Import | `uv run python -m extract.inbox`, then `npm run status` |
+| Refresh status | `npm run status` |
+| Build | `npm run build`, then `npm run status` |
+| Upload images | `npm run images -- --upload --target ingest`, then `npm run status` |
+| Check schema | `npm run db:check` |
+| Dry run | `npm run load -- --target ingest`: what a load would change, counts only |
+| Verify | `npm run verify -- --target ingest` |
+| **Run batch** | Import → status → build → upload images → dry run. It stops there and shows the dry run's change count |
+| **Load into `ingest`** | After a confirmation that repeats the dry run's counts: `npm run load -- --apply --target ingest` → verify → status |
 
-- **One action at a time.** Its output streams into the page, and the views refresh when it ends.
+- **One action at a time.** A second press while one runs is refused, and its name shows. The output streams into the Output panel; a failure stops the action at that step and names it; the views refresh when it ends.
+- **Load into `ingest` opens only** after a Dry run or Run batch passed since the dashboard started, while `data/dataset/manifest.json` is unchanged since, and when that dry run found changes. A load uses the dry run up: the next load needs a new one.
+- **Only on `ingest`.** The branch buttons (Upload images, Check schema, Dry run, Verify, Run batch, Load) are disabled unless `LOAD_TARGET` is `ingest`, read fresh from `.env`; each command also gets `--target ingest`, so it refuses any other branch itself. Open next links, Import, Refresh status and Build stay available.
+- **Uncommitted `data/dataset/`** shows a warning, and doesn't block: commit it yourself (§ 2 step 11).
 - **No `production` button.** Loading into `production` stays a terminal command with an explicit confirmation.
+- **Only this page can press them.** Each press carries a token the server put into the page, and must come from the page's own address, so another site open in your browser can't.
 - **No scraping button.** Transfermarkt challenges code, so only you save its pages (`transfermarkt-source.md` § 8).
 
 ---

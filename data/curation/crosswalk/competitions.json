@@ -1,7 +1,13 @@
 {
   "CL": "champions-league",
+  "EL": "uefa-cup-europa-league",
+  "ES1": "laliga",
   "EURO": "euro",
   "FIWC": "world-cup",
+  "FR1": "ligue-1",
+  "GB1": "premier-league",
   "IT1": "serie-a",
+  "L1": "bundesliga",
+  "PO1": "liga-portugal",
   "TR1": "super-lig"
 }

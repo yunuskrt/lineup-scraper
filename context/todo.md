@@ -29,7 +29,7 @@ This todo file is for developer-side use.
 - [x] **Phase S17 — Storage Client**: Bucket choice, content-hash key scheme, idempotent uploads. (was half of B23)
 - [x] **Phase S18 — Image Import**: An image list and folder per club and player, then resize, upload, `crest_key` and `image_key`. (was B24)
 - [x] **Phase S20 — Pilot & Enrichment Guide**: The 3 pilot matches end to end into `ingest`, and the guide for growing the pool yourself.
-- [ ] **Phase S19 — Dashboard**: Local app: progress counts and percentages by group, competition and season; history; every failure with its reason; buttons to open links, import, build and load into `ingest`. (absorbs S16)
+- [x] **Phase S19 — Dashboard**: Local app: progress counts and percentages by group, competition and season; history; every failure with its reason; buttons to open links, import, build and load into `ingest`. (absorbs S16)
 
 ### After S20: your enrichment
 

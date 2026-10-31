@@ -8,6 +8,7 @@ import { readImageKeys } from '@/images/keys.js';
 import { missingImages, openTargetStore } from '@/load/images.js';
 import { preflight } from '@/load/preflight.js';
 import {
+  parseGateFailure,
   remoteStatus,
   type GateResult,
   type RemoteInput,
@@ -23,7 +24,7 @@ const NO_ARGS = { apply: false, target: null, confirm: false };
 const gateSchema = z.array(
   z.object({
     slug: z.string(),
-    failures: z.array(z.object({ at: z.string(), rule: z.string() })),
+    failures: z.array(z.string().transform(parseGateFailure)),
   }),
 );
 const resolvedSchema = z.array(

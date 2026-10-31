@@ -12,6 +12,7 @@ import {
   type TypeProgress,
 } from '@/dashboard/progress.js';
 import type { Snapshot } from '@/dashboard/read.js';
+import type { RunResult } from '@/dashboard/runner.js';
 import { warningsOf, type Warning } from '@/dashboard/warnings.js';
 import { ERA_BUCKETS } from '@/score/pool-rules.js';
 
@@ -176,11 +177,15 @@ export function coverageView(snapshot: Snapshot): CoverageView {
   };
 }
 
-export function failuresView(snapshot: Snapshot): Failure[] {
+export function failuresView(
+  snapshot: Snapshot,
+  runs: readonly RunResult[] = [],
+): Failure[] {
   return failuresOf({
     entries: snapshot.entries,
     log: snapshot.log,
     inbox: snapshot.inbox,
     notes: [...snapshot.problems, ...snapshot.notes],
+    runs,
   });
 }

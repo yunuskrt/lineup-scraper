@@ -44,6 +44,8 @@ Save all 238 listing pages first; then go match by match.
 
 ## Build and ingest (after a batch of matches)
 
+**From the dashboard** (`npm run dashboard`): press **Run batch** (import, status, build, upload images, dry run), read the counts and `data/reports/gate.md`, then **Load into `ingest`** (load, verify, status) and commit `data/dataset/`. The same steps by hand:
+
 5. `npm run build`, then read `data/reports/gate.md`, `images.md` and `images.html`
 6. `npm run images -- --upload` (`already uploaded, skipping` for the rest)
 7. `git add data/dataset && git commit`
@@ -66,7 +68,7 @@ After every import, build, upload and load. It only reads, so it's safe any time
 
 ## Check-ins
 
-`npm run dashboard` (`enrichment-guide.md` § 7) shows it all in your browser, read only: progress per link type and per group, competition, season, era and club; the floors; every link; the import history; what's failing; and the size of each table and of the bucket. Run `npm run status` first, and press **Reload views** after each step.
+`npm run dashboard` (`enrichment-guide.md` § 7) shows it all in your browser: progress per link type and per group, competition, season, era and club; the floors; every link; the import history; what's failing; and the size of each table and of the bucket. Run `npm run status` first, and press **Reload views** after each step.
 
 You can also ask Claude in this repo for any of these.
 

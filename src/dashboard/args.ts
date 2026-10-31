@@ -1,19 +1,29 @@
-import { DEFAULT_PORT } from '@/dashboard/server.js';
+import { DEFAULT_PORT } from '@/dashboard/host.js';
 
 export type DashboardArgs =
-  { success: true; port: number } | { success: false; error: string };
+  | { success: true; port: number; shouldOpen: boolean }
+  | { success: false; error: string };
 
-const USAGE = 'usage: npm run dashboard [-- --port N]';
+const USAGE = 'usage: npm run dashboard [-- --port N] [--no-open]';
 
 export function parseDashboardArgs(argv: readonly string[]): DashboardArgs {
-  if (argv.length === 0) return { success: true, port: DEFAULT_PORT };
-  const [flag, value, ...rest] = argv;
-  const port = Number(value);
-  if (flag !== '--port' || rest.length > 0 || !Number.isInteger(port)) {
-    return { success: false, error: USAGE };
+  let port = DEFAULT_PORT;
+  let shouldOpen = true;
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--no-open') {
+      shouldOpen = false;
+      continue;
+    }
+    const value = Number(argv[i + 1]);
+    if (arg !== '--port' || !Number.isInteger(value)) {
+      return { success: false, error: USAGE };
+    }
+    if (value < 1024 || value > 65535) {
+      return { success: false, error: 'port must be 1024–65535' };
+    }
+    port = value;
+    i += 1;
   }
-  if (port < 1024 || port > 65535) {
-    return { success: false, error: 'port must be 1024–65535' };
-  }
-  return { success: true, port };
+  return { success: true, port, shouldOpen };
 }

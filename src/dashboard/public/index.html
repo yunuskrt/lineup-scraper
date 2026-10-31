@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lineup Collection</title>
+    <meta name="dashboard-token" content="__DASHBOARD_TOKEN__" />
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="/style.css" />
   </head>
@@ -11,11 +12,17 @@
     <header class="top">
       <div>
         <h1>Lineup collection</h1>
-        <p class="muted">Local and read only · data from <code>npm run status</code></p>
+        <p class="muted">Local only · data from <code>npm run status</code></p>
       </div>
       <button type="button" id="reload">Reload views</button>
     </header>
     <div id="warnings" class="warnings" role="status" aria-live="polite"></div>
+    <section id="actions" class="actions" aria-label="Actions"></section>
+    <details id="output" class="output">
+      <summary><span id="run-state">Output</span></summary>
+      <pre id="log" aria-live="polite"></pre>
+    </details>
+    <dialog id="confirm-load" aria-labelledby="confirm-title"></dialog>
     <nav class="tabs" role="tablist">
       <button type="button" role="tab" data-tab="progress" aria-selected="true">Progress</button>
       <button type="button" role="tab" data-tab="coverage">Coverage</button>

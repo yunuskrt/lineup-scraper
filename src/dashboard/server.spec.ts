@@ -1,10 +1,19 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import { mkdtempSync, writeFileSync } from 'node:fs';
+import { Readable } from 'node:stream';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { parseDashboardArgs } from '@/dashboard/args.js';
+import { createControl } from '@/dashboard/control.js';
+import { TOKEN_HEADER } from '@/dashboard/guard.js';
+import { Runner } from '@/dashboard/runner.js';
 import type { Snapshot } from '@/dashboard/read.js';
-import { createHandler, isAllowedHost, type Deps } from '@/dashboard/server.js';
+import {
+  createHandler,
+  isAllowedHost,
+  TOKEN_PLACEHOLDER,
+  type Deps,
+} from '@/dashboard/server.js';
 import { sizesView } from '@/dashboard/sizes.js';
 import { entry } from '@/dashboard/spec-fixtures.js';
 import { CONFIG } from '@/pool/spec-fixtures.js';
@@ -147,11 +156,16 @@ describe('createHandler', () => {
 });
 
 describe('parseDashboardArgs', () => {
-  it('defaults to 4319 and takes --port', () => {
-    expect(parseDashboardArgs([])).toEqual({ success: true, port: 4319 });
-    expect(parseDashboardArgs(['--port', '5000'])).toEqual({
+  it('defaults to 4319 and takes --port and --no-open', () => {
+    expect(parseDashboardArgs([])).toEqual({
+      success: true,
+      port: 4319,
+      shouldOpen: true,
+    });
+    expect(parseDashboardArgs(['--port', '5000', '--no-open'])).toEqual({
       success: true,
       port: 5000,
+      shouldOpen: false,
     });
   });
 
@@ -159,5 +173,134 @@ describe('parseDashboardArgs', () => {
     expect(parseDashboardArgs(['--port']).success).toBe(false);
     expect(parseDashboardArgs(['--port', '80']).success).toBe(false);
     expect(parseDashboardArgs(['--apply']).success).toBe(false);
+  });
+});
+
+describe('actions', () => {
+  const TOKEN = 't'.repeat(48);
+  const ORIGIN = `http://127.0.0.1:${PORT}`;
+
+  function withControl(publicDir?: string): Deps {
+    const control = createControl({
+      runner: new Runner(() => Promise.resolve(0)),
+      target: () => 'ingest',
+      manifestHash: () => 'h1',
+      isDatasetDirty: () => true,
+    });
+    return { ...deps(publicDir), control, token: TOKEN };
+  }
+
+  function post(
+    target: Deps,
+    url: string,
+    body: string,
+    headers: Record<string, string> = { origin: ORIGIN, [TOKEN_HEADER]: TOKEN },
+  ) {
+    const stream = new Readable({ read() {} });
+    stream.push(body);
+    stream.push(null);
+    const req = Object.assign(stream, {
+      method: 'POST',
+      url,
+      headers: { host: `127.0.0.1:${PORT}`, ...headers },
+    }) as unknown as IncomingMessage;
+    return new Promise<Reply>((resolve) => {
+      const reply: Reply = { status: 0, headers: {}, body: '' };
+      const res = {
+        writeHead(status: number) {
+          reply.status = status;
+        },
+        end(text: string) {
+          reply.body = text;
+          resolve(reply);
+        },
+      } as unknown as ServerResponse;
+      createHandler(target)(req, res);
+    });
+  }
+
+  it('puts the token into the page it serves', async () => {
+    const dir = mkdtempSync(path.join(tmpdir(), 'dashboard-'));
+    writeFileSync(
+      path.join(dir, 'index.html'),
+      `<meta content="${TOKEN_PLACEHOLDER}">`,
+    );
+    const page = await request(withControl(dir), '/');
+    expect(page.body).toBe(`<meta content="${TOKEN}">`);
+  });
+
+  it('starts an allowed action and reports the run', async () => {
+    const target = withControl();
+    const started = await post(target, '/api/actions/status', '');
+    expect([started.status, JSON.parse(started.body)]).toEqual([
+      202,
+      { started: 'status' },
+    ]);
+    await new Promise((resolve) => setImmediate(resolve));
+    const run = JSON.parse((await request(target, '/api/run')).body);
+    expect(run).toMatchObject({ target: 'ingest', isDatasetDirty: true });
+    expect(run.gates.load.reason).toBe('Run a dry run first');
+  });
+
+  it('refuses no token, a foreign origin, a bad body and a closed gate', async () => {
+    const target = withControl();
+    expect(
+      (await post(target, '/api/actions/status', '', { origin: ORIGIN }))
+        .status,
+    ).toBe(403);
+    expect(
+      (
+        await post(target, '/api/actions/status', '', {
+          origin: 'http://evil.example',
+          [TOKEN_HEADER]: TOKEN,
+        })
+      ).status,
+    ).toBe(403);
+    expect(
+      (await post(target, '/api/actions/open', '{"count":99}')).status,
+    ).toBe(400);
+    expect((await post(target, '/api/actions/open', 'nope')).status).toBe(400);
+    expect((await post(target, '/api/actions/nope', '')).status).toBe(400);
+    const load = await post(target, '/api/actions/load', '');
+    expect([load.status, JSON.parse(load.body)]).toEqual([
+      403,
+      { error: 'Run a dry run first' },
+    ]);
+  });
+
+  it('has no actions without a control', async () => {
+    expect((await post(deps(), '/api/actions/status', '')).status).toBe(404);
+    expect(JSON.parse((await request(deps(), '/api/run')).body)).toBeNull();
+  });
+
+  it('streams run events until the page leaves', async () => {
+    const target = withControl();
+    const written: string[] = [];
+    let close = () => {};
+    const res = {
+      writeHead: () => undefined,
+      write: (chunk: string) => written.push(chunk),
+    } as unknown as ServerResponse;
+    const req = {
+      method: 'GET',
+      url: '/api/run/stream',
+      headers: { host: `127.0.0.1:${PORT}` },
+      on: (name: string, listener: () => void) => {
+        if (name === 'close') close = listener;
+      },
+    } as unknown as IncomingMessage;
+    createHandler(target)(req, res);
+    await new Promise((resolve) => setImmediate(resolve));
+    await post(target, '/api/actions/status', '');
+    await new Promise((resolve) => setImmediate(resolve));
+    const types = written
+      .filter((w) => w.startsWith('data: '))
+      .map((w) => (JSON.parse(w.slice(6)) as { type: string }).type);
+    expect(types).toEqual(['start', 'step', 'end']);
+    close();
+    const count = written.length;
+    await post(target, '/api/actions/status', '');
+    await new Promise((resolve) => setImmediate(resolve));
+    expect(written).toHaveLength(count);
   });
 });

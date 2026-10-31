@@ -374,7 +374,7 @@ async function renderHistory() {
 async function renderFailures() {
   const section = document.getElementById('failures');
   const failures = await api('/api/failures');
-  const names = { row: 'Link', import: 'Import', inbox: 'Inbox', note: 'Status' };
+  const names = { row: 'Link', import: 'Import', inbox: 'Inbox', note: 'Status', run: 'Action' };
   section.replaceChildren(
     failures.length === 0
       ? el('div', { class: 'card' }, el('span', { class: 'badge good' }, 'No failures'))
@@ -478,8 +478,187 @@ async function reload() {
   await show(state.tab);
 }
 
+// Actions (S19b): the server runs, the page shows
+const TOKEN = document.querySelector('meta[name="dashboard-token"]')?.content ?? '';
+const MAX_LOG_LINES = 2000;
+
+const ACTION_GROUPS = [
+  ['Collect', ['open', 'import', 'status']],
+  ['Build and check', ['build', 'upload', 'schema', 'dry-run', 'verify']],
+  ['Batch', ['batch', 'load']],
+];
+
+const ACTION_LABELS = {
+  status: 'Refresh status',
+  open: 'Open next links',
+  import: 'Import',
+  build: 'Build',
+  upload: 'Upload images',
+  schema: 'Check schema',
+  'dry-run': 'Dry run',
+  verify: 'Verify',
+  batch: 'Run batch',
+  load: 'Load into ingest',
+};
+
+async function post(id, body = {}) {
+  const res = await fetch(`/api/actions/${id}`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-dashboard-token': TOKEN },
+    body: JSON.stringify(body),
+  });
+  const reply = await res.json();
+  if (!res.ok) throw new Error(reply.error || `HTTP ${res.status}`);
+  return reply;
+}
+
+function logLine(text, cls) {
+  const log = document.getElementById('log');
+  log.append(el('span', { class: cls }, `${text}\n`));
+  while (log.childNodes.length > MAX_LOG_LINES) log.firstChild.remove();
+  log.scrollTop = log.scrollHeight;
+}
+
+async function start(id, body) {
+  try {
+    await post(id, body);
+  } catch (error) {
+    document.getElementById('output').open = true;
+    logLine(`${ACTION_LABELS[id]}: ${error.message}`, 'err');
+    await refreshRun();
+  }
+}
+
+function actionButton(id, run) {
+  const gate = run.gates[id];
+  const isPrimary = id === 'batch' || id === 'load';
+  const onclick = () => {
+    if (id === 'load') return openLoadDialog(run);
+    if (id === 'open') {
+      const count = Number(document.getElementById('open-count').value);
+      return start(id, { count });
+    }
+    return start(id);
+  };
+  return el(
+    'button',
+    { type: 'button', class: isPrimary ? 'primary' : undefined, disabled: !gate.enabled, title: gate.reason ?? undefined, onclick },
+    ACTION_LABELS[id],
+  );
+}
+
+function renderActions(run) {
+  const box = document.getElementById('actions');
+  if (!run) return box.replaceChildren();
+  const { openCount } = run;
+  const groups = ACTION_GROUPS.map(([title, ids]) =>
+    el(
+      'div',
+      { class: 'action-group' },
+      el('span', {}, title),
+      el(
+        'div',
+        {},
+        ids.flatMap((id) =>
+          id === 'open'
+            ? [
+                actionButton(id, run),
+                el('input', {
+                  id: 'open-count',
+                  type: 'number',
+                  min: openCount.min,
+                  max: openCount.max,
+                  value: state.openCount ?? openCount.default,
+                  'aria-label': 'How many links',
+                  onchange: (e) => { state.openCount = e.target.value; },
+                }),
+              ]
+            : [actionButton(id, run)],
+        ),
+      ),
+    ),
+  );
+  const dry = run.dryRun;
+  const meta = el(
+    'div',
+    { class: 'meta' },
+    el('span', {}, 'Target ', el('code', {}, run.target ?? 'invalid')),
+    run.running ? el('span', { class: 'badge warning' }, `${run.running.label}: ${run.running.step}`) : null,
+    dry ? el('span', {}, `Last dry run: ${dry.changes ?? '?'} changes`) : null,
+    run.isDatasetDirty ? el('span', { class: 'badge warning' }, 'data/dataset/ has uncommitted changes') : null,
+  );
+  box.replaceChildren(...groups, meta);
+}
+
+function openLoadDialog(run) {
+  const dialog = document.getElementById('confirm-load');
+  const dry = run.dryRun;
+  dialog.replaceChildren(
+    el('h2', { id: 'confirm-title' }, `Load into ${run.target}?`),
+    el('p', {}, `The dry run found ${dry.changes ?? '?'} changes. It writes them, then runs verify and status.`),
+    el('pre', {}, dry.lines.join('\n')),
+    run.isDatasetDirty ? el('p', {}, el('span', { class: 'badge warning' }, 'data/dataset/ has uncommitted changes: commit it after the load')) : null,
+    el(
+      'div',
+      { class: 'buttons' },
+      el('button', { type: 'button', onclick: () => dialog.close() }, 'Cancel'),
+      el(
+        'button',
+        {
+          type: 'button',
+          class: 'primary',
+          onclick: () => {
+            dialog.close();
+            void start('load');
+          },
+        },
+        `Load into ${run.target}`,
+      ),
+    ),
+  );
+  dialog.showModal();
+}
+
+async function refreshRun() {
+  try {
+    state.run = await api('/api/run');
+  } catch {
+    state.run = null;
+  }
+  renderActions(state.run);
+}
+
+function listen() {
+  const events = new EventSource('/api/run/stream');
+  events.onmessage = (message) => {
+    const event = JSON.parse(message.data);
+    const output = document.getElementById('output');
+    const label = document.getElementById('run-state');
+    if (event.type === 'start') {
+      document.getElementById('log').replaceChildren();
+      output.open = true;
+      label.textContent = `Running: ${event.label}`;
+      void refreshRun();
+    } else if (event.type === 'step') {
+      logLine(`▶ ${event.label}`, 'step-line');
+      void refreshRun();
+    } else if (event.type === 'line') {
+      logLine(event.text, event.stream === 'err' ? 'err' : undefined);
+    } else if (event.type === 'end') {
+      const r = event.result;
+      const outcome = r.exitCode === 0 ? 'done' : `failed at ${r.failedStep} (exit ${r.exitCode})`;
+      logLine(`■ ${r.label}: ${outcome}`, r.exitCode === 0 ? 'step-line' : 'err');
+      label.textContent = `Output · ${r.label}: ${outcome}`;
+      void refreshRun().then(reload);
+    }
+  };
+}
+
 for (const button of document.querySelectorAll('.tabs button')) {
   button.addEventListener('click', () => show(button.dataset.tab));
 }
 document.getElementById('reload').addEventListener('click', reload);
+void refreshRun().then(() => {
+  if (state.run) listen();
+});
 void reload();

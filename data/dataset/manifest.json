@@ -16,9 +16,9 @@
   "files": {
     "clubs.json": "119adfec559f4a43fe4bec82a8ba788ba5d56125baa666fefa413834b123a3fd",
     "competitions.json": "3da57cea913a27f448164f026a8725f21b5b56ee46498c1c84f2c09545dabeb5",
-    "matches/champions-league/2000-01.json": "96a219dd29eb09480040450c9714b89387981b0a824160373058b1ec32d9799a",
-    "matches/super-lig/2002-03.json": "528604ea0a5f1d4a1fe16e9a648e5b525e67a9863479bb9feb6bbc62e2cfcc38",
-    "matches/world-cup/2006.json": "577b9aba11cb1dadd4d5408cf26f197683470ec982cc9427bede2a93f845f41f",
+    "matches/champions-league/2000-01.json": "425a9cbea6098d696a88e9d0e9b1e1e74d333e8b8c2dd8b186fbbde4162ad049",
+    "matches/super-lig/2002-03.json": "5e9ceda064975dad1965c59ae64d44ba86c7798fc7985250beda8a7863dc7d48",
+    "matches/world-cup/2006.json": "ddba306c0fb36b04e69718fb0e235be951a6ae7d4a1225ebc70d8d31b1c4064c",
     "players.json": "fcc14dcf5aa6a47f654b716646bc7c204046d1ee88ba91c5ae28de5258f4cad9"
   },
   "matchesBy": {
