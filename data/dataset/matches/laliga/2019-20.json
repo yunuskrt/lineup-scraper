@@ -1,0 +1,359 @@
+[
+  {
+    "slug": "2019-12-18-barcelona-real-madrid",
+    "transfermarktId": "3208724",
+    "competitionSlug": "laliga",
+    "season": "2019-20",
+    "date": "2019-12-18",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergi-roberto",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "thibaut-courtois",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferland-mendy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "federico-valverde",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 81.39,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.4683,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3597,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7173
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.78
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7487
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2020-03-01-real-madrid-barcelona",
+    "transfermarktId": "3209984",
+    "competitionSlug": "laliga",
+    "season": "2019-20",
+    "date": "2020-03-01",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "thibaut-courtois",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-valverde",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vinicius-junior",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-umtiti",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arthur-melo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 71,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "vinicius-junior"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "mariano-diaz"
+      }
+    ],
+    "memorability": {
+      "score": 86.2,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.6056,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3917,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7845
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7409
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7627
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

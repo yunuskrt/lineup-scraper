@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 94.33,
+      "score": 94.19,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.8381,
+        "percentile": 0.834,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,200 @@
         "starPower": 0.8723
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2012-04-21-barcelona-real-madrid",
+    "transfermarktId": "1125566",
+    "competitionSlug": "laliga",
+    "season": "2011-12",
+    "date": "2012-04-21",
+    "stage": "Matchday 35",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adriano-1984",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristian-tello",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mesut-ozil",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sami-khedira"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alexis-sanchez"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      }
+    ],
+    "memorability": {
+      "score": 89.37,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.6964,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4136,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7127
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8855
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7991
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

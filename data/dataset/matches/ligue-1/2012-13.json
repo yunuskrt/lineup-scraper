@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "2012-10-07-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "2223858",
+    "competitionSlug": "ligue-1",
+    "season": "2012-13",
+    "date": "2012-10-07",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kassim-abdallah",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rod-fanni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-nkoulou",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremy-morel",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "charles-kabore",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "morgan-amalfitano",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-pierre-gignac",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clement-chantome",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-pastore",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-menez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andre-pierre-gignac"
+      },
+      {
+        "kind": "goal",
+        "minute": 23,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andre-pierre-gignac"
+      }
+    ],
+    "memorability": {
+      "score": 77.75,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.3644,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3522,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4164
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4218
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4191
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

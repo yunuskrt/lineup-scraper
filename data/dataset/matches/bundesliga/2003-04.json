@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "2003-11-09-bayern-munich-borussia-dortmund",
+    "transfermarktId": "2669",
+    "competitionSlug": "bundesliga",
+    "season": "2003-04",
+    "date": "2003-11-09",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robert-kovac",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-deisler",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-ballack",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roque-santa-cruz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roy-makaay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "malte-metzelder",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "markus-brzenska",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christian-worns",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-fernandez",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lars-ricken",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sahr-senesie",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-reuter",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niclas-jensen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ewerthon",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jan-koller",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "michael-ballack"
+      },
+      {
+        "kind": "red_card",
+        "minute": 43,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "markus-brzenska"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jan-koller"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "willy-sagnol"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-salihamidzic"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "claudio-pizarro"
+      }
+    ],
+    "memorability": {
+      "score": 90.87,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 0,
+        "percentile": 0.7391,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3998,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6891
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3045
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4968
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2004-04-17-borussia-dortmund-bayern-munich",
+    "transfermarktId": "6037",
+    "competitionSlug": "bundesliga",
+    "season": "2003-04",
+    "date": "2004-04-17",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "guillaume-warmuz",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "guy-demel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christian-worns",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andre-bergdolmo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "niclas-jensen",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sebastian-kehl",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "salvatore-gambino",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tomas-rosicky",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ewerthon",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jan-koller",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "owen-hargreaves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-ballack",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ze-roberto",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roy-makaay",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roque-santa-cruz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ewerthon"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "christian-worns"
+      },
+      {
+        "kind": "red_card",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "michael-ballack"
+      }
+    ],
+    "memorability": {
+      "score": 85.24,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.5783,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3676,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4255
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6836
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5546
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

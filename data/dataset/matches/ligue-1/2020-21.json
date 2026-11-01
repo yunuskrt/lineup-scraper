@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "2020-09-13-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "3394582",
+    "competitionSlug": "ligue-1",
+    "season": "2020-21",
+    "date": "2020-09-13",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "sergio-rico",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alessandro-florenzi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thilo-kehrer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "presnel-kimpembe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-bernat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ander-herrera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "idrissa-gueye",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-sarabia",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hiroki-sakai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-gonzalez-1990",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "duje-caleta-car",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-amavi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pape-gueye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "boubacar-kamara",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-thauvin",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "maxime-lopez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dimitri-payet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "florian-thauvin"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "away",
+        "playerSlug": "dario-benedetto"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "away",
+        "playerSlug": "jordan-amavi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "home",
+        "playerSlug": "layvin-kurzawa"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 7,
+        "side": "home",
+        "playerSlug": "leandro-paredes"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "home",
+        "playerSlug": "neymar"
+      }
+    ],
+    "memorability": {
+      "score": 75.72,
+      "signals": {
+        "drama": 0.1417,
+        "eraBucket": 2,
+        "percentile": 0.3063,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 5,
+          "shootout": false
+        },
+        "rawScore": 0.3292,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4555
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2409
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3482
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2021-02-07-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "3394796",
+    "competitionSlug": "ligue-1",
+    "season": "2020-21",
+    "date": "2021-02-07",
+    "stage": "Matchday 24",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hiroki-sakai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-gonzalez-1990",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "duje-caleta-car",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pape-gueye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "boubacar-kamara",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-thauvin",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "valere-germain",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dimitri-payet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "sergio-rico",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alessandro-florenzi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "presnel-kimpembe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "layvin-kurzawa",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "idrissa-gueye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leandro-paredes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "kylian-mbappe"
+      },
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mauro-icardi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dimitri-payet"
+      }
+    ],
+    "memorability": {
+      "score": 79.17,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.4049,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3468,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3209
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.58
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4505
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

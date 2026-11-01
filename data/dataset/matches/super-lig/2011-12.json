@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "2011-12-07-galatasaray-fenerbahce",
+    "transfermarktId": "1143425",
+    "competitionSlug": "super-lig",
+    "season": "2011-12",
+    "date": "2011-12-07",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "colin-kazim-richards",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-melo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-colak",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "johan-elmander",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joseph-yobo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-bilica",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "reto-ziegler",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-sahin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henri-bienvenu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristian",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-1977",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 33,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "emmanuel-eboue"
+      },
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "johan-elmander"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "felipe-melo"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "alex-1977"
+      }
+    ],
+    "memorability": {
+      "score": 82.57,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.502,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3719,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5745
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4609
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5177
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2012-03-17-fenerbahce-galatasaray",
+    "transfermarktId": "1148499",
+    "competitionSlug": "super-lig",
+    "season": "2011-12",
+    "date": "2012-03-17",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-5-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joseph-yobo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-kesimal",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "reto-ziegler",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mehmet-topuz",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-1977",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristian",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miroslav-stoch",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-sow",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "engin-baytar",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-melo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-colak",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "necati-ates",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "johan-elmander",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "moussa-sow"
+      },
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex-1977"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "johan-elmander"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hakan-balta"
+      }
+    ],
+    "memorability": {
+      "score": 92.63,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 1,
+        "percentile": 0.7895,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4352,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4927
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4755
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4841
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

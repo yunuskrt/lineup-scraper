@@ -1,0 +1,744 @@
+[
+  {
+    "slug": "2001-09-08-olympique-marseille-lyon",
+    "transfermarktId": "1002503",
+    "competitionSlug": "ligue-1",
+    "season": "2001-02",
+    "date": "2001-09-08",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "playerSlug": "vedran-runje",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joseph-yobo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zoumana-camara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-leboeuf",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eduardo-tuzzio",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "djamel-belmadi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brahim-hemdani",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "piotr-swierczewski",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-brunel",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ibrahima-bakayoko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jean-marc-chanelet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-muller",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christophe-delmotte",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-carriere",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-vivien-foe",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-violeau",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-laigle",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "frederic-nee",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 65,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.1966,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3582
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2582
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3082
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-10-14-paris-saint-germain-lyon",
+    "transfermarktId": "1002547",
+    "competitionSlug": "ligue-1",
+    "season": "2001-02",
+    "date": "2001-10-14",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "5-3-2",
+      "lineup": [
+        {
+          "playerSlug": "lionel-letizi",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cristobal-parralo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-pochettino",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lionel-potillon",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edouard-cisse",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jay-jay-okocha",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mikel-arteta",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-dias",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "aloisio-chulapa",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jean-marc-chanelet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremie-brechet",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-vivien-foe",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-violeau",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eric-carriere",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "frederic-nee",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "frederic-nee"
+      },
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jay-jay-okocha"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sidney-govou"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ronaldinho"
+      }
+    ],
+    "memorability": {
+      "score": 72.38,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 0,
+        "percentile": 0.2109,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3042,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.1891
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2191
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2041
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-11-29-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "1002601",
+    "competitionSlug": "ligue-1",
+    "season": "2001-02",
+    "date": "2001-11-29",
+    "stage": "Matchday 16",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "lionel-letizi",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mauricio-pochettino",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "talal-el-karkouri",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristobal-parralo",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mikel-arteta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hugo-leal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aloisio-chulapa",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "laurent-leroy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "vedran-runje",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joseph-yobo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdoulaye-meite",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-leboeuf",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-dos-santos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-ba",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "piotr-swierczewski",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-luiz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "djamel-belmadi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ibrahima-bakayoko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 68.5,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.1,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2765,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2482
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4164
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3323
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2002-01-23-lyon-olympique-marseille",
+    "transfermarktId": "1002650",
+    "competitionSlug": "ligue-1",
+    "season": "2001-02",
+    "date": "2002-01-23",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "eric-deflandre",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-muller",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremie-brechet",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-carriere",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-linares",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-violeau",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-laigle",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sonny-anderson",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "vedran-runje",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "franck-jurietti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-leboeuf",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dimas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alberto-rivera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "delfim",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "piotr-swierczewski",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-luiz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cyril-chapuis",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alfonso",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sonny-anderson"
+      },
+      {
+        "kind": "goal",
+        "minute": 29,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pierre-laigle"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sidney-govou"
+      },
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sonny-anderson"
+      }
+    ],
+    "memorability": {
+      "score": 66.37,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.0391,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2463,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2282
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3018
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.265
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

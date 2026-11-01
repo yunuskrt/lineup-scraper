@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "2003-11-30-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "3233",
+    "competitionSlug": "ligue-1",
+    "season": "2003-04",
+    "date": "2003-11-30",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "vedran-runje",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "abdoulaye-meite",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-christanval",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "johnny-ecker",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dmitriy-sychev",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-celestini",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brahim-hemdani",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "camel-meriem",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-drogba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mido",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "jerome-alonzo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bernard-mendy",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-karl-pierre-fanfan",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "talal-el-karkouri",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "modeste-mbami",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "branko-boskovic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pauleta",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fabrice-fiorese",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fabrice-fiorese"
+      }
+    ],
+    "memorability": {
+      "score": 82.5,
+      "signals": {
+        "drama": 0.1917,
+        "eraBucket": 0,
+        "percentile": 0.5,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3546,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3618
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4136
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3877
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2004-04-25-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "6798",
+    "competitionSlug": "ligue-1",
+    "season": "2003-04",
+    "date": "2004-04-25",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "lionel-letizi",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jose-karl-pierre-fanfan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bernard-mendy",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "modeste-mbami",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danijel-ljuboja",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabrice-fiorese",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pauleta",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "demetrius-ferreira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "habib-beye",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdoulaye-meite",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-dos-santos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-ndiaye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brahim-hemdani",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-flamini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "camel-meriem",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-drogba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "koke-1983",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pauleta"
+      },
+      {
+        "kind": "goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pauleta"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "laurent-batlles"
+      }
+    ],
+    "memorability": {
+      "score": 76.72,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.3348,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3228,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4109
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.28
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3455
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

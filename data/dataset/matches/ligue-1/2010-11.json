@@ -1,0 +1,388 @@
+[
+  {
+    "slug": "2010-11-07-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "1040749",
+    "competitionSlug": "ligue-1",
+    "season": "2010-11",
+    "date": "2010-11-07",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "apoula-edel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mamadou-sakho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "siaka-tiene",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clement-chantome",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nene",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mevlut-erdinc",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "guillaume-hoarau",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souleymane-diawara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "charles-kabore",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucho-gonzalez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "loic-remy",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andre-pierre-gignac",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mevlut-erdinc"
+      },
+      {
+        "kind": "goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "guillaume-hoarau"
+      },
+      {
+        "kind": "goal",
+        "minute": 23,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lucho-gonzalez"
+      }
+    ],
+    "memorability": {
+      "score": 72.93,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.2267,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3268,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2582
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4727
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3655
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2011-03-20-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "1043495",
+    "competitionSlug": "ligue-1",
+    "season": "2010-11",
+    "date": "2011-03-20",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rod-fanni",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souleymane-diawara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephane-mbia",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "loic-remy",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-pierre-gignac",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mamadou-sakho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "siaka-tiene",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-bodmer",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clement-chantome",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nene",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guillaume-hoarau",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gabriel-heinze"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "clement-chantome"
+      },
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andre-ayew"
+      }
+    ],
+    "memorability": {
+      "score": 72.65,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.2186,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3248,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2518
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3555
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

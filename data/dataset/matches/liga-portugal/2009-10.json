@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "2010-05-02-porto-benfica",
+    "transfermarktId": "970253",
+    "competitionSlug": "liga-portugal",
+    "season": "2009-10",
+    "date": "2010-05-02",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "beto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jorge-fucile",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-alves",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-pereira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-meireles",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-belluschi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hulk",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ernesto-farias",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "quim",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javi-garcia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ramires",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-martins",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oscar-cardozo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "javier-saviola",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bruno-alves"
+      },
+      {
+        "kind": "red_card",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jorge-fucile"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "luisao"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ernesto-farias"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fernando-belluschi"
+      }
+    ],
+    "memorability": {
+      "score": 83.63,
+      "signals": {
+        "drama": 0.2167,
+        "eraBucket": 1,
+        "percentile": 0.5324,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3777,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4191
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4991
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4591
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

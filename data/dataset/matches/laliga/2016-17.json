@@ -152,11 +152,11 @@
       }
     ],
     "memorability": {
-      "score": 75.85,
+      "score": 71.65,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.3099,
+        "percentile": 0.1901,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -182,7 +182,7 @@
         "starPower": 0.7164
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -345,11 +345,11 @@
       }
     ],
     "memorability": {
-      "score": 79.42,
+      "score": 76.21,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.412,
+        "percentile": 0.3204,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -375,7 +375,7 @@
         "starPower": 0.6791
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -531,11 +531,11 @@
       }
     ],
     "memorability": {
-      "score": 90.82,
+      "score": 87.31,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.7377,
+        "percentile": 0.6373,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -561,7 +561,200 @@
         "starPower": 0.7846
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2017-02-26-atletico-madrid-barcelona",
+    "transfermarktId": "2718946",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2017-02-26",
+    "stage": "Matchday 24",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sime-vrsaljko",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-savic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "filipe-luis",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "saul-niguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kevin-gameiro",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergi-roberto",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-umtiti",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremy-mathieu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafinha-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 64,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "rafinha-1993"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diego-godin"
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      }
+    ],
+    "memorability": {
+      "score": 69.81,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.1373,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3016,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5973
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6309
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6141
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -717,11 +910,11 @@
       }
     ],
     "memorability": {
-      "score": 78,
+      "score": 74,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.3715,
+        "percentile": 0.257,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -747,7 +940,7 @@
         "starPower": 0.7782
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -920,7 +1113,7 @@
         "minute": 85,
         "addedTime": null,
         "side": "home",
-        "playerSlug": null
+        "playerSlug": "james-rodriguez"
       },
       {
         "kind": "goal",
@@ -931,11 +1124,11 @@
       }
     ],
     "memorability": {
-      "score": 98.65,
+      "score": 97.9,
       "signals": {
         "drama": 0.4083,
         "eraBucket": 2,
-        "percentile": 0.9613,
+        "percentile": 0.9401,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -961,7 +1154,7 @@
         "starPower": 0.7846
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

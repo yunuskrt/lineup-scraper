@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2011-11-27-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "1159802",
+    "competitionSlug": "ligue-1",
+    "season": "2011-12",
+    "date": "2011-11-27",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-nkoulou",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souleymane-diawara",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremy-morel",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephane-mbia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alou-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "morgan-amalfitano",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucho-gonzalez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "loic-remy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-lugano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mamadou-sakho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-sissoko",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-menez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-pastore",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nene",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-gameiro",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "loic-remy"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "morgan-amalfitano"
+      },
+      {
+        "kind": "goal",
+        "minute": 84,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andre-ayew"
+      }
+    ],
+    "memorability": {
+      "score": 74.35,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.2672,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3331,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.47
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3236
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3968
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2012-04-08-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "1163692",
+    "competitionSlug": "ligue-1",
+    "season": "2011-12",
+    "date": "2012-04-08",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-bisevac",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nene",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-sissoko",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-pastore",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-menez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rod-fanni",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephane-mbia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-nkoulou",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alou-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "morgan-amalfitano",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "loic-remy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jeremy-menez"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andre-ayew"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex"
+      },
+      {
+        "kind": "red_card",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mohamed-sissoko"
+      }
+    ],
+    "memorability": {
+      "score": 75.77,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 1,
+        "percentile": 0.3077,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3402,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2682
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4209
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3446
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

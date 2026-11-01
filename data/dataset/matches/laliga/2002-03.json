@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "2002-11-23-barcelona-real-madrid",
+    "transfermarktId": "1000097",
+    "competitionSlug": "laliga",
+    "season": "2002-03",
+    "date": "2002-11-23",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "roberto-bonano",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-de-boer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-roman-riquelme",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-kluivert",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francisco-pavon",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "santiago-solari",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 78.09,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.3739,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3315,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6255
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5891
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6073
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2003-04-19-real-madrid-barcelona",
+    "transfermarktId": "1004438",
+    "competitionSlug": "laliga",
+    "season": "2002-03",
+    "date": "2003-04-19",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-hierro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "flavio-conceicao",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "roberto-bonano",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gabri",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-de-boer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-enrique",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-overmars",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-kluivert",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "luis-enrique"
+      },
+      {
+        "kind": "red_card",
+        "minute": 89,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "michel-salgado"
+      }
+    ],
+    "memorability": {
+      "score": 91.02,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.7435,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.4016,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8236
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6255
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7246
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

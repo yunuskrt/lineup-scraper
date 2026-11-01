@@ -18,6 +18,24 @@
     "aliases": []
   },
   {
+    "slug": "algeria",
+    "kind": "national_team",
+    "name": "Algeria",
+    "shortName": "ALG",
+    "crestKey": "crests/algeria/f629b0f0bf25.webp",
+    "transfermarktId": "3614",
+    "aliases": []
+  },
+  {
+    "slug": "apoel-nicosia",
+    "kind": "club",
+    "name": "APOEL Nicosia",
+    "shortName": "APO",
+    "crestKey": "crests/apoel-nicosia/beb3ecf8bae5.webp",
+    "transfermarktId": "2784",
+    "aliases": []
+  },
+  {
     "slug": "argentina",
     "kind": "national_team",
     "name": "Argentina",
@@ -92,6 +110,15 @@
     "aliases": [
       "Atlético de Madrid"
     ]
+  },
+  {
+    "slug": "australia",
+    "kind": "national_team",
+    "name": "Australia",
+    "shortName": "AUS",
+    "crestKey": "crests/australia/6b4fba817bea.webp",
+    "transfermarktId": "3433",
+    "aliases": []
   },
   {
     "slug": "austria",
@@ -210,12 +237,30 @@
     "aliases": []
   },
   {
+    "slug": "costa-rica",
+    "kind": "national_team",
+    "name": "Costa Rica",
+    "shortName": "COS",
+    "crestKey": "crests/costa-rica/3fd298f663fe.webp",
+    "transfermarktId": "8497",
+    "aliases": []
+  },
+  {
     "slug": "croatia",
     "kind": "national_team",
     "name": "Croatia",
     "shortName": "CRO",
     "crestKey": "crests/croatia/84b6e93052ba.webp",
     "transfermarktId": "3556",
+    "aliases": []
+  },
+  {
+    "slug": "cska-moscow",
+    "kind": "club",
+    "name": "CSKA Moscow",
+    "shortName": "CSK",
+    "crestKey": "crests/cska-moscow/ca6c10a6efa0.webp",
+    "transfermarktId": "2410",
     "aliases": []
   },
   {
@@ -259,6 +304,15 @@
     "aliases": []
   },
   {
+    "slug": "ecuador",
+    "kind": "national_team",
+    "name": "Ecuador",
+    "shortName": "ECU",
+    "crestKey": "crests/ecuador/bacc1465f044.webp",
+    "transfermarktId": "5750",
+    "aliases": []
+  },
+  {
     "slug": "eintracht-frankfurt",
     "kind": "club",
     "name": "Eintracht Frankfurt",
@@ -283,6 +337,15 @@
     "shortName": "FCG",
     "crestKey": "crests/fc-girondins-bordeaux/0fdb27c75758.webp",
     "transfermarktId": "40",
+    "aliases": []
+  },
+  {
+    "slug": "fc-schalke-04",
+    "kind": "club",
+    "name": "FC Schalke 04",
+    "shortName": "FCS",
+    "crestKey": "crests/fc-schalke-04/cb4b95050fd1.webp",
+    "transfermarktId": "33",
     "aliases": []
   },
   {
@@ -321,6 +384,15 @@
     "shortName": "GAL",
     "crestKey": "crests/galatasaray/aa08c9b6de28.webp",
     "transfermarktId": "141",
+    "aliases": []
+  },
+  {
+    "slug": "georgia",
+    "kind": "national_team",
+    "name": "Georgia",
+    "shortName": "GEO",
+    "crestKey": "crests/georgia/ecf29c516dda.webp",
+    "transfermarktId": "3669",
     "aliases": []
   },
   {
@@ -447,6 +519,15 @@
     ]
   },
   {
+    "slug": "malaga-cf",
+    "kind": "club",
+    "name": "Málaga CF",
+    "shortName": "MAL",
+    "crestKey": "crests/malaga-cf/4659378ca119.webp",
+    "transfermarktId": "1084",
+    "aliases": []
+  },
+  {
     "slug": "manchester-city",
     "kind": "club",
     "name": "Manchester City",
@@ -474,12 +555,30 @@
     "aliases": []
   },
   {
+    "slug": "morocco",
+    "kind": "national_team",
+    "name": "Morocco",
+    "shortName": "MOR",
+    "crestKey": "crests/morocco/08cc6ec8aaff.webp",
+    "transfermarktId": "3575",
+    "aliases": []
+  },
+  {
     "slug": "netherlands",
     "kind": "national_team",
     "name": "Netherlands",
     "shortName": "NED",
     "crestKey": "crests/netherlands/f324e711766d.webp",
     "transfermarktId": "3379",
+    "aliases": []
+  },
+  {
+    "slug": "nigeria",
+    "kind": "national_team",
+    "name": "Nigeria",
+    "shortName": "NIG",
+    "crestKey": "crests/nigeria/4253528911b1.webp",
+    "transfermarktId": "3444",
     "aliases": []
   },
   {
@@ -498,6 +597,15 @@
     "shortName": "OLY",
     "crestKey": "crests/olympique-marseille/dfa498444251.webp",
     "transfermarktId": "244",
+    "aliases": []
+  },
+  {
+    "slug": "panathinaikos",
+    "kind": "club",
+    "name": "Panathinaikos",
+    "shortName": "PAN",
+    "crestKey": "crests/panathinaikos/344b034dd74d.webp",
+    "transfermarktId": "265",
     "aliases": []
   },
   {
@@ -548,12 +656,30 @@
     "aliases": []
   },
   {
+    "slug": "psv-eindhoven",
+    "kind": "club",
+    "name": "PSV Eindhoven",
+    "shortName": "PSV",
+    "crestKey": "crests/psv-eindhoven/b98373314a78.webp",
+    "transfermarktId": "383",
+    "aliases": []
+  },
+  {
     "slug": "rangers-fc",
     "kind": "club",
     "name": "Rangers FC",
     "shortName": "RAN",
     "crestKey": "crests/rangers-fc/1a6c77028020.webp",
     "transfermarktId": "124",
+    "aliases": []
+  },
+  {
+    "slug": "rb-leipzig",
+    "kind": "club",
+    "name": "RB Leipzig",
+    "shortName": "RBL",
+    "crestKey": "crests/rb-leipzig/0cc1e082da54.webp",
+    "transfermarktId": "23826",
     "aliases": []
   },
   {
@@ -629,12 +755,30 @@
     "aliases": []
   },
   {
+    "slug": "shakhtar-donetsk",
+    "kind": "club",
+    "name": "Shakhtar Donetsk",
+    "shortName": "SHA",
+    "crestKey": "crests/shakhtar-donetsk/a641642fb7e6.webp",
+    "transfermarktId": "660",
+    "aliases": []
+  },
+  {
     "slug": "slovakia",
     "kind": "national_team",
     "name": "Slovakia",
     "shortName": "SLO",
     "crestKey": "crests/slovakia/7925952e9822.webp",
     "transfermarktId": "3503",
+    "aliases": []
+  },
+  {
+    "slug": "slovenia",
+    "kind": "national_team",
+    "name": "Slovenia",
+    "shortName": "SLO",
+    "crestKey": "crests/slovenia/182d0697e333.webp",
+    "transfermarktId": "3588",
     "aliases": []
   },
   {
@@ -689,6 +833,15 @@
     "shortName": "TUR",
     "crestKey": "crests/turkiye/e12529cbb855.webp",
     "transfermarktId": "3381",
+    "aliases": []
+  },
+  {
+    "slug": "ukraine",
+    "kind": "national_team",
+    "name": "Ukraine",
+    "shortName": "UKR",
+    "crestKey": "crests/ukraine/b4a29dce7701.webp",
+    "transfermarktId": "3699",
     "aliases": []
   },
   {

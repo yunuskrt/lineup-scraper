@@ -173,11 +173,11 @@
       }
     ],
     "memorability": {
-      "score": 73.91,
+      "score": 73.06,
       "signals": {
         "drama": 0.1833,
         "eraBucket": 0,
-        "percentile": 0.2545,
+        "percentile": 0.2304,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -203,7 +203,7 @@
         "starPower": 0.5373
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -373,11 +373,11 @@
       }
     ],
     "memorability": {
-      "score": 82.02,
+      "score": 80.37,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 0,
-        "percentile": 0.4864,
+        "percentile": 0.4391,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -403,7 +403,7 @@
         "starPower": 0.4164
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -587,11 +587,11 @@
       }
     ],
     "memorability": {
-      "score": 89.66,
+      "score": 88.74,
       "signals": {
         "drama": 0.45,
         "eraBucket": 0,
-        "percentile": 0.7045,
+        "percentile": 0.6783,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -617,7 +617,7 @@
         "starPower": 0.4672
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -766,11 +766,11 @@
       }
     ],
     "memorability": {
-      "score": 68.02,
+      "score": 67.74,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.0864,
+        "percentile": 0.0783,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -796,7 +796,7 @@
         "starPower": 0.5846
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -980,11 +980,11 @@
       }
     ],
     "memorability": {
-      "score": 72,
+      "score": 70.78,
       "signals": {
         "drama": 0.2583,
         "eraBucket": 0,
-        "percentile": 0.2,
+        "percentile": 0.1652,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1010,7 +1010,7 @@
         "starPower": 0.3482
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -1166,11 +1166,11 @@
       }
     ],
     "memorability": {
-      "score": 74.07,
+      "score": 73.22,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 0,
-        "percentile": 0.2591,
+        "percentile": 0.2348,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1196,7 +1196,7 @@
         "starPower": 0.37
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -1362,15 +1362,15 @@
         "minute": 90,
         "addedTime": 1,
         "side": "home",
-        "playerSlug": null
+        "playerSlug": "robbie-fowler"
       }
     ],
     "memorability": {
-      "score": 71.52,
+      "score": 70.33,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 0,
-        "percentile": 0.1864,
+        "percentile": 0.1522,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1396,7 +1396,7 @@
         "starPower": 0.4941
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -1552,11 +1552,11 @@
       }
     ],
     "memorability": {
-      "score": 81.23,
+      "score": 79.46,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 0,
-        "percentile": 0.4636,
+        "percentile": 0.413,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1582,7 +1582,7 @@
         "starPower": 0.53
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -1738,11 +1738,11 @@
       }
     ],
     "memorability": {
-      "score": 79.16,
+      "score": 77.71,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 0,
-        "percentile": 0.4045,
+        "percentile": 0.363,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1768,7 +1768,7 @@
         "starPower": 0.4828
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -1959,11 +1959,11 @@
       }
     ],
     "memorability": {
-      "score": 86.96,
+      "score": 85.7,
       "signals": {
         "drama": 0.3,
         "eraBucket": 0,
-        "percentile": 0.6273,
+        "percentile": 0.5913,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1989,7 +1989,786 @@
         "starPower": 0.6486
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-03-31-arsenal-tottenham-hotspur",
+    "transfermarktId": "1043237",
+    "competitionSlug": "premier-league",
+    "season": "2000-01",
+    "date": "2001-03-31",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "tottenham-hotspur",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-seaman",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lee-dixon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-keown",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tony-adams",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lauren",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ray-parlour",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sylvain-wiltord",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-1-2-1-1",
+      "lineup": [
+        {
+          "playerSlug": "neil-sullivan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "luke-young",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-doherty",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chris-perry",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alton-thelwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anthony-gardner",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steffen-freund",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simon-davies",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "willem-korsten",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steffen-iversen",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "les-ferdinand",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "robert-pires"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "thierry-henry"
+      }
+    ],
+    "memorability": {
+      "score": 66.52,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.0435,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2517,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6464
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2291
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4378
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-03-31-liverpool-fc-manchester-united",
+    "transfermarktId": "1043233",
+    "competitionSlug": "premier-league",
+    "season": "2000-01",
+    "date": "2001-03-31",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "sander-westerveld",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "markus-babbel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephane-henchoz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sami-hyypia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jamie-carragher",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steven-gerrard",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danny-murphy",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dietmar-hamann",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrik-berger",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robbie-fowler",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "emile-heskey",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "phil-neville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-neville",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wes-brown",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denis-irwin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicky-butt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roy-keane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-giggs",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dwight-yorke",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "teddy-sheringham",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "steven-gerrard"
+      },
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "robbie-fowler"
+      },
+      {
+        "kind": "red_card",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "danny-murphy"
+      }
+    ],
+    "memorability": {
+      "score": 71.31,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.1804,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2969,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5136
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6391
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5763
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-04-11-manchester-city-arsenal",
+    "transfermarktId": "1043263",
+    "competitionSlug": "premier-league",
+    "season": "2000-01",
+    "date": "2001-04-11",
+    "stage": "Matchday 34",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "carlo-nash",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danny-granville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steve-howey",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "richard-dunne",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-kennedy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danny-tiatto",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gerard-wiekens",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alf-inge-haaland",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeff-whitley",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "shaun-goater",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "paulo-wanchope",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-seaman",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleg-luzhnyi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "igors-stepanovs",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-keown",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lauren",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edu-gaspar",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ray-parlour",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sylvain-wiltord",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nwankwo-kanu",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "freddie-ljungberg"
+      },
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sylvain-wiltord"
+      },
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "freddie-ljungberg"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nwankwo-kanu"
+      }
+    ],
+    "memorability": {
+      "score": 69.56,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.1304,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2816,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.27
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6127
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4414
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-05-19-tottenham-hotspur-manchester-united",
+    "transfermarktId": "1043312",
+    "competitionSlug": "premier-league",
+    "season": "2000-01",
+    "date": "2001-05-19",
+    "stage": "Matchday 38",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "neil-sullivan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stephen-carr",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-doherty",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anthony-gardner",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-young",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-davies",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephen-clemence",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oyvind-leonhardsen",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "willem-korsten",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matthew-etherington",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "les-ferdinand",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "raimond-van-der-gouw",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "denis-irwin",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-may",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronny-johnsen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mikael-silvestre",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "phil-neville",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicky-butt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-giggs",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andy-cole",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "teddy-sheringham",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "willem-korsten"
+      },
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "paul-scholes"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "willem-korsten"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "les-ferdinand"
+      }
+    ],
+    "memorability": {
+      "score": 66.9,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.0543,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2603,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4109
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.335
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

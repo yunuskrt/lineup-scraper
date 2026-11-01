@@ -176,7 +176,7 @@
         "minute": 89,
         "addedTime": null,
         "side": "away",
-        "playerSlug": null
+        "playerSlug": "edin-dzeko"
       },
       {
         "kind": "goal",
@@ -190,15 +190,15 @@
         "minute": 90,
         "addedTime": 3,
         "side": "away",
-        "playerSlug": null
+        "playerSlug": "edin-dzeko"
       }
     ],
     "memorability": {
-      "score": 94.05,
+      "score": 93.91,
       "signals": {
         "drama": 0.3,
         "eraBucket": 1,
-        "percentile": 0.83,
+        "percentile": 0.8259,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -224,7 +224,7 @@
         "starPower": 0.6264
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -373,11 +373,11 @@
       }
     ],
     "memorability": {
-      "score": 80.73,
+      "score": 79.03,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.4494,
+        "percentile": 0.4008,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -403,7 +403,7 @@
         "starPower": 0.6655
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

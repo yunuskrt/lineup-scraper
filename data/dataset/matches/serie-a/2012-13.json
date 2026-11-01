@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "2012-10-07-ac-milan-inter",
+    "transfermarktId": "2251327",
+    "competitionSlug": "serie-a",
+    "season": "2012-13",
+    "date": "2012-10-07",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniele-bonera",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-mexes",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-yepes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "urby-emanuelson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephan-el-shaarawy",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bojan-krkic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-ranocchia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "walter-gargano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-cassano",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-coutinho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-milito",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "walter-samuel"
+      },
+      {
+        "kind": "red_card",
+        "minute": 48,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "yuto-nagatomo"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "massimo-ambrosini"
+      }
+    ],
+    "memorability": {
+      "score": 77.61,
+      "signals": {
+        "drama": 0.1417,
+        "eraBucket": 1,
+        "percentile": 0.3603,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.3517,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3645
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5564
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4605
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2014-04-02-paris-saint-germain-chelsea-fc",
+    "transfermarktId": "2449280",
+    "competitionSlug": "champions-league",
+    "season": "2013-14",
+    "date": "2014-04-02",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edinson-cavani",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ezequiel-lavezzi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "branislav-ivanovic",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-cahill",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-terry",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ramires",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "willian",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oscar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eden-hazard",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-schurrle",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ezequiel-lavezzi"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "eden-hazard"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "david-luiz"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": "javier-pastore"
+      }
+    ],
+    "memorability": {
+      "score": 71.66,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.4332,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3617,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5373
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6964
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6169
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2014-04-02-real-madrid-borussia-dortmund",
+    "transfermarktId": "2449279",
+    "competitionSlug": "champions-league",
+    "season": "2013-14",
+    "date": "2014-04-02",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lukasz-piszczek",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sokratis-papastathopoulos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "erik-durm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuri-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-kehl",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-reus",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-grosskreutz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gareth-bale"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "isco"
+      },
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cristiano-ronaldo"
+      }
+    ],
+    "memorability": {
+      "score": 71.26,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.4251,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3602,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8545
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.51
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6823
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

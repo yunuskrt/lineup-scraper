@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 78.31,
+      "score": 74.61,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.3803,
+        "percentile": 0.2746,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,7 @@
         "starPower": 0.6291
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -345,11 +345,11 @@
       }
     ],
     "memorability": {
-      "score": 68.33,
+      "score": 66.11,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.0951,
+        "percentile": 0.0317,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -375,7 +375,7 @@
         "starPower": 0.5468
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -545,11 +545,11 @@
       }
     ],
     "memorability": {
-      "score": 95.07,
+      "score": 92.98,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 2,
-        "percentile": 0.8592,
+        "percentile": 0.7993,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -575,7 +575,7 @@
         "starPower": 0.4869
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -731,11 +731,11 @@
       }
     ],
     "memorability": {
-      "score": 75.35,
+      "score": 71.16,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 2,
-        "percentile": 0.2958,
+        "percentile": 0.1761,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -761,7 +761,207 @@
         "starPower": 0.695
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2017-03-10-juventus-ac-milan",
+    "transfermarktId": "2726748",
+    "competitionSlug": "serie-a",
+    "season": "2016-17",
+    "date": "2017-03-10",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "medhi-benatia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-pjanic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-dybala",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marko-pjaca",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cristian-zapata",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-paletta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-romagnoli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-bertolacci",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-sosa",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-pasalic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gerard-deulofeu",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-bacca",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lucas-ocampos",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 29,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "medhi-benatia"
+      },
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "carlos-bacca"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "jose-sosa"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 90,
+        "addedTime": 7,
+        "side": "home",
+        "playerSlug": "paulo-dybala"
+      }
+    ],
+    "memorability": {
+      "score": 81.15,
+      "signals": {
+        "drama": 0.325,
+        "eraBucket": 2,
+        "percentile": 0.4613,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3593,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7545
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3509
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5527
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -931,11 +1131,11 @@
       }
     ],
     "memorability": {
-      "score": 94.82,
+      "score": 92.73,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 2,
-        "percentile": 0.8521,
+        "percentile": 0.7923,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -961,7 +1161,7 @@
         "starPower": 0.4778
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

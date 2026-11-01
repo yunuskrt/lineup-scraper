@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2010-11-14-inter-ac-milan",
+    "transfermarktId": "1047436",
+    "competitionSlug": "serie-a",
+    "season": "2010-11",
+    "date": "2010-11-14",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "luca-castellazzi",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucio",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-materazzi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-chivu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joel-obi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dejan-stankovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wesley-sneijder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "diego-milito",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-flamini",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "massimo-ambrosini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ignazio-abate"
+      }
+    ],
+    "memorability": {
+      "score": 82,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 1,
+        "percentile": 0.4858,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3669,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6118
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6364
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6241
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2011-04-02-ac-milan-inter",
+    "transfermarktId": "1047627",
+    "competitionSlug": "serie-a",
+    "season": "2010-11",
+    "date": "2011-04-02",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-pato",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maicon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-ranocchia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-chivu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "goran-pandev",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wesley-sneijder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giampaolo-pazzini",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alexandre-pato"
+      },
+      {
+        "kind": "red_card",
+        "minute": 54,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristian-chivu"
+      },
+      {
+        "kind": "goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alexandre-pato"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "antonio-cassano"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "antonio-cassano"
+      }
+    ],
+    "memorability": {
+      "score": 90.5,
+      "signals": {
+        "drama": 0.225,
+        "eraBucket": 1,
+        "percentile": 0.7287,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.4205,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6209
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6964
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6587
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

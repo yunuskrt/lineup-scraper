@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "2020-12-12-manchester-united-manchester-city",
+    "transfermarktId": "3421789",
+    "competitionSlug": "premier-league",
+    "season": "2020-21",
+    "date": "2020-12-12",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "aaron-wan-bissaka",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-lindelof",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harry-maguire",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fred-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "scott-mctominay",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-greenwood",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-pogba",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernandinho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riyad-mahrez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raheem-sterling",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 78.68,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.3908,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3441,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7782
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6705
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

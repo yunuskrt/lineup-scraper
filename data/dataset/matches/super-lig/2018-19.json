@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2018-11-02-galatasaray-fenerbahce",
+    "transfermarktId": "3069805",
+    "competitionSlug": "super-lig",
+    "season": "2018-19",
+    "date": "2018-11-02",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "martin-linnes",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ozan-kabak",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "omer-bayram",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "badou-ndiaye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-donk",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henry-onyekuru",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "garry-rodrigues",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sinan-gumus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "harun-tekin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mauricio-isla",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roman-neustadter",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-skrtel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jailson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eljif-elmas",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yassine-benzia",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-frey",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ryan-donk"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "martin-linnes"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mathieu-valbuena"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jailson"
+      }
+    ],
+    "memorability": {
+      "score": 95.44,
+      "signals": {
+        "drama": 0.4667,
+        "eraBucket": 2,
+        "percentile": 0.8697,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 3,
+          "shootout": false
+        },
+        "rawScore": 0.4533,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3409
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4591
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2019-04-14-fenerbahce-galatasaray",
+    "transfermarktId": "3069958",
+    "competitionSlug": "super-lig",
+    "season": "2018-19",
+    "date": "2019-04-14",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "harun-tekin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nabil-dirar",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-skrtel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tolgay-arslan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "victor-moses",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eljif-elmas",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roberto-soldado",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mariano",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ryan-donk",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-linnes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sofiane-feghouli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "badou-ndiaye",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henry-onyekuru",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mbaye-diagne",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 45,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-ali-kaldirim"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "henry-onyekuru"
+      },
+      {
+        "kind": "goal",
+        "minute": 71,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "eljif-elmas"
+      }
+    ],
+    "memorability": {
+      "score": 76.4,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.3257,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3328,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4291
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3327
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3809
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

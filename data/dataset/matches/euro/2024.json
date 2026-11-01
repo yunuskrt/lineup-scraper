@@ -1,0 +1,2855 @@
+[
+  {
+    "slug": "2024-06-29-germany-denmark",
+    "transfermarktId": "4359329",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-06-29",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "germany",
+    "awayClubSlug": "denmark",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-neuer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joshua-kimmich",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-rudiger",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-schlotterbeck",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-raum",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-andrich",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leroy-sane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamal-musiala",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "kasper-schmeichel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jannik-vestergaard",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joachim-andersen",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andreas-christensen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alexander-bah",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-delaney",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joakim-maehle",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-skov-olsen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-eriksen",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rasmus-hojlund",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kai-havertz"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jamal-musiala"
+      }
+    ],
+    "memorability": {
+      "score": 61.27,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.2254,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3145,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6782
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6755
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.6768
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-06-29-switzerland-italy",
+    "transfermarktId": "4365408",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-06-29",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "switzerland",
+    "awayClubSlug": "italy",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "yann-sommer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-rodriguez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-akanji",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-schar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dan-ndoye",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "remo-freuler",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michel-aebischer",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabian-rieder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-vargas",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "breel-embolo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "giovanni-di-lorenzo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-mancini",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-darmian",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bryan-cristante",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-fagioli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-chiesa",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gianluca-scamacca",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "stephan-el-shaarawy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "remo-freuler"
+      },
+      {
+        "kind": "goal",
+        "minute": 46,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ruben-vargas"
+      }
+    ],
+    "memorability": {
+      "score": 57.04,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.1408,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3017,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7755
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.45
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.6128
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-06-30-england-slovakia",
+    "transfermarktId": "4359331",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-06-30",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "england",
+    "awayClubSlug": "slovakia",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "jordan-pickford",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-guehi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kieran-trippier",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kobbie-mainoo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "declan-rice",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "martin-dubravka",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "peter-pekarik",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denis-vavro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-hancko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juraj-kucka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stanislav-lobotka",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ondrej-duda",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-schranz",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "david-strelec",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lukas-haraslin",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ivan-schranz"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 5,
+        "side": "home",
+        "playerSlug": "jude-bellingham"
+      },
+      {
+        "kind": "goal",
+        "minute": 91,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "harry-kane"
+      }
+    ],
+    "memorability": {
+      "score": 96.31,
+      "signals": {
+        "drama": 0.575,
+        "eraBucket": 2,
+        "percentile": 0.9261,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": true,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4879,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6727
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6936
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.6831
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-06-30-spain-georgia",
+    "transfermarktId": "4359330",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-06-30",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "spain",
+    "awayClubSlug": "georgia",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "unai-simon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robin-le-normand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aymeric-laporte",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-ruiz",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pedri",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alvaro-morata",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nico-williams",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "lineup": [
+        {
+          "playerSlug": "giorgi-mamardashvili",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "otar-kakabadze",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lasha-dvali",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guram-kashia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgi-gvelesiani",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-lochoshvili",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "otar-kiteishvili",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giorgi-chakvetadze",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giorgi-kochorashvili",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "khvicha-kvaratskhelia",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "georges-mikautadze",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "robin-le-normand"
+      },
+      {
+        "kind": "goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rodri"
+      },
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fabian-ruiz"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nico-williams"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dani-olmo"
+      }
+    ],
+    "memorability": {
+      "score": 64.53,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.2905,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.326,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5291
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5018
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.5155
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-01-france-belgium",
+    "transfermarktId": "4359333",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-01",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "france",
+    "awayClubSlug": "belgium",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jules-kounde",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dayot-upamecano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aurelien-tchouameni",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "marcus-thuram",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "koen-casteels",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "timothy-castagne",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wout-faes",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jan-vertonghen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arthur-theate",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amadou-onana",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-doku",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "romelu-lukaku",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lois-openda",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jan-vertonghen"
+      }
+    ],
+    "memorability": {
+      "score": 54.23,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.0845,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2844,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6064
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5918
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.5991
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-01-portugal-slovenia",
+    "transfermarktId": "4359332",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-01",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "slovenia",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 3,
+      "away": 0
+    },
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "diogo-costa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-mendes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-palhinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "zan-karnicnik",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vanja-drkusic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jaka-bijol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jure-balkovec",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "petar-stojanovic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "timi-max-elsnik",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adam-gnezda-cerin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jan-mlakar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andraz-sporar",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "benjamin-sesko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 74.47,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.4894,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.3646,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7282
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5427
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.6355
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-02-austria-turkiye",
+    "transfermarktId": "4359335",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-02",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "austria",
+    "awayClubSlug": "turkiye",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "patrick-pentz",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stefan-posch",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kevin-danso",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philipp-lienhart",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "phillipp-mwene",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konrad-laimer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolas-seiwald",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "romano-schmid",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christoph-baumgartner",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcel-sabitzer",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marko-arnautovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "merih-demiral",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kaan-ayhan",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mert-muldur",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ismail-yuksek",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "arda-guler",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kenan-yildiz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "merih-demiral"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "merih-demiral"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 55.46,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.1092,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2946,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5573
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4509
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.5041
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-02-romania-netherlands",
+    "transfermarktId": "4359334",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-02",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "romania",
+    "awayClubSlug": "netherlands",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "florin-nita",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrei-ratiu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrei-burca",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "radu-dragusin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vasile-mogos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marius-marin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dennis-man",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "razvan-marin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolae-stanciu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ianis-hagi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "denis-dragus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "bart-verbruggen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi-simons",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerdy-schouten",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-bergwijn",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cody-gakpo"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "donyell-malen"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "donyell-malen"
+      }
+    ],
+    "memorability": {
+      "score": 55.81,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.1162,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2969,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4509
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5809
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.5159
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-05-portugal-france",
+    "transfermarktId": "4359337",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-05",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "france",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 3,
+      "away": 5
+    },
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "diogo-costa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-mendes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-palhinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jules-kounde",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dayot-upamecano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eduardo-camavinga",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aurelien-tchouameni",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "randal-kolo-muani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 82.22,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.6444,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.3974,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7282
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5709
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6496
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-05-spain-germany",
+    "transfermarktId": "4359336",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-05",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "spain",
+    "awayClubSlug": "germany",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "unai-simon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robin-le-normand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aymeric-laporte",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-ruiz",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pedri",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alvaro-morata",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nico-williams",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-neuer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joshua-kimmich",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-tah",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-rudiger",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-raum",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-can",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leroy-sane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamal-musiala",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dani-olmo"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "florian-wirtz"
+      },
+      {
+        "kind": "goal",
+        "minute": 119,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "red_card",
+        "minute": 120,
+        "addedTime": 5,
+        "side": "home",
+        "playerSlug": "daniel-carvajal"
+      }
+    ],
+    "memorability": {
+      "score": 93.66,
+      "signals": {
+        "drama": 0.425,
+        "eraBucket": 2,
+        "percentile": 0.8732,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.4542,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5291
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7255
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6273
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-06-england-switzerland",
+    "transfermarktId": "4359338",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-06",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "england",
+    "awayClubSlug": "switzerland",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 5,
+      "away": 3
+    },
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "jordan-pickford",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ezri-konsa",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kobbie-mainoo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "declan-rice",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kieran-trippier",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "yann-sommer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-rodriguez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-akanji",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-schar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dan-ndoye",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "remo-freuler",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michel-aebischer",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabian-rieder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-vargas",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "breel-embolo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "breel-embolo"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bukayo-saka"
+      }
+    ],
+    "memorability": {
+      "score": 90.85,
+      "signals": {
+        "drama": 0.3333,
+        "eraBucket": 2,
+        "percentile": 0.8169,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.4405,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7755
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7191
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-06-netherlands-turkiye",
+    "transfermarktId": "4359339",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-06",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "netherlands",
+    "awayClubSlug": "turkiye",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "bart-verbruggen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerdy-schouten",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-bergwijn",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi-simons",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kaan-ayhan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samet-akaydin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mert-muldur",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "salih-ozcan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arda-guler",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kenan-yildiz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "samet-akaydin"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "stefan-de-vrij"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mert-muldur"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 86.45,
+      "signals": {
+        "drama": 0.375,
+        "eraBucket": 2,
+        "percentile": 0.7289,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.414,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5809
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4464
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.5136
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-09-spain-france",
+    "transfermarktId": "4359340",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-09",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "spain",
+    "awayClubSlug": "france",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "unai-simon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jesus-navas",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nacho-fernandez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aymeric-laporte",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-ruiz",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-olmo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alvaro-morata",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nico-williams",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jules-kounde",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dayot-upamecano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aurelien-tchouameni",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "randal-kolo-muani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "randal-kolo-muani"
+      },
+      {
+        "kind": "goal",
+        "minute": 21,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lamine-yamal"
+      },
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dani-olmo"
+      }
+    ],
+    "memorability": {
+      "score": 81.69,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.6338,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3956,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5409
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5773
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.5591
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-10-netherlands-england",
+    "transfermarktId": "4359341",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-10",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "netherlands",
+    "awayClubSlug": "england",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "bart-verbruggen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerdy-schouten",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "donyell-malen",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi-simons",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "jordan-pickford",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-guehi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kobbie-mainoo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "declan-rice",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kieran-trippier",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "xavi-simons"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ollie-watkins"
+      }
+    ],
+    "memorability": {
+      "score": 94.72,
+      "signals": {
+        "drama": 0.275,
+        "eraBucket": 2,
+        "percentile": 0.8944,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4635,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6727
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.6364
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2024-07-14-spain-england",
+    "transfermarktId": "4359342",
+    "competitionSlug": "euro",
+    "season": "2024",
+    "date": "2024-07-14",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "spain",
+    "awayClubSlug": "england",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "unai-simon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robin-le-normand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aymeric-laporte",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabian-ruiz",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-olmo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alvaro-morata",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nico-williams",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "jordan-pickford",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-guehi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kobbie-mainoo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "declan-rice",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nico-williams"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mikel-oyarzabal"
+      }
+    ],
+    "memorability": {
+      "score": 94.54,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.8908,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4629,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5364
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6545
+          }
+        },
+        "stage": 1,
+        "starPower": 0.5955
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

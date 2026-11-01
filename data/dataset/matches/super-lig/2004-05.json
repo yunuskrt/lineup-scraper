@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "2004-12-12-galatasaray-fenerbahce",
+    "transfermarktId": "25138",
+    "competitionSlug": "super-lig",
+    "season": "2004-05",
+    "date": "2004-12-12",
+    "stage": "Matchday 16",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "faryd-mondragon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stjepan-tomas",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rigobert-song",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orhan-ak",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "volkan-arslan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cihan-haspolatli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-sas",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "flavio-conceicao",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "necati-ates",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "hakan-sukur",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "onder-turaci",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-luciano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "servet-cetin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umit-ozat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "selcuk-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "serkan-balci",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-yozgatli",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-1977",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tuncay-sanli",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mert-nobre",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "necati-ates"
+      },
+      {
+        "kind": "red_card",
+        "minute": 86,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fabio-luciano"
+      }
+    ],
+    "memorability": {
+      "score": 75.96,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 0,
+        "percentile": 0.313,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3196,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4245
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.35
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3873
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

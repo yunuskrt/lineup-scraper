@@ -173,11 +173,11 @@
       }
     ],
     "memorability": {
-      "score": 72.48,
+      "score": 71.09,
       "signals": {
         "drama": 0.2167,
         "eraBucket": 0,
-        "percentile": 0.2136,
+        "percentile": 0.1739,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -203,7 +203,7 @@
         "starPower": 0.43
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -344,11 +344,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 75.66,
+      "score": 74.28,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.3045,
+        "percentile": 0.2652,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -374,7 +374,7 @@
         "starPower": 0.5123
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -551,11 +551,11 @@
       }
     ],
     "memorability": {
-      "score": 69.69,
+      "score": 69.11,
       "signals": {
         "drama": 0.2167,
         "eraBucket": 0,
-        "percentile": 0.1341,
+        "percentile": 0.1174,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -581,7 +581,200 @@
         "starPower": 0.345
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-03-31-galatasaray-besiktas",
+    "transfermarktId": "1080640",
+    "competitionSlug": "super-lig",
+    "season": "2000-01",
+    "date": "2001-03-31",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "claudio-taffarel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "capone",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ergun-penbe",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umit-davala",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "okan-buruk",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "suat-kaya",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-sas",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "serkan-aykut",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jardel",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "ike-shorunmu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ali-eren-beserler",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "erman-guracar",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "markus-munch",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miroslav-karhan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tayfur-havutcu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamal-sellami",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bayram-bektas",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ahmet-dursun",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pascal-nouma",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 13,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "serkan-aykut"
+      },
+      {
+        "kind": "red_card",
+        "minute": 73,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "pascal-nouma"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jardel"
+      }
+    ],
+    "memorability": {
+      "score": 66.22,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.0348,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2448,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3727
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2591
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3159
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -744,11 +937,11 @@
       }
     ],
     "memorability": {
-      "score": 83.77,
+      "score": 82.8,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.5364,
+        "percentile": 0.5087,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -774,7 +967,7 @@
         "starPower": 0.5091
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

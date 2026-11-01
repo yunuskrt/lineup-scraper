@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 72.96,
+      "score": 71.85,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 0,
-        "percentile": 0.2273,
+        "percentile": 0.1957,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,7 @@
         "starPower": 0.5369
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -366,11 +366,11 @@
       }
     ],
     "memorability": {
-      "score": 84.89,
+      "score": 83.26,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 0,
-        "percentile": 0.5682,
+        "percentile": 0.5217,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -396,7 +396,7 @@
         "starPower": 0.4772
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -566,11 +566,11 @@
       }
     ],
     "memorability": {
-      "score": 96.34,
+      "score": 96.05,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 0,
-        "percentile": 0.8955,
+        "percentile": 0.887,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -596,7 +596,400 @@
         "starPower": 0.5746
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-02-25-juventus-ac-milan",
+    "transfermarktId": "2217437",
+    "competitionSlug": "serie-a",
+    "season": "2000-01",
+    "date": "2001-02-25",
+    "stage": "Matchday 20",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "igor-tudor",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ciro-ferrara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paolo-montero",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-pessotto",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-tacchinardi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-birindelli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edgar-davids",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-del-piero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "paolo-maldini",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roque-junior",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luigi-sala",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-helveg",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kakhaber-kaladze",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "demetrio-albertini",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "francesco-coco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-giunti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leonardo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andriy-shevchenko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "igor-tudor"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "filippo-inzaghi"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "zinedine-zidane"
+      }
+    ],
+    "memorability": {
+      "score": 70.02,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.1435,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2892,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.57
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5345
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5522
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2001-04-14-juventus-inter",
+    "transfermarktId": "2217491",
+    "competitionSlug": "serie-a",
+    "season": "2000-01",
+    "date": "2001-04-14",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "igor-tudor",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-iuliano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paolo-montero",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-pessotto",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-tacchinardi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edgar-davids",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-del-piero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "sebastien-frey",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-ferrari",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "laurent-blanc",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michele-serena",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-brocchi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vladimir-jugovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luigi-di-biagio",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephane-dalmat",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alvaro-recoba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "christian-vieri",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alessio-tacchinardi"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "filippo-inzaghi"
+      },
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alessandro-del-piero"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "christian-vieri"
+      }
+    ],
+    "memorability": {
+      "score": 70.63,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.1609,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2949,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6264
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3891
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5077
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   },
   {
@@ -780,11 +1173,11 @@
       }
     ],
     "memorability": {
-      "score": 91.25,
+      "score": 90.72,
       "signals": {
         "drama": 0.25,
         "eraBucket": 0,
-        "percentile": 0.75,
+        "percentile": 0.7348,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -810,7 +1203,7 @@
         "starPower": 0.5064
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

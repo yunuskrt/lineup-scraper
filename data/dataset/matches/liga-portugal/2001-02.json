@@ -137,11 +137,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 68.82,
+      "score": 68.2,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.1091,
+        "percentile": 0.0913,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +167,214 @@
         "starPower": 0.3277
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T04:30:15Z"
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2002-02-10-porto-benfica",
+    "transfermarktId": "2854438",
+    "competitionSlug": "liga-portugal",
+    "season": "2001-02",
+    "date": "2002-02-10",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "vitor-baia",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "secretario",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fredrik-soderstrom",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miran-pavlin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-paredes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "candido-costa",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "benni-mccarthy",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "capucho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "robert-enke",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "armando-sa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-manuel-pinto",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julio-cesar-1978",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-caneira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anders-andersson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mantorras",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zlatko-zahovic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edgaras-jankauskas",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "simao"
+      },
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "deco"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dmitriy-alenichev"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "capucho"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mantorras"
+      }
+    ],
+    "memorability": {
+      "score": 84.94,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 0,
+        "percentile": 0.5696,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3671,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4736
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3682
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4209
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
     }
   }
 ]

@@ -1,0 +1,416 @@
+[
+  {
+    "slug": "2009-09-12-borussia-dortmund-bayern-munich",
+    "transfermarktId": "955520",
+    "competitionSlug": "bundesliga",
+    "season": "2009-10",
+    "date": "2009-09-12",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "patrick-owomoyela",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "neven-subotic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe-santana",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuri-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tinga",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jakub-blaszczykowski",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mohamed-zidan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dimitar-rangelov",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "hans-jorg-butt",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "holger-badstuber",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edson-braafheid",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "anatoliy-tymoshchuk",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hamit-altintop",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ivica-olic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mats-hummels"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-gomez"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bastian-schweinsteiger"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "franck-ribery"
+      },
+      {
+        "kind": "goal",
+        "minute": 78,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "thomas-muller"
+      },
+      {
+        "kind": "goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "thomas-muller"
+      }
+    ],
+    "memorability": {
+      "score": 87.53,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 1,
+        "percentile": 0.6437,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4024,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3345
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7145
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5245
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2010-02-13-bayern-munich-borussia-dortmund",
+    "transfermarktId": "959189",
+    "competitionSlug": "bundesliga",
+    "season": "2009-10",
+    "date": "2010-02-13",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "hans-jorg-butt",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-demichelis",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "holger-badstuber",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-muller",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "marc-ziegler",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "patrick-owomoyela",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "neven-subotic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcel-schmelzer",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuri-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sven-bender",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jakub-blaszczykowski",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-zidan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-grosskreutz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-barrios",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mohamed-zidan"
+      },
+      {
+        "kind": "goal",
+        "minute": 21,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mark-van-bommel"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "arjen-robben"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mario-gomez"
+      }
+    ],
+    "memorability": {
+      "score": 83.14,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.5182,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3764,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7318
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3491
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5405
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

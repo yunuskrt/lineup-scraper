@@ -1,0 +1,766 @@
+[
+  {
+    "slug": "2017-09-23-fenerbahce-besiktas",
+    "transfermarktId": "2883872",
+    "competitionSlug": "super-lig",
+    "season": "2017-18",
+    "date": "2017-09-23",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "carlos-kameni",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mauricio-isla",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roman-neustadter",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-neto",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ozan-tufan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giuliano",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-ekici",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vincent-janssen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fabri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gary-medel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dusko-tosic",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "talisca",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-babel",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cenk-tosun",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giuliano"
+      },
+      {
+        "kind": "red_card",
+        "minute": 43,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ricardo-quaresma"
+      },
+      {
+        "kind": "red_card",
+        "minute": 45,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-neto"
+      },
+      {
+        "kind": "red_card",
+        "minute": 85,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "atiba-hutchinson"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "vincent-janssen"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ryan-babel"
+      },
+      {
+        "kind": "red_card",
+        "minute": 88,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ismail-koybasi"
+      }
+    ],
+    "memorability": {
+      "score": 71.78,
+      "signals": {
+        "drama": 0.225,
+        "eraBucket": 2,
+        "percentile": 0.1937,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 5,
+          "shootout": false
+        },
+        "rawScore": 0.3086,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3718
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5764
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4741
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2017-10-22-galatasaray-fenerbahce",
+    "transfermarktId": "2883900",
+    "competitionSlug": "super-lig",
+    "season": "2017-18",
+    "date": "2017-10-22",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jason-denayer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mariano",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "badou-ndiaye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tolga-cigerci",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sofiane-feghouli",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "bafetimbi-gomis",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "carlos-kameni",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mauricio-isla",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roman-neustadter",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-neto",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ozan-tufan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nabil-dirar",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giuliano",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vincent-janssen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "younes-belhanda"
+      }
+    ],
+    "memorability": {
+      "score": 69.44,
+      "signals": {
+        "drama": 0.05,
+        "eraBucket": 2,
+        "percentile": 0.1268,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2993,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3136
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4045
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3591
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2017-12-02-besiktas-galatasaray",
+    "transfermarktId": "2883943",
+    "competitionSlug": "super-lig",
+    "season": "2017-18",
+    "date": "2017-12-02",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fabri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dusko-tosic",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adriano-1984",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tolgay-arslan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-babel",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cenk-tosun",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mariano",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jason-denayer",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "badou-ndiaye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "garry-rodrigues",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sofiane-feghouli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bafetimbi-gomis",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 46,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cenk-tosun"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dusko-tosic"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "alvaro-negredo"
+      }
+    ],
+    "memorability": {
+      "score": 66.6,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.0458,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2662,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5064
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3682
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4373
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2018-03-17-fenerbahce-galatasaray",
+    "transfermarktId": "2884053",
+    "competitionSlug": "super-lig",
+    "season": "2017-18",
+    "date": "2018-03-17",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sener-ozbayrakli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-skrtel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roman-neustadter",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nabil-dirar",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-ekici",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giuliano",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roberto-soldado",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "martin-linnes",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sofiane-feghouli",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "garry-rodrigues",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bafetimbi-gomis",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 68.7,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.1056,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2944,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3636
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.48
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4218
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

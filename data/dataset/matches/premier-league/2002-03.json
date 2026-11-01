@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "2002-11-09-manchester-city-manchester-united",
+    "transfermarktId": "997939",
+    "competitionSlug": "premier-league",
+    "season": "2002-03",
+    "date": "2002-11-09",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "peter-schmeichel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gerard-wiekens",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "richard-dunne",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucien-mettomo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jihai-sun",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danny-tiatto",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eyal-berkovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-vivien-foe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niclas-jensen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolas-anelka",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "shaun-goater",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gary-neville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "laurent-blanc",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mikael-silvestre",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-sebastian-veron",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-neville",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ole-gunnar-solskjaer",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-giggs",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruud-van-nistelrooy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nicolas-anelka"
+      },
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ole-gunnar-solskjaer"
+      },
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "shaun-goater"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "shaun-goater"
+      }
+    ],
+    "memorability": {
+      "score": 89.96,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.713,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3965,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5655
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7164
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.641
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

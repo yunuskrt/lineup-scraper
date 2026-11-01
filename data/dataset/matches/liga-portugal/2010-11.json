@@ -1,0 +1,423 @@
+[
+  {
+    "slug": "2010-11-07-porto-benfica",
+    "transfermarktId": "1059805",
+    "competitionSlug": "liga-portugal",
+    "season": "2010-11",
+    "date": "2010-11-07",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cristian-sapunaru",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-pereira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-belluschi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-moutinho",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hulk",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "radamel-falcao",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "varela",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "roberto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sidnei",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javi-garcia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-martins",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-aimar",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alan-kardec",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "varela"
+      },
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "radamel-falcao"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "radamel-falcao"
+      },
+      {
+        "kind": "red_card",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "luisao"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hulk"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hulk"
+      }
+    ],
+    "memorability": {
+      "score": 83.63,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 1,
+        "percentile": 0.5324,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3777,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3309
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3864
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2011-04-03-benfica-porto",
+    "transfermarktId": "1090497",
+    "competitionSlug": "liga-portugal",
+    "season": "2010-11",
+    "date": "2011-04-03",
+    "stage": "Matchday 25",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "roberto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "airton",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sidnei",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javi-garcia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-aimar",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-saviola",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "franco-jara",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jorge-fucile",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-pereira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-moutinho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hulk",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "radamel-falcao",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "varela",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fredy-guarin"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "javier-saviola"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hulk"
+      },
+      {
+        "kind": "red_card",
+        "minute": 70,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nicolas-otamendi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "oscar-cardozo"
+      }
+    ],
+    "memorability": {
+      "score": 81.3,
+      "signals": {
+        "drama": 0.225,
+        "eraBucket": 1,
+        "percentile": 0.4656,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.3646,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2164
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5418
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3791
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

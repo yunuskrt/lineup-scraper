@@ -1,0 +1,360 @@
+[
+  {
+    "slug": "2017-12-01-porto-benfica",
+    "transfermarktId": "2883760",
+    "competitionSlug": "liga-portugal",
+    "season": "2017-18",
+    "date": "2017-12-01",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jose-sa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-marcano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-telles",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hector-herrera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danilo-pereira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yacine-brahimi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-marega",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "vincent-aboubakar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "bruno-varela",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jardel-1986",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alejandro-grimaldo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ljubomir-fejsa",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-krovinovic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franco-cervi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jonas",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andrija-zivkovic"
+      }
+    ],
+    "memorability": {
+      "score": 67.46,
+      "signals": {
+        "drama": 0.05,
+        "eraBucket": 2,
+        "percentile": 0.0704,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.279,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3727
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.1427
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2577
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2018-04-15-benfica-porto",
+    "transfermarktId": "2884498",
+    "competitionSlug": "liga-portugal",
+    "season": "2017-18",
+    "date": "2018-04-15",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "bruno-varela",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jardel-1986",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alejandro-grimaldo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ljubomir-fejsa",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrija-zivkovic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franco-cervi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul-jimenez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-marcano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-telles",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "otavio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hector-herrera",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yacine-brahimi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-marega",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "tiquinho-soares",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hector-herrera"
+      }
+    ],
+    "memorability": {
+      "score": 77.69,
+      "signals": {
+        "drama": 0.1917,
+        "eraBucket": 2,
+        "percentile": 0.3627,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3411,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3191
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3209
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.32
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2003-12-06-barcelona-real-madrid",
+    "transfermarktId": "3245",
+    "competitionSlug": "laliga",
+    "season": "2003-04",
+    "date": "2003-12-06",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gabri",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-lopez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-garcia",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "patrick-kluivert",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francisco-pavon",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-bravo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roberto-carlos"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "patrick-kluivert"
+      }
+    ],
+    "memorability": {
+      "score": 88.28,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.6652,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3848,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5709
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7391
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.655
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  },
+  {
+    "slug": "2004-04-25-real-madrid-barcelona",
+    "transfermarktId": "6979",
+    "competitionSlug": "laliga",
+    "season": "2003-04",
+    "date": "2004-04-25",
+    "stage": "Matchday 34",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-bravo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "santiago-solari",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edgar-davids",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-overmars",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "javier-saviola",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "santiago-solari"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "patrick-kluivert"
+      },
+      {
+        "kind": "red_card",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-figo"
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "xavi"
+      }
+    ],
+    "memorability": {
+      "score": 92.85,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 0,
+        "percentile": 0.7957,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.4136,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7064
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7173
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7119
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T21:20:50Z"
+    }
+  }
+]
