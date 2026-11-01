@@ -530,6 +530,17 @@ def test_a_list_layout_report_is_set_aside_with_its_reason(dirs: Dirs) -> None:
     assert not dirs.raw.exists()
 
 
+def test_an_empty_pitch_is_set_aside_and_the_run_goes_on(dirs: Dirs) -> None:
+    empty = dirs.save("match-1000779")
+    dirs.save("match-990248")
+
+    report = dirs.run()
+
+    assert report.refused == [("match-1000779.html", "list layout: no formation")]
+    assert is_set_aside(empty)
+    assert report.imported["match"] == 1
+
+
 def test_a_set_aside_file_is_not_read_again(
     dirs: Dirs, capsys: pytest.CaptureFixture[str]
 ) -> None:

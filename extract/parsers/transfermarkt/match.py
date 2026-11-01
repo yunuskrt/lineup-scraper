@@ -35,6 +35,7 @@ LINEUP: Final = (
 )
 HOME_LINEUP: Final = './/div[@class="large-6 columns aufstellung-box"]'
 AWAY_LINEUP: Final = './/div[@class="large-6 columns"]'
+STARTER_NAME: Final = './/span[@class="formation-number-name"]/a'
 # Lineups by position group, with no pitch
 LIST_LAYOUT: Final = './/table//td/b[normalize-space()="Goalkeeper"]'
 LIST_LAYOUT_REASON: Final = "list layout: no formation"
@@ -55,9 +56,15 @@ def player_ref(link: Selector, what: str) -> Ref:
 
 
 def starters(box: SelectorList[Selector], side: str) -> list[Starter]:
+    players = box.xpath('.//div[@class="formation-player-container"]')
+    # An empty pitch: markers with no player
+    if any(not player.xpath(STARTER_NAME) for player in players):
+        if box.xpath(LIST_LAYOUT):
+            raise ListLayoutError(LIST_LAYOUT_REASON)
+        raise ParseError(f"Missing {side} starter span.formation-number-name > a")
     found: list[Starter] = []
-    for player in box.xpath('.//div[@class="formation-player-container"]'):
-        link = player.xpath('.//span[@class="formation-number-name"]/a')[0]
+    for player in players:
+        link = player.xpath(STARTER_NAME)[0]
         ref = player_ref(link, f"{side} starter span.formation-number-name > a")
         found.append(
             {

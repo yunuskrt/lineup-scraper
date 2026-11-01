@@ -42,3 +42,4 @@ Not Started
 - S19a Dashboard Server & Views: read-only page, 6 tabs, floors, sizes
 - S19b Dashboard Actions & Guided Batch: buttons, run batch, gated load
 - Fix List-Layout Refusals: no-formation reports out, refused/ folder
+- Fix Empty-Pitch Refusals: unnamed pitch markers refused as list layout

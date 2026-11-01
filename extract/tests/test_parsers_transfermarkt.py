@@ -256,6 +256,22 @@ def test_a_list_layout_report_raises_its_own_error(match_id: str) -> None:
         parse_match_report(page(f"match-{match_id}"), url, FETCHED)
 
 
+@pytest.mark.parametrize("match_id", ["1000779", "1001429"])
+def test_an_empty_pitch_with_a_list_is_the_list_layout(match_id: str) -> None:
+    url = f"{BASE}/spielbericht/index/spielbericht/{match_id}"
+    with pytest.raises(ListLayoutError, match=f"^{LIST_LAYOUT_REASON}$"):
+        parse_match_report(page(f"match-{match_id}"), url, FETCHED)
+
+
+def test_an_empty_pitch_without_a_list_names_the_missing_link() -> None:
+    broken = page("match-1001429").replace("Goalkeeper", "Torwart")
+    with pytest.raises(ParseError, match="formation-number-name") as raised:
+        parse_match_report(
+            broken, f"{BASE}/spielbericht/index/spielbericht/1001429", FETCHED
+        )
+    assert not isinstance(raised.value, ListLayoutError)
+
+
 def test_a_page_missing_both_layouts_keeps_the_starters_error() -> None:
     broken = page("match-1042014").replace("Goalkeeper", "Torwart")
     with pytest.raises(ParseError, match="formation-player-container") as raised:

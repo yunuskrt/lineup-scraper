@@ -41,6 +41,7 @@ Go at a normal browsing pace. If the site shows you a check, solve it as you nor
 | S18b | Check all 71 pilot images in `data/reports/images.html` (name any face cut badly); approve a disposable branch for the e2e run; approve uploading them to `ingest`'s bucket. Steps: `features/phase-s18b-image-upload.md` § Your part | ~10 min | During S18b | **Done** (2026-10-29) |
 | Collection tracker | Settle D1–D5; save the listing pages from `general.csv` and import them (237 of 238 parsed by 2026-10-30; Euro 2020 left); check one match block (2 match reports, a player page, a photo). Steps: `features/collection-tracker.md` § Your part | 241 pages, a few hours | During the feature, before S19 | **Done** (2026-10-30) |
 | Fix list-layout refusals | Settle D1–D2 at `/feature load`; approve the commit. Nothing to save: your 2 list-layout pages were already in `data/inbox/`. Steps: `fixes/2026-10-31-list-layout-refusals.md` § Your part | — | During the fix | **Done** (2026-10-31) |
+| Fix empty-pitch refusals | Approve the commit; then `uv run python -m extract.inbox` and `npm run status`. Nothing to save. Steps: `fixes/2026-11-01-empty-pitch-refusals.md` § Your part | ~5 min | After the merge | Open |
 
 **In all, for the pilot:** about 70 pages, under half an hour.
 
