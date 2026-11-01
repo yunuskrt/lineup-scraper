@@ -1,0 +1,967 @@
+[
+  {
+    "slug": "2016-09-21-barcelona-atletico-madrid",
+    "transfermarktId": "2718756",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2016-09-21",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergi-roberto",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-savic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "filipe-luis",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "saul-niguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kevin-gameiro",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ivan-rakitic"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "angel-correa"
+      }
+    ],
+    "memorability": {
+      "score": 75.85,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.3099,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3074,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.57
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7164
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2016-11-19-atletico-madrid-real-madrid",
+    "transfermarktId": "2718823",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2016-11-19",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-savic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "filipe-luis",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "saul-niguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nacho-fernandez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-vazquez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 23,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 71,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      }
+    ],
+    "memorability": {
+      "score": 79.42,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.412,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": true,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3321,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6491
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7091
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6791
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2016-12-03-barcelona-real-madrid",
+    "transfermarktId": "2718844",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2016-12-03",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergi-roberto",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andre-gomes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-vazquez",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-suarez"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sergio-ramos"
+      }
+    ],
+    "memorability": {
+      "score": 90.82,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.7377,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3961,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7982
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7709
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7846
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2017-04-08-real-madrid-atletico-madrid",
+    "transfermarktId": "2719013",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2017-04-08",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-savic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "filipe-luis",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "saul-niguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 52,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pepe"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "antoine-griezmann"
+      }
+    ],
+    "memorability": {
+      "score": 78,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.3715,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3198,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.9073
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6491
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7782
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2017-04-23-real-madrid-barcelona",
+    "transfermarktId": "2719034",
+    "competitionSlug": "laliga",
+    "season": "2016-17",
+    "date": "2017-04-23",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nacho-fernandez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergi-roberto",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-umtiti",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "paco-alcacer",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "casemiro"
+      },
+      {
+        "kind": "goal",
+        "minute": 33,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ivan-rakitic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sergio-ramos"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      }
+    ],
+    "memorability": {
+      "score": 98.65,
+      "signals": {
+        "drama": 0.4083,
+        "eraBucket": 2,
+        "percentile": 0.9613,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.5098,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8427
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7264
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7846
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

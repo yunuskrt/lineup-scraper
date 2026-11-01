@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "2001-09-15-benfica-porto",
+    "transfermarktId": "2854265",
+    "competitionSlug": "liga-portugal",
+    "season": "2001-02",
+    "date": "2001-09-15",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "robert-enke",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cabral",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julio-cesar-1978",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "argel-fuchs",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-caneira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-meira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-andrade",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ljubinko-drulovic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mantorras",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "sergey-ovchinnikov",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hugo-ibarra",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-costa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-silva",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "costinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "capucho",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rubens-junior",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pena",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 68.82,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.1091,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2755,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2927
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3627
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3277
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

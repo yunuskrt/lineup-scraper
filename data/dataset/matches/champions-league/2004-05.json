@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "2005-04-27-chelsea-fc-liverpool-fc",
+    "transfermarktId": "31187",
+    "competitionSlug": "champions-league",
+    "season": "2004-05",
+    "date": "2005-04-27",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "chelsea-fc",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "glen-johnson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-terry",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-gallas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-lampard",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joe-cole",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-drogba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eidur-gudjohnsen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jerzy-dudek",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "steve-finnan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jamie-carragher",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sami-hyypia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "djimi-traore",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "igor-biscan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-garcia",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-gerrard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "john-arne-riise",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 84.54,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.6909,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3833,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8055
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6273
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.7164
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2005-05-03-liverpool-fc-chelsea-fc",
+    "transfermarktId": "31190",
+    "competitionSlug": "champions-league",
+    "season": "2004-05",
+    "date": "2005-05-03",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jerzy-dudek",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "steve-finnan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jamie-carragher",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sami-hyypia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "djimi-traore",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "igor-biscan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dietmar-hamann",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-garcia",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-gerrard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "john-arne-riise",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "njitap-geremi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-terry",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-gallas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frank-lampard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joe-cole",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-drogba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eidur-gudjohnsen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 4,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-garcia"
+      }
+    ],
+    "memorability": {
+      "score": 87.28,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.7455,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3983,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.59
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8473
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.7187
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2018-04-03-juventus-real-madrid",
+    "transfermarktId": "3018931",
+    "competitionSlug": "champions-league",
+    "season": "2017-18",
+    "date": "2018-04-03",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "douglas-costa",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-dybala",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 64,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "red_card",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "paulo-dybala"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marcelo"
+      }
+    ],
+    "memorability": {
+      "score": 85.65,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.713,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3923,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6655
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8455
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7555
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2018-04-03-sevilla-fc-bayern-munich",
+    "transfermarktId": "3018930",
+    "competitionSlug": "champions-league",
+    "season": "2017-18",
+    "date": "2018-04-03",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "sevilla-fc",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-soria",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jesus-navas",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-escudero",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guido-pizarro",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-nzonzi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-sarabia",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franco-vazquez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joaquin-correa",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wissam-ben-yedder",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "sven-ulreich",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joshua-kimmich",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jerome-boateng",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-bernat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javi-martinez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-muller",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "robert-lewandowski",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pablo-sarabia"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jesus-navas"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "thiago-alcantara"
+      }
+    ],
+    "memorability": {
+      "score": 66.72,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.3345,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3123,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.24
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6455
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.4428
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "slug": "2025-05-21-tottenham-hotspur-manchester-united",
+    "transfermarktId": "4547807",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2024-25",
+    "date": "2025-05-21",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "guglielmo-vicario",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "pedro-porro",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-romero",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "micky-van-de-ven",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "destiny-udogie",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yves-bissouma",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brennan-johnson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pape-matar-sarr",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "richarlison",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dominic-solanke",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "andre-onana",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harry-maguire",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leny-yoro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "noussair-mazraoui",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-dorgu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amad-diallo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-mount",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rasmus-hojlund",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "brennan-johnson"
+      }
+    ],
+    "memorability": {
+      "score": 91.13,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.7465,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3979,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.37
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4627
+          }
+        },
+        "stage": 1,
+        "starPower": 0.4164
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

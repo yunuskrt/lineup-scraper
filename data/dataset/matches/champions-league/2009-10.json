@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "2010-03-30-bayern-munich-manchester-united",
+    "transfermarktId": "1003664",
+    "competitionSlug": "champions-league",
+    "season": "2009-10",
+    "date": "2010-03-30",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "hans-jorg-butt",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-demichelis",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "holger-badstuber",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hamit-altintop",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danijel-pranjic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivica-olic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "thomas-muller",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-5-1",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gary-neville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nemanja-vidic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrice-evra",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nani",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-carrick",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "darren-fletcher",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ji-sung-park",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wayne-rooney",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "wayne-rooney"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "franck-ribery"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "ivica-olic"
+      }
+    ],
+    "memorability": {
+      "score": 96.76,
+      "signals": {
+        "drama": 0.475,
+        "eraBucket": 1,
+        "percentile": 0.9352,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4949,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7009
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7855
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7432
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2010-03-30-lyon-fc-girondins-bordeaux",
+    "transfermarktId": "1003663",
+    "competitionSlug": "champions-league",
+    "season": "2009-10",
+    "date": "2010-03-30",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "fc-girondins-bordeaux",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "anthony-reveillere",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-bodmer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aly-cissokho",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jean-makoun",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-toulalan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cesar-delgado",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-pjanic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michel-bastos",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lisandro-lopez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "cedric-carrasso",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "matthieu-chalme",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lamine-sane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-ciani",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-tremoulinas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jaroslav-plasil",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yoann-gourcuff",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-1981",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yoan-gouffran",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "marouane-chamakh",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "wendel",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lisandro-lopez"
+      },
+      {
+        "kind": "goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marouane-chamakh"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "michel-bastos"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lisandro-lopez"
+      }
+    ],
+    "memorability": {
+      "score": 57.49,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.1498,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2949,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3455
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.22
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.2828
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2010-03-31-arsenal-barcelona",
+    "transfermarktId": "1003665",
+    "competitionSlug": "champions-league",
+    "season": "2009-10",
+    "date": "2010-03-31",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-almunia",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bacary-sagna",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-gallas",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-vermaelen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gael-clichy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-song",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrey-arshavin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cesc-fabregas",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "abou-diaby",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samir-nasri",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicklas-bendtner",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pedro",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "seydou-keita",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 46,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "theo-walcott"
+      },
+      {
+        "kind": "red_card",
+        "minute": 84,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "carles-puyol"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cesc-fabregas"
+      }
+    ],
+    "memorability": {
+      "score": 81.78,
+      "signals": {
+        "drama": 0.2167,
+        "eraBucket": 1,
+        "percentile": 0.6356,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3931,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.56
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8127
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6864
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

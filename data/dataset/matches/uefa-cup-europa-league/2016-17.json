@@ -152,11 +152,11 @@
       }
     ],
     "memorability": {
-      "score": 92.63,
+      "score": 96.3,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.7895,
+        "percentile": 0.8944,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -182,7 +182,7 @@
         "starPower": 0.5891
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]

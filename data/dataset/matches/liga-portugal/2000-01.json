@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 72.37,
+      "score": 76.77,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 0,
-        "percentile": 0.2105,
+        "percentile": 0.3364,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -189,7 +189,200 @@
         "starPower": 0.3196
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-01-21-benfica-porto",
+    "transfermarktId": "2854704",
+    "competitionSlug": "liga-portugal",
+    "season": "2000-01",
+    "date": "2001-01-21",
+    "stage": "Matchday 18",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "robert-enke",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ivan-dudic",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carlos-marchena",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronaldo-guiaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diogo-luis",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "calado",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ednilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "abdelsattar-sabry",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-van-hooijdonk",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "sergey-ovchinnikov",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aloisio",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "esquerdinha",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "capucho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emilio-peixe",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-paredes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dmitriy-alenichev",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "silvio-maric",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pena",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pierre-van-hooijdonk"
+      },
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "capucho"
+      },
+      {
+        "kind": "goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pierre-van-hooijdonk"
+      }
+    ],
+    "memorability": {
+      "score": 74.71,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.2773,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3101,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2918
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2718
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2818
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]

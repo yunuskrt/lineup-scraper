@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "2001-09-08-borussia-dortmund-bayern-munich",
+    "transfermarktId": "18804",
+    "competitionSlug": "bundesliga",
+    "season": "2001-02",
+    "date": "2001-09-08",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "evanilson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christian-worns",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jurgen-kohler",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sunday-oliseh",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lars-ricken",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-reuter",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tomas-rosicky",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jan-koller",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "marcio-amoroso",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thorsten-fink",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niko-kovac",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ciriaco-sforza",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roque-santa-cruz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carsten-jancker",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hasan-salihamidzic"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roque-santa-cruz"
+      }
+    ],
+    "memorability": {
+      "score": 83.46,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.5273,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3553,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5427
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6191
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5809
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

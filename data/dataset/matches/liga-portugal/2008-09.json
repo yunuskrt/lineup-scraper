@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 87.11,
+      "score": 91.22,
       "signals": {
         "drama": 0.3333,
         "eraBucket": 1,
-        "percentile": 0.6316,
+        "percentile": 0.749,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -189,7 +189,193 @@
         "starPower": 0.4496
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2009-02-08-porto-benfica",
+    "transfermarktId": "922462",
+    "competitionSlug": "liga-portugal",
+    "season": "2008-09",
+    "date": "2009-02-08",
+    "stage": "Matchday 17",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jorge-fucile",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-alves",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aly-cissokho",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-meireles",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucho-gonzalez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hulk",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lisandro-lopez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristian-rodriguez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jose-moreira",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sidnei",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-amorim",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hassan-yebda",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-katsouranis",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-aimar",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "david-suazo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "away",
+        "playerSlug": "hassan-yebda"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lucho-gonzalez"
+      }
+    ],
+    "memorability": {
+      "score": 87.46,
+      "signals": {
+        "drama": 0.2833,
+        "eraBucket": 1,
+        "percentile": 0.6417,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3934,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4091
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4336
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4214
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]

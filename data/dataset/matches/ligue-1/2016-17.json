@@ -1,5 +1,176 @@
 [
   {
+    "slug": "2016-09-18-olympique-marseille-lyon",
+    "transfermarktId": "2701635",
+    "competitionSlug": "ligue-1",
+    "season": "2016-17",
+    "date": "2016-09-18",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "yohann-pele",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hiroki-sakai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-hubocan",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matheus-doria",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "henri-bedimo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "florian-thauvin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "william-vainqueur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frank-anguissa",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bouna-sarr",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bafetimbi-gomis",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "aaron-leya-iseka",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jeremy-morel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-nkoulou",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mapou-yanga-mbiwa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafael",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-ferri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-tousart",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maciej-rybus",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergi-darder",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxwel-cornet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 65,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.1875,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2936
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2318
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2627
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
     "slug": "2016-10-23-paris-saint-germain-olympique-marseille",
     "transfermarktId": "2702720",
     "competitionSlug": "ligue-1",
@@ -137,11 +308,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 68.69,
+      "score": 74.37,
       "signals": {
         "drama": 0,
         "eraBucket": 2,
-        "percentile": 0.1053,
+        "percentile": 0.2676,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +338,221 @@
         "starPower": 0.465
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2017-02-26-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "2735545",
+    "competitionSlug": "ligue-1",
+    "season": "2016-17",
+    "date": "2017-02-26",
+    "stage": "Matchday 27",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "yohann-pele",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hiroki-sakai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rod-fanni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrice-evra",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxime-lopez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "william-vainqueur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frank-anguissa",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-thauvin",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "clinton-njie",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dimitri-payet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "kevin-trapp",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "thomas-meunier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "layvin-kurzawa",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-moura",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "edinson-cavani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "javier-pastore",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marquinhos"
+      },
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "edinson-cavani"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lucas-moura"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "julian-draxler"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rod-fanni"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "blaise-matuidi"
+      }
+    ],
+    "memorability": {
+      "score": 89.77,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.7077,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3918,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3255
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6173
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4714
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]

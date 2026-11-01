@@ -1,0 +1,444 @@
+[
+  {
+    "slug": "2000-11-04-bayern-munich-borussia-dortmund",
+    "transfermarktId": "18547",
+    "competitionSlug": "bundesliga",
+    "season": "2000-01",
+    "date": "2000-11-04",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 6,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ciriaco-sforza",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrik-andersson",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-tarnat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thorsten-fink",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-scholl",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-sergio",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giovane-elber",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christian-worns",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alfred-nijhuis",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorg-heinrich",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christoph-metzelder",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "evanilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lars-ricken",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "otto-addo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giuseppe-reina",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "heiko-herrlich",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 2,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "heiko-herrlich"
+      },
+      {
+        "kind": "goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-salihamidzic"
+      },
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giovane-elber"
+      },
+      {
+        "kind": "goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mehmet-scholl"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mehmet-scholl"
+      },
+      {
+        "kind": "goal",
+        "minute": 64,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "paulo-sergio"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "otto-addo"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-salihamidzic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 84,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jorg-heinrich"
+      }
+    ],
+    "memorability": {
+      "score": 89.5,
+      "signals": {
+        "drama": 0.3,
+        "eraBucket": 0,
+        "percentile": 0.7,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 8,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3841,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4536
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2373
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3455
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-07-borussia-dortmund-bayern-munich",
+    "transfermarktId": "18705",
+    "competitionSlug": "bundesliga",
+    "season": "2000-01",
+    "date": "2001-04-07",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "evanilson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christian-worns",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christoph-metzelder",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorg-heinrich",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sunday-oliseh",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tomas-rosicky",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lars-ricken",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "otto-addo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredi-bobic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrik-andersson",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-scholl",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-effenberg",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giovane-elber",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roque-santa-cruz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roque-santa-cruz"
+      },
+      {
+        "kind": "red_card",
+        "minute": 35,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bixente-lizarazu"
+      },
+      {
+        "kind": "goal",
+        "minute": 52,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fredi-bobic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 55,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "stefan-effenberg"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": "evanilson"
+      }
+    ],
+    "memorability": {
+      "score": 95.86,
+      "signals": {
+        "drama": 0.3833,
+        "eraBucket": 0,
+        "percentile": 0.8818,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 3,
+          "shootout": false
+        },
+        "rawScore": 0.4458,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4127
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6036
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5082
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

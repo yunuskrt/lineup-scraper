@@ -1,0 +1,191 @@
+[
+  {
+    "slug": "2021-05-26-villarreal-cf-manchester-united",
+    "transfermarktId": "3563783",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2020-21",
+    "date": "2021-05-26",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "villarreal-cf",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 11,
+      "away": 10
+    },
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "geronimo-rulli",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-foyth",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-albiol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pau-torres",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alfonso-pedraza",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yeremy-pino",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "etienne-capoue",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-parejo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manu-trigueros",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gerard-moreno",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-bacca",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "aaron-wan-bissaka",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-bailly",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-lindelof",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paul-pogba",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "scott-mctominay",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-greenwood",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edinson-cavani",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 29,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gerard-moreno"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "edinson-cavani"
+      }
+    ],
+    "memorability": {
+      "score": 99.38,
+      "signals": {
+        "drama": 0.5333,
+        "eraBucket": 2,
+        "percentile": 0.9824,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": true,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.5677,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2018
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6091
+          }
+        },
+        "stage": 1,
+        "starPower": 0.4054
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

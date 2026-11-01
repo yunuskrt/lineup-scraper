@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "2016-05-18-liverpool-fc-sevilla-fc",
+    "transfermarktId": "2689335",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2015-16",
+    "date": "2016-05-18",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "sevilla-fc",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "simon-mignolet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nathaniel-clyne",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kolo-toure",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dejan-lovren",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alberto-moreno",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "james-milner",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-can",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adam-lallana",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-coutinho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-sturridge",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-soria",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mariano",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adil-rami",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-carrico",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-escudero",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steven-nzonzi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "grzegorz-krychowiak",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "coke",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ever-banega",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vitolo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-gameiro",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "daniel-sturridge"
+      },
+      {
+        "kind": "goal",
+        "minute": 46,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "kevin-gameiro"
+      },
+      {
+        "kind": "goal",
+        "minute": 64,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "coke"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "coke"
+      }
+    ],
+    "memorability": {
+      "score": 98.16,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 1,
+        "percentile": 0.9474,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4984,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4755
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2255
+          }
+        },
+        "stage": 1,
+        "starPower": 0.3505
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

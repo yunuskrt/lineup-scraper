@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "2011-10-23-manchester-united-manchester-city",
+    "transfermarktId": "1131432",
+    "competitionSlug": "premier-league",
+    "season": "2011-12",
+    "date": "2011-10-23",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 1,
+      "away": 6
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "chris-smalling",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonny-evans",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrice-evra",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nani",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "anderson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "darren-fletcher",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ashley-young",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wayne-rooney",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "danny-welbeck",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "joe-hart",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "micah-richards",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vincent-kompany",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joleon-lescott",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gael-clichy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "james-milner",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-barry",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yaya-toure",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-silva",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-balotelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-balotelli"
+      },
+      {
+        "kind": "red_card",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jonny-evans"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-balotelli"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sergio-aguero"
+      },
+      {
+        "kind": "goal",
+        "minute": 81,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "darren-fletcher"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "away",
+        "playerSlug": "david-silva"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 94.05,
+      "signals": {
+        "drama": 0.3,
+        "eraBucket": 1,
+        "percentile": 0.83,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 7,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.4403,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6436
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6091
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6264
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2012-04-30-manchester-city-manchester-united",
+    "transfermarktId": "1131699",
+    "competitionSlug": "premier-league",
+    "season": "2011-12",
+    "date": "2012-04-30",
+    "stage": "Matchday 36",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "joe-hart",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "pablo-zabaleta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vincent-kompany",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joleon-lescott",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gael-clichy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gareth-barry",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yaya-toure",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samir-nasri",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-silva",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-2-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "phil-jones",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chris-smalling",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrice-evra",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-carrick",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ji-sung-park",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-giggs",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nani",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wayne-rooney",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "vincent-kompany"
+      }
+    ],
+    "memorability": {
+      "score": 80.73,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.4494,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3577,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6682
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6627
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6655
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

@@ -47,6 +47,33 @@
     "aliases": []
   },
   {
+    "slug": "as-roma",
+    "kind": "club",
+    "name": "AS Roma",
+    "shortName": "ASR",
+    "crestKey": "crests/as-roma/4ed27da52237.webp",
+    "transfermarktId": "12",
+    "aliases": []
+  },
+  {
+    "slug": "aston-villa",
+    "kind": "club",
+    "name": "Aston Villa",
+    "shortName": "AST",
+    "crestKey": "crests/aston-villa/779d63ba4f21.webp",
+    "transfermarktId": "405",
+    "aliases": []
+  },
+  {
+    "slug": "atalanta-bc",
+    "kind": "club",
+    "name": "Atalanta BC",
+    "shortName": "ATA",
+    "crestKey": "crests/atalanta-bc/b25192494ea0.webp",
+    "transfermarktId": "800",
+    "aliases": []
+  },
+  {
     "slug": "athletic-bilbao",
     "kind": "club",
     "name": "Athletic Bilbao",
@@ -67,6 +94,15 @@
     ]
   },
   {
+    "slug": "austria",
+    "kind": "national_team",
+    "name": "Austria",
+    "shortName": "AUS",
+    "crestKey": "crests/austria/92800c454174.webp",
+    "transfermarktId": "3383",
+    "aliases": []
+  },
+  {
     "slug": "barcelona",
     "kind": "club",
     "name": "Barcelona",
@@ -76,6 +112,15 @@
     "aliases": [
       "FC Barcelona"
     ]
+  },
+  {
+    "slug": "bayer-04-leverkusen",
+    "kind": "club",
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "BAY",
+    "crestKey": "crests/bayer-04-leverkusen/74a6ae4a5cc9.webp",
+    "transfermarktId": "15",
+    "aliases": []
   },
   {
     "slug": "bayern-munich",
@@ -89,6 +134,15 @@
     ]
   },
   {
+    "slug": "belgium",
+    "kind": "national_team",
+    "name": "Belgium",
+    "shortName": "BEL",
+    "crestKey": "crests/belgium/dc0202879658.webp",
+    "transfermarktId": "3382",
+    "aliases": []
+  },
+  {
     "slug": "benfica",
     "kind": "club",
     "name": "Benfica",
@@ -97,6 +151,17 @@
     "transfermarktId": "294",
     "aliases": [
       "SL Benfica"
+    ]
+  },
+  {
+    "slug": "besiktas",
+    "kind": "club",
+    "name": "Beşiktaş",
+    "shortName": "BJK",
+    "crestKey": "crests/besiktas/46b3d21a2894.webp",
+    "transfermarktId": "114",
+    "aliases": [
+      "Beşiktaş JK"
     ]
   },
   {
@@ -109,12 +174,39 @@
     "aliases": []
   },
   {
+    "slug": "brazil",
+    "kind": "national_team",
+    "name": "Brazil",
+    "shortName": "BRA",
+    "crestKey": "crests/brazil/1acccd91027d.webp",
+    "transfermarktId": "3439",
+    "aliases": []
+  },
+  {
     "slug": "chelsea-fc",
     "kind": "club",
     "name": "Chelsea FC",
     "shortName": "CHE",
     "crestKey": "crests/chelsea-fc/de353e30395b.webp",
     "transfermarktId": "631",
+    "aliases": []
+  },
+  {
+    "slug": "chile",
+    "kind": "national_team",
+    "name": "Chile",
+    "shortName": "CHI",
+    "crestKey": "crests/chile/b6610384c40f.webp",
+    "transfermarktId": "3700",
+    "aliases": []
+  },
+  {
+    "slug": "colombia",
+    "kind": "national_team",
+    "name": "Colombia",
+    "shortName": "COL",
+    "crestKey": "crests/colombia/10356e8f9f81.webp",
+    "transfermarktId": "3816",
     "aliases": []
   },
   {
@@ -125,6 +217,17 @@
     "crestKey": "crests/croatia/84b6e93052ba.webp",
     "transfermarktId": "3556",
     "aliases": []
+  },
+  {
+    "slug": "czech-republic",
+    "kind": "national_team",
+    "name": "Czech Republic",
+    "shortName": "CZE",
+    "crestKey": "crests/czech-republic/e1ae02f9721e.webp",
+    "transfermarktId": "3445",
+    "aliases": [
+      "Czechia"
+    ]
   },
   {
     "slug": "denmark",
@@ -147,12 +250,39 @@
     ]
   },
   {
+    "slug": "dnipro-dnipropetrovsk-2020",
+    "kind": "club",
+    "name": "Dnipro Dnipropetrovsk (- 2020)",
+    "shortName": "DNI",
+    "crestKey": "crests/dnipro-dnipropetrovsk-2020/339771d91d06.webp",
+    "transfermarktId": "339",
+    "aliases": []
+  },
+  {
+    "slug": "eintracht-frankfurt",
+    "kind": "club",
+    "name": "Eintracht Frankfurt",
+    "shortName": "EIN",
+    "crestKey": "crests/eintracht-frankfurt/4fd78bb995cb.webp",
+    "transfermarktId": "24",
+    "aliases": []
+  },
+  {
     "slug": "england",
     "kind": "national_team",
     "name": "England",
     "shortName": "ENG",
     "crestKey": "crests/england/278895bed3f7.webp",
     "transfermarktId": "3299",
+    "aliases": []
+  },
+  {
+    "slug": "fc-girondins-bordeaux",
+    "kind": "club",
+    "name": "FC Girondins Bordeaux",
+    "shortName": "FCG",
+    "crestKey": "crests/fc-girondins-bordeaux/0fdb27c75758.webp",
+    "transfermarktId": "40",
     "aliases": []
   },
   {
@@ -212,6 +342,33 @@
     "aliases": []
   },
   {
+    "slug": "greece",
+    "kind": "national_team",
+    "name": "Greece",
+    "shortName": "GRE",
+    "crestKey": "crests/greece/db0b02704c50.webp",
+    "transfermarktId": "3378",
+    "aliases": []
+  },
+  {
+    "slug": "hungary",
+    "kind": "national_team",
+    "name": "Hungary",
+    "shortName": "HUN",
+    "crestKey": "crests/hungary/72a05c1725b8.webp",
+    "transfermarktId": "3468",
+    "aliases": []
+  },
+  {
+    "slug": "iceland",
+    "kind": "national_team",
+    "name": "Iceland",
+    "shortName": "ICE",
+    "crestKey": "crests/iceland/a828753efbe1.webp",
+    "transfermarktId": "3574",
+    "aliases": []
+  },
+  {
     "slug": "inter",
     "kind": "club",
     "name": "Inter",
@@ -229,6 +386,15 @@
     "shortName": "ITA",
     "crestKey": "crests/italy/a96f27f604b5.webp",
     "transfermarktId": "3376",
+    "aliases": []
+  },
+  {
+    "slug": "japan",
+    "kind": "national_team",
+    "name": "Japan",
+    "shortName": "JAP",
+    "crestKey": "crests/japan/da32354b34dc.webp",
+    "transfermarktId": "3435",
     "aliases": []
   },
   {
@@ -270,6 +436,17 @@
     "aliases": []
   },
   {
+    "slug": "lyon",
+    "kind": "club",
+    "name": "Lyon",
+    "shortName": "LYO",
+    "crestKey": "crests/lyon/d34a8098928c.webp",
+    "transfermarktId": "1041",
+    "aliases": [
+      "Olympique Lyon"
+    ]
+  },
+  {
     "slug": "manchester-city",
     "kind": "club",
     "name": "Manchester City",
@@ -303,6 +480,15 @@
     "shortName": "NED",
     "crestKey": "crests/netherlands/f324e711766d.webp",
     "transfermarktId": "3379",
+    "aliases": []
+  },
+  {
+    "slug": "northern-ireland",
+    "kind": "national_team",
+    "name": "Northern Ireland",
+    "shortName": "NOR",
+    "crestKey": "crests/northern-ireland/b5b289440459.webp",
+    "transfermarktId": "5674",
     "aliases": []
   },
   {
@@ -362,12 +548,30 @@
     "aliases": []
   },
   {
+    "slug": "rangers-fc",
+    "kind": "club",
+    "name": "Rangers FC",
+    "shortName": "RAN",
+    "crestKey": "crests/rangers-fc/1a6c77028020.webp",
+    "transfermarktId": "124",
+    "aliases": []
+  },
+  {
     "slug": "real-madrid",
     "kind": "club",
     "name": "Real Madrid",
     "shortName": "RMA",
     "crestKey": "crests/real-madrid/0263e5b16373.webp",
     "transfermarktId": "418",
+    "aliases": []
+  },
+  {
+    "slug": "republic-of-ireland",
+    "kind": "national_team",
+    "name": "Republic of Ireland",
+    "shortName": "REP",
+    "crestKey": "crests/republic-of-ireland/cf03b85d1000.webp",
+    "transfermarktId": "3509",
     "aliases": []
   },
   {
@@ -398,6 +602,15 @@
     "aliases": []
   },
   {
+    "slug": "sc-freiburg",
+    "kind": "club",
+    "name": "SC Freiburg",
+    "shortName": "SCF",
+    "crestKey": "crests/sc-freiburg/02c2237b248e.webp",
+    "transfermarktId": "60",
+    "aliases": []
+  },
+  {
     "slug": "senegal",
     "kind": "national_team",
     "name": "Senegal",
@@ -413,6 +626,15 @@
     "shortName": "SEV",
     "crestKey": "crests/sevilla-fc/cb6e44c6f095.webp",
     "transfermarktId": "368",
+    "aliases": []
+  },
+  {
+    "slug": "slovakia",
+    "kind": "national_team",
+    "name": "Slovakia",
+    "shortName": "SLO",
+    "crestKey": "crests/slovakia/7925952e9822.webp",
+    "transfermarktId": "3503",
     "aliases": []
   },
   {
@@ -505,6 +727,24 @@
     "shortName": "VIL",
     "crestKey": "crests/villarreal-cf/307740520d59.webp",
     "transfermarktId": "1050",
+    "aliases": []
+  },
+  {
+    "slug": "wales",
+    "kind": "national_team",
+    "name": "Wales",
+    "shortName": "WAL",
+    "crestKey": "crests/wales/ccbee7749038.webp",
+    "transfermarktId": "3864",
+    "aliases": []
+  },
+  {
+    "slug": "yugoslavia",
+    "kind": "national_team",
+    "name": "Yugoslavia",
+    "shortName": "YUG",
+    "crestKey": "crests/yugoslavia/7bf36767e739.webp",
+    "transfermarktId": "17335",
     "aliases": []
   }
 ]

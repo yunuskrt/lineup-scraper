@@ -1,0 +1,609 @@
+[
+  {
+    "slug": "2008-11-09-fenerbahce-galatasaray",
+    "transfermarktId": "916160",
+    "competitionSlug": "super-lig",
+    "season": "2008-09",
+    "date": "2008-11-09",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edu-dracena",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-lugano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "deivid",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-sahin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "josico",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ugur-boral",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "semih-senturk",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dani-guiza",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "morgan-de-sanctis",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "servet-cetin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ayhan-akman",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-meira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lincoln",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "umit-karan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 2,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lincoln"
+      },
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "selcuk-sahin"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "emre-asik"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diego-lugano"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": "deivid"
+      }
+    ],
+    "memorability": {
+      "score": 82.85,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 1,
+        "percentile": 0.5101,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3658,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3991
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.43
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4146
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2008-11-29-fenerbahce-besiktas",
+    "transfermarktId": "916182",
+    "competitionSlug": "super-lig",
+    "season": "2008-09",
+    "date": "2008-11-29",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edu-dracena",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-lugano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-1977",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-sahin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "colin-kazim-richards",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deivid",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ugur-boral",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-guiza",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tomas-zapotocny",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gokhan-zan",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-sivok",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ekrem-dag",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-toraman",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edouard-cisse",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "serdar-ozkan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matias-delgado",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mert-nobre",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "selcuk-sahin"
+      },
+      {
+        "kind": "goal",
+        "minute": 21,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mert-nobre"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dani-guiza"
+      },
+      {
+        "kind": "red_card",
+        "minute": 41,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "edouard-cisse"
+      }
+    ],
+    "memorability": {
+      "score": 67.12,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 1,
+        "percentile": 0.0607,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.266,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4264
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2709
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3487
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2009-04-12-galatasaray-fenerbahce",
+    "transfermarktId": "934957",
+    "competitionSlug": "super-lig",
+    "season": "2008-09",
+    "date": "2009-04-12",
+    "stage": "Matchday 27",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "morgan-de-sanctis",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ayhan-akman",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-ozbek",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kewell",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "umit-karan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "onder-turaci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-lugano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "deivid",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-sahin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ugur-boral",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "semih-senturk",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dani-guiza",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "home",
+        "playerSlug": "arda-turan"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "home",
+        "playerSlug": "emre-asik"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "away",
+        "playerSlug": "semih-senturk"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "away",
+        "playerSlug": "diego-lugano"
+      }
+    ],
+    "memorability": {
+      "score": 76.48,
+      "signals": {
+        "drama": 0.1,
+        "eraBucket": 1,
+        "percentile": 0.3279,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 4,
+          "shootout": false
+        },
+        "rawScore": 0.3387,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.47
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4673
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4687
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "2009-11-29-barcelona-real-madrid",
+    "transfermarktId": "957261",
+    "competitionSlug": "laliga",
+    "season": "2009-10",
+    "date": "2009-11-29",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-abidal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "seydou-keita",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-albiol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lassana-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sergio-busquets"
+      },
+      {
+        "kind": "red_card",
+        "minute": 89,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lassana-diarra"
+      }
+    ],
+    "memorability": {
+      "score": 92.77,
+      "signals": {
+        "drama": 0.1417,
+        "eraBucket": 1,
+        "percentile": 0.7935,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.4285,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8955
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7936
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.8446
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

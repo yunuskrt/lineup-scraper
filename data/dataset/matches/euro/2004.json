@@ -1,0 +1,1123 @@
+[
+  {
+    "slug": "2004-06-24-portugal-england",
+    "transfermarktId": "21028",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-06-24",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "england",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 6,
+      "away": 5
+    },
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ricardo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "miguel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-valente",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "costinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nuno-gomes",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-james",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gary-neville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sol-campbell",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-terry",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-gerrard",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frank-lampard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-owen",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "wayne-rooney",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "michael-owen"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "helder-postiga"
+      },
+      {
+        "kind": "goal",
+        "minute": 110,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rui-costa"
+      },
+      {
+        "kind": "goal",
+        "minute": 115,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "frank-lampard"
+      }
+    ],
+    "memorability": {
+      "score": 98.41,
+      "signals": {
+        "drama": 0.6167,
+        "eraBucket": 0,
+        "percentile": 0.9682,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": true,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.5517,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8582
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7791
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2004-06-25-france-greece",
+    "transfermarktId": "21029",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-06-25",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "france",
+    "awayClubSlug": "greece",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "william-gallas",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mikael-silvestre",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "david-trezeguet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "antonis-nikopolidis",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michalis-kapsis",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "traianos-dellas",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "takis-fyssas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theodoros-zagorakis",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angelos-basinas",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-katsouranis",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "georgios-karagounis",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "demis-nikolaidis",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "angelos-charisteas",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "angelos-charisteas"
+      }
+    ],
+    "memorability": {
+      "score": 75.46,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.5091,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3494,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7727
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7755
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7741
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2004-06-26-sweden-netherlands",
+    "transfermarktId": "21030",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-06-26",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "sweden",
+    "awayClubSlug": "netherlands",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 4,
+      "away": 5
+    },
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "andreas-isaksson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alexander-arnold-mezan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "olof-mellberg",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andreas-jakobsson",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mikael-nilsson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tobias-linderoth",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mattias-jonson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "anders-svensson",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "henrik-larsson",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jaap-stam",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-de-boer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edgar-davids",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andy-van-der-meyde",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ruud-van-nistelrooy",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 92.28,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 0,
+        "percentile": 0.8455,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.4233,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7555
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8027
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7791
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2004-06-27-czech-republic-denmark",
+    "transfermarktId": "21031",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-06-27",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "czech-republic",
+    "awayClubSlug": "denmark",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "martin-jiranek",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rene-bolf",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marek-jankulovski",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-galasek",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karel-poborsky",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pavel-nedved",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tomas-rosicky",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milan-baros",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jan-koller",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "thomas-sorensen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "thomas-helveg",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rene-henriksen",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-laursen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kasper-bogelund",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-gravesen",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-poulsen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jesper-gronkjaer",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claus-jensen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-jorgensen",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jon-dahl-tomasson",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jan-koller"
+      },
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "milan-baros"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "milan-baros"
+      }
+    ],
+    "memorability": {
+      "score": 82.73,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.6545,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3774,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7873
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7491
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7682
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2004-06-30-portugal-netherlands",
+    "transfermarktId": "21032",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-06-30",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "netherlands",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ricardo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "miguel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-valente",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "costinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pauleta",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jaap-stam",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wilfred-bouma",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edgar-davids",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ruud-van-nistelrooy",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "marc-overmars",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "maniche"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jorge-andrade"
+      }
+    ],
+    "memorability": {
+      "score": 92.96,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.8591,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4354,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7082
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8082
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.7582
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2004-07-04-portugal-greece",
+    "transfermarktId": "21034",
+    "competitionSlug": "euro",
+    "season": "2004",
+    "date": "2004-07-04",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "greece",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ricardo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "miguel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-andrade",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-valente",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "costinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pauleta",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "antonis-nikopolidis",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michalis-kapsis",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "traianos-dellas",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "takis-fyssas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "angelos-basinas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-katsouranis",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "theodoros-zagorakis",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angelos-charisteas",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zisis-vryzas",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "stelios-giannakopoulos",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "angelos-charisteas"
+      }
+    ],
+    "memorability": {
+      "score": 95.23,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.9045,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4622,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7082
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7673
+          }
+        },
+        "stage": 1,
+        "starPower": 0.7378
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

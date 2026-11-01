@@ -1,0 +1,191 @@
+[
+  {
+    "slug": "2022-05-18-eintracht-frankfurt-rangers-fc",
+    "transfermarktId": "3813154",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2021-22",
+    "date": "2022-05-18",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "eintracht-frankfurt",
+    "awayClubSlug": "rangers-fc",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 5,
+      "away": 4
+    },
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "kevin-trapp",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tuta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "evan-ndicka",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "almamy-toure",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ansgar-knauff",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-rode",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "djibril-sow",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-kostic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daichi-kamada",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jesper-lindstrom",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-santos-borre",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "allan-mcgregor",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "james-tavernier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "connor-goldson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "calvin-bassey",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "borna-barisic",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ryan-jack",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "john-lundstram",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "glen-kamara",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "scott-wright",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "joe-aribo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ryan-kent",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "joe-aribo"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rafael-santos-borre"
+      }
+    ],
+    "memorability": {
+      "score": 97.41,
+      "signals": {
+        "drama": 0.3333,
+        "eraBucket": 2,
+        "percentile": 0.9261,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.4706,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3009
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2382
+          }
+        },
+        "stage": 1,
+        "starPower": 0.2696
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  }
+]

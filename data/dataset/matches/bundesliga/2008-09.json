@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 90.79,
+      "score": 93.55,
       "signals": {
         "drama": 0.3333,
         "eraBucket": 1,
-        "percentile": 0.7368,
+        "percentile": 0.8158,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -189,7 +189,207 @@
         "starPower": 0.5541
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2009-02-08-bayern-munich-borussia-dortmund",
+    "transfermarktId": "912599",
+    "competitionSlug": "bundesliga",
+    "season": "2008-09",
+    "date": "2009-02-08",
+    "stage": "Matchday 19",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "michael-rensing",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christian-lell",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucio",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-demichelis",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ze-roberto",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luca-toni",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "miroslav-klose",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "patrick-owomoyela",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "neven-subotic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe-santana",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "young-pyo-lee",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tinga",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-kringe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tamas-hajnal",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-frei",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nelson-valdez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 2,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nelson-valdez"
+      },
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ze-roberto"
+      },
+      {
+        "kind": "goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "miroslav-klose"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "miroslav-klose"
+      }
+    ],
+    "memorability": {
+      "score": 83.99,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.5425,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3735,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6927
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3591
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5259
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]

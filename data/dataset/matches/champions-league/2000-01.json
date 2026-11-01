@@ -173,11 +173,11 @@
       }
     ],
     "memorability": {
-      "score": 94.74,
+      "score": 94.32,
       "signals": {
         "drama": 0.4083,
         "eraBucket": 0,
-        "percentile": 0.8947,
+        "percentile": 0.8864,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -203,7 +203,7 @@
         "starPower": 0.6164
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   },
   {
@@ -348,15 +348,15 @@
         "minute": 86,
         "addedTime": null,
         "side": "away",
-        "playerSlug": null
+        "playerSlug": "paulo-sergio"
       }
     ],
     "memorability": {
-      "score": 57.9,
+      "score": 64.55,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.1579,
+        "percentile": 0.2909,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -382,7 +382,200 @@
         "starPower": 0.5809
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-04-arsenal-valencia",
+    "transfermarktId": "990231",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-04-04",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "valencia",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-seaman",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lee-dixon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-keown",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tony-adams",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ray-parlour",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nwankwo-kanu",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "santiago-canizares",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jocelyn-angloma",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-ayala",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-pellegrino",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "amedeo-carboni",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-baraja",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kily-gonzalez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-aimar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-sanchez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roberto-ayala"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "thierry-henry"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ray-parlour"
+      }
+    ],
+    "memorability": {
+      "score": 88.41,
+      "signals": {
+        "drama": 0.325,
+        "eraBucket": 0,
+        "percentile": 0.7682,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4047,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6882
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4218
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.555
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   },
   {
@@ -545,11 +738,11 @@
       }
     ],
     "memorability": {
-      "score": 52.63,
+      "score": 56.37,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.0526,
+        "percentile": 0.1273,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -575,7 +768,1501 @@
         "starPower": 0.2746
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-17-deportivo-la-coruna-leeds-united",
+    "transfermarktId": "990234",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-04-17",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "deportivo-la-coruna",
+    "awayClubSlug": "leeds-united",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "jose-francisco-molina",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "manuel-pablo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "donato",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "noureddine-naybet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "enrique-romero",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauro-silva",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "victor-sanchez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fran",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "djalminha",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roy-makaay",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "walter-pandiani",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "nigel-martyn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danny-mills",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dominic-matteo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ian-harte",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lee-bowyer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-batty",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kewell",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-viduka",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alan-smith",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "djalminha"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diego-tristan"
+      }
+    ],
+    "memorability": {
+      "score": 54.78,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.0955,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2696,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2618
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3427
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.3023
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-17-valencia-arsenal",
+    "transfermarktId": "990235",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-04-17",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "valencia",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "santiago-canizares",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jocelyn-angloma",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-ayala",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-pellegrino",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "amedeo-carboni",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vicente",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-baraja",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel-angel-angulo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-sanchez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-seaman",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lee-dixon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-keown",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tony-adams",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lauren",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ray-parlour",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sylvain-wiltord",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "john-carew"
+      }
+    ],
+    "memorability": {
+      "score": 60.46,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.2091,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2961,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3682
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6464
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.5073
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-18-bayern-munich-manchester-united",
+    "transfermarktId": "990232",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-04-18",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrik-andersson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-effenberg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-scholl",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-tarnat",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carsten-jancker",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "giovane-elber",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gary-neville",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jaap-stam",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wes-brown",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mikael-silvestre",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paul-scholes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicky-butt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roy-keane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-giggs",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dwight-yorke",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andy-cole",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giovane-elber"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mehmet-scholl"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ryan-giggs"
+      }
+    ],
+    "memorability": {
+      "score": 69.55,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.3909,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3292,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4864
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5682
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.5273
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-04-18-real-madrid-galatasaray",
+    "transfermarktId": "990233",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-04-18",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-hierro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aitor-karanka",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steve-mcmanaman",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "claudio-taffarel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "umit-davala",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bulent-korkmaz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "okan-buruk",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "suat-kaya",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-sas",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gheorghe-hagi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jardel",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 15,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "raul"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ivan-helguera"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "raul"
+      }
+    ],
+    "memorability": {
+      "score": 74.78,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.4955,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3485,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6473
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6237
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-05-01-real-madrid-bayern-munich",
+    "transfermarktId": "990236",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-05-01",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-hierro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aitor-karanka",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steve-mcmanaman",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrik-andersson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-effenberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-scholl",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giovane-elber",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "giovane-elber"
+      }
+    ],
+    "memorability": {
+      "score": 82.28,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.6455,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3759,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6473
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5655
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.6064
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-05-02-leeds-united-valencia",
+    "transfermarktId": "990237",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-05-02",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "leeds-united",
+    "awayClubSlug": "valencia",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "nigel-martyn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danny-mills",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dominic-matteo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ian-harte",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lee-bowyer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-batty",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kewell",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-viduka",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alan-smith",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "santiago-canizares",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jocelyn-angloma",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-ayala",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-pellegrino",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "amedeo-carboni",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-baraja",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-albelda",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kily-gonzalez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-sanchez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 65.91,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.3182,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3164,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3427
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4209
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.3818
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-05-08-valencia-leeds-united",
+    "transfermarktId": "990239",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-05-08",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "valencia",
+    "awayClubSlug": "leeds-united",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "santiago-canizares",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jocelyn-angloma",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-ayala",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-pellegrino",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-aurelio",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-albelda",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kily-gonzalez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-aimar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "juan-sanchez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "nigel-martyn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danny-mills",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rio-ferdinand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dominic-matteo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ian-harte",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eirik-bakke",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-batty",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kewell",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-viduka",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alan-smith",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "juan-sanchez"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "juan-sanchez"
+      },
+      {
+        "kind": "goal",
+        "minute": 52,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gaizka-mendieta"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "alan-smith"
+      }
+    ],
+    "memorability": {
+      "score": 83.41,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 0,
+        "percentile": 0.6682,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3803,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4245
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3664
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.3954
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
+    }
+  },
+  {
+    "slug": "2001-05-09-bayern-munich-real-madrid",
+    "transfermarktId": "990238",
+    "competitionSlug": "champions-league",
+    "season": "2000-01",
+    "date": "2001-05-09",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrik-andersson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-kuffour",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-linke",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "owen-hargreaves",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jens-jeremies",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-scholl",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giovane-elber",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-hierro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aitor-karanka",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steve-mcmanaman",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giovane-elber"
+      },
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "luis-figo"
+      },
+      {
+        "kind": "goal",
+        "minute": 34,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jens-jeremies"
+      }
+    ],
+    "memorability": {
+      "score": 88.64,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.7727,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4057,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5718
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6473
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.6096
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   },
   {
@@ -734,11 +2421,11 @@
       }
     ],
     "memorability": {
-      "score": 100,
+      "score": 99.09,
       "signals": {
         "drama": 0.5333,
         "eraBucket": 0,
-        "percentile": 1,
+        "percentile": 0.9818,
         "raw": {
           "comebackFromHt": true,
           "extraTime": true,
@@ -764,7 +2451,7 @@
         "starPower": 0.4877
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T00:22:56Z"
+      "computedAt": "2026-11-01T04:30:15Z"
     }
   }
 ]
