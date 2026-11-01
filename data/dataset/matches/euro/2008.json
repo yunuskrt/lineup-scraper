@@ -1,0 +1,598 @@
+[
+  {
+    "slug": "2008-06-19-portugal-germany",
+    "transfermarktId": "910142",
+    "competitionSlug": "euro",
+    "season": "2008",
+    "date": "2008-06-19",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "portugal",
+    "awayClubSlug": "germany",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ricardo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bosingwa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-carvalho",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paulo-ferreira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-moutinho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "petit",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nuno-gomes",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "arne-friedrich",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christoph-metzelder",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "per-mertesacker",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-hitzlsperger",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simon-rolfes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-ballack",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lukas-podolski",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miroslav-klose",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bastian-schweinsteiger"
+      },
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "miroslav-klose"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nuno-gomes"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "michael-ballack"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 78.94,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 1,
+        "percentile": 0.5789,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4092,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7755
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7873
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7814
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2008-06-20-croatia-turkiye",
+    "transfermarktId": "910143",
+    "competitionSlug": "euro",
+    "season": "2008",
+    "date": "2008-06-20",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "croatia",
+    "awayClubSlug": "turkiye",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 1,
+      "away": 3
+    },
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "stipe-pletikosa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "vedran-corluka",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robert-kovac",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "josip-simunic",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danijel-pranjic",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niko-kovac",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "darijo-srna",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niko-kranjcar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivica-olic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gokhan-zan",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tuncay-sanli",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hamit-altintop",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "colin-kazim-richards",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nihat-kahveci",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 119,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 120,
+        "addedTime": 1,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 92.1,
+      "signals": {
+        "drama": 0.3333,
+        "eraBucket": 1,
+        "percentile": 0.8421,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.4529,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.9145
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6482
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7814
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2008-06-21-netherlands-russia",
+    "transfermarktId": "910149",
+    "competitionSlug": "euro",
+    "season": "2008",
+    "date": "2008-06-21",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "netherlands",
+    "awayClubSlug": "russia",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "extraTime": true,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "edwin-van-der-sar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "khalid-boulahrouz",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andre-ooijer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joris-mathijsen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orlando-engelaar",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dirk-kuyt",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-van-der-vaart",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wesley-sneijder",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruud-van-nistelrooy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "igor-akinfeev",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "aleksandr-anyukov",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denis-kolodin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergey-ignashevich",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yuriy-zhirkov",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergey-semak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantin-zyryanov",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "igor-semshov",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-saenko",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roman-pavlyuchenko",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andrey-arshavin",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roman-pavlyuchenko"
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ruud-van-nistelrooy"
+      },
+      {
+        "kind": "goal",
+        "minute": 112,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 116,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andrey-arshavin"
+      }
+    ],
+    "memorability": {
+      "score": 94.74,
+      "signals": {
+        "drama": 0.4167,
+        "eraBucket": 1,
+        "percentile": 0.8947,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4669,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6482
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7055
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

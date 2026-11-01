@@ -1,0 +1,588 @@
+[
+  {
+    "slug": "2010-06-26-united-states-ghana",
+    "transfermarktId": "1027001",
+    "competitionSlug": "world-cup",
+    "season": "2010",
+    "date": "2010-06-26",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "united-states",
+    "awayClubSlug": "ghana",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": true,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "tim-howard",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "steven-cherundolo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jay-demerit",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carlos-bocanegra",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-bornstein",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "landon-donovan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michael-bradley",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-clark",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clint-dempsey",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jozy-altidore",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "robbie-findley",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "richard-kingston",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "john-paintsil",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-mensah",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-mensah",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hans-sarpei",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anthony-annan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-inkoom",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "asamoah-gyan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "kevin-prince-boateng"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "landon-donovan"
+      },
+      {
+        "kind": "goal",
+        "minute": 93,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "asamoah-gyan"
+      }
+    ],
+    "memorability": {
+      "score": 84.21,
+      "signals": {
+        "drama": 0.375,
+        "eraBucket": 1,
+        "percentile": 0.6842,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4224,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7227
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6882
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.7055
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2010-06-26-uruguay-south-korea",
+    "transfermarktId": "1026846",
+    "competitionSlug": "world-cup",
+    "season": "2010",
+    "date": "2010-06-26",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "uruguay",
+    "awayClubSlug": "south-korea",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-lugano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-fucile",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "egidio-arevalo-rios",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-perez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alvaro-pereira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edinson-cavani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "sung-ryong-jung",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "du-ri-cha",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yong-hyung-cho",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jung-soo-lee",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "young-pyo-lee",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sung-yueng-ki",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jung-woo-kim",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "chung-yong-lee",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jae-sung-kim",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ji-sung-park",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "chu-young-park",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-suarez"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "chung-yong-lee"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-suarez"
+      }
+    ],
+    "memorability": {
+      "score": 55.27,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.1053,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3575,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.9173
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.72
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.8187
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2010-06-27-argentina-mexico",
+    "transfermarktId": "1026847",
+    "competitionSlug": "world-cup",
+    "season": "2010",
+    "date": "2010-06-27",
+    "stage": "Round of 16",
+    "nickname": null,
+    "homeClubSlug": "argentina",
+    "awayClubSlug": "mexico",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "sergio-romero",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-demichelis",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-burdisso",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-heinze",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxi-rodriguez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "oscar-perez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "efrain-juarez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-osorio",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francisco-rodriguez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carlos-salcido",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovani-dos-santos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gerardo-torrado",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andres-guardado",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adolfo-bautista",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "chicharito",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "carlos-tevez"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gonzalo-higuain"
+      },
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "carlos-tevez"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "chicharito"
+      }
+    ],
+    "memorability": {
+      "score": 63.16,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.2632,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3713,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7973
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8327
+          }
+        },
+        "stage": 0.5,
+        "starPower": 0.815
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

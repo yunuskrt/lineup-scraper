@@ -80,6 +80,26 @@ describe('readMatchScore', () => {
     ]);
   });
 
+  it.each(['n.GG.', 'n.SG.'])(
+    'reads a golden or silver goal (%s) as extra time',
+    (resultNote) => {
+      const report = final2001({ result: '1:2', resultNote, shootout: [] });
+      const read = readMatchScore(report, { away: 2, home: 1 }, []);
+      expect(read.isRead && [read.extraTime, read.shootout]).toEqual([
+        true,
+        null,
+      ]);
+    },
+  );
+
+  it('still holds back an awarded result', () => {
+    const report = final2001({ result: '3:0', resultNote: '(uncontested)' });
+    expect(readMatchScore(report, { away: 0, home: 0 }, [])).toEqual({
+      isRead: false,
+      reason: 'unknown result note',
+    });
+  });
+
   it('holds back a shown score that differs from the goals', () => {
     const report = final2001({
       result: '3:0',

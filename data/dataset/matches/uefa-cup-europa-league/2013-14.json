@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "2014-05-14-sevilla-fc-benfica",
+    "transfermarktId": "2456992",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2013-14",
+    "date": "2014-05-14",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "sevilla-fc",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": true,
+    "shootout": {
+      "home": 4,
+      "away": 2
+    },
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "beto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "coke",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-pareja",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "federico-fazio",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alberto-moreno",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-carrico",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephane-mbia",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vitolo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-bacca",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ezequiel-garay",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guilherme-siqueira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-amorim",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-sulejmani",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-gomes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lima",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 92.63,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 1,
+        "percentile": 0.7895,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": true,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": true
+        },
+        "rawScore": 0.4476,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.34
+          }
+        },
+        "stage": 1,
+        "starPower": 0.3005
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

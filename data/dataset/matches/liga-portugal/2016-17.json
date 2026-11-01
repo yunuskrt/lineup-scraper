@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "2016-11-06-porto-benfica",
+    "transfermarktId": "2720835",
+    "competitionSlug": "liga-portugal",
+    "season": "2016-17",
+    "date": "2016-11-06",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-marcano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-telles",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danilo-pereira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jesus-corona",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "otavio",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oliver-torres",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andre-silva",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-lindelof",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eliseu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-samaris",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franco-cervi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-mitroglou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "goncalo-guedes",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diogo-jota"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 72.37,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.2105,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3232,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4618
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3782
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.42
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "slug": "2011-05-18-porto-sc-braga",
+    "transfermarktId": "1101933",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2010-11",
+    "date": "2011-05-18",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "sc-braga",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cristian-sapunaru",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-pereira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-moutinho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hulk",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "radamel-falcao",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "varela",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "artur-moraes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "miguel-garcia",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alberto-rodriguez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paulao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "silvio",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vandinho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "custodio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hugo-viana",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-cesar",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lima",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "radamel-falcao"
+      }
+    ],
+    "memorability": {
+      "score": 77.89,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.3684,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3791,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.53
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.1145
+          }
+        },
+        "stage": 1,
+        "starPower": 0.3223
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

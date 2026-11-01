@@ -1,5 +1,83 @@
 [
   {
+    "slug": "ac-milan",
+    "kind": "club",
+    "name": "AC Milan",
+    "shortName": "MIL",
+    "crestKey": "crests/ac-milan/e77d7feb6f56.webp",
+    "transfermarktId": "5",
+    "aliases": []
+  },
+  {
+    "slug": "ajax-amsterdam",
+    "kind": "club",
+    "name": "Ajax Amsterdam",
+    "shortName": "AJA",
+    "crestKey": "crests/ajax-amsterdam/a84d6876875a.webp",
+    "transfermarktId": "610",
+    "aliases": []
+  },
+  {
+    "slug": "argentina",
+    "kind": "national_team",
+    "name": "Argentina",
+    "shortName": "ARG",
+    "crestKey": "crests/argentina/048a628c17f6.webp",
+    "transfermarktId": "3437",
+    "aliases": []
+  },
+  {
+    "slug": "arsenal",
+    "kind": "club",
+    "name": "Arsenal",
+    "shortName": "ARS",
+    "crestKey": "crests/arsenal/4b9fb17f22f4.webp",
+    "transfermarktId": "11",
+    "aliases": [
+      "Arsenal FC"
+    ]
+  },
+  {
+    "slug": "as-monaco",
+    "kind": "club",
+    "name": "AS Monaco",
+    "shortName": "ASM",
+    "crestKey": "crests/as-monaco/a3ca9817d6e1.webp",
+    "transfermarktId": "162",
+    "aliases": []
+  },
+  {
+    "slug": "athletic-bilbao",
+    "kind": "club",
+    "name": "Athletic Bilbao",
+    "shortName": "ATH",
+    "crestKey": "crests/athletic-bilbao/9beebf59812d.webp",
+    "transfermarktId": "621",
+    "aliases": []
+  },
+  {
+    "slug": "atletico-madrid",
+    "kind": "club",
+    "name": "Atlético Madrid",
+    "shortName": "ATM",
+    "crestKey": "crests/atletico-madrid/9a1fa3b08d1f.webp",
+    "transfermarktId": "13",
+    "aliases": [
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "slug": "barcelona",
+    "kind": "club",
+    "name": "Barcelona",
+    "shortName": "BAR",
+    "crestKey": "crests/barcelona/384a1a083097.webp",
+    "transfermarktId": "131",
+    "aliases": [
+      "FC Barcelona"
+    ]
+  },
+  {
     "slug": "bayern-munich",
     "kind": "club",
     "name": "Bayern Munich",
@@ -9,6 +87,73 @@
     "aliases": [
       "FC Bayern Munich"
     ]
+  },
+  {
+    "slug": "benfica",
+    "kind": "club",
+    "name": "Benfica",
+    "shortName": "BEN",
+    "crestKey": "crests/benfica/51e4f93034a6.webp",
+    "transfermarktId": "294",
+    "aliases": [
+      "SL Benfica"
+    ]
+  },
+  {
+    "slug": "borussia-dortmund",
+    "kind": "club",
+    "name": "Borussia Dortmund",
+    "shortName": "BVB",
+    "crestKey": "crests/borussia-dortmund/72e6e711fd42.webp",
+    "transfermarktId": "16",
+    "aliases": []
+  },
+  {
+    "slug": "chelsea-fc",
+    "kind": "club",
+    "name": "Chelsea FC",
+    "shortName": "CHE",
+    "crestKey": "crests/chelsea-fc/de353e30395b.webp",
+    "transfermarktId": "631",
+    "aliases": []
+  },
+  {
+    "slug": "croatia",
+    "kind": "national_team",
+    "name": "Croatia",
+    "shortName": "CRO",
+    "crestKey": "crests/croatia/84b6e93052ba.webp",
+    "transfermarktId": "3556",
+    "aliases": []
+  },
+  {
+    "slug": "denmark",
+    "kind": "national_team",
+    "name": "Denmark",
+    "shortName": "DEN",
+    "crestKey": "crests/denmark/e848187c9425.webp",
+    "transfermarktId": "3436",
+    "aliases": []
+  },
+  {
+    "slug": "deportivo-la-coruna",
+    "kind": "club",
+    "name": "Deportivo La Coruña",
+    "shortName": "DEP",
+    "crestKey": "crests/deportivo-la-coruna/bc4b7a72bd71.webp",
+    "transfermarktId": "897",
+    "aliases": [
+      "Deportivo de La Coruña"
+    ]
+  },
+  {
+    "slug": "england",
+    "kind": "national_team",
+    "name": "England",
+    "shortName": "ENG",
+    "crestKey": "crests/england/278895bed3f7.webp",
+    "transfermarktId": "3299",
+    "aliases": []
   },
   {
     "slug": "fenerbahce",
@@ -31,6 +176,15 @@
     "aliases": []
   },
   {
+    "slug": "fulham-fc",
+    "kind": "club",
+    "name": "Fulham FC",
+    "shortName": "FUL",
+    "crestKey": "crests/fulham-fc/a1d77b8603dc.webp",
+    "transfermarktId": "931",
+    "aliases": []
+  },
+  {
     "slug": "galatasaray",
     "kind": "club",
     "name": "Galatasaray",
@@ -40,12 +194,297 @@
     "aliases": []
   },
   {
+    "slug": "germany",
+    "kind": "national_team",
+    "name": "Germany",
+    "shortName": "GER",
+    "crestKey": "crests/germany/8ca6deaad3af.webp",
+    "transfermarktId": "3262",
+    "aliases": []
+  },
+  {
+    "slug": "ghana",
+    "kind": "national_team",
+    "name": "Ghana",
+    "shortName": "GHA",
+    "crestKey": "crests/ghana/ae9afc87840b.webp",
+    "transfermarktId": "3441",
+    "aliases": []
+  },
+  {
+    "slug": "inter",
+    "kind": "club",
+    "name": "Inter",
+    "shortName": "INT",
+    "crestKey": "crests/inter/7432beb8e339.webp",
+    "transfermarktId": "46",
+    "aliases": [
+      "Inter Milan"
+    ]
+  },
+  {
     "slug": "italy",
     "kind": "national_team",
     "name": "Italy",
     "shortName": "ITA",
     "crestKey": "crests/italy/a96f27f604b5.webp",
     "transfermarktId": "3376",
+    "aliases": []
+  },
+  {
+    "slug": "juventus",
+    "kind": "club",
+    "name": "Juventus",
+    "shortName": "JUV",
+    "crestKey": "crests/juventus/c9ac3e9c8ae0.webp",
+    "transfermarktId": "506",
+    "aliases": [
+      "Juventus FC"
+    ]
+  },
+  {
+    "slug": "leeds-united",
+    "kind": "club",
+    "name": "Leeds United",
+    "shortName": "LEE",
+    "crestKey": "crests/leeds-united/a9570be07fab.webp",
+    "transfermarktId": "399",
+    "aliases": []
+  },
+  {
+    "slug": "leicester-city",
+    "kind": "club",
+    "name": "Leicester City",
+    "shortName": "LEI",
+    "crestKey": "crests/leicester-city/e8252fc3a375.webp",
+    "transfermarktId": "1003",
+    "aliases": []
+  },
+  {
+    "slug": "liverpool-fc",
+    "kind": "club",
+    "name": "Liverpool FC",
+    "shortName": "LIV",
+    "crestKey": "crests/liverpool-fc/5d39df3d6d76.webp",
+    "transfermarktId": "31",
+    "aliases": []
+  },
+  {
+    "slug": "manchester-city",
+    "kind": "club",
+    "name": "Manchester City",
+    "shortName": "MCI",
+    "crestKey": "crests/manchester-city/ddd375970cf3.webp",
+    "transfermarktId": "281",
+    "aliases": []
+  },
+  {
+    "slug": "manchester-united",
+    "kind": "club",
+    "name": "Manchester United",
+    "shortName": "MUN",
+    "crestKey": "crests/manchester-united/8dd1b722494e.webp",
+    "transfermarktId": "985",
+    "aliases": []
+  },
+  {
+    "slug": "mexico",
+    "kind": "national_team",
+    "name": "Mexico",
+    "shortName": "MEX",
+    "crestKey": "crests/mexico/f3b0e49b0356.webp",
+    "transfermarktId": "6303",
+    "aliases": []
+  },
+  {
+    "slug": "netherlands",
+    "kind": "national_team",
+    "name": "Netherlands",
+    "shortName": "NED",
+    "crestKey": "crests/netherlands/f324e711766d.webp",
+    "transfermarktId": "3379",
+    "aliases": []
+  },
+  {
+    "slug": "olympique-marseille",
+    "kind": "club",
+    "name": "Olympique Marseille",
+    "shortName": "OLY",
+    "crestKey": "crests/olympique-marseille/dfa498444251.webp",
+    "transfermarktId": "244",
+    "aliases": []
+  },
+  {
+    "slug": "paraguay",
+    "kind": "national_team",
+    "name": "Paraguay",
+    "shortName": "PAR",
+    "crestKey": "crests/paraguay/d599af88d9fb.webp",
+    "transfermarktId": "3581",
+    "aliases": []
+  },
+  {
+    "slug": "paris-saint-germain",
+    "kind": "club",
+    "name": "Paris Saint-Germain",
+    "shortName": "PSG",
+    "crestKey": "crests/paris-saint-germain/8dab186c9feb.webp",
+    "transfermarktId": "583",
+    "aliases": []
+  },
+  {
+    "slug": "poland",
+    "kind": "national_team",
+    "name": "Poland",
+    "shortName": "POL",
+    "crestKey": "crests/poland/25696e4d01a2.webp",
+    "transfermarktId": "3442",
+    "aliases": []
+  },
+  {
+    "slug": "porto",
+    "kind": "club",
+    "name": "Porto",
+    "shortName": "FCP",
+    "crestKey": "crests/porto/773938dc3f8c.webp",
+    "transfermarktId": "720",
+    "aliases": [
+      "FC Porto"
+    ]
+  },
+  {
+    "slug": "portugal",
+    "kind": "national_team",
+    "name": "Portugal",
+    "shortName": "POR",
+    "crestKey": "crests/portugal/9938fbe42cfa.webp",
+    "transfermarktId": "3300",
+    "aliases": []
+  },
+  {
+    "slug": "real-madrid",
+    "kind": "club",
+    "name": "Real Madrid",
+    "shortName": "RMA",
+    "crestKey": "crests/real-madrid/0263e5b16373.webp",
+    "transfermarktId": "418",
+    "aliases": []
+  },
+  {
+    "slug": "romania",
+    "kind": "national_team",
+    "name": "Romania",
+    "shortName": "ROM",
+    "crestKey": "crests/romania/615ab9843f6f.webp",
+    "transfermarktId": "3447",
+    "aliases": []
+  },
+  {
+    "slug": "russia",
+    "kind": "national_team",
+    "name": "Russia",
+    "shortName": "RUS",
+    "crestKey": "crests/russia/f47b3a3738b1.webp",
+    "transfermarktId": "3448",
+    "aliases": []
+  },
+  {
+    "slug": "sc-braga",
+    "kind": "club",
+    "name": "SC Braga",
+    "shortName": "SCB",
+    "crestKey": "crests/sc-braga/a8163bd7d557.webp",
+    "transfermarktId": "1075",
+    "aliases": []
+  },
+  {
+    "slug": "senegal",
+    "kind": "national_team",
+    "name": "Senegal",
+    "shortName": "SEN",
+    "crestKey": "crests/senegal/ab33187eec98.webp",
+    "transfermarktId": "3499",
+    "aliases": []
+  },
+  {
+    "slug": "sevilla-fc",
+    "kind": "club",
+    "name": "Sevilla FC",
+    "shortName": "SEV",
+    "crestKey": "crests/sevilla-fc/cb6e44c6f095.webp",
+    "transfermarktId": "368",
+    "aliases": []
+  },
+  {
+    "slug": "south-korea",
+    "kind": "national_team",
+    "name": "South Korea",
+    "shortName": "SOU",
+    "crestKey": "crests/south-korea/10c995e26fdb.webp",
+    "transfermarktId": "3589",
+    "aliases": []
+  },
+  {
+    "slug": "spain",
+    "kind": "national_team",
+    "name": "Spain",
+    "shortName": "ESP",
+    "crestKey": "crests/spain/4daa1d769f7b.webp",
+    "transfermarktId": "3375",
+    "aliases": []
+  },
+  {
+    "slug": "sweden",
+    "kind": "national_team",
+    "name": "Sweden",
+    "shortName": "SWE",
+    "crestKey": "crests/sweden/e1a500628770.webp",
+    "transfermarktId": "3557",
+    "aliases": []
+  },
+  {
+    "slug": "switzerland",
+    "kind": "national_team",
+    "name": "Switzerland",
+    "shortName": "SUI",
+    "crestKey": "crests/switzerland/882c6bf9934f.webp",
+    "transfermarktId": "3384",
+    "aliases": []
+  },
+  {
+    "slug": "tottenham-hotspur",
+    "kind": "club",
+    "name": "Tottenham Hotspur",
+    "shortName": "TOT",
+    "crestKey": "crests/tottenham-hotspur/bcaff1e6d407.webp",
+    "transfermarktId": "148",
+    "aliases": []
+  },
+  {
+    "slug": "turkiye",
+    "kind": "national_team",
+    "name": "Turkiye",
+    "shortName": "TUR",
+    "crestKey": "crests/turkiye/e12529cbb855.webp",
+    "transfermarktId": "3381",
+    "aliases": []
+  },
+  {
+    "slug": "united-states",
+    "kind": "national_team",
+    "name": "United States",
+    "shortName": "UNI",
+    "crestKey": "crests/united-states/59b0d2953b12.webp",
+    "transfermarktId": "3505",
+    "aliases": []
+  },
+  {
+    "slug": "uruguay",
+    "kind": "national_team",
+    "name": "Uruguay",
+    "shortName": "URU",
+    "crestKey": "crests/uruguay/34f16f2cf4de.webp",
+    "transfermarktId": "3449",
     "aliases": []
   },
   {
@@ -58,5 +497,14 @@
     "aliases": [
       "Valencia CF"
     ]
+  },
+  {
+    "slug": "villarreal-cf",
+    "kind": "club",
+    "name": "Villarreal CF",
+    "shortName": "VIL",
+    "crestKey": "crests/villarreal-cf/307740520d59.webp",
+    "transfermarktId": "1050",
+    "aliases": []
   }
 ]

@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "2013-05-15-benfica-chelsea-fc",
+    "transfermarktId": "2315095",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2012-13",
+    "date": "2013-05-15",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "artur-moraes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ezequiel-garay",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lorenzo-melgarejo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enzo-perez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "oscar-cardozo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "branislav-ivanovic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-cahill",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-lampard",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ramires",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-mata",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oscar",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fernando-torres"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "oscar-cardozo"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "branislav-ivanovic"
+      }
+    ],
+    "memorability": {
+      "score": 98.16,
+      "signals": {
+        "drama": 0.275,
+        "eraBucket": 1,
+        "percentile": 0.9474,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4951,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7291
+          }
+        },
+        "stage": 1,
+        "starPower": 0.4941
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

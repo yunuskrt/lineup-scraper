@@ -1,0 +1,581 @@
+[
+  {
+    "slug": "2000-06-24-italy-romania",
+    "transfermarktId": "935958",
+    "competitionSlug": "euro",
+    "season": "2000",
+    "date": "2000-06-24",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "italy",
+    "awayClubSlug": "romania",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "francesco-toldo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-iuliano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-conte",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "demetrio-albertini",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paolo-maldini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefano-fiore",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "francesco-totti",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "bogdan-stelea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "iulian-filipescu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "liviu-ciobotariu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miodrag-belodedici",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-chivu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "constantin-galca",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florentin-petre",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dorinel-munteanu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gheorghe-hagi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "viorel-moldovan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "adrian-mutu",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 33,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "francesco-totti"
+      },
+      {
+        "kind": "goal",
+        "minute": 43,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "filippo-inzaghi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gheorghe-hagi"
+      }
+    ],
+    "memorability": {
+      "score": 71.06,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.4211,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3585,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6136
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7045
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6591
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2000-06-24-turkiye-portugal",
+    "transfermarktId": "935955",
+    "competitionSlug": "euro",
+    "season": "2000",
+    "date": "2000-06-24",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "turkiye",
+    "awayClubSlug": "portugal",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alpay-ozalan",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ogun-temizkanoglu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tayfun-korkut",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ergun-penbe",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tayfur-havutcu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "okan-buruk",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-unsal",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-sukur",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "arif-erdem",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "vitor-baia",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergio-conceicao",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-couto",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorge-costa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dimas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "costinha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-bento",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-pinto",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rui-costa",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nuno-gomes",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 30,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alpay-ozalan"
+      },
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nuno-gomes"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nuno-gomes"
+      }
+    ],
+    "memorability": {
+      "score": 78.94,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.5789,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3618,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.65
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7018
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6759
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  },
+  {
+    "slug": "2000-06-25-spain-france",
+    "transfermarktId": "935956",
+    "competitionSlug": "euro",
+    "season": "2000",
+    "date": "2000-06-25",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "spain",
+    "awayClubSlug": "france",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "santiago-canizares",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abelardo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paco-jemez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "agustin-aranzabal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gaizka-mendieta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pep-guardiola",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pedro-munitis",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alfonso",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcel-desailly",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "laurent-blanc",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bixente-lizarazu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-deschamps",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christophe-dugarry",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "youri-djorkaeff",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 33,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zinedine-zidane"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 38,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gaizka-mendieta"
+      },
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "youri-djorkaeff"
+      }
+    ],
+    "memorability": {
+      "score": 76.32,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.5263,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3613,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.45
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.9255
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.6878
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

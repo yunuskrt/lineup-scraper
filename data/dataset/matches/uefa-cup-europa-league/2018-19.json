@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "2019-05-29-chelsea-fc-arsenal",
+    "transfermarktId": "3184382",
+    "competitionSlug": "uefa-cup-europa-league",
+    "season": "2018-19",
+    "date": "2019-05-29",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "chelsea-fc",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "kepa-arrizabalaga",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andreas-christensen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emerson-1994",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pedro",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "olivier-giroud",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eden-hazard",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "petr-cech",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nacho-monreal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "laurent-koscielny",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sokratis-papastathopoulos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ainsley-maitland-niles",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sead-kolasinac",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mesut-ozil",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "olivier-giroud"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pedro"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "eden-hazard"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "alex-iwobi"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "eden-hazard"
+      }
+    ],
+    "memorability": {
+      "score": 98.16,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.9474,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4994,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6509
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6136
+          }
+        },
+        "stage": 1,
+        "starPower": 0.6323
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

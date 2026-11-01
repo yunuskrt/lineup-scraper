@@ -7,7 +7,8 @@ type RawEvent = TransfermarktMatch['events'][number];
 const SCORE = /([0-9]+):([0-9]+)/;
 const HALF_TIME_NOTE = /^\(\s*([0-9]+):([0-9]+)\s*\)$/;
 const ON_PENS = /\bon pens\b/i;
-const AFTER_EXTRA_TIME = /\bAET\b|\ba\.e\.t\./i;
+// n.GG. / n.SG.: a golden or silver goal in ET
+const AFTER_EXTRA_TIME = /\bAET\b|\ba\.e\.t\.|\bn\.[GS]G\./i;
 const GOAL_KINDS = new Set(['goal', 'own_goal', 'penalty_goal']);
 const KICK_OUTCOMES = new Set(['Scored', 'Missed', 'Saved']);
 

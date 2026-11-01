@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "2000-10-21-barcelona-real-madrid",
+    "transfermarktId": "1091365",
+    "competitionSlug": "laliga",
+    "season": "2000-01",
+    "date": "2000-10-21",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "richard-dutruel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michael-reiziger",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abelardo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phillip-cocu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergi-barjuan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-enrique",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rivaldo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dani-garcia",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "njitap-geremi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aitor-karanka",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fernando-hierro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "albert-celades",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claude-makelele",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pedro-munitis",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-enrique"
+      },
+      {
+        "kind": "goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "simao"
+      }
+    ],
+    "memorability": {
+      "score": 87.11,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.6316,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3674,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6464
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6364
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6414
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-01T00:22:56Z"
+    }
+  }
+]

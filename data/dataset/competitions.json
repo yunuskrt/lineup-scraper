@@ -1,13 +1,53 @@
 [
   {
+    "slug": "bundesliga",
+    "kind": "league",
+    "name": "Bundesliga"
+  },
+  {
     "slug": "champions-league",
     "kind": "ucl",
     "name": "Champions League"
   },
   {
+    "slug": "euro",
+    "kind": "euro",
+    "name": "Euro"
+  },
+  {
+    "slug": "laliga",
+    "kind": "league",
+    "name": "LaLiga"
+  },
+  {
+    "slug": "liga-portugal",
+    "kind": "league",
+    "name": "Liga Portugal"
+  },
+  {
+    "slug": "ligue-1",
+    "kind": "league",
+    "name": "Ligue 1"
+  },
+  {
+    "slug": "premier-league",
+    "kind": "league",
+    "name": "Premier League"
+  },
+  {
+    "slug": "serie-a",
+    "kind": "league",
+    "name": "Serie A"
+  },
+  {
     "slug": "super-lig",
     "kind": "league",
     "name": "Süper Lig"
+  },
+  {
+    "slug": "uefa-cup-europa-league",
+    "kind": "uel",
+    "name": "UEFA Cup / Europa League"
   },
   {
     "slug": "world-cup",
