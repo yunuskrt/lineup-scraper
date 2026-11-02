@@ -145,11 +145,11 @@
       }
     ],
     "memorability": {
-      "score": 68.95,
+      "score": 68.78,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.1129,
+        "percentile": 0.1079,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -175,7 +175,7 @@
         "starPower": 0.5419
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -331,11 +331,11 @@
       }
     ],
     "memorability": {
-      "score": 85.43,
+      "score": 85.34,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 2,
-        "percentile": 0.5838,
+        "percentile": 0.5812,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -361,7 +361,7 @@
         "starPower": 0.5241
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -510,11 +510,11 @@
       }
     ],
     "memorability": {
-      "score": 65.44,
+      "score": 65.22,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.0127,
+        "percentile": 0.0063,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -540,7 +540,7 @@
         "starPower": 0.2778
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -703,11 +703,11 @@
       }
     ],
     "memorability": {
-      "score": 86.63,
+      "score": 86.45,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.618,
+        "percentile": 0.6129,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -733,7 +733,379 @@
         "starPower": 0.5032
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2023-04-02-paris-saint-germain-lyon",
+    "transfermarktId": "3840253",
+    "competitionSlug": "ligue-1",
+    "season": "2022-23",
+    "date": "2023-04-02",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danilo-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "el-chadaille-bitshiabu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "achraf-hakimi",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "renato-sanches",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nuno-mendes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-1-2",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "castello-lukeba",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sinaly-diomande",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dejan-lovren",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sael-kumbedi",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-mendes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "johann-lepenant",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rayan-cherki",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "amin-sarr",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bradley-barcola"
+      }
+    ],
+    "memorability": {
+      "score": 67.04,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.0584,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2411,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6809
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2336
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4573
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2023-04-23-lyon-olympique-marseille",
+    "transfermarktId": "3840283",
+    "competitionSlug": "ligue-1",
+    "season": "2022-23",
+    "date": "2023-04-23",
+    "stage": "Matchday 32",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sinaly-diomande",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dejan-lovren",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "castello-lukeba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-mendes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxence-caqueret",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bradley-barcola",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rayan-cherki",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "pau-lopez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sead-kolasinac",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-balerdi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-gigot",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-clauss",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "issa-kabore",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruslan-malinovskyi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cengiz-under",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alexis-sanchez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cengiz-under"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alexandre-lacazette"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "malo-gusto"
+      }
+    ],
+    "memorability": {
+      "score": 74.42,
+      "signals": {
+        "drama": 0.275,
+        "eraBucket": 2,
+        "percentile": 0.269,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2943,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2782
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3518
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.315
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

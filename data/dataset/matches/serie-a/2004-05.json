@@ -167,7 +167,7 @@
         "starPower": 0.6777
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -367,7 +367,7 @@
         "starPower": 0.5664
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -538,7 +538,7 @@
         "starPower": 0.7936
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -717,7 +717,7 @@
         "starPower": 0.6596
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -866,11 +866,11 @@
       }
     ],
     "memorability": {
-      "score": 70.99,
+      "score": 70.92,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.1712,
+        "percentile": 0.1692,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -896,7 +896,7 @@
         "starPower": 0.5963
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1075,7 +1075,7 @@
         "starPower": 0.8455
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

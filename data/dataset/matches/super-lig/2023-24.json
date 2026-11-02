@@ -1,5 +1,405 @@
 [
   {
+    "slug": "2023-10-21-galatasaray-besiktas",
+    "transfermarktId": "4129495",
+    "competitionSlug": "super-lig",
+    "season": "2023-24",
+    "date": "2023-10-21",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sacha-boey",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davinson-sanchez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "angelino",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kaan-ayhan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tete",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kerem-akturkoglu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilfried-zaha",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "valentin-rosier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-amartey",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "omar-colley",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bakhtiyor-zaynutdinov",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tayfur-bingol",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amir-hadziahmetovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rachid-ghezzal",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gedson-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milot-rashica",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vincent-aboubakar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 30,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mert-gunok"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "alex-oxlade-chamberlain"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      }
+    ],
+    "memorability": {
+      "score": 71.46,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.1846,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2763,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4018
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3982
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2023-12-09-besiktas-fenerbahce",
+    "transfermarktId": "4129560",
+    "competitionSlug": "super-lig",
+    "season": "2023-24",
+    "date": "2023-12-09",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "onur-bulut",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-bailly",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-amartey",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umut-meras",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gedson-fernandes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "necip-uysal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-oxlade-chamberlain",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jackson-muleka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cenk-tosun",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ante-rebic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "dominik-livakovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bright-osayi-samuel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samet-akaydin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alexander-djiku",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fred-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel-crespo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "irfan-can-kahveci",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-szymanski",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dusan-tadic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edin-dzeko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "edin-dzeko"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex-oxlade-chamberlain"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "dusan-tadic"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "away",
+        "playerSlug": "sebastian-szymanski"
+      }
+    ],
+    "memorability": {
+      "score": 70.73,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.1637,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2715,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2809
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5009
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3909
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
     "slug": "2023-12-24-fenerbahce-galatasaray",
     "transfermarktId": "4129583",
     "competitionSlug": "super-lig",
@@ -137,11 +537,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 76.72,
+      "score": 76.55,
       "signals": {
         "drama": 0,
         "eraBucket": 2,
-        "percentile": 0.335,
+        "percentile": 0.3299,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +567,393 @@
         "starPower": 0.4632
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2024-03-03-besiktas-galatasaray",
+    "transfermarktId": "4129685",
+    "competitionSlug": "super-lig",
+    "season": "2023-24",
+    "date": "2024-03-03",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "onur-bulut",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "necip-uysal",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "omar-colley",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arthur-masuaku",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ernest-muci",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moatasem-al-musrati",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-amartey",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milot-rashica",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "semih-kilicsoy",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cenk-tosun",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kaan-ayhan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davinson-sanchez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-nelsson",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "derrick-kohn",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kerem-demirbay",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dries-mertens",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kerem-akturkoglu",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 2,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "moatasem-al-musrati"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "omar-colley"
+      }
+    ],
+    "memorability": {
+      "score": 68.37,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 2,
+        "percentile": 0.0964,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2527,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.37
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4855
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4278
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2024-04-27-fenerbahce-besiktas",
+    "transfermarktId": "4129750",
+    "competitionSlug": "super-lig",
+    "season": "2023-24",
+    "date": "2024-04-27",
+    "stage": "Matchday 34",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "dominik-livakovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bright-osayi-samuel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodrigo-becao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alexander-djiku",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fred-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ismail-yuksek",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "irfan-can-kahveci",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-szymanski",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dusan-tadic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "michy-batshuayi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "necip-uysal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joe-worrall",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "omar-colley",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arthur-masuaku",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gedson-fernandes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moatasem-al-musrati",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milot-rashica",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ernest-muci",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "semih-kilicsoy",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jackson-muleka",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "moatasem-al-musrati"
+      },
+      {
+        "kind": "goal",
+        "minute": 30,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "michy-batshuayi"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "irfan-can-kahveci"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cenk-tosun"
+      }
+    ],
+    "memorability": {
+      "score": 70.86,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.1675,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2727,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4773
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2873
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3823
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -323,11 +1109,11 @@
       }
     ],
     "memorability": {
-      "score": 83.52,
+      "score": 83.48,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 2,
-        "percentile": 0.5292,
+        "percentile": 0.5279,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -353,7 +1139,7 @@
         "starPower": 0.4727
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

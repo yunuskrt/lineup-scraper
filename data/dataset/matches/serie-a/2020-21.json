@@ -189,7 +189,7 @@
         "starPower": 0.7323
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -359,11 +359,11 @@
       }
     ],
     "memorability": {
-      "score": 78.95,
+      "score": 78.86,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.3985,
+        "percentile": 0.3959,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -389,7 +389,7 @@
         "starPower": 0.5941
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -545,11 +545,11 @@
       }
     ],
     "memorability": {
-      "score": 80.63,
+      "score": 80.55,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.4467,
+        "percentile": 0.4442,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -575,7 +575,7 @@
         "starPower": 0.7868
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -768,7 +768,7 @@
         "starPower": 0.7359
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -931,11 +931,11 @@
       }
     ],
     "memorability": {
-      "score": 79.66,
+      "score": 79.53,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.4188,
+        "percentile": 0.415,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -961,7 +961,7 @@
         "starPower": 0.6846
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1182,7 +1182,7 @@
         "starPower": 0.7746
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

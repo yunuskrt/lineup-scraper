@@ -182,7 +182,7 @@
         "starPower": 0.2314
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -396,7 +396,7 @@
         "starPower": 0.2118
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -589,7 +589,7 @@
         "starPower": 0.3514
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -782,7 +782,7 @@
         "starPower": 0.2873
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -996,7 +996,207 @@
         "starPower": 0.266
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2008-04-06-olympique-marseille-lyon",
+    "transfermarktId": "83218",
+    "competitionSlug": "ligue-1",
+    "season": "2007-08",
+    "date": "2008-04-06",
+    "stage": "Matchday 32",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "laurent-bonnart",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julien-rodriguez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samir-nasri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "modeste-mbami",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kanga-akale",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "djibril-cisse",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mamadou-niang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "francois-clerc",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sebastien-squillaci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jean-alain-boumsong",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-grosso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-bodmer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-toulalan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "abdul-kader-keita",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fred",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "djibril-cisse"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mamadou-niang"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "away",
+        "playerSlug": "jean-alain-boumsong"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mamadou-niang"
+      }
+    ],
+    "memorability": {
+      "score": 69.98,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 0,
+        "percentile": 0.1423,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2638,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3455
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3523
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

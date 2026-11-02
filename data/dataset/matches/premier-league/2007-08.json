@@ -182,7 +182,7 @@
         "starPower": 0.7459
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -361,7 +361,7 @@
         "starPower": 0.5682
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -510,11 +510,11 @@
       }
     ],
     "memorability": {
-      "score": 71.06,
+      "score": 70.99,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.1731,
+        "percentile": 0.1712,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -540,7 +540,7 @@
         "starPower": 0.5968
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -719,7 +719,7 @@
         "starPower": 0.5255
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -919,7 +919,7 @@
         "starPower": 0.5082
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1112,7 +1112,7 @@
         "starPower": 0.7164
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1312,7 +1312,7 @@
         "starPower": 0.6345
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1526,7 +1526,7 @@
         "starPower": 0.6168
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1726,7 +1726,7 @@
         "starPower": 0.6486
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -1905,7 +1905,7 @@
         "starPower": 0.7269
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -2098,7 +2098,7 @@
         "starPower": 0.5223
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -2298,7 +2298,7 @@
         "starPower": 0.5469
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -2484,7 +2484,7 @@
         "starPower": 0.4818
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -2655,7 +2655,7 @@
         "starPower": 0.6913
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -2848,7 +2848,7 @@
         "starPower": 0.5591
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -3076,7 +3076,7 @@
         "starPower": 0.5705
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -3276,7 +3276,7 @@
         "starPower": 0.6841
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -3469,7 +3469,7 @@
         "starPower": 0.7627
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -3662,7 +3662,7 @@
         "starPower": 0.725
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -3841,7 +3841,193 @@
         "starPower": 0.5787
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2008-05-11-tottenham-hotspur-liverpool-fc",
+    "transfermarktId": "81858",
+    "competitionSlug": "premier-league",
+    "season": "2007-08",
+    "date": "2008-05-11",
+    "stage": "Matchday 38",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "radek-cerny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alan-hutton",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-woodgate",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-dawson",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gilberto-1976",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jermaine-jenas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamie-ohara",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-zokora",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steed-malbranque",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robbie-keane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dimitar-berbatov",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "pepe-reina",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-skrtel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jamie-carragher",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emiliano-insua",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dirk-kuyt",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-gerrard",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-babel",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andriy-voronin",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andriy-voronin"
+      },
+      {
+        "kind": "goal",
+        "minute": 74,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fernando-torres"
+      }
+    ],
+    "memorability": {
+      "score": 71.33,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.1808,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2719,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.37
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7073
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5387
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

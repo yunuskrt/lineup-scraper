@@ -1,5 +1,412 @@
 [
   {
+    "slug": "2025-10-04-galatasaray-besiktas",
+    "transfermarktId": "4647836",
+    "competitionSlug": "super-lig",
+    "season": "2025-26",
+    "date": "2025-10-04",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ugurcan-cakir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "wilfried-singo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davinson-sanchez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismail-jakobs",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-lemina",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yunus-akgun",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "victor-osimhen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-sazdagi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tiago-djalo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emirhan-topcu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-jurasek",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilfred-ndidi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vaclav-cerny",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "el-bilal-toure",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tammy-abraham",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "tammy-abraham"
+      },
+      {
+        "kind": "red_card",
+        "minute": 34,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "davinson-sanchez"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ilkay-gundogan"
+      }
+    ],
+    "memorability": {
+      "score": 81.06,
+      "signals": {
+        "drama": 0.3333,
+        "eraBucket": 2,
+        "percentile": 0.4588,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.325,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4709
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2627
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3668
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2025-11-02-besiktas-fenerbahce",
+    "transfermarktId": "4647896",
+    "competitionSlug": "super-lig",
+    "season": "2025-26",
+    "date": "2025-11-02",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ersin-destanoglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-sazdagi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-paulista",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emirhan-topcu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ridvan-yilmaz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilfred-ndidi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cengiz-under",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vaclav-cerny",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "el-bilal-toure",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jayden-oosterwolde",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "levent-mercan",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-asensio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edson-alvarez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ismail-yuksek",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dorgeles-nene",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "youssef-en-nesyri",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kerem-akturkoglu",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "el-bilal-toure"
+      },
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "emirhan-topcu"
+      },
+      {
+        "kind": "red_card",
+        "minute": 26,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "orkun-kokcu"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ismail-yuksek"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "marco-asensio"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 75.84,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 2,
+        "percentile": 0.3096,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2999,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2545
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4909
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3727
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
     "slug": "2025-12-01-fenerbahce-galatasaray",
     "transfermarktId": "4647882",
     "competitionSlug": "super-lig",
@@ -182,7 +589,372 @@
         "starPower": 0.4764
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2026-03-07-besiktas-galatasaray",
+    "transfermarktId": "4647990",
+    "competitionSlug": "super-lig",
+    "season": "2025-26",
+    "date": "2026-03-07",
+    "stage": "Matchday 25",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ersin-destanoglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "amir-murillo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emmanuel-agbadou",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felix-uduokhai",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ridvan-yilmaz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kristjan-asllani",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilfred-ndidi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vaclav-cerny",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "junior-olaitan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hyeon-gyu-oh",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ugurcan-cakir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "roland-sallai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davinson-sanchez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismail-jakobs",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-lemina",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leroy-sane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-sara",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "victor-osimhen",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "victor-osimhen"
+      },
+      {
+        "kind": "red_card",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "leroy-sane"
+      }
+    ],
+    "memorability": {
+      "score": 68.42,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 2,
+        "percentile": 0.0977,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2533,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3836
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4782
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4309
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2026-04-05-fenerbahce-besiktas",
+    "transfermarktId": "4648013",
+    "competitionSlug": "super-lig",
+    "season": "2025-26",
+    "date": "2026-04-05",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jayden-oosterwolde",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "archie-brown",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-asensio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matteo-guendouzi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "anthony-musaba",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "talisca",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dorgeles-nene",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ersin-destanoglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "amir-murillo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emmanuel-agbadou",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felix-uduokhai",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ridvan-yilmaz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kristjan-asllani",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilfred-ndidi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vaclav-cerny",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "junior-olaitan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hyeon-gyu-oh",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 90,
+        "addedTime": 11,
+        "side": "home",
+        "playerSlug": "kerem-akturkoglu"
+      }
+    ],
+    "memorability": {
+      "score": 70.55,
+      "signals": {
+        "drama": 0.1917,
+        "eraBucket": 2,
+        "percentile": 0.1586,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2709,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3045
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3836
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.344
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -352,11 +1124,11 @@
       }
     ],
     "memorability": {
-      "score": 86.41,
+      "score": 86.28,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.6117,
+        "percentile": 0.6079,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -382,7 +1154,7 @@
         "starPower": 0.4105
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

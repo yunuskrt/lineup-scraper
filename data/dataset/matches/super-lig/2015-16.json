@@ -1,5 +1,212 @@
 [
   {
+    "slug": "2015-09-27-besiktas-fenerbahce",
+    "transfermarktId": "2590612",
+    "competitionSlug": "super-lig",
+    "season": "2015-16",
+    "date": "2015-09-27",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "tolga-zengin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andreas-beck",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rhodolfo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ersan-gulum",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dusko-tosic",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gokhan-tore",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-sosa",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sener-ozbayrakli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-alves",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-meireles",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ozan-tufan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lazar-markovic",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernandao-1987",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nani",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "simon-kjaer"
+      },
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mario-gomez"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "dusko-tosic"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "robin-van-persie"
+      },
+      {
+        "kind": "goal",
+        "minute": 74,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mario-gomez"
+      }
+    ],
+    "memorability": {
+      "score": 74.35,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 1,
+        "percentile": 0.2671,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3016,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3145
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6227
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4686
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
     "slug": "2015-10-25-fenerbahce-galatasaray",
     "transfermarktId": "2593966",
     "competitionSlug": "super-lig",
@@ -182,7 +389,386 @@
         "starPower": 0.5437
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2015-12-14-besiktas-galatasaray",
+    "transfermarktId": "2594031",
+    "competitionSlug": "super-lig",
+    "season": "2015-16",
+    "date": "2015-12-14",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "gunay-guvenc",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andreas-beck",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rhodolfo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ersan-gulum",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismail-koybasi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-sosa",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "olcan-adin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aurelien-chedjou",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yasin-oztekin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wesley-sneijder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lukas-podolski",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "burak-yilmaz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "wesley-sneijder"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mario-gomez"
+      },
+      {
+        "kind": "goal",
+        "minute": 74,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gokhan-tore"
+      }
+    ],
+    "memorability": {
+      "score": 69.16,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.1189,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2712,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5636
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4623
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2016-02-29-fenerbahce-besiktas",
+    "transfermarktId": "2606517",
+    "competitionSlug": "super-lig",
+    "season": "2015-16",
+    "date": "2016-02-29",
+    "stage": "Matchday 23",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-alves",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "volkan-sen",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alper-potuk",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robin-van-persie",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "tolga-zengin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andreas-beck",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo-1987",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alexis-ruano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismail-koybasi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-sosa",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "volkan-sen"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nani"
+      }
+    ],
+    "memorability": {
+      "score": 67.57,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 1,
+        "percentile": 0.0733,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2596,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5891
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3655
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4773
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -353,7 +939,186 @@
         "starPower": 0.5396
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2016-05-08-galatasaray-besiktas",
+    "transfermarktId": "2611288",
+    "competitionSlug": "super-lig",
+    "season": "2015-16",
+    "date": "2016-05-08",
+    "stage": "Matchday 32",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "martin-linnes",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jason-denayer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lionel-carole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-colak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wesley-sneijder",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yasin-oztekin",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lukas-podolski",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "tolga-zengin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andreas-beck",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo-1987",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dusko-tosic",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismail-koybasi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oguzhan-ozyakup",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-sosa",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-gomez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-gomez"
+      }
+    ],
+    "memorability": {
+      "score": 65.74,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.0212,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2364,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4818
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3864
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4341
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]

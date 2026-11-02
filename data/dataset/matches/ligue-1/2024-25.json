@@ -1,5 +1,219 @@
 [
   {
+    "slug": "2024-09-22-lyon-olympique-marseille",
+    "transfermarktId": "4363779",
+    "competitionSlug": "ligue-1",
+    "season": "2024-25",
+    "date": "2024-09-22",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "lucas-perri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "duje-caleta-car",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clinton-mata",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ainsley-maitland-niles",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "abner",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gift-orban",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "geronimo-rulli",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "amir-murillo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-balerdi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "geoffrey-kondogbia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lilian-brassier",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ismael-kone",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-greenwood",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amine-harit",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-henrique",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "elye-wahi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 5,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "leonardo-balerdi"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "duje-caleta-car"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "pol-lirola"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ulisses-garcia"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": "rayan-cherki"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 5,
+        "side": "away",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 82.1,
+      "signals": {
+        "drama": 0.4083,
+        "eraBucket": 2,
+        "percentile": 0.4886,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3297,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2245
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2936
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2591
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
     "slug": "2024-10-27-olympique-marseille-paris-saint-germain",
     "transfermarktId": "4363817",
     "competitionSlug": "ligue-1",
@@ -166,11 +380,11 @@
       }
     ],
     "memorability": {
-      "score": 87.88,
+      "score": 87.83,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.6536,
+        "percentile": 0.6523,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +410,621 @@
         "starPower": 0.4441
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2024-12-15-paris-saint-germain-lyon",
+    "transfermarktId": "4363877",
+    "competitionSlug": "ligue-1",
+    "season": "2024-25",
+    "date": "2024-12-15",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "achraf-hakimi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "willian-pacho",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-beraldo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-mendes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-neves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "warren-zaire-emery",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kang-in-lee",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "desire-doue",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "lucas-perri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ainsley-maitland-niles",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clinton-mata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "moussa-niakhate",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ernest-nuamah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "georges-mikautadze",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rayan-cherki",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ousmane-dembele"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "vitinha"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "georges-mikautadze"
+      },
+      {
+        "kind": "goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "goncalo-ramos"
+      }
+    ],
+    "memorability": {
+      "score": 70.11,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.1459,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2692,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4718
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2864
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3791
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2025-02-02-olympique-marseille-lyon",
+    "transfermarktId": "4363914",
+    "competitionSlug": "ligue-1",
+    "season": "2024-25",
+    "date": "2025-02-02",
+    "stage": "Matchday 20",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "geronimo-rulli",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "amir-murillo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-balerdi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "derek-cornelius",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-henrique",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "quentin-merlin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bilal-nadir",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-greenwood",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "lucas-perri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sael-kumbedi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clinton-mata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "moussa-niakhate",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rayan-cherki",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ernest-nuamah",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "corentin-tolisso"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mason-greenwood"
+      },
+      {
+        "kind": "goal",
+        "minute": 64,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "adrien-rabiot"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "alexandre-lacazette"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-henrique"
+      }
+    ],
+    "memorability": {
+      "score": 69.57,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.1307,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2667,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3264
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2618
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2941
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
+    }
+  },
+  {
+    "slug": "2025-02-23-lyon-paris-saint-germain",
+    "transfermarktId": "4363949",
+    "competitionSlug": "ligue-1",
+    "season": "2024-25",
+    "date": "2025-02-23",
+    "stage": "Matchday 23",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "lucas-perri",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sael-kumbedi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clinton-mata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "moussa-niakhate",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-tagliafico",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tanner-tessmann",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ernest-nuamah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rayan-cherki",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "malick-fofana",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "achraf-hakimi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-beraldo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-mendes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-neves",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "desire-doue",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "khvicha-kvaratskhelia",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "bradley-barcola",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "achraf-hakimi"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ousmane-dembele"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rayan-cherki"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "achraf-hakimi"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "corentin-tolisso"
+      }
+    ],
+    "memorability": {
+      "score": 73.26,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.236,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2883,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.26
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5436
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4018
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   },
   {
@@ -366,11 +1194,11 @@
       }
     ],
     "memorability": {
-      "score": 83.74,
+      "score": 83.7,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.5355,
+        "percentile": 0.5343,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -396,7 +1224,7 @@
         "starPower": 0.3464
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T01:32:47Z"
+      "computedAt": "2026-11-02T02:28:35Z"
     }
   }
 ]
