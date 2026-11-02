@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 83.8,
+      "score": 84.95,
       "signals": {
         "drama": 0.1417,
         "eraBucket": 1,
-        "percentile": 0.5372,
+        "percentile": 0.57,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -189,7 +189,386 @@
         "starPower": 0.4605
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2012-11-03-juventus-inter",
+    "transfermarktId": "2251366",
+    "competitionSlug": "serie-a",
+    "season": "2012-13",
+    "date": "2012-11-03",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephan-lichtsteiner",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claudio-marchisio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-giovinco",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mirko-vucinic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-ranocchia",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "walter-gargano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-cassano",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-palacio",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-milito",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "arturo-vidal"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "diego-milito"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "diego-milito"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "rodrigo-palacio"
+      }
+    ],
+    "memorability": {
+      "score": 92.02,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 1,
+        "percentile": 0.772,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3942,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7891
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5191
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6541
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2012-11-25-ac-milan-juventus",
+    "transfermarktId": "2251397",
+    "competitionSlug": "serie-a",
+    "season": "2012-13",
+    "date": "2012-11-25",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marco-amelia",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-mexes",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-yepes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kevin-constant",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-nocerino",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "stephan-el-shaarawy",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-caceres",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauricio-isla",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claudio-marchisio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-quagliarella",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mirko-vucinic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "robinho"
+      }
+    ],
+    "memorability": {
+      "score": 69.68,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.1336,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2754,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4645
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7936
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6291
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -345,11 +724,11 @@
       }
     ],
     "memorability": {
-      "score": 91.61,
+      "score": 92.36,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 1,
-        "percentile": 0.7604,
+        "percentile": 0.7818,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -375,7 +754,7 @@
         "starPower": 0.435
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -545,11 +924,11 @@
       }
     ],
     "memorability": {
-      "score": 78.31,
+      "score": 79.74,
       "signals": {
         "drama": 0.175,
         "eraBucket": 1,
-        "percentile": 0.3802,
+        "percentile": 0.421,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -575,7 +954,7 @@
         "starPower": 0.6364
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -724,11 +1103,11 @@
       }
     ],
     "memorability": {
-      "score": 69,
+      "score": 69.36,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.1143,
+        "percentile": 0.1246,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -754,7 +1133,7 @@
         "starPower": 0.6118
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

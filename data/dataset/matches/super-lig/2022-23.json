@@ -1,5 +1,369 @@
 [
   {
+    "slug": "2022-10-02-besiktas-fenerbahce",
+    "transfermarktId": "3860264",
+    "competitionSlug": "super-lig",
+    "season": "2022-23",
+    "date": "2022-10-02",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ersin-destanoglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "valentin-rosier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tayyip-talha-sanuc",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "romain-saiss",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arthur-masuaku",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "salih-ucan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jackson-muleka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dele-alli",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nathan-redmond",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wout-weghorst",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "altay-bayindir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "attila-szalai",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gustavo-henrique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel-crespo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "willian-arao",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lincoln-1998",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "irfan-can-kahveci",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "joao-pedro",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "enner-valencia",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 65,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.1835,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2327
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2527
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2427
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-11-05-galatasaray-besiktas",
+    "transfermarktId": "3860336",
+    "competitionSlug": "super-lig",
+    "season": "2022-23",
+    "date": "2022-11-05",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sacha-boey",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-nelsson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-tasdemir",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milot-rashica",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dries-mertens",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "mert-gunok",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "valentin-rosier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tayyip-talha-sanuc",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "romain-saiss",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umut-meras",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souza",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cenk-tosun",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gedson-fernandes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "salih-ucan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "georges-kevin-nkoudou",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wout-weghorst",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cenk-tosun"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      }
+    ],
+    "memorability": {
+      "score": 67.49,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.0711,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2431,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.39
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2536
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3218
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2023-01-08-fenerbahce-galatasaray",
     "transfermarktId": "3860331",
     "competitionSlug": "super-lig",
@@ -166,11 +530,11 @@
       }
     ],
     "memorability": {
-      "score": 81.45,
+      "score": 83.68,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.4701,
+        "percentile": 0.5336,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +560,7 @@
         "starPower": 0.3314
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -366,11 +730,11 @@
       }
     ],
     "memorability": {
-      "score": 80.58,
+      "score": 82.99,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.445,
+        "percentile": 0.514,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -396,7 +760,7 @@
         "starPower": 0.3055
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

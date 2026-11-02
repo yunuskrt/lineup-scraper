@@ -1,5 +1,419 @@
 [
   {
+    "slug": "2012-08-26-besiktas-galatasaray",
+    "transfermarktId": "2243783",
+    "competitionSlug": "super-lig",
+    "season": "2012-13",
+    "date": "2012-08-26",
+    "stage": "Matchday 2",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "cenk-gonen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "roberto-hilbert",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-sivok",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julien-escude",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ugur-boral",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "veli-kavlak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ibrahim-toraman",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-holosko",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mustafa-pektemek",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-balta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hamit-altintop",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-melo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-colak",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "umut-bulut",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "johan-elmander",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "felipe-melo"
+      },
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "johan-elmander"
+      },
+      {
+        "kind": "goal",
+        "minute": 43,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "filip-holosko"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "umut-bulut"
+      },
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "filip-holosko"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "selcuk-inan"
+      }
+    ],
+    "memorability": {
+      "score": 75.26,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 1,
+        "percentile": 0.2932,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3046,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2555
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5655
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4105
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2012-10-07-fenerbahce-besiktas",
+    "transfermarktId": "2243887",
+    "competitionSlug": "super-lig",
+    "season": "2012-13",
+    "date": "2012-10-07",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joseph-yobo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "egemen-korkmaz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-meireles",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mehmet-topal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-sow",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristian",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dirk-kuyt",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "allan-mcgregor",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "roberto-hilbert",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-toraman",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-sivok",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julien-escude",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "veli-kavlak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "necip-uysal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ugur-boral",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hugo-almeida",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 13,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "moussa-sow"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gokhan-gonul"
+      },
+      {
+        "kind": "red_card",
+        "minute": 58,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "veli-kavlak"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gokhan-gonul"
+      }
+    ],
+    "memorability": {
+      "score": 70.87,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 1,
+        "percentile": 0.1678,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2819,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5818
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2745
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4282
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2012-12-16-galatasaray-fenerbahce",
     "transfermarktId": "2244021",
     "competitionSlug": "super-lig",
@@ -166,11 +580,11 @@
       }
     ],
     "memorability": {
-      "score": 89.27,
+      "score": 90.25,
       "signals": {
         "drama": 0.175,
         "eraBucket": 1,
-        "percentile": 0.6933,
+        "percentile": 0.7215,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +610,414 @@
         "starPower": 0.555
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2013-01-27-galatasaray-besiktas",
+    "transfermarktId": "2243883",
+    "competitionSlug": "super-lig",
+    "season": "2012-13",
+    "date": "2013-01-27",
+    "stage": "Matchday 19",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sabri-sarioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "semih-kaya",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dany-nounkeu",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "albert-riera",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hamit-altintop",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-melo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "selcuk-inan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-colak",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "umut-bulut",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "johan-elmander",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "allan-mcgregor",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mehmet-akgun",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-sivok",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-toraman",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gokhan-suzen",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "veli-kavlak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "necip-uysal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roberto-hilbert",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-holosko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 3,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "emre-colak"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "albert-riera"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "tomas-sivok"
+      },
+      {
+        "kind": "red_card",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "felipe-melo"
+      }
+    ],
+    "memorability": {
+      "score": 68.45,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 1,
+        "percentile": 0.0985,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2673,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4491
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2618
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3555
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2013-03-03-besiktas-fenerbahce",
+    "transfermarktId": "2244117",
+    "competitionSlug": "super-lig",
+    "season": "2012-13",
+    "date": "2013-03-03",
+    "stage": "Matchday 24",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "allan-mcgregor",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "roberto-hilbert",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-sivok",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ersan-gulum",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gokhan-suzen",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "veli-kavlak",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ibrahim-toraman",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-holosko",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olcay-sahan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mamadou-niang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "volkan-demirel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bekir-irtegun",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "egemen-korkmaz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "reto-ziegler",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul-meireles",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dirk-kuyt",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristian",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-sow",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-webo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "moussa-sow"
+      },
+      {
+        "kind": "own_goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dirk-kuyt"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mamadou-niang"
+      },
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "moussa-sow"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": "olcay-sahan"
+      }
+    ],
+    "memorability": {
+      "score": 83.44,
+      "signals": {
+        "drama": 0.3583,
+        "eraBucket": 1,
+        "percentile": 0.5269,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3438,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3182
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5155
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4168
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -373,11 +1194,11 @@
       }
     ],
     "memorability": {
-      "score": 93.71,
+      "score": 94.36,
       "signals": {
         "drama": 0.225,
         "eraBucket": 1,
-        "percentile": 0.8203,
+        "percentile": 0.8388,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -403,7 +1224,7 @@
         "starPower": 0.6437
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

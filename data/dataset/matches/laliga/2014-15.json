@@ -1,5 +1,198 @@
 [
   {
+    "slug": "2014-09-13-real-madrid-atletico-madrid",
+    "transfermarktId": "2475204",
+    "competitionSlug": "laliga",
+    "season": "2014-15",
+    "date": "2014-09-13",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "james-rodriguez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "miguel-angel-moya",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miranda",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guilherme-siqueira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-garcia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul-jimenez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-mandzukic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "tiago-mendes"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "arda-turan"
+      }
+    ],
+    "memorability": {
+      "score": 78.45,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.3844,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3184,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.9136
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4827
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6982
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2014-10-25-real-madrid-barcelona",
     "transfermarktId": "2475267",
     "competitionSlug": "laliga",
@@ -166,11 +359,11 @@
       }
     ],
     "memorability": {
-      "score": 96.44,
+      "score": 96.81,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.8984,
+        "percentile": 0.9088,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +389,407 @@
         "starPower": 0.8868
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2015-01-11-barcelona-atletico-madrid",
+    "transfermarktId": "2475353",
+    "competitionSlug": "laliga",
+    "season": "2014-15",
+    "date": "2015-01-11",
+    "stage": "Matchday 18",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "claudio-bravo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "miguel-angel-moya",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-maria-gimenez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jesus-gamez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-mandzukic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "neymar"
+      },
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-suarez"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-mandzukic"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lionel-messi"
+      }
+    ],
+    "memorability": {
+      "score": 85.29,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.5798,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3537,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.9936
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.61
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.8018
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2015-02-07-atletico-madrid-real-madrid",
+    "transfermarktId": "2475394",
+    "competitionSlug": "laliga",
+    "season": "2014-15",
+    "date": "2015-02-07",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "miguel-angel-moya",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miranda",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guilherme-siqueira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-mandzukic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nacho-fernandez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "isco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gareth-bale",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "tiago-mendes"
+      },
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "saul-niguez"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "antoine-griezmann"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mario-mandzukic"
+      }
+    ],
+    "memorability": {
+      "score": 80.48,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.4422,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3268,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5718
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7627
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6673
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -359,11 +952,11 @@
       }
     ],
     "memorability": {
-      "score": 95.36,
+      "score": 95.84,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.8675,
+        "percentile": 0.8811,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -389,7 +982,186 @@
         "starPower": 0.8837
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2015-05-17-atletico-madrid-barcelona",
+    "transfermarktId": "2475543",
+    "competitionSlug": "laliga",
+    "season": "2014-15",
+    "date": "2015-05-17",
+    "stage": "Matchday 37",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-maria-gimenez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guilherme-siqueira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-suarez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "claudio-bravo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "dani-alves",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javier-mascherano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pedro",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      }
+    ],
+    "memorability": {
+      "score": 76.06,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.316,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.309,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6318
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.9618
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7968
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

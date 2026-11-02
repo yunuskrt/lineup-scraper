@@ -137,11 +137,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 86.08,
+      "score": 86.07,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.6023,
+        "percentile": 0.6019,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +167,7 @@
         "starPower": 0.6777
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -337,11 +337,11 @@
       }
     ],
     "memorability": {
-      "score": 77.86,
+      "score": 77.89,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 0,
-        "percentile": 0.3674,
+        "percentile": 0.3683,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -367,7 +367,7 @@
         "starPower": 0.5664
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -508,11 +508,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 74.62,
+      "score": 74.56,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.2749,
+        "percentile": 0.2731,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -538,7 +538,7 @@
         "starPower": 0.7936
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -687,11 +687,11 @@
       }
     ],
     "memorability": {
-      "score": 87.99,
+      "score": 88.15,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.6569,
+        "percentile": 0.6615,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -717,7 +717,186 @@
         "starPower": 0.6596
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2005-04-20-juventus-inter",
+    "transfermarktId": "27845",
+    "competitionSlug": "serie-a",
+    "season": "2004-05",
+    "date": "2005-04-20",
+    "stage": "Matchday 32",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alessandro-birindelli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauro-camoranesi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emerson-1976",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephen-appiah",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pavel-nedved",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-del-piero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "francesco-toldo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sinisa-mihajlovic",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giuseppe-favalli",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ze-maria",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kily-gonzalez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "obafemi-martins",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "julio-cruz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "julio-cruz"
+      }
+    ],
+    "memorability": {
+      "score": 70.99,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.1712,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2689,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8027
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.39
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5963
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -866,11 +1045,11 @@
       }
     ],
     "memorability": {
-      "score": 81.24,
+      "score": 81.15,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.4639,
+        "percentile": 0.4615,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -896,7 +1075,7 @@
         "starPower": 0.8455
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

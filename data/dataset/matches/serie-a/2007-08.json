@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2007-11-04-juventus-inter",
+    "transfermarktId": "84018",
+    "competitionSlug": "serie-a",
+    "season": "2007-08",
+    "date": "2007-11-04",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "zdenek-grygera",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicola-legrottaglie",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-molinaro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raffaele-palladino",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-zanetti",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-nocerino",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pavel-nedved",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-del-piero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "david-trezeguet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maicon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-chivu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cesar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julio-cruz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "julio-cruz"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-camoranesi"
+      }
+    ],
+    "memorability": {
+      "score": 87.62,
+      "signals": {
+        "drama": 0.2833,
+        "eraBucket": 0,
+        "percentile": 0.6462,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3537,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5191
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6764
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5978
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2007-12-01-ac-milan-juventus",
     "transfermarktId": "84048",
     "competitionSlug": "serie-a",
@@ -137,11 +323,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 68.48,
+      "score": 68.37,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.0994,
+        "percentile": 0.0962,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +353,7 @@
         "starPower": 0.5623
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -330,11 +516,11 @@
       }
     ],
     "memorability": {
-      "score": 92.56,
+      "score": 92.66,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.7875,
+        "percentile": 0.7904,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -360,7 +546,7 @@
         "starPower": 0.6896
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -523,11 +709,11 @@
       }
     ],
     "memorability": {
-      "score": 75.64,
+      "score": 75.5,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.3041,
+        "percentile": 0.3,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -553,7 +739,221 @@
         "starPower": 0.5919
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2008-04-12-juventus-ac-milan",
+    "transfermarktId": "84232",
+    "competitionSlug": "serie-a",
+    "season": "2007-08",
+    "date": "2008-04-12",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "zdenek-grygera",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicola-legrottaglie",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-molinaro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mauro-camoranesi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-sissoko",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessandro-del-piero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "david-trezeguet",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-2-1",
+      "lineup": [
+        {
+          "playerSlug": "zeljko-kalac",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "dario-simic",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniele-bonera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paolo-maldini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giuseppe-favalli",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "massimo-ambrosini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alessandro-del-piero"
+      },
+      {
+        "kind": "goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "filippo-inzaghi"
+      },
+      {
+        "kind": "goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "filippo-inzaghi"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-salihamidzic"
+      },
+      {
+        "kind": "red_card",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "daniele-bonera"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hasan-salihamidzic"
+      }
+    ],
+    "memorability": {
+      "score": 86.98,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 0,
+        "percentile": 0.6279,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3494,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5836
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6564
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.62
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -716,11 +1116,11 @@
       }
     ],
     "memorability": {
-      "score": 90.79,
+      "score": 90.85,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.7368,
+        "percentile": 0.7385,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -746,7 +1146,7 @@
         "starPower": 0.615
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

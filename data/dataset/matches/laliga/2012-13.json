@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 95.84,
+      "score": 96.27,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.8811,
+        "percentile": 0.8933,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,193 @@
         "starPower": 0.8523
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2012-12-01-real-madrid-atletico-madrid",
+    "transfermarktId": "2243042",
+    "competitionSlug": "laliga",
+    "season": "2012-13",
+    "date": "2012-12-01",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-coentrao",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mesut-ozil",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "thibaut-courtois",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juanfran-torres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miranda",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cata-diaz",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-suarez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arda-turan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-costa",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "radamel-falcao",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mesut-ozil"
+      }
+    ],
+    "memorability": {
+      "score": 75.83,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 1,
+        "percentile": 0.3094,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3074,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8855
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5464
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.716
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -373,11 +559,11 @@
       }
     ],
     "memorability": {
-      "score": 82.85,
+      "score": 84.1,
       "signals": {
         "drama": 0.2083,
         "eraBucket": 1,
-        "percentile": 0.51,
+        "percentile": 0.5456,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -403,7 +589,7 @@
         "starPower": 0.6946
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -573,11 +759,11 @@
       }
     ],
     "memorability": {
-      "score": 94.79,
+      "score": 95.32,
       "signals": {
         "drama": 0.175,
         "eraBucket": 1,
-        "percentile": 0.8512,
+        "percentile": 0.8664,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -603,7 +789,7 @@
         "starPower": 0.7764
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -766,11 +952,11 @@
       }
     ],
     "memorability": {
-      "score": 72.88,
+      "score": 73.95,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.225,
+        "percentile": 0.2557,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -796,7 +982,7 @@
         "starPower": 0.6019
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -959,11 +1145,11 @@
       }
     ],
     "memorability": {
-      "score": 74.4,
+      "score": 75.43,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.2686,
+        "percentile": 0.298,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -989,7 +1175,7 @@
         "starPower": 0.6341
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

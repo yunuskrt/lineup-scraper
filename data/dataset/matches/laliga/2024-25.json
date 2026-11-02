@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 83.57,
+      "score": 85.81,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.5307,
+        "percentile": 0.5945,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,221 @@
         "starPower": 0.4041
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2025-03-16-atletico-madrid-barcelona",
+    "transfermarktId": "4407524",
+    "competitionSlug": "laliga",
+    "season": "2024-25",
+    "date": "2025-03-16",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 4
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "marcos-llorente",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robin-le-normand",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "reinildo-mandava",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giuliano-simeone",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pablo-barrios",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-de-paul",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-lino",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-griezmann",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "julian-alvarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jules-kounde",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pau-cubarsi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "inigo-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alejandro-balde",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pedri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-casado",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-olmo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raphinha",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-lewandowski",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "julian-alvarez"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "robert-lewandowski"
+      },
+      {
+        "kind": "goal",
+        "minute": 78,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ferran-torres"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "lamine-yamal"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 8,
+        "side": "away",
+        "playerSlug": "ferran-torres"
+      }
+    ],
+    "memorability": {
+      "score": 96.07,
+      "signals": {
+        "drama": 0.6,
+        "eraBucket": 2,
+        "percentile": 0.8877,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4339,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4445
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4445
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4445
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -387,11 +601,11 @@
       }
     ],
     "memorability": {
-      "score": 92.46,
+      "score": 93.83,
       "signals": {
         "drama": 0.3,
         "eraBucket": 2,
-        "percentile": 0.7846,
+        "percentile": 0.8236,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -417,7 +631,7 @@
         "starPower": 0.4487
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

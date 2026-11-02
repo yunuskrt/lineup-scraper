@@ -173,11 +173,11 @@
       }
     ],
     "memorability": {
-      "score": 90.7,
+      "score": 92.36,
       "signals": {
         "drama": 0.2083,
         "eraBucket": 2,
-        "percentile": 0.7343,
+        "percentile": 0.7817,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -203,7 +203,379 @@
         "starPower": 0.5464
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-10-08-ac-milan-juventus",
+    "transfermarktId": "3844819",
+    "competitionSlug": "serie-a",
+    "season": "2022-23",
+    "date": "2022-10-08",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ciprian-tatarusanu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "pierre-kalulu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fikayo-tomori",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-gabbia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismael-bennacer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sandro-tonali",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brahim-diaz",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tommaso-pobega",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-giroud",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danilo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bremer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-locatelli",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-kostic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arkadiusz-milik",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "dusan-vlahovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "fikayo-tomori"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "brahim-diaz"
+      }
+    ],
+    "memorability": {
+      "score": 69.89,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.1396,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2662,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3764
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6436
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.51
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-11-06-juventus-inter",
+    "transfermarktId": "3844859",
+    "competitionSlug": "serie-a",
+    "season": "2022-23",
+    "date": "2022-11-06",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bremer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danilo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-locatelli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-kostic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-miretti",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-fagioli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arkadiusz-milik",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "andre-onana",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francesco-acerbi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-dimarco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "edin-dzeko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 52,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "adrien-rabiot"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nicolo-fagioli"
+      }
+    ],
+    "memorability": {
+      "score": 74.11,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.2602,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2921,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5245
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7545
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6395
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -352,11 +724,11 @@
       }
     ],
     "memorability": {
-      "score": 80.85,
+      "score": 83.21,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.4528,
+        "percentile": 0.5203,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -382,7 +754,7 @@
         "starPower": 0.5455
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 68.71,
+      "score": 72.15,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.3742,
+        "percentile": 0.4429,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -189,7 +189,7 @@
         "starPower": 0.6336
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -359,11 +359,11 @@
       }
     ],
     "memorability": {
-      "score": 71.22,
+      "score": 74.49,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.4245,
+        "percentile": 0.4898,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -389,7 +389,7 @@
         "starPower": 0.6032
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -552,11 +552,11 @@
       }
     ],
     "memorability": {
-      "score": 68.47,
+      "score": 71.96,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.3695,
+        "percentile": 0.4391,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -582,7 +582,7 @@
         "starPower": 0.6286
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -752,11 +752,11 @@
       }
     ],
     "memorability": {
-      "score": 77.71,
+      "score": 80.71,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.5542,
+        "percentile": 0.6142,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -782,7 +782,7 @@
         "starPower": 0.7291
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -959,11 +959,11 @@
       }
     ],
     "memorability": {
-      "score": 83.26,
+      "score": 85.92,
       "signals": {
         "drama": 0.2083,
         "eraBucket": 2,
-        "percentile": 0.6651,
+        "percentile": 0.7183,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -989,7 +989,7 @@
         "starPower": 0.7645
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1148,11 +1148,11 @@
       }
     ],
     "memorability": {
-      "score": 96.78,
+      "score": 97.4,
       "signals": {
         "drama": 0.5333,
         "eraBucket": 2,
-        "percentile": 0.9355,
+        "percentile": 0.948,
         "raw": {
           "comebackFromHt": true,
           "extraTime": true,
@@ -1178,7 +1178,7 @@
         "starPower": 0.6869
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1322,11 +1322,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 81.88,
+      "score": 84.68,
       "signals": {
         "drama": 0.25,
         "eraBucket": 2,
-        "percentile": 0.6376,
+        "percentile": 0.6935,
         "raw": {
           "comebackFromHt": false,
           "extraTime": true,
@@ -1352,7 +1352,7 @@
         "starPower": 0.6591
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1543,11 +1543,11 @@
       }
     ],
     "memorability": {
-      "score": 89.47,
+      "score": 91.37,
       "signals": {
         "drama": 0.3,
         "eraBucket": 2,
-        "percentile": 0.7893,
+        "percentile": 0.8274,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1573,7 +1573,7 @@
         "starPower": 0.7514
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1732,11 +1732,11 @@
       }
     ],
     "memorability": {
-      "score": 94.89,
+      "score": 95.88,
       "signals": {
         "drama": 0.3333,
         "eraBucket": 2,
-        "percentile": 0.8978,
+        "percentile": 0.9175,
         "raw": {
           "comebackFromHt": false,
           "extraTime": true,
@@ -1762,7 +1762,7 @@
         "starPower": 0.7655
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1924,14 +1924,14 @@
         "minute": 83,
         "addedTime": null,
         "side": "home",
-        "playerSlug": null
+        "playerSlug": "wout-weghorst"
       },
       {
         "kind": "goal",
         "minute": 90,
         "addedTime": 11,
         "side": "home",
-        "playerSlug": null
+        "playerSlug": "wout-weghorst"
       },
       {
         "kind": "red_card",
@@ -1942,11 +1942,11 @@
       }
     ],
     "memorability": {
-      "score": 99.22,
+      "score": 99.37,
       "signals": {
         "drama": 0.6667,
         "eraBucket": 2,
-        "percentile": 0.9843,
+        "percentile": 0.9873,
         "raw": {
           "comebackFromHt": true,
           "extraTime": true,
@@ -1972,7 +1972,7 @@
         "starPower": 0.6537
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2135,11 +2135,11 @@
       }
     ],
     "memorability": {
-      "score": 83.06,
+      "score": 85.76,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.6612,
+        "percentile": 0.7151,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2165,7 +2165,7 @@
         "starPower": 0.7541
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2321,11 +2321,11 @@
       }
     ],
     "memorability": {
-      "score": 75.12,
+      "score": 78.37,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 2,
-        "percentile": 0.5024,
+        "percentile": 0.5673,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2351,7 +2351,7 @@
         "starPower": 0.6587
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2514,11 +2514,11 @@
       }
     ],
     "memorability": {
-      "score": 93.63,
+      "score": 94.86,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.8726,
+        "percentile": 0.8972,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2544,7 +2544,7 @@
         "starPower": 0.775
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2700,11 +2700,11 @@
       }
     ],
     "memorability": {
-      "score": 89.63,
+      "score": 91.53,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.7925,
+        "percentile": 0.8306,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2730,7 +2730,7 @@
         "starPower": 0.6823
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2893,11 +2893,11 @@
       }
     ],
     "memorability": {
-      "score": 57.39,
+      "score": 60.92,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.1478,
+        "percentile": 0.2183,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2923,7 +2923,7 @@
         "starPower": 0.5959
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3140,7 +3140,7 @@
         "starPower": 0.765
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

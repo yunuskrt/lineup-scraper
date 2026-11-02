@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2005-08-14-olympique-marseille-lyon",
+    "transfermarktId": "39231",
+    "competitionSlug": "ligue-1",
+    "season": "2005-06",
+    "date": "2005-08-14",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "cedric-carrasso",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "demetrius-ferreira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "habib-beye",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdoulaye-meite",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sabri-lamouchi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mamadou-niang",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilson-oruma",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andres-mendoza",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "anthony-reveillere",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-monsoreau",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "benoit-pedretti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "florent-malouda",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "taye-taiwo"
+      },
+      {
+        "kind": "goal",
+        "minute": 34,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "john-carew"
+      }
+    ],
+    "memorability": {
+      "score": 66.55,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.0442,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2304,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3345
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3282
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3314
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2005-10-16-olympique-marseille-paris-saint-germain",
     "transfermarktId": "39304",
     "competitionSlug": "ligue-1",
@@ -145,11 +331,11 @@
       }
     ],
     "memorability": {
-      "score": 76.7,
+      "score": 76.68,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.3343,
+        "percentile": 0.3337,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -175,7 +361,393 @@
         "starPower": 0.3887
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2005-12-03-lyon-paris-saint-germain",
+    "transfermarktId": "39366",
+    "competitionSlug": "ligue-1",
+    "season": "2005-06",
+    "date": "2005-12-03",
+    "stage": "Matchday 17",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "anthony-reveillere",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-monsoreau",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fred",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "florent-malouda",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "lionel-letizi",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stephane-pichot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-rozehnal",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-yepes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bernard-mendy",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerome-rothen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "modeste-mbami",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vikash-dhorasoo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pauleta",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "bonaventure-kalou",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fred"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "john-carew"
+      }
+    ],
+    "memorability": {
+      "score": 66.62,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.0462,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2305,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3209
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3427
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3318
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2006-01-11-lyon-olympique-marseille",
+    "transfermarktId": "39405",
+    "competitionSlug": "ligue-1",
+    "season": "2005-06",
+    "date": "2006-01-11",
+    "stage": "Matchday 21",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "francois-clerc",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremy-berthod",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sylvain-wiltord",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "fabien-barthez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "demetrius-ferreira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frederic-dehu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bostjan-cesar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jerome-bonnissel",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sabri-lamouchi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wilson-oruma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toifilou-maoulida",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mickael-pagis",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sabri-lamouchi"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "tiago-mendes"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sidney-govou"
+      },
+      {
+        "kind": "red_card",
+        "minute": 84,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sabri-lamouchi"
+      }
+    ],
+    "memorability": {
+      "score": 87.14,
+      "signals": {
+        "drama": 0.375,
+        "eraBucket": 0,
+        "percentile": 0.6327,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3502,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4509
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3882
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4196
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -316,11 +888,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 69.1,
+      "score": 68.9,
       "signals": {
         "drama": 0,
         "eraBucket": 0,
-        "percentile": 0.117,
+        "percentile": 0.1115,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -346,7 +918,7 @@
         "starPower": 0.2178
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -495,11 +1067,11 @@
       }
     ],
     "memorability": {
-      "score": 66.02,
+      "score": 65.88,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 0,
-        "percentile": 0.0292,
+        "percentile": 0.025,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -525,7 +1097,7 @@
         "starPower": 0.3786
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

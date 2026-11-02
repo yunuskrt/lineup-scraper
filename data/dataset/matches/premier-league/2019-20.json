@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 70.83,
+      "score": 73.44,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.1667,
+        "percentile": 0.2411,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,7 @@
         "starPower": 0.4737
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -366,11 +366,11 @@
       }
     ],
     "memorability": {
-      "score": 92.13,
+      "score": 93.56,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 2,
-        "percentile": 0.7752,
+        "percentile": 0.816,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -396,7 +396,7 @@
         "starPower": 0.695
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -566,11 +566,11 @@
       }
     ],
     "memorability": {
-      "score": 74.05,
+      "score": 76.66,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.2586,
+        "percentile": 0.3331,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -596,7 +596,7 @@
         "starPower": 0.5436
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -766,11 +766,11 @@
       }
     ],
     "memorability": {
-      "score": 89.98,
+      "score": 91.69,
       "signals": {
         "drama": 0.3667,
         "eraBucket": 2,
-        "percentile": 0.7138,
+        "percentile": 0.7627,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -796,7 +796,7 @@
         "starPower": 0.6232
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -959,11 +959,11 @@
       }
     ],
     "memorability": {
-      "score": 71.83,
+      "score": 74.28,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.195,
+        "percentile": 0.2652,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -989,7 +989,7 @@
         "starPower": 0.5714
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1145,11 +1145,11 @@
       }
     ],
     "memorability": {
-      "score": 82.28,
+      "score": 84.59,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 2,
-        "percentile": 0.4937,
+        "percentile": 0.5596,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1175,7 +1175,7 @@
         "starPower": 0.5432
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1331,11 +1331,11 @@
       }
     ],
     "memorability": {
-      "score": 84.79,
+      "score": 86.83,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 2,
-        "percentile": 0.5653,
+        "percentile": 0.6237,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1361,7 +1361,7 @@
         "starPower": 0.6041
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1524,11 +1524,11 @@
       }
     ],
     "memorability": {
-      "score": 91.09,
+      "score": 92.67,
       "signals": {
         "drama": 0.325,
         "eraBucket": 2,
-        "percentile": 0.7453,
+        "percentile": 0.7906,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1554,7 +1554,7 @@
         "starPower": 0.7282
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1724,11 +1724,11 @@
       }
     ],
     "memorability": {
-      "score": 84.12,
+      "score": 86.23,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.5464,
+        "percentile": 0.6066,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1754,7 +1754,7 @@
         "starPower": 0.7986
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1917,11 +1917,11 @@
       }
     ],
     "memorability": {
-      "score": 72.82,
+      "score": 75.7,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.2233,
+        "percentile": 0.3058,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1947,7 +1947,7 @@
         "starPower": 0.6009
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2110,11 +2110,11 @@
       }
     ],
     "memorability": {
-      "score": 72.1,
+      "score": 74.57,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.2028,
+        "percentile": 0.2735,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2140,7 +2140,7 @@
         "starPower": 0.5782
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2303,11 +2303,11 @@
       }
     ],
     "memorability": {
-      "score": 88.44,
+      "score": 90.27,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.6698,
+        "percentile": 0.7221,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2333,7 +2333,7 @@
         "starPower": 0.6168
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2496,11 +2496,11 @@
       }
     ],
     "memorability": {
-      "score": 71.69,
+      "score": 74.06,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.191,
+        "percentile": 0.2589,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2526,7 +2526,7 @@
         "starPower": 0.5636
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2689,11 +2689,11 @@
       }
     ],
     "memorability": {
-      "score": 71.93,
+      "score": 74.35,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 2,
-        "percentile": 0.1981,
+        "percentile": 0.2671,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2719,7 +2719,7 @@
         "starPower": 0.5591
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2882,11 +2882,11 @@
       }
     ],
     "memorability": {
-      "score": 79.64,
+      "score": 81.92,
       "signals": {
         "drama": 0.325,
         "eraBucket": 2,
-        "percentile": 0.4182,
+        "percentile": 0.4835,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -2912,7 +2912,7 @@
         "starPower": 0.3946
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3068,11 +3068,11 @@
       }
     ],
     "memorability": {
-      "score": 68.52,
+      "score": 70.64,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.1006,
+        "percentile": 0.1612,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3098,7 +3098,7 @@
         "starPower": 0.5282
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3247,11 +3247,11 @@
       }
     ],
     "memorability": {
-      "score": 69.54,
+      "score": 71.95,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.1297,
+        "percentile": 0.1986,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3277,7 +3277,7 @@
         "starPower": 0.6391
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3433,11 +3433,11 @@
       }
     ],
     "memorability": {
-      "score": 69.54,
+      "score": 71.95,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.1297,
+        "percentile": 0.1986,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3463,7 +3463,7 @@
         "starPower": 0.5664
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3640,11 +3640,11 @@
       }
     ],
     "memorability": {
-      "score": 88.39,
+      "score": 90.23,
       "signals": {
         "drama": 0.4167,
         "eraBucket": 2,
-        "percentile": 0.6682,
+        "percentile": 0.7208,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -3670,7 +3670,7 @@
         "starPower": 0.4773
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3833,11 +3833,11 @@
       }
     ],
     "memorability": {
-      "score": 78.59,
+      "score": 80.95,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 2,
-        "percentile": 0.3884,
+        "percentile": 0.4556,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3863,7 +3863,7 @@
         "starPower": 0.7109
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4019,11 +4019,11 @@
       }
     ],
     "memorability": {
-      "score": 68.38,
+      "score": 70.44,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.0967,
+        "percentile": 0.1555,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4049,7 +4049,7 @@
         "starPower": 0.5227
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4212,11 +4212,11 @@
       }
     ],
     "memorability": {
-      "score": 71.33,
+      "score": 73.84,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.1808,
+        "percentile": 0.2525,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4242,7 +4242,7 @@
         "starPower": 0.5582
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4398,11 +4398,11 @@
       }
     ],
     "memorability": {
-      "score": 86.35,
+      "score": 88.18,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.6101,
+        "percentile": 0.6624,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4428,7 +4428,207 @@
         "starPower": 0.6123
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-06-17-manchester-city-arsenal",
+    "transfermarktId": "3219130",
+    "competitionSlug": "premier-league",
+    "season": "2019-20",
+    "date": "2020-06-17",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-garcia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aymeric-laporte",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benjamin-mendy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-silva",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riyad-mahrez",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raheem-sterling",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "bernd-leno",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hector-bellerin",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "shkodran-mustafi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-mari",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kieran-tierney",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matteo-guendouzi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joe-willock",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eddie-nketiah",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 2,
+        "side": "home",
+        "playerSlug": "raheem-sterling"
+      },
+      {
+        "kind": "red_card",
+        "minute": 49,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "david-luiz"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kevin-de-bruyne"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "phil-foden"
+      }
+    ],
+    "memorability": {
+      "score": 74.88,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.2824,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.296,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6773
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.32
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4987
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4584,11 +4784,11 @@
       }
     ],
     "memorability": {
-      "score": 86.3,
+      "score": 88.14,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 2,
-        "percentile": 0.6085,
+        "percentile": 0.6612,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -4614,7 +4814,7 @@
         "starPower": 0.6341
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4784,11 +4984,11 @@
       }
     ],
     "memorability": {
-      "score": 79.03,
+      "score": 81.3,
       "signals": {
         "drama": 0.175,
         "eraBucket": 2,
-        "percentile": 0.4009,
+        "percentile": 0.4657,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4814,7 +5014,7 @@
         "starPower": 0.6445
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4984,11 +5184,11 @@
       }
     ],
     "memorability": {
-      "score": 79.69,
+      "score": 81.97,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.4198,
+        "percentile": 0.4848,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5014,7 +5214,393 @@
         "starPower": 0.6723
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-07-12-tottenham-hotspur-arsenal",
+    "transfermarktId": "3219110",
+    "competitionSlug": "premier-league",
+    "season": "2019-20",
+    "date": "2020-07-12",
+    "stage": "Matchday 35",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "serge-aurier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davinson-sanchez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toby-alderweireld",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ben-davies",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "moussa-sissoko",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giovani-lo-celso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-winks",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-moura",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "heung-min-son",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "emiliano-martinez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "shkodran-mustafi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sead-kolasinac",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hector-bellerin",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dani-ceballos",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kieran-tierney",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolas-pepe",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "alexandre-lacazette"
+      },
+      {
+        "kind": "goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "heung-min-son"
+      },
+      {
+        "kind": "goal",
+        "minute": 81,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "toby-alderweireld"
+      }
+    ],
+    "memorability": {
+      "score": 78.04,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.3725,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3079,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7882
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5027
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6455
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-07-15-arsenal-liverpool-fc",
+    "transfermarktId": "3219152",
+    "competitionSlug": "premier-league",
+    "season": "2019-20",
+    "date": "2020-07-15",
+    "stage": "Matchday 36",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "emiliano-martinez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kieran-tierney",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rob-holding",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cedric-soares",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "reiss-nelson",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "nicolas-pepe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joe-gomez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "georginio-wijnaldum",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alex-oxlade-chamberlain",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sadio-mane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sadio-mane"
+      },
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alexandre-lacazette"
+      },
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "reiss-nelson"
+      }
+    ],
+    "memorability": {
+      "score": 74.48,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.2709,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2941,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4664
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6873
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5769
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5212,11 +5798,11 @@
       }
     ],
     "memorability": {
-      "score": 82.58,
+      "score": 84.86,
       "signals": {
         "drama": 0.25,
         "eraBucket": 2,
-        "percentile": 0.5024,
+        "percentile": 0.5673,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5242,7 +5828,7 @@
         "starPower": 0.6063
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

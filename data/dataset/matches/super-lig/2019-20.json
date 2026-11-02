@@ -137,11 +137,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 75.84,
+      "score": 78.28,
       "signals": {
         "drama": 0,
         "eraBucket": 2,
-        "percentile": 0.3097,
+        "percentile": 0.3794,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +167,7 @@
         "starPower": 0.4954
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -316,11 +316,11 @@
       }
     ],
     "memorability": {
-      "score": 66.43,
+      "score": 67.71,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.0409,
+        "percentile": 0.0774,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -346,7 +346,7 @@
         "starPower": 0.4791
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -516,11 +516,11 @@
       }
     ],
     "memorability": {
-      "score": 70.34,
+      "score": 72.86,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.1525,
+        "percentile": 0.2246,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -546,7 +546,7 @@
         "starPower": 0.4509
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -730,11 +730,11 @@
       }
     ],
     "memorability": {
-      "score": 88.61,
+      "score": 90.41,
       "signals": {
         "drama": 0.2667,
         "eraBucket": 2,
-        "percentile": 0.6745,
+        "percentile": 0.7259,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -760,7 +760,371 @@
         "starPower": 0.375
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-03-15-galatasaray-besiktas",
+    "transfermarktId": "3223240",
+    "competitionSlug": "super-lig",
+    "season": "2019-20",
+    "date": "2020-03-15",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mariano",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ryan-donk",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo-saracchi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-lemina",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sofiane-feghouli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jean-michael-seri",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "younes-belhanda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henry-onyekuru",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "radamel-falcao",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "loris-karius",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "domagoj-vida",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-ruiz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mohamed-elneny",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tyler-boyd",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "georges-kevin-nkoudou",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "burak-yilmaz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 66.44,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.0412,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2294,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5018
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4718
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-07-19-besiktas-fenerbahce",
+    "transfermarktId": "3223306",
+    "competitionSlug": "super-lig",
+    "season": "2019-20",
+    "date": "2020-07-19",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "ersin-destanoglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gokhan-gonul",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "domagoj-vida",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "enzo-roco",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "caner-erkin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mohamed-elneny",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremain-lens",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "atiba-hutchinson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-prince-boateng",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tyler-boyd",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "burak-yilmaz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "altay-bayindir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nabil-dirar",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-falette",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-ali-kaldirim",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tolga-cigerci",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ozan-tufan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deniz-turuc",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-belozoglu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vedat-muriqi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "vedat-muriqi"
+      },
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "domagoj-vida"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gokhan-gonul"
+      }
+    ],
+    "memorability": {
+      "score": 71.44,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.184,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2741,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5436
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3809
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4623
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

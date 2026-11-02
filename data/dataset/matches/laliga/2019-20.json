@@ -137,11 +137,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 69.07,
+      "score": 71.33,
       "signals": {
         "drama": 0,
         "eraBucket": 2,
-        "percentile": 0.1164,
+        "percentile": 0.1808,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -167,7 +167,7 @@
         "starPower": 0.6936
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -316,11 +316,11 @@
       }
     ],
     "memorability": {
-      "score": 67.64,
+      "score": 69.53,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.0755,
+        "percentile": 0.1294,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -346,7 +346,7 @@
         "starPower": 0.5709
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -487,11 +487,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 85.86,
+      "score": 87.74,
       "signals": {
         "drama": 0,
         "eraBucket": 2,
-        "percentile": 0.5959,
+        "percentile": 0.6497,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -517,7 +517,7 @@
         "starPower": 0.7487
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -666,11 +666,11 @@
       }
     ],
     "memorability": {
-      "score": 68.69,
+      "score": 70.95,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.1053,
+        "percentile": 0.1701,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -696,7 +696,7 @@
         "starPower": 0.6059
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -852,11 +852,11 @@
       }
     ],
     "memorability": {
-      "score": 90.59,
+      "score": 92.23,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.7311,
+        "percentile": 0.7779,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -882,7 +882,207 @@
         "starPower": 0.7627
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2020-06-30-barcelona-atletico-madrid",
+    "transfermarktId": "3210094",
+    "competitionSlug": "laliga",
+    "season": "2019-20",
+    "date": "2020-06-30",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-rakitic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riqui-puig",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "santiago-arias",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-maria-gimenez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felipe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "renan-lodi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "angel-correa",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "saul-niguez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcos-llorente",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "diego-costa",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diego-costa"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "saul-niguez"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lionel-messi"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "saul-niguez"
+      }
+    ],
+    "memorability": {
+      "score": 79.21,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.4061,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3139,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7382
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4673
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6028
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

@@ -1,5 +1,805 @@
 [
   {
+    "slug": "2022-08-14-chelsea-fc-tottenham-hotspur",
+    "transfermarktId": "3837829",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-08-14",
+    "stage": "Matchday 2",
+    "nickname": null,
+    "homeClubSlug": "chelsea-fc",
+    "awayClubSlug": "tottenham-hotspur",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "edouard-mendy",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "reece-james",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kalidou-koulibaly",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-loftus-cheek",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raheem-sterling",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mason-mount",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ben-davies",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-romero",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emerson-royal",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-sessegnon",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dejan-kulusevski",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "heung-min-son",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kalidou-koulibaly"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "pierre-emile-hojbjerg"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "reece-james"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 6,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      }
+    ],
+    "memorability": {
+      "score": 92.14,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 2,
+        "percentile": 0.7754,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3911,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5827
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6945
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6386
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-08-22-manchester-united-liverpool-fc",
+    "transfermarktId": "3837840",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-08-22",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tyrell-malacia",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christian-eriksen",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "scott-mctominay",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jadon-sancho",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "anthony-elanga",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joe-gomez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "james-milner",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-diaz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jadon-sancho"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "marcus-rashford"
+      },
+      {
+        "kind": "goal",
+        "minute": 81,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mohamed-salah"
+      }
+    ],
+    "memorability": {
+      "score": 77.04,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.3439,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3039,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5727
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6791
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6259
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-09-04-manchester-united-arsenal",
+    "transfermarktId": "3837977",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-09-04",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tyrell-malacia",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "scott-mctominay",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-eriksen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antony",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jadon-sancho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "albert-sambi-lokonga",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "antony"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bukayo-saka"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "marcus-rashford"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "marcus-rashford"
+      }
+    ],
+    "memorability": {
+      "score": 74.15,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.2614,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2923,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5564
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4336
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.495
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-10-01-arsenal-tottenham-hotspur",
+    "transfermarktId": "3838009",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-10-01",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "tottenham-hotspur",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cristian-romero",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emerson-royal",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-perisic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "richarlison",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "heung-min-son",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "thomas-partey"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gabriel-jesus"
+      },
+      {
+        "kind": "red_card",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "emerson-royal"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "granit-xhaka"
+      }
+    ],
+    "memorability": {
+      "score": 82.28,
+      "signals": {
+        "drama": 0.2167,
+        "eraBucket": 2,
+        "percentile": 0.4937,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3294,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4864
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6991
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5928
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2022-10-02-manchester-city-manchester-united",
     "transfermarktId": "3838015",
     "competitionSlug": "premier-league",
@@ -201,11 +1001,11 @@
       }
     ],
     "memorability": {
-      "score": 95.82,
+      "score": 96.63,
       "signals": {
         "drama": 0.3,
         "eraBucket": 2,
-        "percentile": 0.8805,
+        "percentile": 0.9036,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -231,7 +1031,579 @@
         "starPower": 0.636
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-10-09-arsenal-liverpool-fc",
+    "transfermarktId": "3838019",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-10-09",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "takehiro-tomiyasu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joel-matip",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konstantinos-tsimikas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-diaz",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "darwin-nunez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gabriel-martinelli"
+      },
+      {
+        "kind": "goal",
+        "minute": 34,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "darwin-nunez"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 5,
+        "side": "home",
+        "playerSlug": "bukayo-saka"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roberto-firmino"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bukayo-saka"
+      }
+    ],
+    "memorability": {
+      "score": 80.14,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.4327,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3184,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.46
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6445
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5523
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-10-16-liverpool-fc-manchester-city",
+    "transfermarktId": "3838033",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-10-16",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "james-milner",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joe-gomez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-akanji",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mohamed-salah"
+      }
+    ],
+    "memorability": {
+      "score": 73.06,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.2303,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2844,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6118
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7364
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6741
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-10-19-manchester-united-tottenham-hotspur",
+    "transfermarktId": "3838059",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-10-19",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "tottenham-hotspur",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fred-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antony",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jadon-sancho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-davies",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-romero",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matt-doherty",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yves-bissouma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-perisic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "heung-min-son",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fred-1993"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bruno-fernandes"
+      }
+    ],
+    "memorability": {
+      "score": 75.62,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.3033,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2983,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5336
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8073
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6705
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -387,11 +1759,11 @@
       }
     ],
     "memorability": {
-      "score": 68.08,
+      "score": 70.2,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.0881,
+        "percentile": 0.1485,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -417,7 +1789,379 @@
         "starPower": 0.5182
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-11-06-chelsea-fc-arsenal",
+    "transfermarktId": "3838227",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-11-06",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "chelsea-fc",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "edouard-mendy",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "trevoh-chalobah",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-loftus-cheek",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raheem-sterling",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-mount",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gabriel"
+      }
+    ],
+    "memorability": {
+      "score": 68.24,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.0926,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2503,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5209
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4864
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5037
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2022-11-06-tottenham-hotspur-liverpool-fc",
+    "transfermarktId": "3838233",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2022-11-06",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ben-davies",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emerson-royal",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yves-bissouma",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-sessegnon",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-perisic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "darwin-nunez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 70,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "harry-kane"
+      }
+    ],
+    "memorability": {
+      "score": 77.08,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.3452,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.304,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6545
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5982
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6264
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -566,11 +2310,11 @@
       }
     ],
     "memorability": {
-      "score": 71.99,
+      "score": 74.42,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 2,
-        "percentile": 0.1997,
+        "percentile": 0.269,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -596,7 +2340,7 @@
         "starPower": 0.7205
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -759,11 +2503,11 @@
       }
     ],
     "memorability": {
-      "score": 89.82,
+      "score": 91.56,
       "signals": {
         "drama": 0.125,
         "eraBucket": 2,
-        "percentile": 0.7091,
+        "percentile": 0.7589,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -789,7 +2533,193 @@
         "starPower": 0.6668
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-01-15-tottenham-hotspur-arsenal",
+    "transfermarktId": "3838796",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-01-15",
+    "stage": "Matchday 20",
+    "nickname": null,
+    "homeClubSlug": "tottenham-hotspur",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "hugo-lloris",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-lenglet",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-romero",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matt-doherty",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emile-hojbjerg",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pape-matar-sarr",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ryan-sessegnon",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dejan-kulusevski",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "heung-min-son",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eddie-nketiah",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 14,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hugo-lloris"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "martin-odegaard"
+      }
+    ],
+    "memorability": {
+      "score": 70.6,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.1599,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2696,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6255
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4291
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5273
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -973,11 +2903,11 @@
       }
     ],
     "memorability": {
-      "score": 95.05,
+      "score": 95.91,
       "signals": {
         "drama": 0.45,
         "eraBucket": 2,
-        "percentile": 0.8585,
+        "percentile": 0.8832,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -1003,7 +2933,385 @@
         "starPower": 0.7019
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-01-21-liverpool-fc-chelsea-fc",
+    "transfermarktId": "3838786",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-01-21",
+    "stage": "Matchday 21",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "james-milner",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joe-gomez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "naby-keita",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefan-bajcetic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-alcantara",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "kepa-arrizabalaga",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trevoh-chalobah",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-badiashile",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakim-ziyech",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "conor-gallagher",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mason-mount",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lewis-hall",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 66.16,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.033,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2245,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5291
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3655
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4473
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-01-22-arsenal-manchester-united",
+    "transfermarktId": "3838781",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-01-22",
+    "stage": "Matchday 21",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eddie-nketiah",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "aaron-wan-bissaka",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "scott-mctominay",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-eriksen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antony",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wout-weghorst",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marcus-rashford"
+      },
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "eddie-nketiah"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bukayo-saka"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lisandro-martinez"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "eddie-nketiah"
+      }
+    ],
+    "memorability": {
+      "score": 88.25,
+      "signals": {
+        "drama": 0.3583,
+        "eraBucket": 2,
+        "percentile": 0.6643,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.362,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4291
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5864
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5078
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1159,11 +3467,11 @@
       }
     ],
     "memorability": {
-      "score": 75.95,
+      "score": 78.32,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 2,
-        "percentile": 0.3129,
+        "percentile": 0.3807,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1189,7 +3497,1413 @@
         "starPower": 0.7109
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-02-15-arsenal-manchester-city",
+    "transfermarktId": "3838051",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-02-15",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "takehiro-tomiyasu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "william-saliba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eddie-nketiah",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riyad-mahrez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jack-grealish",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "kevin-de-bruyne"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bukayo-saka"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jack-grealish"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "erling-haaland"
+      }
+    ],
+    "memorability": {
+      "score": 79.57,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.4162,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3149,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7527
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6077
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-03-05-liverpool-fc-manchester-united",
+    "transfermarktId": "3838735",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-03-05",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 7,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "darwin-nunez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raphael-varane",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fred-1993",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antony",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-rashford",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "wout-weghorst",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 43,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cody-gakpo"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "darwin-nunez"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "cody-gakpo"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "darwin-nunez"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "roberto-firmino"
+      }
+    ],
+    "memorability": {
+      "score": 84.45,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.5558,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 7,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3425,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6391
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5609
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-04-01-manchester-city-liverpool-fc",
+    "transfermarktId": "3838704",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-04-01",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "manuel-akanji",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "riyad-mahrez",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jack-grealish",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julian-alvarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harvey-elliott",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 27,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "julian-alvarez"
+      },
+      {
+        "kind": "goal",
+        "minute": 46,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kevin-de-bruyne"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ilkay-gundogan"
+      },
+      {
+        "kind": "goal",
+        "minute": 74,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jack-grealish"
+      }
+    ],
+    "memorability": {
+      "score": 85.34,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.5812,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3468,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7455
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6436
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6946
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-04-04-chelsea-fc-liverpool-fc",
+    "transfermarktId": "3838001",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-04-04",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "chelsea-fc",
+    "awayClubSlug": "liverpool-fc",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "kepa-arrizabalaga",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "marc-cucurella",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kalidou-koulibaly",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wesley-fofana",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "reece-james",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enzo-fernandez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ben-chilwell",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kai-havertz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "joao-felix",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joe-gomez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joel-matip",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konstantinos-tsimikas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "curtis-jones",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roberto-firmino",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "darwin-nunez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 66.38,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.0393,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2289,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4936
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4455
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4696
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-04-09-liverpool-fc-arsenal",
+    "transfermarktId": "3838695",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-04-09",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alisson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "trent-alexander-arnold",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahima-konate",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "virgil-van-dijk",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrew-robertson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabinho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "curtis-jones",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mohamed-salah",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cody-gakpo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "diogo-jota",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rob-holding",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gabriel-martinelli"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gabriel-jesus"
+      },
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mohamed-salah"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "roberto-firmino"
+      }
+    ],
+    "memorability": {
+      "score": 89.63,
+      "signals": {
+        "drama": 0.3667,
+        "eraBucket": 2,
+        "percentile": 0.7037,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3713,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6236
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4564
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.54
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-04-26-manchester-city-arsenal",
+    "transfermarktId": "3838651",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-04-26",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-stones",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-akanji",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jack-grealish",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rob-holding",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-partey",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-martinelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kevin-de-bruyne"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "john-stones"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kevin-de-bruyne"
+      },
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "rob-holding"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 5,
+        "side": "home",
+        "playerSlug": "erling-haaland"
+      }
+    ],
+    "memorability": {
+      "score": 82.5,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.5,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3309,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7736
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4564
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.615
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2023-05-02-arsenal-chelsea-fc",
+    "transfermarktId": "3838648",
+    "competitionSlug": "premier-league",
+    "season": "2022-23",
+    "date": "2023-05-02",
+    "stage": "Matchday 34",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "aaron-ramsdale",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ben-white",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jakub-kiwior",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleksandr-zinchenko",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "granit-xhaka",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jorginho",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-odegaard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bukayo-saka",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gabriel-jesus",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "leandro-trossard",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "kepa-arrizabalaga",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cesar-azpilicueta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wesley-fofana",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ben-chilwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ngolo-kante",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enzo-fernandez",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "noni-madueke",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raheem-sterling",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "martin-odegaard"
+      },
+      {
+        "kind": "goal",
+        "minute": 31,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "martin-odegaard"
+      },
+      {
+        "kind": "goal",
+        "minute": 34,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gabriel-jesus"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "noni-madueke"
+      }
+    ],
+    "memorability": {
+      "score": 75.62,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.3033,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2983,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5227
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5273
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.525
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

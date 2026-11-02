@@ -1,5 +1,198 @@
 [
   {
+    "slug": "2006-10-01-real-madrid-atletico-madrid",
+    "transfermarktId": "58459",
+    "competitionSlug": "laliga",
+    "season": "2006-07",
+    "date": "2006-10-01",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-mejia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emerson-1976",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ruud-van-nistelrooy",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "leo-franco",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-amaranto-perea",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-ibanez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mariano-pernia",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxi-rodriguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-petrov",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mista",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mista"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "raul"
+      },
+      {
+        "kind": "red_card",
+        "minute": 63,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sergio-ramos"
+      }
+    ],
+    "memorability": {
+      "score": 75.1,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.2885,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.295,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6827
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4509
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5668
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2006-10-22-real-madrid-barcelona",
     "transfermarktId": "58485",
     "competitionSlug": "laliga",
@@ -152,11 +345,11 @@
       }
     ],
     "memorability": {
-      "score": 93.62,
+      "score": 93.71,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 0,
-        "percentile": 0.8177,
+        "percentile": 0.8202,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -182,7 +375,386 @@
         "starPower": 0.8005
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2006-12-20-barcelona-atletico-madrid",
+    "transfermarktId": "58567",
+    "competitionSlug": "laliga",
+    "season": "2006-07",
+    "date": "2006-12-20",
+    "stage": "Matchday 16",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juliano-belletti",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eidur-gudjohnsen",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "leo-franco",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ze-castro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-ibanez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luciano-galletti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-manuel-jurado",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ronaldinho"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sergio-aguero"
+      }
+    ],
+    "memorability": {
+      "score": 84.96,
+      "signals": {
+        "drama": 0.2833,
+        "eraBucket": 0,
+        "percentile": 0.5702,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.338,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6664
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3718
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5191
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2007-02-25-atletico-madrid-real-madrid",
+    "transfermarktId": "58646",
+    "competitionSlug": "laliga",
+    "season": "2006-07",
+    "date": "2007-02-25",
+    "stage": "Matchday 24",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "leo-franco",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ze-castro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-amaranto-perea",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luciano-galletti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-manuel-jurado",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miguel-torres",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-gago",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emerson-1976",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fernando-torres"
+      },
+      {
+        "kind": "goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gonzalo-higuain"
+      },
+      {
+        "kind": "red_card",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fabio-cannavaro"
+      }
+    ],
+    "memorability": {
+      "score": 87.55,
+      "signals": {
+        "drama": 0.3333,
+        "eraBucket": 0,
+        "percentile": 0.6442,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3532,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4191
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5964
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5078
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -373,11 +945,11 @@
       }
     ],
     "memorability": {
-      "score": 98.16,
+      "score": 98.18,
       "signals": {
         "drama": 0.35,
         "eraBucket": 0,
-        "percentile": 0.9474,
+        "percentile": 0.9481,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -403,7 +975,228 @@
         "starPower": 0.7259
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2007-05-20-atletico-madrid-barcelona",
+    "transfermarktId": "58756",
+    "competitionSlug": "laliga",
+    "season": "2006-07",
+    "date": "2007-05-20",
+    "stage": "Matchday 35",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 6
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ivan-cuellar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "georgios-seitaridis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ze-castro",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabiano-eller",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maniche",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luciano-galletti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-manuel-jurado",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-petrov",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lilian-thuram",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      },
+      {
+        "kind": "goal",
+        "minute": 43,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gianluca-zambrotta"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 1,
+        "side": "away",
+        "playerSlug": "samuel-etoo"
+      },
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldinho"
+      },
+      {
+        "kind": "red_card",
+        "minute": 72,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fabiano-eller"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lionel-messi"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andres-iniesta"
+      }
+    ],
+    "memorability": {
+      "score": 88.56,
+      "signals": {
+        "drama": 0.3,
+        "eraBucket": 0,
+        "percentile": 0.6731,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3586,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8445
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5932
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

@@ -145,11 +145,11 @@
       }
     ],
     "memorability": {
-      "score": 68.62,
+      "score": 68.82,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.1034,
+        "percentile": 0.1091,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -175,7 +175,7 @@
         "starPower": 0.6
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -331,11 +331,11 @@
       }
     ],
     "memorability": {
-      "score": 91.49,
+      "score": 92.19,
       "signals": {
         "drama": 0.2833,
         "eraBucket": 1,
-        "percentile": 0.7568,
+        "percentile": 0.7769,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -361,7 +361,7 @@
         "starPower": 0.4314
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -524,11 +524,11 @@
       }
     ],
     "memorability": {
-      "score": 88.88,
+      "score": 89.74,
       "signals": {
         "drama": 0.3333,
         "eraBucket": 1,
-        "percentile": 0.6824,
+        "percentile": 0.7068,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -554,7 +554,7 @@
         "starPower": 0.6368
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -695,11 +695,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 68.3,
+      "score": 68.54,
       "signals": {
         "drama": 0,
         "eraBucket": 1,
-        "percentile": 0.0944,
+        "percentile": 0.101,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -725,7 +725,7 @@
         "starPower": 0.2882
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

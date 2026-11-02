@@ -159,11 +159,11 @@
       }
     ],
     "memorability": {
-      "score": 69.89,
+      "score": 70.41,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 1,
-        "percentile": 0.1397,
+        "percentile": 0.1547,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -189,7 +189,7 @@
         "starPower": 0.4878
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -352,11 +352,11 @@
       }
     ],
     "memorability": {
-      "score": 70.59,
+      "score": 71.1,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.1597,
+        "percentile": 0.1743,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -382,7 +382,7 @@
         "starPower": 0.5286
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -601,11 +601,11 @@
       }
     ],
     "memorability": {
-      "score": 87.17,
+      "score": 88.09,
       "signals": {
         "drama": 0.35,
         "eraBucket": 1,
-        "percentile": 0.6334,
+        "percentile": 0.6596,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -631,7 +631,7 @@
         "starPower": 0.5541
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -815,11 +815,11 @@
       }
     ],
     "memorability": {
-      "score": 87.36,
+      "score": 88.26,
       "signals": {
         "drama": 0.3,
         "eraBucket": 1,
-        "percentile": 0.6388,
+        "percentile": 0.6645,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -845,7 +845,7 @@
         "starPower": 0.6446
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1015,11 +1015,11 @@
       }
     ],
     "memorability": {
-      "score": 79.8,
+      "score": 81.25,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.4229,
+        "percentile": 0.4642,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1045,7 +1045,7 @@
         "starPower": 0.6869
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1229,11 +1229,11 @@
       }
     ],
     "memorability": {
-      "score": 81.32,
+      "score": 82.5,
       "signals": {
         "drama": 0.2667,
         "eraBucket": 1,
-        "percentile": 0.4664,
+        "percentile": 0.5,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1259,7 +1259,7 @@
         "starPower": 0.5482
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1422,11 +1422,11 @@
       }
     ],
     "memorability": {
-      "score": 72.94,
+      "score": 74.01,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.2269,
+        "percentile": 0.2573,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1452,7 +1452,7 @@
         "starPower": 0.6078
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1608,11 +1608,11 @@
       }
     ],
     "memorability": {
-      "score": 69.51,
+      "score": 70.02,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 1,
-        "percentile": 0.1289,
+        "percentile": 0.1433,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1638,7 +1638,7 @@
         "starPower": 0.57
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -1836,11 +1836,11 @@
       }
     ],
     "memorability": {
-      "score": 96.19,
+      "score": 96.58,
       "signals": {
         "drama": 0.3,
         "eraBucket": 1,
-        "percentile": 0.8911,
+        "percentile": 0.9023,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -1866,7 +1866,7 @@
         "starPower": 0.6264
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2064,11 +2064,11 @@
       }
     ],
     "memorability": {
-      "score": 96.57,
+      "score": 96.92,
       "signals": {
         "drama": 0.5,
         "eraBucket": 1,
-        "percentile": 0.902,
+        "percentile": 0.9121,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -2094,7 +2094,7 @@
         "starPower": 0.695
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2257,11 +2257,11 @@
       }
     ],
     "memorability": {
-      "score": 75.61,
+      "score": 76.69,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.3031,
+        "percentile": 0.3339,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2287,7 +2287,7 @@
         "starPower": 0.6696
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2450,11 +2450,11 @@
       }
     ],
     "memorability": {
-      "score": 73.19,
+      "score": 74.35,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 1,
-        "percentile": 0.2341,
+        "percentile": 0.2671,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2480,7 +2480,7 @@
         "starPower": 0.5991
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2650,11 +2650,11 @@
       }
     ],
     "memorability": {
-      "score": 78.69,
+      "score": 80.13,
       "signals": {
         "drama": 0.175,
         "eraBucket": 1,
-        "percentile": 0.3911,
+        "percentile": 0.4324,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2680,7 +2680,7 @@
         "starPower": 0.645
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -2829,11 +2829,11 @@
       }
     ],
     "memorability": {
-      "score": 71.35,
+      "score": 72.01,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.1815,
+        "percentile": 0.2003,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -2859,7 +2859,7 @@
         "starPower": 0.7
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3015,11 +3015,11 @@
       }
     ],
     "memorability": {
-      "score": 73.39,
+      "score": 74.52,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 1,
-        "percentile": 0.2396,
+        "percentile": 0.272,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3045,7 +3045,7 @@
         "starPower": 0.6891
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3215,11 +3215,11 @@
       }
     ],
     "memorability": {
-      "score": 77.16,
+      "score": 78.31,
       "signals": {
         "drama": 0.175,
         "eraBucket": 1,
-        "percentile": 0.3475,
+        "percentile": 0.3803,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3245,7 +3245,7 @@
         "starPower": 0.6073
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3408,11 +3408,11 @@
       }
     ],
     "memorability": {
-      "score": 76.18,
+      "score": 77.37,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.3194,
+        "percentile": 0.3534,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3438,7 +3438,7 @@
         "starPower": 0.68
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3615,11 +3615,11 @@
       }
     ],
     "memorability": {
-      "score": 88.79,
+      "score": 89.6,
       "signals": {
         "drama": 0.3583,
         "eraBucket": 1,
-        "percentile": 0.6797,
+        "percentile": 0.7028,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -3645,7 +3645,7 @@
         "starPower": 0.5882
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -3829,11 +3829,11 @@
       }
     ],
     "memorability": {
-      "score": 93.43,
+      "score": 94.1,
       "signals": {
         "drama": 0.45,
         "eraBucket": 1,
-        "percentile": 0.8122,
+        "percentile": 0.8314,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -3859,7 +3859,7 @@
         "starPower": 0.6082
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4000,11 +4000,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 66.08,
+      "score": 66.25,
       "signals": {
         "drama": 0,
         "eraBucket": 1,
-        "percentile": 0.0309,
+        "percentile": 0.0358,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4030,7 +4030,7 @@
         "starPower": 0.5446
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4193,11 +4193,11 @@
       }
     ],
     "memorability": {
-      "score": 74.66,
+      "score": 75.66,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.2759,
+        "percentile": 0.3046,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4223,7 +4223,7 @@
         "starPower": 0.6396
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4421,11 +4421,11 @@
       }
     ],
     "memorability": {
-      "score": 85.77,
+      "score": 86.89,
       "signals": {
         "drama": 0.3,
         "eraBucket": 1,
-        "percentile": 0.5935,
+        "percentile": 0.6254,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4451,7 +4451,7 @@
         "starPower": 0.6073
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4614,11 +4614,11 @@
       }
     ],
     "memorability": {
-      "score": 82.09,
+      "score": 83.24,
       "signals": {
         "drama": 0.275,
         "eraBucket": 1,
-        "percentile": 0.4882,
+        "percentile": 0.5212,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4644,7 +4644,7 @@
         "starPower": 0.56
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -4814,11 +4814,11 @@
       }
     ],
     "memorability": {
-      "score": 73.32,
+      "score": 74.46,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.2377,
+        "percentile": 0.2704,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -4844,7 +4844,7 @@
         "starPower": 0.5428
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5007,11 +5007,11 @@
       }
     ],
     "memorability": {
-      "score": 78.4,
+      "score": 79.88,
       "signals": {
         "drama": 0.125,
         "eraBucket": 1,
-        "percentile": 0.3829,
+        "percentile": 0.4251,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5037,7 +5037,7 @@
         "starPower": 0.7255
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5178,11 +5178,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 68.24,
+      "score": 68.45,
       "signals": {
         "drama": 0,
         "eraBucket": 1,
-        "percentile": 0.0926,
+        "percentile": 0.0985,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5208,7 +5208,7 @@
         "starPower": 0.6614
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5364,11 +5364,11 @@
       }
     ],
     "memorability": {
-      "score": 71.54,
+      "score": 72.18,
       "signals": {
         "drama": 0.0917,
         "eraBucket": 1,
-        "percentile": 0.1869,
+        "percentile": 0.2052,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5394,7 +5394,7 @@
         "starPower": 0.6178
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5535,11 +5535,11 @@
     },
     "events": [],
     "memorability": {
-      "score": 66.65,
+      "score": 66.88,
       "signals": {
         "drama": 0,
         "eraBucket": 1,
-        "percentile": 0.0472,
+        "percentile": 0.0537,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5565,7 +5565,7 @@
         "starPower": 0.5855
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -5714,11 +5714,11 @@
       }
     ],
     "memorability": {
-      "score": 84.95,
+      "score": 85.98,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.5699,
+        "percentile": 0.5993,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -5744,7 +5744,214 @@
         "starPower": 0.6655
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
+    "slug": "2012-05-08-liverpool-fc-chelsea-fc",
+    "transfermarktId": "1131712",
+    "competitionSlug": "premier-league",
+    "season": "2011-12",
+    "date": "2012-05-08",
+    "stage": "Matchday 37",
+    "nickname": null,
+    "homeClubSlug": "liverpool-fc",
+    "awayClubSlug": "chelsea-fc",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "pepe-reina",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "glen-johnson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "martin-skrtel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jamie-carragher",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-agger",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stewart-downing",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-henderson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jonjo-shelvey",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxi-rodriguez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andy-carroll",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "ross-turnbull",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "paulo-ferreira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "branislav-ivanovic",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "john-terry",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ryan-bertrand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "michael-essien",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "oriol-romeu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ramires",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florent-malouda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-sturridge",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "michael-essien"
+      },
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jordan-henderson"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "daniel-agger"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ramires"
+      },
+      {
+        "kind": "goal",
+        "minute": 61,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jonjo-shelvey"
+      }
+    ],
+    "memorability": {
+      "score": 75.94,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 1,
+        "percentile": 0.3127,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3083,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5455
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4582
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5019
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]

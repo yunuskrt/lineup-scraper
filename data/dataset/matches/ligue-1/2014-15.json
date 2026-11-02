@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2014-09-21-paris-saint-germain-lyon",
+    "transfermarktId": "2482163",
+    "competitionSlug": "ligue-1",
+    "season": "2014-15",
+    "date": "2014-09-21",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "serge-aurier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-luiz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-digne",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yohan-cabaye",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edinson-cavani",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ezequiel-lavezzi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bakary-kone",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-umtiti",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "corentin-tolisso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-ferri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxime-gonalons",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arnold-mvuemba",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steed-malbranque",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nabil-fekir",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alexandre-lacazette",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "edinson-cavani"
+      },
+      {
+        "kind": "goal",
+        "minute": 84,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "samuel-umtiti"
+      }
+    ],
+    "memorability": {
+      "score": 80.33,
+      "signals": {
+        "drama": 0.2833,
+        "eraBucket": 1,
+        "percentile": 0.4381,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3257,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7091
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2064
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4578
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T01:32:47Z"
+    }
+  },
+  {
     "slug": "2014-10-26-lyon-olympique-marseille",
     "transfermarktId": "2482209",
     "competitionSlug": "ligue-1",
@@ -145,11 +331,11 @@
       }
     ],
     "memorability": {
-      "score": 65.26,
+      "score": 65.28,
       "signals": {
         "drama": 0.0417,
         "eraBucket": 1,
-        "percentile": 0.0073,
+        "percentile": 0.0081,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -175,7 +361,7 @@
         "starPower": 0.3059
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -338,11 +524,11 @@
       }
     ],
     "memorability": {
-      "score": 81.55,
+      "score": 82.73,
       "signals": {
         "drama": 0.1333,
         "eraBucket": 1,
-        "percentile": 0.4728,
+        "percentile": 0.5065,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -368,7 +554,7 @@
         "starPower": 0.4164
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   },
   {
@@ -552,11 +738,11 @@
       }
     ],
     "memorability": {
-      "score": 97.71,
+      "score": 97.95,
       "signals": {
         "drama": 0.4583,
         "eraBucket": 1,
-        "percentile": 0.9347,
+        "percentile": 0.9414,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -582,7 +768,7 @@
         "starPower": 0.4918
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-02T00:14:37Z"
+      "computedAt": "2026-11-02T01:32:47Z"
     }
   }
 ]
