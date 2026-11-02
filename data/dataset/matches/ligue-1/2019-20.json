@@ -1,5 +1,184 @@
 [
   {
+    "slug": "2019-09-22-lyon-paris-saint-germain",
+    "transfermarktId": "3199409",
+    "competitionSlug": "ligue-1",
+    "season": "2019-20",
+    "date": "2019-09-22",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "marcelo-1987",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joachim-andersen",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jason-denayer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo-dubois",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeff-reine-adelaide",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "houssem-aouar",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-mendes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "youssouf-kone",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "moussa-dembele",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "keylor-navas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "thomas-meunier",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdou-diallo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-bernat",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "idrissa-gueye",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ander-herrera",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eric-maxim-choupo-moting",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "neymar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "neymar"
+      }
+    ],
+    "memorability": {
+      "score": 66.76,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.0503,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2508,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.28
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7318
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5059
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
     "slug": "2019-10-27-paris-saint-germain-olympique-marseille",
     "transfermarktId": "3199462",
     "competitionSlug": "ligue-1",
@@ -166,11 +345,11 @@
       }
     ],
     "memorability": {
-      "score": 79.54,
+      "score": 83.46,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 2,
-        "percentile": 0.4155,
+        "percentile": 0.5275,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +375,207 @@
         "starPower": 0.4036
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2019-11-10-olympique-marseille-lyon",
+    "transfermarktId": "3199477",
+    "competitionSlug": "ligue-1",
+    "season": "2019-20",
+    "date": "2019-11-10",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "lyon",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bouna-sarr",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-gonzalez-1990",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "duje-caleta-car",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-amavi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "boubacar-kamara",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxime-lopez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "morgan-sanson",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dimitri-payet",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dario-benedetto",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "anthony-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "leo-dubois",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jason-denayer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joachim-andersen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "youssouf-kone",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "houssem-aouar",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bertrand-traore",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeff-reine-adelaide",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "maxwel-cornet",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-dembele",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dimitri-payet"
+      },
+      {
+        "kind": "goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "dimitri-payet"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "moussa-dembele"
+      },
+      {
+        "kind": "red_card",
+        "minute": 64,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alvaro-gonzalez-1990"
+      }
+    ],
+    "memorability": {
+      "score": 66.16,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.033,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2399,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.1436
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2927
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2182
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

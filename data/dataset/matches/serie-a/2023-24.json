@@ -1,0 +1,430 @@
+[
+  {
+    "slug": "2023-09-16-inter-ac-milan",
+    "transfermarktId": "4103507",
+    "competitionSlug": "serie-a",
+    "season": "2023-24",
+    "date": "2023-09-16",
+    "stage": "Matchday 4",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "yann-sommer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "matteo-darmian",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francesco-acerbi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-dimarco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-thuram",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "davide-calabria",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "malick-thiaw",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rade-krunic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-loftus-cheek",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-pulisic",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "olivier-giroud",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "henrikh-mkhitaryan"
+      },
+      {
+        "kind": "goal",
+        "minute": 38,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "marcus-thuram"
+      },
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "rafael-leao"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "henrikh-mkhitaryan"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "hakan-calhanoglu"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "home",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 93.4,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.8113,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4129,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6618
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4918
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5768
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2024-04-22-ac-milan-inter",
+    "transfermarktId": "4103796",
+    "competitionSlug": "serie-a",
+    "season": "2023-24",
+    "date": "2024-04-22",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "davide-calabria",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fikayo-tomori",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-gabbia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yunus-musah",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yacine-adli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-loftus-cheek",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "christian-pulisic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "yann-sommer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "benjamin-pavard",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francesco-acerbi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-darmian",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-dimarco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcus-thuram",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "francesco-acerbi"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marcus-thuram"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fikayo-tomori"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 4,
+        "side": "home",
+        "playerSlug": "theo-hernandez"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 4,
+        "side": "away",
+        "playerSlug": "denzel-dumfries"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 7,
+        "side": "home",
+        "playerSlug": "davide-calabria"
+      }
+    ],
+    "memorability": {
+      "score": 89.65,
+      "signals": {
+        "drama": 0.225,
+        "eraBucket": 2,
+        "percentile": 0.7044,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 3,
+          "shootout": false
+        },
+        "rawScore": 0.3853,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3264
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6391
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4828
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

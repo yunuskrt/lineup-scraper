@@ -194,11 +194,11 @@
       }
     ],
     "memorability": {
-      "score": 93.15,
+      "score": 95.22,
       "signals": {
         "drama": 0.35,
         "eraBucket": 0,
-        "percentile": 0.8043,
+        "percentile": 0.8635,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -224,7 +224,372 @@
         "starPower": 0.4168
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2002-12-08-galatasaray-besiktas",
+    "transfermarktId": "1118934",
+    "competitionSlug": "super-lig",
+    "season": "2002-03",
+    "date": "2002-12-08",
+    "stage": "Matchday 16",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "faryd-mondragon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "vedat-inceefe",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bulent-korkmaz",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "emre-asik",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-unsal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ergun-penbe",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "umit-davala",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-sas",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-loureiro",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arif-erdem",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "umit-karan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "oscar-cordoba",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ali-eren-beserler",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-carlos-zago",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronaldo-guiaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roman-dabrowski",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amaral",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yasin-sulun",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ahmet-yildirim",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-pancu",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ilhan-mansiz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ibrahim-uzulmez"
+      }
+    ],
+    "memorability": {
+      "score": 65.41,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.0117,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2102,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3918
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2145
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3031
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2003-02-02-fenerbahce-besiktas",
+    "transfermarktId": "1118889",
+    "competitionSlug": "super-lig",
+    "season": "2002-03",
+    "date": "2003-02-02",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "besiktas",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-5-1",
+      "lineup": [
+        {
+          "playerSlug": "oguz-daglaroglu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ogun-temizkanoglu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umit-ozat",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdullah-ercan",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ali-gunes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-johnson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ceyhun-eris",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-bayraktar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tuncay-sanli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "serhat-akin",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "oscar-cordoba",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tayfur-havutcu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-carlos-zago",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tolga-dogantez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "yasin-sulun",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roman-dabrowski",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ahmet-yildirim",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tumer-metin",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-pancu",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ilhan-mansiz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fatih-akyel"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ahmet-dursun"
+      }
+    ],
+    "memorability": {
+      "score": 66.64,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 0,
+        "percentile": 0.0468,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.2294,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2618
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3114
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -380,11 +745,11 @@
       }
     ],
     "memorability": {
-      "score": 77.94,
+      "score": 83.69,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 0,
-        "percentile": 0.3696,
+        "percentile": 0.5341,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -410,7 +775,386 @@
         "starPower": 0.4587
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2003-04-20-besiktas-fenerbahce",
+    "transfermarktId": "1119042",
+    "competitionSlug": "super-lig",
+    "season": "2002-03",
+    "date": "2003-04-20",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "oscar-cordoba",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tayfur-havutcu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-carlos-zago",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronaldo-guiaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ahmet-yildirim",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roman-dabrowski",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergen-yalcin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-pancu",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilhan-mansiz",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pascal-nouma",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "rustu-recber",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mustafa-dogan",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fatih-akyel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "umit-ozat",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "erhan-albayrak",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-johnson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miroslav-stevic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ali-gunes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kemal-aslan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tuncay-sanli",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "semih-senturk",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pascal-nouma"
+      },
+      {
+        "kind": "goal",
+        "minute": 63,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sergen-yalcin"
+      }
+    ],
+    "memorability": {
+      "score": 66.5,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.0429,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2278,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2764
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.36
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3182
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2003-05-25-besiktas-galatasaray",
+    "transfermarktId": "1119087",
+    "competitionSlug": "super-lig",
+    "season": "2002-03",
+    "date": "2003-05-25",
+    "stage": "Matchday 33",
+    "nickname": null,
+    "homeClubSlug": "besiktas",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "oscar-cordoba",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tayfur-havutcu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-carlos-zago",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronaldo-guiaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ibrahim-uzulmez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "federico-giunti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roman-dabrowski",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ahmet-yildirim",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergen-yalcin",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "daniel-pancu",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ilhan-mansiz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "faryd-mondragon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "vedat-inceefe",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mehmet-polat",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bulent-korkmaz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hakan-unsal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "volkan-arslan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ayhan-akman",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cihan-haspolatli",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "haim-revivo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ergun-penbe",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "umit-karan",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sergen-yalcin"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "umit-karan"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "volkan-arslan"
+      }
+    ],
+    "memorability": {
+      "score": 67.66,
+      "signals": {
+        "drama": 0.1417,
+        "eraBucket": 0,
+        "percentile": 0.076,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 2,
+          "shootout": false
+        },
+        "rawScore": 0.2432,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3236
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2932
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

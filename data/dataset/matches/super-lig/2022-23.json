@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "2023-01-08-fenerbahce-galatasaray",
+    "transfermarktId": "3860331",
+    "competitionSlug": "super-lig",
+    "season": "2022-23",
+    "date": "2023-01-08",
+    "stage": "Matchday 18",
+    "nickname": null,
+    "homeClubSlug": "fenerbahce",
+    "awayClubSlug": "galatasaray",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "altay-bayindir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "attila-szalai",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gustavo-henrique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serdar-aziz",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bright-osayi-samuel",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miguel-crespo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "willian-arao",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-rossi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "michy-batshuayi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "joshua-king",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sacha-boey",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-nelsson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo-dubois",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "berkan-kutlu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "milot-rashica",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dries-mertens",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kerem-akturkoglu",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sergio-oliveira"
+      },
+      {
+        "kind": "goal",
+        "minute": 78,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "kerem-akturkoglu"
+      },
+      {
+        "kind": "red_card",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "irfan-can-kahveci"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 10,
+        "side": "away",
+        "playerSlug": "mauro-icardi"
+      }
+    ],
+    "memorability": {
+      "score": 81.45,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.4701,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3375,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2518
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4109
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3314
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2023-06-04-galatasaray-fenerbahce",
+    "transfermarktId": "3860430",
+    "competitionSlug": "super-lig",
+    "season": "2022-23",
+    "date": "2023-06-04",
+    "stage": "Matchday 37",
+    "nickname": null,
+    "homeClubSlug": "galatasaray",
+    "awayClubSlug": "fenerbahce",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "fernando-muslera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sacha-boey",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-nelsson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdulkerim-bardakci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kazimcan-karatas",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "berkan-kutlu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-torreira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-zaniolo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "baris-alper-yilmaz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kerem-akturkoglu",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "irfan-can-egribayat",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ferdi-kadioglu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samet-akaydin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "attila-szalai",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luan-peres",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "willian-arao",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arda-guler",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miha-zajc",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-rossi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enner-valencia",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "michy-batshuayi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nicolo-zaniolo"
+      },
+      {
+        "kind": "red_card",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "luan-peres"
+      },
+      {
+        "kind": "goal",
+        "minute": 71,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      },
+      {
+        "kind": "goal",
+        "minute": 79,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nicolo-zaniolo"
+      }
+    ],
+    "memorability": {
+      "score": 80.58,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 2,
+        "percentile": 0.445,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3324,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2991
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3118
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3055
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

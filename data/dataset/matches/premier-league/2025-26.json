@@ -1,0 +1,381 @@
+[
+  {
+    "slug": "2025-09-14-manchester-city-manchester-united",
+    "transfermarktId": "4625811",
+    "competitionSlug": "premier-league",
+    "season": "2025-26",
+    "date": "2025-09-14",
+    "stage": "Matchday 4",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "abdukodir-khusanov",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "josko-gvardiol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-oreilly",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tijjani-reijnders",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-doku",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "altay-bayindir",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leny-yoro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "noussair-mazraoui",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-ugarte",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-dorgu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bryan-mbeumo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amad-diallo",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "benjamin-sesko",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "phil-foden"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "erling-haaland"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "erling-haaland"
+      }
+    ],
+    "memorability": {
+      "score": 83.57,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.5307,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3492,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5836
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3709
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4773
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2026-01-17-manchester-united-manchester-city",
+    "transfermarktId": "4626013",
+    "competitionSlug": "premier-league",
+    "season": "2025-26",
+    "date": "2026-01-17",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "senne-lammens",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harry-maguire",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luke-shaw",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kobbie-mainoo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amad-diallo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-dorgu",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bryan-mbeumo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rico-lewis",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdukodir-khusanov",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "max-alleyne",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nathan-ake",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antoine-semenyo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-doku",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bryan-mbeumo"
+      },
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "patrick-dorgu"
+      }
+    ],
+    "memorability": {
+      "score": 80.46,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.4418,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3322,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4182
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5118
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.465
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

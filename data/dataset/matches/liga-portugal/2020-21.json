@@ -1,0 +1,381 @@
+[
+  {
+    "slug": "2021-01-15-porto-benfica",
+    "transfermarktId": "3432149",
+    "competitionSlug": "liga-portugal",
+    "season": "2020-21",
+    "date": "2021-01-15",
+    "stage": "Matchday 14",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "agustin-marchesin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nanu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chancel-mbemba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zaidu-sanusi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jesus-corona",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matheus-uribe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-diaz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-marega",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mehdi-taremi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "odysseas-vlachodimos",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gilberto",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jan-vertonghen",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuno-tavares",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julian-weigl",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alejandro-grimaldo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "haris-seferovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "darwin-nunez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "alejandro-grimaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "moussa-marega"
+      },
+      {
+        "kind": "red_card",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mehdi-taremi"
+      }
+    ],
+    "memorability": {
+      "score": 84.7,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.5629,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3548,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4191
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4909
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2021-05-06-benfica-porto",
+    "transfermarktId": "3432209",
+    "competitionSlug": "liga-portugal",
+    "season": "2020-21",
+    "date": "2021-05-06",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "playerSlug": "helton-leite",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "diogo-goncalves",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jan-vertonghen",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-verissimo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alejandro-grimaldo",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julian-weigl",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "everton",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "haris-seferovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "agustin-marchesin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "wilson-manafa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chancel-mbemba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zaidu-sanusi",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "otavio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-oliveira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matheus-uribe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-diaz",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "moussa-marega",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mehdi-taremi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 23,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "everton"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "matheus-uribe"
+      }
+    ],
+    "memorability": {
+      "score": 91.03,
+      "signals": {
+        "drama": 0.2833,
+        "eraBucket": 2,
+        "percentile": 0.7437,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3942,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4909
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.425
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

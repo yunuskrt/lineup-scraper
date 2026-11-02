@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "2015-09-20-porto-benfica",
+    "transfermarktId": "2609359",
+    "competitionSlug": "liga-portugal",
+    "season": "2015-16",
+    "date": "2015-09-20",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-marcano",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miguel-layun",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giannelli-imbula",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ruben-neves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-andre",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jesus-corona",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "vincent-aboubakar",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "yacine-brahimi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-semedo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jardel-1986",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eliseu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "goncalo-guedes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-samaris",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-mitroglou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jonas",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andre-andre"
+      }
+    ],
+    "memorability": {
+      "score": 76.05,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.3158,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3142,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5409
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3555
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4482
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2016-02-12-benfica-porto",
+    "transfermarktId": "2613571",
+    "competitionSlug": "liga-portugal",
+    "season": "2015-16",
+    "date": "2016-02-12",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "victor-lindelof",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jardel-1986",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eliseu",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pizzi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "renato-sanches",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-samaris",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "konstantinos-mitroglou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jonas",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chidozie-awaziem",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-martins-indi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miguel-layun",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hector-herrera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "danilo-pereira",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jesus-corona",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-andre",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yacine-brahimi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vincent-aboubakar",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "konstantinos-mitroglou"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hector-herrera"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "vincent-aboubakar"
+      }
+    ],
+    "memorability": {
+      "score": 85.3,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.5799,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3593,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3564
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6991
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5278
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

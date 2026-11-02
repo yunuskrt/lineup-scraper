@@ -1,0 +1,781 @@
+[
+  {
+    "slug": "2005-09-18-atletico-madrid-barcelona",
+    "transfermarktId": "35969",
+    "competitionSlug": "laliga",
+    "season": "2005-06",
+    "date": "2005-09-18",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "leo-franco",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-velasco",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-amaranto-perea",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-ibanez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxi-rodriguez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-petrov",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mateja-kezman",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 4,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "samuel-etoo"
+      },
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fernando-torres"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mateja-kezman"
+      },
+      {
+        "kind": "red_card",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pablo-ibanez"
+      }
+    ],
+    "memorability": {
+      "score": 76.7,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 0,
+        "percentile": 0.3343,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3023,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.38
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.68
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.53
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2005-11-19-real-madrid-barcelona",
+    "transfermarktId": "36002",
+    "competitionSlug": "laliga",
+    "season": "2005-06",
+    "date": "2005-11-19",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-garcia",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "raul",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 15,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "samuel-etoo"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldinho"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldinho"
+      }
+    ],
+    "memorability": {
+      "score": 95.36,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.8674,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4169,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8764
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7555
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.8159
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-03-05-real-madrid-atletico-madrid",
+    "transfermarktId": "36051",
+    "competitionSlug": "laliga",
+    "season": "2005-06",
+    "date": "2006-03-05",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "michel-salgado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-helguera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-bravo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-gravesen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julio-baptista",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-cassano",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "leo-franco",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-velasco",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-amaranto-perea",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pablo-ibanez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-valera",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gabi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peter-luccin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "martin-petrov",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateja-kezman",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fernando-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 5,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "antonio-cassano"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mateja-kezman"
+      },
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "julio-baptista"
+      }
+    ],
+    "memorability": {
+      "score": 71.35,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.1813,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2735,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6182
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3291
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4737
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-02-barcelona-real-madrid",
+    "transfermarktId": "36056",
+    "competitionSlug": "laliga",
+    "season": "2005-06",
+    "date": "2006-04-02",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrik-larsson",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cicinho",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-bravo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "roberto-carlos",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julio-baptista",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-beckham",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zinedine-zidane",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ronaldinho"
+      },
+      {
+        "kind": "red_card",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roberto-carlos"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldo"
+      }
+    ],
+    "memorability": {
+      "score": 93.93,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 0,
+        "percentile": 0.8265,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.4012,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7282
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7173
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7228
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2023-09-24-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "4094623",
+    "competitionSlug": "ligue-1",
+    "season": "2023-24",
+    "date": "2023-09-24",
+    "stage": "Matchday 6",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "achraf-hakimi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marquinhos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-ugarte",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "warren-zaire-emery",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bradley-barcola",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "randal-kolo-muani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "pau-lopez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "chancel-mbemba",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-balerdi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "samuel-gigot",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan-clauss",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "valentin-rongier",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "azzedine-ounahi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "renan-lodi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "vitinha-2000",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "achraf-hakimi"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "randal-kolo-muani"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "goncalo-ramos"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "goncalo-ramos"
+      }
+    ],
+    "memorability": {
+      "score": 86.02,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.6006,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3603,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2773
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4596
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2024-03-31-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "4094813",
+    "competitionSlug": "ligue-1",
+    "season": "2023-24",
+    "date": "2024-03-31",
+    "stage": "Matchday 27",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "pau-lopez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ulisses-garcia",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "chancel-mbemba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-balerdi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "quentin-merlin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordan-veretout",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "geoffrey-kondogbia",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amine-harit",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-henrique",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "iliman-ndiaye",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "achraf-hakimi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danilo-pereira",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-beraldo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "warren-zaire-emery",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vitinha",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabian-ruiz",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "randal-kolo-muani",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "kylian-mbappe",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 40,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "lucas-beraldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "vitinha"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "goncalo-ramos"
+      }
+    ],
+    "memorability": {
+      "score": 82.22,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.4921,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3427,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2936
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5664
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.43
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

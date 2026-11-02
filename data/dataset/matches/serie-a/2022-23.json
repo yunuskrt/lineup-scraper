@@ -1,0 +1,388 @@
+[
+  {
+    "slug": "2022-09-03-ac-milan-inter",
+    "transfermarktId": "3844780",
+    "competitionSlug": "serie-a",
+    "season": "2022-23",
+    "date": "2022-09-03",
+    "stage": "Matchday 5",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "mike-maignan",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "davide-calabria",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pierre-kalulu",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fikayo-tomori",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismael-bennacer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sandro-tonali",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "junior-messias",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "charles-de-ketelaere",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-leao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-giroud",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "denzel-dumfries",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcelo-brozovic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matteo-darmian",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joaquin-correa",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 21,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marcelo-brozovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 28,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rafael-leao"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "olivier-giroud"
+      },
+      {
+        "kind": "goal",
+        "minute": 60,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rafael-leao"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "edin-dzeko"
+      }
+    ],
+    "memorability": {
+      "score": 90.7,
+      "signals": {
+        "drama": 0.2083,
+        "eraBucket": 2,
+        "percentile": 0.7343,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3922,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3636
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7291
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5464
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2023-02-05-inter-ac-milan",
+    "transfermarktId": "3844939",
+    "competitionSlug": "serie-a",
+    "season": "2022-23",
+    "date": "2023-02-05",
+    "stage": "Matchday 21",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "andre-onana",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "francesco-acerbi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-darmian",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-dimarco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edin-dzeko",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "ciprian-tatarusanu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "pierre-kalulu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matteo-gabbia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "davide-calabria",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sandro-tonali",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "junior-messias",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rade-krunic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-giroud",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "divock-origi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 34,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lautaro-martinez"
+      }
+    ],
+    "memorability": {
+      "score": 80.85,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.4528,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3337,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6936
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3973
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5455
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

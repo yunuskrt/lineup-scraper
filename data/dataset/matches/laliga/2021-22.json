@@ -1,0 +1,581 @@
+[
+  {
+    "slug": "2021-10-02-atletico-madrid-barcelona",
+    "transfermarktId": "3605295",
+    "competitionSlug": "laliga",
+    "season": "2021-22",
+    "date": "2021-10-02",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-1-4-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stefan-savic",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-maria-gimenez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-hermoso",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "koke",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcos-llorente",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-lemar",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-de-paul",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yannick-carrasco",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-felix",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luis-suarez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oscar-mingueza",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronald-araujo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergino-dest",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-gonzalez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philippe-coutinho",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gavi",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 23,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "thomas-lemar"
+      },
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "luis-suarez"
+      }
+    ],
+    "memorability": {
+      "score": 70.69,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.1627,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2857,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6655
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.55
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6078
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2021-10-24-barcelona-real-madrid",
+    "transfermarktId": "3605324",
+    "competitionSlug": "laliga",
+    "season": "2021-22",
+    "date": "2021-10-24",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oscar-mingueza",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-garcia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergino-dest",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ansu-fati",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "memphis-depay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "thibaut-courtois",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lucas-vazquez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eder-militao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-alaba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferland-mendy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrygo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "vinicius-junior",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 32,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "david-alaba"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "lucas-vazquez"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 7,
+        "side": "home",
+        "playerSlug": "sergio-aguero"
+      }
+    ],
+    "memorability": {
+      "score": 88.5,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.6714,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3775,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5655
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6718
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6186
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2022-03-20-real-madrid-barcelona",
+    "transfermarktId": "3610564",
+    "competitionSlug": "laliga",
+    "season": "2021-22",
+    "date": "2022-03-20",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "thibaut-courtois",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eder-militao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-alaba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nacho-fernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "federico-valverde",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrygo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "vinicius-junior",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ronald-araujo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-garcia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gerard-pique",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jordi-alba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pedri",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ousmane-dembele",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ferran-torres",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 29,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "pierre-emerick-aubameyang"
+      },
+      {
+        "kind": "goal",
+        "minute": 38,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronald-araujo"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ferran-torres"
+      },
+      {
+        "kind": "goal",
+        "minute": 51,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "pierre-emerick-aubameyang"
+      }
+    ],
+    "memorability": {
+      "score": 92.79,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 2,
+        "percentile": 0.794,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4058,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7091
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6655
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6873
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

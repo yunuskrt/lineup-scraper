@@ -187,11 +187,11 @@
       }
     ],
     "memorability": {
-      "score": 77.47,
+      "score": 83.68,
       "signals": {
         "drama": 0.25,
         "eraBucket": 1,
-        "percentile": 0.3563,
+        "percentile": 0.5336,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -217,7 +217,7 @@
         "starPower": 0.6437
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -401,11 +401,11 @@
       }
     ],
     "memorability": {
-      "score": 88.81,
+      "score": 93.01,
       "signals": {
         "drama": 0.4583,
         "eraBucket": 1,
-        "percentile": 0.6802,
+        "percentile": 0.8004,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -431,7 +431,7 @@
         "starPower": 0.5741
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -594,11 +594,11 @@
       }
     ],
     "memorability": {
-      "score": 91.64,
+      "score": 94.98,
       "signals": {
         "drama": 0.1417,
         "eraBucket": 1,
-        "percentile": 0.7611,
+        "percentile": 0.8566,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -624,7 +624,407 @@
         "starPower": 0.8446
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2010-02-14-atletico-madrid-barcelona",
+    "transfermarktId": "957399",
+    "competitionSlug": "laliga",
+    "season": "2009-10",
+    "date": "2010-02-14",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "atletico-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-amaranto-perea",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-dominguez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-assuncao",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jeffren",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gabriel-milito",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "seydou-keita",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sergio-busquets",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xavi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lionel-messi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "diego-forlan"
+      },
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "simao"
+      },
+      {
+        "kind": "goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      }
+    ],
+    "memorability": {
+      "score": 73.51,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.2432,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3028,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5345
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7055
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.62
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2010-03-28-real-madrid-atletico-madrid",
+    "transfermarktId": "957505",
+    "competitionSlug": "laliga",
+    "season": "2009-10",
+    "date": "2010-03-28",
+    "stage": "Matchday 29",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "atletico-madrid",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "iker-casillas",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alvaro-arbeloa",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sergio-ramos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "raul-albiol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "esteban-granero",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "xabi-alonso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-gago",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafael-van-der-vaart",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "david-de-gea",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-valera",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "tomas-ujfalusi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alvaro-dominguez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-lopez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-assuncao",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "sergio-aguero",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jose-antonio-reyes"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "xabi-alonso"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alvaro-arbeloa"
+      },
+      {
+        "kind": "goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "gonzalo-higuain"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "diego-forlan"
+      }
+    ],
+    "memorability": {
+      "score": 91.93,
+      "signals": {
+        "drama": 0.4083,
+        "eraBucket": 1,
+        "percentile": 0.7695,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.399,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7436
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4673
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6055
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -780,11 +1180,11 @@
       }
     ],
     "memorability": {
-      "score": 85.69,
+      "score": 90.85,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 1,
-        "percentile": 0.5911,
+        "percentile": 0.7387,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -810,7 +1210,7 @@
         "starPower": 0.7618
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

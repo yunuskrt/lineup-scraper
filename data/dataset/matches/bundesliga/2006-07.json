@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2006-08-11-bayern-munich-borussia-dortmund",
+    "transfermarktId": "53492",
+    "competitionSlug": "bundesliga",
+    "season": "2006-07",
+    "date": "2006-08-11",
+    "stage": "Matchday 1",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucio",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "owen-hargreaves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-ottl",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "roy-makaay",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roque-santa-cruz",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "philipp-degen",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christoph-metzelder",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "markus-brzenska",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sebastian-kehl",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marc-andre-kruska",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-kringe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-pienaar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nelson-valdez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alex-frei",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 24,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "roy-makaay"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "bastian-schweinsteiger"
+      }
+    ],
+    "memorability": {
+      "score": 85.67,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.5906,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3424,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6909
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3418
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5164
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2007-01-26-borussia-dortmund-bayern-munich",
+    "transfermarktId": "53645",
+    "competitionSlug": "bundesliga",
+    "season": "2006-07",
+    "date": "2007-01-26",
+    "stage": "Matchday 18",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "philipp-degen",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "christoph-metzelder",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "markus-brzenska",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dede",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marc-andre-kruska",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tinga",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "florian-kringe",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "steven-pienaar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ebi-smolarek",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alex-frei",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "oliver-kahn",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "willy-sagnol",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucio",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hasan-salihamidzic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ali-karimi",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claudio-pizarro",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "roy-makaay",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex-frei"
+      },
+      {
+        "kind": "goal",
+        "minute": 25,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "daniel-van-buyten"
+      },
+      {
+        "kind": "goal",
+        "minute": 42,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "roy-makaay"
+      },
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex-frei"
+      },
+      {
+        "kind": "goal",
+        "minute": 59,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "tinga"
+      }
+    ],
+    "memorability": {
+      "score": 97.41,
+      "signals": {
+        "drama": 0.4083,
+        "eraBucket": 0,
+        "percentile": 0.9259,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4617,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.29
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7982
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5441
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

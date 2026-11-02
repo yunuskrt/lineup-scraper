@@ -1,0 +1,388 @@
+[
+  {
+    "slug": "2014-01-12-benfica-porto",
+    "transfermarktId": "2340275",
+    "competitionSlug": "liga-portugal",
+    "season": "2013-14",
+    "date": "2014-01-12",
+    "stage": "Matchday 15",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "jan-oblak",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maxi-pereira",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ezequiel-garay",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "guilherme-siqueira",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nemanja-matic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lazar-markovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enzo-perez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nico-gaitan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lima",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danilo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eliaquim-mangala",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucho-gonzalez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-1989",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "varela",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jackson-martinez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lica",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 13,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rodrigo"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ezequiel-garay"
+      },
+      {
+        "kind": "red_card",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "danilo"
+      }
+    ],
+    "memorability": {
+      "score": 78.78,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 1,
+        "percentile": 0.3938,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3254,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.37
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3173
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3437
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2014-05-10-porto-benfica",
+    "transfermarktId": "2340364",
+    "competitionSlug": "liga-portugal",
+    "season": "2013-14",
+    "date": "2014-05-10",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "fabiano-1988",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "danilo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-reyes",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maicon-1988",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steven-defour",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mikel-agu",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hector-herrera",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-pereira",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jackson-martinez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-3-2",
+      "lineup": [
+        {
+          "playerSlug": "paulo-lopes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "steven-vitoria",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jardel-1986",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andre-almeida",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andre-gomes",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eduardo-salvio",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "enzo-perez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-cavaleiro",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filip-djuricic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rogelio-funes-mori",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 4,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ricardo-pereira"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 26,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "enzo-perez"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 39,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "jackson-martinez"
+      }
+    ],
+    "memorability": {
+      "score": 77.83,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.3666,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3216,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4382
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.24
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3391
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "2023-10-28-barcelona-real-madrid",
+    "transfermarktId": "4113124",
+    "competitionSlug": "laliga",
+    "season": "2023-24",
+    "date": "2023-10-28",
+    "stage": "Matchday 11",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "real-madrid",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ronald-araujo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andreas-christensen",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "inigo-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alejandro-balde",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gavi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fermin-lopez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ferran-torres",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "joao-felix",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "kepa-arrizabalaga",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "daniel-carvajal",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-rudiger",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-alaba",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ferland-mendy",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "federico-valverde",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aurelien-tchouameni",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vinicius-junior",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrygo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ilkay-gundogan"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jude-bellingham"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "jude-bellingham"
+      }
+    ],
+    "memorability": {
+      "score": 98.02,
+      "signals": {
+        "drama": 0.475,
+        "eraBucket": 2,
+        "percentile": 0.9434,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4811,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4655
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5827
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5241
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2024-04-21-real-madrid-barcelona",
+    "transfermarktId": "4112930",
+    "competitionSlug": "laliga",
+    "season": "2023-24",
+    "date": "2024-04-21",
+    "stage": "Matchday 32",
+    "nickname": null,
+    "homeClubSlug": "real-madrid",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "andriy-lunin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "lucas-vazquez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "aurelien-tchouameni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-rudiger",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eduardo-camavinga",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luka-modric",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-valverde",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jude-bellingham",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vinicius-junior",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrygo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "marc-ter-stegen",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jules-kounde",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ronald-araujo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pau-cubarsi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "joao-cancelo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frenkie-de-jong",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andreas-christensen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lamine-yamal",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "robert-lewandowski",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "raphinha",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 6,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "andreas-christensen"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "vinicius-junior"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fermin-lopez"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lucas-vazquez"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "jude-bellingham"
+      }
+    ],
+    "memorability": {
+      "score": 96.56,
+      "signals": {
+        "drama": 0.3583,
+        "eraBucket": 2,
+        "percentile": 0.9017,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4509,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5673
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5873
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5773
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

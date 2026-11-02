@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 77.75,
+      "score": 83.93,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 1,
-        "percentile": 0.3644,
+        "percentile": 0.5408,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,193 @@
         "starPower": 0.4191
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2013-02-24-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "2224101",
+    "competitionSlug": "ligue-1",
+    "season": "2012-13",
+    "date": "2013-02-24",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "salvatore-sirigu",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "christophe-jallet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "maxwell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-moura",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-verratti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-pastore",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ezequiel-lavezzi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rod-fanni",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-nkoulou",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-mendes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremy-morel",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alaixys-romao",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joey-barton",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "foued-kadir",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-ayew",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andre-pierre-gignac",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "own_goal",
+        "minute": 11,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nicolas-nkoulou"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "zlatan-ibrahimovic"
+      }
+    ],
+    "memorability": {
+      "score": 77.71,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 1,
+        "percentile": 0.363,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3203,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3882
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4236
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4059
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

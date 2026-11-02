@@ -166,11 +166,11 @@
       }
     ],
     "memorability": {
-      "score": 85.22,
+      "score": 90.06,
       "signals": {
         "drama": 0.1833,
         "eraBucket": 0,
-        "percentile": 0.7043,
+        "percentile": 0.8012,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -196,7 +196,542 @@
         "starPower": 0.7487
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-03-28-benfica-barcelona",
+    "transfermarktId": "53418",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-03-28",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "moretto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-rocha",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anderson-1980",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "petit",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "geovanni",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "beto-1976",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "laurent-robert",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juliano-belletti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thiago-motta",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "henrik-larsson",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 57.85,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.1569,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2663,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.2045
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6582
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.4314
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-03-29-inter-villarreal-cf",
+    "transfermarktId": "53419",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-03-29",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "villarreal-cf",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "francesco-toldo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pierre-wome",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dejan-stankovic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-sebastian-veron",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cesar",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alvaro-recoba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "adriano",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "sebastian-viera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javi-venta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gonzalo-rodriguez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-manuel-pena",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesar-arzo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcos-senna",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-calleja",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-roman-riquelme",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jose-mari",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "diego-forlan"
+      },
+      {
+        "kind": "goal",
+        "minute": 7,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "adriano"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "obafemi-martins"
+      }
+    ],
+    "memorability": {
+      "score": 71.1,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.422,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3126,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5536
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3345
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.4441
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-03-29-lyon-ac-milan",
+    "transfermarktId": "53420",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-03-29",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "francois-clerc",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "claudio-cacapa",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-abidal",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-pedretti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "tiago-mendes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sylvain-wiltord",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "john-carew",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "florent-malouda",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "dida",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alessandro-costacurta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kakhaber-kaladze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serginho",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andriy-shevchenko",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alberto-gilardino",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 65.69,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.3138,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2994,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4373
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7564
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.5969
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -366,11 +901,11 @@
       }
     ],
     "memorability": {
-      "score": 74.68,
+      "score": 82.21,
       "signals": {
         "drama": 0.1667,
         "eraBucket": 0,
-        "percentile": 0.4935,
+        "percentile": 0.6442,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -396,7 +931,1451 @@
         "starPower": 0.5773
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-04-villarreal-cf-inter",
+    "transfermarktId": "53423",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-04",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "villarreal-cf",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "sebastian-viera",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javi-venta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-manuel-pena",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "quique-alvarez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodolfo-arruabarrena",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcos-senna",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alessio-tacchinardi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-roman-riquelme",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jose-mari",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "francesco-toldo",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-materazzi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-sebastian-veron",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dejan-stankovic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alvaro-recoba",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "adriano",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rodolfo-arruabarrena"
+      }
+    ],
+    "memorability": {
+      "score": 63.16,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.2632,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2907,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6191
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.4805
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-05-barcelona-benfica",
+    "transfermarktId": "53422",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-05",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juliano-belletti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "henrik-larsson",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "moretto",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ricardo-rocha",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anderson-1980",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "beto-1976",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "petit",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-fernandes",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "geovanni",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fabrizio-miccoli",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 19,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ronaldinho"
+      },
+      {
+        "kind": "goal",
+        "minute": 89,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "samuel-etoo"
+      }
+    ],
+    "memorability": {
+      "score": 66.43,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.3285,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3019,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7218
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2055
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.4637
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-05-juventus-arsenal",
+    "transfermarktId": "53421",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-05",
+    "stage": "Quarter-final",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "gianluca-zambrotta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "robert-kovac",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cannavaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adrian-mutu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emerson-1976",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giuliano-giannichedda",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pavel-nedved",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-trezeguet",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kolo-toure",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-senderos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-flamini",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesc-fabregas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gilberto-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aleksandr-hleb",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pavel-nedved"
+      }
+    ],
+    "memorability": {
+      "score": 81.19,
+      "signals": {
+        "drama": 0.05,
+        "eraBucket": 0,
+        "percentile": 0.6238,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3489,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.8155
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6982
+          }
+        },
+        "stage": 0.6,
+        "starPower": 0.7569
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-18-ac-milan-barcelona",
+    "transfermarktId": "53455",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-18",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "barcelona",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "dida",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jaap-stam",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kakhaber-kaladze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serginho",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andriy-shevchenko",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alberto-gilardino",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 57,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ludovic-giuly"
+      }
+    ],
+    "memorability": {
+      "score": 90.89,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.8177,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3993,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7636
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6836
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.7236
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-19-arsenal-villarreal-cf",
+    "transfermarktId": "53456",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-19",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "arsenal",
+    "awayClubSlug": "villarreal-cf",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kolo-toure",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-senderos",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-flamini",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesc-fabregas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gilberto-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aleksandr-hleb",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "mariano-barbosa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javi-venta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesar-arzo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "quique-alvarez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodolfo-arruabarrena",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-tacchinardi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcos-senna",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-roman-riquelme",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "jose-mari",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 41,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "kolo-toure"
+      }
+    ],
+    "memorability": {
+      "score": 82.65,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.653,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3554,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7509
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2573
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.5041
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-25-villarreal-cf-arsenal",
+    "transfermarktId": "53458",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-25",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "villarreal-cf",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "mariano-barbosa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "javi-venta",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-manuel-pena",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "quique-alvarez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rodolfo-arruabarrena",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "josico",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcos-senna",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-pablo-sorin",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juan-roman-riquelme",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diego-forlan",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "guillermo-franco",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kolo-toure",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sol-campbell",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-flamini",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesc-fabregas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gilberto-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aleksandr-hleb",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jose-antonio-reyes",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 80.7,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.614,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3475,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3618
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7127
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.5373
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-04-26-barcelona-ac-milan",
+    "transfermarktId": "53457",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-04-26",
+    "stage": "Semi-final",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juliano-belletti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andres-iniesta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "dida",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jaap-stam",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-costacurta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kakhaber-kaladze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "serginho",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andriy-shevchenko",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 88.31,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 0,
+        "percentile": 0.7661,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3847,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7009
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7464
+          }
+        },
+        "stage": 0.8,
+        "starPower": 0.7236
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2006-05-17-barcelona-arsenal",
+    "transfermarktId": "53463",
+    "competitionSlug": "champions-league",
+    "season": "2005-06",
+    "date": "2006-05-17",
+    "stage": "Final",
+    "nickname": null,
+    "homeClubSlug": "barcelona",
+    "awayClubSlug": "arsenal",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "victor-valdes",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "oleguer",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "carles-puyol",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rafa-marquez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giovanni-van-bronckhorst",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mark-van-bommel",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "deco",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ludovic-giuly",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "samuel-etoo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ronaldinho",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "jens-lehmann",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "emmanuel-eboue",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kolo-toure",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sol-campbell",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ashley-cole",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cesc-fabregas",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gilberto-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "freddie-ljungberg",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aleksandr-hleb",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-pires",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thierry-henry",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 18,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jens-lehmann"
+      },
+      {
+        "kind": "goal",
+        "minute": 37,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sol-campbell"
+      },
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "samuel-etoo"
+      },
+      {
+        "kind": "goal",
+        "minute": 81,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "juliano-belletti"
+      }
+    ],
+    "memorability": {
+      "score": 99.42,
+      "signals": {
+        "drama": 0.375,
+        "eraBucket": 0,
+        "percentile": 0.9883,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.5827,
+        "rivalry": 0,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8536
+          }
+        },
+        "stage": 1,
+        "starPower": 0.7573
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

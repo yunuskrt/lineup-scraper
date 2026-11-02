@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "2006-10-28-porto-benfica",
+    "transfermarktId": "59194",
+    "competitionSlug": "liga-portugal",
+    "season": "2006-07",
+    "date": "2006-10-28",
+    "stage": "Matchday 8",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "helton",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jorge-fucile",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bruno-alves",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marek-cech",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "anderson",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-assuncao",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucho-gonzalez",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lisandro-lopez",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "helder-postiga",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "ricardo-quaresma",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "quim",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nelson-1983",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ricardo-rocha",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luisao",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konstantinos-katsouranis",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "petit",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-jorge-1981",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nuno-gomes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "simao",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "francisco-fonseca",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 12,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lisandro-lopez"
+      },
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ricardo-quaresma"
+      },
+      {
+        "kind": "goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "konstantinos-katsouranis"
+      },
+      {
+        "kind": "goal",
+        "minute": 82,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nuno-gomes"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 95.7,
+      "signals": {
+        "drama": 0.3583,
+        "eraBucket": 0,
+        "percentile": 0.8772,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4231,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4645
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4127
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4386
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

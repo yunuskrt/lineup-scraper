@@ -1,0 +1,388 @@
+[
+  {
+    "slug": "2023-11-04-borussia-dortmund-bayern-munich",
+    "transfermarktId": "4096048",
+    "competitionSlug": "bundesliga",
+    "season": "2023-24",
+    "date": "2023-11-04",
+    "stage": "Matchday 10",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "gregor-kobel",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "marius-wolf",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-schlotterbeck",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julian-ryerson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marcel-sabitzer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "salih-ozcan",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-reus",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julian-brandt",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "donyell-malen",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "niclas-fullkrug",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-neuer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "noussair-mazraoui",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dayot-upamecano",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "min-jae-kim",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alphonso-davies",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konrad-laimer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leon-goretzka",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kingsley-coman",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamal-musiala",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leroy-sane",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 4,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "dayot-upamecano"
+      },
+      {
+        "kind": "goal",
+        "minute": 9,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "harry-kane"
+      }
+    ],
+    "memorability": {
+      "score": 92.08,
+      "signals": {
+        "drama": 0.2167,
+        "eraBucket": 2,
+        "percentile": 0.7736,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": true,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.4016,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6982
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5787
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2024-03-30-bayern-munich-borussia-dortmund",
+    "transfermarktId": "4096201",
+    "competitionSlug": "bundesliga",
+    "season": "2023-24",
+    "date": "2024-03-30",
+    "stage": "Matchday 27",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "sven-ulreich",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joshua-kimmich",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "eric-dier",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alphonso-davies",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "konrad-laimer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leon-goretzka",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "leroy-sane",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-muller",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jamal-musiala",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "harry-kane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "alexander-meyer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "julian-ryerson",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-schlotterbeck",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ian-maatsen",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "felix-nmecha",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "emre-can",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "julian-brandt",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jadon-sancho",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "niclas-fullkrug",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-adeyemi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "karim-adeyemi"
+      },
+      {
+        "kind": "goal",
+        "minute": 83,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "julian-ryerson"
+      }
+    ],
+    "memorability": {
+      "score": 80.99,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 2,
+        "percentile": 0.4568,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3347,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6564
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2991
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4778
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

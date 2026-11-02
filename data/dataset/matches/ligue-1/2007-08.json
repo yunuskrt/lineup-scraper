@@ -1,0 +1,595 @@
+[
+  {
+    "slug": "2007-09-02-paris-saint-germain-olympique-marseille",
+    "transfermarktId": "82973",
+    "competitionSlug": "ligue-1",
+    "season": "2007-08",
+    "date": "2007-09-02",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "paris-saint-germain",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "mickael-landreau",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "bernard-mendy",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zoumana-camara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gregory-bourillon",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "amara-diane",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-clement",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "didier-digard",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerome-rothen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "peguy-luyindula",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "pierre-alain-frau",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "laurent-bonnart",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "julien-rodriguez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jacques-faty",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "modeste-mbami",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "karim-ziani",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samir-nasri",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mamadou-niang",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "djibril-cisse",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 10,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "djibril-cisse"
+      },
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "peguy-luyindula"
+      }
+    ],
+    "memorability": {
+      "score": 73.12,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 0,
+        "percentile": 0.232,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2854,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.0682
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.3945
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2314
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2008-02-17-olympique-marseille-paris-saint-germain",
+    "transfermarktId": "83150",
+    "competitionSlug": "ligue-1",
+    "season": "2007-08",
+    "date": "2008-02-17",
+    "stage": "Matchday 25",
+    "nickname": null,
+    "homeClubSlug": "olympique-marseille",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "steve-mandanda",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "laurent-bonnart",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lorik-cana",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gael-givet",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "taye-taiwo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "benoit-cheyrou",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "charles-kabore",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mathieu-valbuena",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "samir-nasri",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mamadou-niang",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "djibril-cisse",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "mickael-landreau",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ceara",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zoumana-camara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-yepes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "souza-1979",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-clement",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clement-chantome",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerome-rothen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amara-diane",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "peguy-luyindula",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "penalty_goal",
+        "minute": 29,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jerome-rothen"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "taye-taiwo"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mamadou-niang"
+      }
+    ],
+    "memorability": {
+      "score": 79.22,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 0,
+        "percentile": 0.4064,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3112,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4418
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.1327
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2873
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2008-03-23-lyon-paris-saint-germain",
+    "transfermarktId": "83197",
+    "competitionSlug": "ligue-1",
+    "season": "2007-08",
+    "date": "2008-03-23",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "paris-saint-germain",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "anthony-reveillere",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sebastien-squillaci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cris",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-grosso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mathieu-bodmer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-toulalan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "abdul-kader-keita",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "fred",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "karim-benzema",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "lineup": [
+        {
+          "playerSlug": "mickael-landreau",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ceara",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "zoumana-camara",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mario-yepes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sylvain-armand",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "clement-chantome",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-clement",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gregory-bourillon",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jerome-rothen",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "souza-1979",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amara-diane",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 8,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fred"
+      },
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fred"
+      },
+      {
+        "kind": "goal",
+        "minute": 45,
+        "addedTime": 2,
+        "side": "away",
+        "playerSlug": "zoumana-camara"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 52,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jerome-rothen"
+      },
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "sidney-govou"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "juninho-pernambucano"
+      }
+    ],
+    "memorability": {
+      "score": 71.55,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 0,
+        "percentile": 0.1871,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2757,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3864
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.1455
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.266
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

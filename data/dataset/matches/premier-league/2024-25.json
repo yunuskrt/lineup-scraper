@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "2024-12-15-manchester-city-manchester-united",
+    "transfermarktId": "4361475",
+    "competitionSlug": "premier-league",
+    "season": "2024-25",
+    "date": "2024-12-15",
+    "stage": "Matchday 16",
+    "nickname": null,
+    "homeClubSlug": "manchester-city",
+    "awayClubSlug": "manchester-united",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-1-4-1",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kyle-walker",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "josko-gvardiol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matheus-nunes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jeremy-doku",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "erling-haaland",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "lineup": [
+        {
+          "playerSlug": "andre-onana",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harry-maguire",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lisandro-martinez",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "noussair-mazraoui",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-ugarte",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "amad-diallo",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rasmus-hojlund",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mason-mount",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 36,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "josko-gvardiol"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 88,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "bruno-fernandes"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "amad-diallo"
+      }
+    ],
+    "memorability": {
+      "score": 98.3,
+      "signals": {
+        "drama": 0.475,
+        "eraBucket": 2,
+        "percentile": 0.9513,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": true,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.491,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4864
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5737
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2025-04-06-manchester-united-manchester-city",
+    "transfermarktId": "4362825",
+    "competitionSlug": "premier-league",
+    "season": "2024-25",
+    "date": "2025-04-06",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "manchester-united",
+    "awayClubSlug": "manchester-city",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-4-2-1",
+      "lineup": [
+        {
+          "playerSlug": "andre-onana",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "noussair-mazraoui",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "harry-maguire",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leny-yoro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diogo-dalot",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "manuel-ugarte",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casemiro",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "patrick-dorgu",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bruno-fernandes",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alejandro-garnacho",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rasmus-hojlund",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-2-1-2",
+      "lineup": [
+        {
+          "playerSlug": "ederson",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "matheus-nunes",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ruben-dias",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "josko-gvardiol",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-oreilly",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "bernardo-silva",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ilkay-gundogan",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kevin-de-bruyne",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "phil-foden",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "omar-marmoush",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [],
+    "memorability": {
+      "score": 77.74,
+      "signals": {
+        "drama": 0,
+        "eraBucket": 2,
+        "percentile": 0.364,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 0,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3188,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4564
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6318
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5441
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

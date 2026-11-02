@@ -800,6 +800,24 @@
     "aliases": []
   },
   {
+    "slug": "sporting-cp",
+    "kind": "club",
+    "name": "Sporting CP",
+    "shortName": "SPO",
+    "crestKey": "crests/sporting-cp/eda0a93e80eb.webp",
+    "transfermarktId": "336",
+    "aliases": []
+  },
+  {
+    "slug": "ssc-napoli",
+    "kind": "club",
+    "name": "SSC Napoli",
+    "shortName": "SSC",
+    "crestKey": "crests/ssc-napoli/04b763ffc2fe.webp",
+    "transfermarktId": "6195",
+    "aliases": []
+  },
+  {
     "slug": "sweden",
     "kind": "national_team",
     "name": "Sweden",
@@ -872,6 +890,15 @@
     "aliases": [
       "Valencia CF"
     ]
+  },
+  {
+    "slug": "vfl-wolfsburg",
+    "kind": "club",
+    "name": "VfL Wolfsburg",
+    "shortName": "VFL",
+    "crestKey": "crests/vfl-wolfsburg/6545e94f75d8.webp",
+    "transfermarktId": "82",
+    "aliases": []
   },
   {
     "slug": "villarreal-cf",

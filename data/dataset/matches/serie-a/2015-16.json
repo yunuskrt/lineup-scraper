@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "2015-09-13-inter-ac-milan",
+    "transfermarktId": "2603998",
+    "competitionSlug": "serie-a",
+    "season": "2015-16",
+    "date": "2015-09-13",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "davide-santon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gary-medel",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeison-murillo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "felipe-melo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "geoffrey-kondogbia",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ivan-perisic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stevan-jovetic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "diego-lopez",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-zapata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-romagnoli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giacomo-bonaventura",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juraj-kucka",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "keisuke-honda",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-bacca",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "luiz-adriano",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 58,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "fredy-guarin"
+      }
+    ],
+    "memorability": {
+      "score": 76.53,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.3294,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3157,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4818
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4291
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4555
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2016-01-31-ac-milan-inter",
+    "transfermarktId": "2604188",
+    "competitionSlug": "serie-a",
+    "season": "2015-16",
+    "date": "2016-01-31",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-romagnoli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "luca-antonelli",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "keisuke-honda",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "juraj-kucka",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giacomo-bonaventura",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-bacca",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mbaye-niang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "davide-santon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeison-murillo",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "miranda",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-perisic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcelo-brozovic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gary-medel",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adem-ljajic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stevan-jovetic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "eder",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 35,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alex"
+      },
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "carlos-bacca"
+      },
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mbaye-niang"
+      }
+    ],
+    "memorability": {
+      "score": 85.2,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.5771,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3592,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4627
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.5918
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5273
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

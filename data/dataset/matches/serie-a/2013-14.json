@@ -1,0 +1,1153 @@
+[
+  {
+    "slug": "2013-09-14-inter-juventus",
+    "transfermarktId": "2359227",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2013-09-14",
+    "stage": "Matchday 3",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-ranocchia",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "hugo-campagnaro",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "saphir-taider",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-alvarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrigo-palacio",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephan-lichtsteiner",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-pogba",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mirko-vucinic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 73,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "mauro-icardi"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "arturo-vidal"
+      }
+    ],
+    "memorability": {
+      "score": 71.29,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 1,
+        "percentile": 0.1797,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2895,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3836
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.87
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6268
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2013-10-06-juventus-ac-milan",
+    "transfermarktId": "2359269",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2013-10-06",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simone-padoin",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claudio-marchisio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-quagliarella",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-zapata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-mexes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kevin-constant",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sulley-muntari",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "antonio-nocerino",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robinho",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "alessandro-matri",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 1,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sulley-muntari"
+      },
+      {
+        "kind": "goal",
+        "minute": 15,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "andrea-pirlo"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      },
+      {
+        "kind": "red_card",
+        "minute": 74,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "philippe-mexes"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giorgio-chiellini"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "sulley-muntari"
+      }
+    ],
+    "memorability": {
+      "score": 82.18,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 1,
+        "percentile": 0.4909,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3435,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7355
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4455
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5905
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2013-12-22-inter-ac-milan",
+    "transfermarktId": "2359369",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2013-12-22",
+    "stage": "Matchday 17",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hugo-campagnaro",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "saphir-taider",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fredy-guarin",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrigo-palacio",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-2-1",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "cristian-zapata",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniele-bonera",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kevin-constant",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-poli",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sulley-muntari",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riccardo-saponara",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-balotelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 86,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rodrigo-palacio"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 3,
+        "side": "away",
+        "playerSlug": "sulley-muntari"
+      }
+    ],
+    "memorability": {
+      "score": 79.8,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 1,
+        "percentile": 0.4229,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3307,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4664
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.42
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4432
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2014-02-02-juventus-inter",
+    "transfermarktId": "2359417",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2014-02-02",
+    "stage": "Matchday 22",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "marco-storari",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "giorgio-chiellini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephan-lichtsteiner",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-pogba",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arturo-vidal",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-llorente",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "hugo-campagnaro",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juan-jesus",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zdravko-kuzmanovic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "saphir-taider",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ricardo-alvarez",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrigo-palacio",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 16,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "stephan-lichtsteiner"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "giorgio-chiellini"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "arturo-vidal"
+      },
+      {
+        "kind": "goal",
+        "minute": 72,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "rolando"
+      }
+    ],
+    "memorability": {
+      "score": 75.48,
+      "signals": {
+        "drama": 0.1667,
+        "eraBucket": 1,
+        "percentile": 0.2995,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 4,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3113,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4209
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.59
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2014-03-02-ac-milan-juventus",
+    "transfermarktId": "2359459",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2014-03-02",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "ignazio-abate",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniele-bonera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adil-rami",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "urby-emanuelson",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-poli",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adel-taarabt",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "giampaolo-pazzini",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-buffon",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "martin-caceres",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-barzagli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "stephan-lichtsteiner",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "claudio-marchisio",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paul-pogba",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fernando-llorente",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "carlos-tevez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fernando-llorente"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "carlos-tevez"
+      }
+    ],
+    "memorability": {
+      "score": 70.15,
+      "signals": {
+        "drama": 0.0833,
+        "eraBucket": 1,
+        "percentile": 0.147,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2809,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3582
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.8091
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5837
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2014-05-04-ac-milan-inter",
+    "transfermarktId": "2359559",
+    "competitionSlug": "serie-a",
+    "season": "2013-14",
+    "date": "2014-05-04",
+    "stage": "Matchday 36",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "christian-abbiati",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "mattia-de-sciglio",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adil-rami",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "philippe-mexes",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kevin-constant",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-poli",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nigel-de-jong",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "riccardo-montolivo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "adel-taarabt",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mario-balotelli",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "walter-samuel",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "rolando",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "andrea-ranocchia",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jonathan",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mateo-kovacic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "hernanes",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "esteban-cambiasso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "yuto-nagatomo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mauro-icardi",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "rodrigo-palacio",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 65,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "nigel-de-jong"
+      }
+    ],
+    "memorability": {
+      "score": 75.26,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 1,
+        "percentile": 0.2931,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3104,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4027
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4555
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.4291
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

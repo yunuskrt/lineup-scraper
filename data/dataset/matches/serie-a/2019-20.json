@@ -152,11 +152,11 @@
       }
     ],
     "memorability": {
-      "score": 81.76,
+      "score": 86.46,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 2,
-        "percentile": 0.4789,
+        "percentile": 0.6132,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -182,7 +182,379 @@
         "starPower": 0.6168
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2019-10-06-inter-juventus",
+    "transfermarktId": "3229232",
+    "competitionSlug": "serie-a",
+    "season": "2019-20",
+    "date": "2019-10-06",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "diego-godin",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danilo-dambrosio",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stefano-sensi",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcelo-brozovic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kwadwo-asamoah",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "romelu-lukaku",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-pjanic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sami-khedira",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-bernardeschi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "paulo-dybala",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 4,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "paulo-dybala"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 18,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "lautaro-martinez"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "gonzalo-higuain"
+      }
+    ],
+    "memorability": {
+      "score": 79.25,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 2,
+        "percentile": 0.4072,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3259,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7245
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7473
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7359
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2019-11-10-juventus-ac-milan",
+    "transfermarktId": "3229279",
+    "competitionSlug": "serie-a",
+    "season": "2019-20",
+    "date": "2019-11-10",
+    "stage": "Matchday 12",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-pjanic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-bernardeschi",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-conti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leo-duarte",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-romagnoli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "lucas-paqueta",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ismael-bennacer",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rade-krunic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "suso",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "krzysztof-piatek",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "hakan-calhanoglu",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 77,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "paulo-dybala"
+      }
+    ],
+    "memorability": {
+      "score": 68.38,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 2,
+        "percentile": 0.0967,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2687,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7809
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.41
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5955
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -366,11 +738,11 @@
       }
     ],
     "memorability": {
-      "score": 97.78,
+      "score": 98.68,
       "signals": {
         "drama": 0.45,
         "eraBucket": 2,
-        "percentile": 0.9366,
+        "percentile": 0.9623,
         "raw": {
           "comebackFromHt": true,
           "extraTime": false,
@@ -396,7 +768,414 @@
         "starPower": 0.6618
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2020-03-08-juventus-inter",
+    "transfermarktId": "3229422",
+    "competitionSlug": "serie-a",
+    "season": "2019-20",
+    "date": "2020-03-08",
+    "stage": "Matchday 26",
+    "nickname": null,
+    "homeClubSlug": "juventus",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "matthijs-de-ligt",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alex-sandro",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "blaise-matuidi",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "aaron-ramsey",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "douglas-costa",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "lineup": [
+        {
+          "playerSlug": "samir-handanovic",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "stefan-de-vrij",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-bastoni",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "milan-skriniar",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-candreva",
+          "slot": 4,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "nicolo-barella",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "matias-vecino",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marcelo-brozovic",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ashley-young",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "romelu-lukaku",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "lautaro-martinez",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "aaron-ramsey"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "paulo-dybala"
+      },
+      {
+        "kind": "red_card",
+        "minute": 79,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "daniele-padelli"
+      }
+    ],
+    "memorability": {
+      "score": 80.46,
+      "signals": {
+        "drama": 0.1333,
+        "eraBucket": 2,
+        "percentile": 0.4418,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 2,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3322,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7609
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7445
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.7527
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2020-07-07-ac-milan-juventus",
+    "transfermarktId": "3229469",
+    "competitionSlug": "serie-a",
+    "season": "2019-20",
+    "date": "2020-07-07",
+    "stage": "Matchday 31",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "juventus",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "gianluigi-donnarumma",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "andrea-conti",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "simon-kjaer",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessio-romagnoli",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "theo-hernandez",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ismael-bennacer",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-kessie",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alexis-saelemaekers",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "lucas-paqueta",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ante-rebic",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "lineup": [
+        {
+          "playerSlug": "wojciech-szczesny",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "juan-guillermo-cuadrado",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniele-rugani",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "leonardo-bonucci",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "danilo",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "adrien-rabiot",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "miralem-pjanic",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rodrigo-bentancur",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "federico-bernardeschi",
+          "slot": 8,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "gonzalo-higuain",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "cristiano-ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "adrien-rabiot"
+      },
+      {
+        "kind": "goal",
+        "minute": 53,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "cristiano-ronaldo"
+      },
+      {
+        "kind": "penalty_goal",
+        "minute": 62,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "franck-kessie"
+      },
+      {
+        "kind": "goal",
+        "minute": 67,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "rafael-leao"
+      },
+      {
+        "kind": "goal",
+        "minute": 80,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "ante-rebic"
+      }
+    ],
+    "memorability": {
+      "score": 85.03,
+      "signals": {
+        "drama": 0.25,
+        "eraBucket": 2,
+        "percentile": 0.5723,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 6,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3562,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.5845
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7527
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6686
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]

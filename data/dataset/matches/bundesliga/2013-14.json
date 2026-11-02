@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "2013-11-23-borussia-dortmund-bayern-munich",
+    "transfermarktId": "2321162",
+    "competitionSlug": "bundesliga",
+    "season": "2013-14",
+    "date": "2013-11-23",
+    "stage": "Matchday 13",
+    "nickname": null,
+    "homeClubSlug": "borussia-dortmund",
+    "awayClubSlug": "bayern-munich",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kevin-grosskreutz",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sokratis-papastathopoulos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-friedrich",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "erik-durm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuri-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sven-bender",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jakub-blaszczykowski",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-reus",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "robert-lewandowski",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-neuer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rafinha",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jerome-boateng",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dante",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-alaba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javi-martinez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "thomas-muller",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "toni-kroos",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-mandzukic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 66,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "mario-gotze"
+      },
+      {
+        "kind": "goal",
+        "minute": 85,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "arjen-robben"
+      },
+      {
+        "kind": "goal",
+        "minute": 87,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "thomas-muller"
+      }
+    ],
+    "memorability": {
+      "score": 87.93,
+      "signals": {
+        "drama": 0.125,
+        "eraBucket": 1,
+        "percentile": 0.6552,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.3733,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.4718
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7236
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5977
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2014-04-12-bayern-munich-borussia-dortmund",
+    "transfermarktId": "2321316",
+    "competitionSlug": "bundesliga",
+    "season": "2013-14",
+    "date": "2014-04-12",
+    "stage": "Matchday 30",
+    "nickname": null,
+    "homeClubSlug": "bayern-munich",
+    "awayClubSlug": "borussia-dortmund",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "manuel-neuer",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "rafinha",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "javi-martinez",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dante",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-alaba",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "bastian-schweinsteiger",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "philipp-lahm",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "arjen-robben",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-gotze",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "franck-ribery",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mario-mandzukic",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "roman-weidenfeller",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "kevin-grosskreutz",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "sokratis-papastathopoulos",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "mats-hummels",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "erik-durm",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nuri-sahin",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sebastian-kehl",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "jonas-hofmann",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "marco-reus",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "henrikh-mkhitaryan",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pierre-emerick-aubameyang",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "henrikh-mkhitaryan"
+      },
+      {
+        "kind": "goal",
+        "minute": 49,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marco-reus"
+      },
+      {
+        "kind": "goal",
+        "minute": 56,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "jonas-hofmann"
+      },
+      {
+        "kind": "red_card",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "rafinha"
+      }
+    ],
+    "memorability": {
+      "score": 90.38,
+      "signals": {
+        "drama": 0.175,
+        "eraBucket": 1,
+        "percentile": 0.725,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3881,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6973
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4709
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.5841
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "slug": "2006-10-28-ac-milan-inter",
+    "transfermarktId": "65258",
+    "competitionSlug": "serie-a",
+    "season": "2006-07",
+    "date": "2006-10-28",
+    "stage": "Matchday 9",
+    "nickname": null,
+    "homeClubSlug": "ac-milan",
+    "awayClubSlug": "inter",
+    "score": {
+      "home": 3,
+      "away": 4
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-2-1",
+      "lineup": [
+        {
+          "playerSlug": "dida",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "cafu",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "alessandro-nesta",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "kakhaber-kaladze",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marek-jankulovski",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "massimo-ambrosini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "filippo-inzaghi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "maicon",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-materazzi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-grosso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-vieira",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "dejan-stankovic",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "hernan-crespo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 17,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "hernan-crespo"
+      },
+      {
+        "kind": "goal",
+        "minute": 22,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "dejan-stankovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 47,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "zlatan-ibrahimovic"
+      },
+      {
+        "kind": "goal",
+        "minute": 50,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "clarence-seedorf"
+      },
+      {
+        "kind": "goal",
+        "minute": 69,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marco-materazzi"
+      },
+      {
+        "kind": "red_card",
+        "minute": 70,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "marco-materazzi"
+      },
+      {
+        "kind": "goal",
+        "minute": 76,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "alberto-gilardino"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": 1,
+        "side": "home",
+        "playerSlug": "kaka"
+      }
+    ],
+    "memorability": {
+      "score": 97.58,
+      "signals": {
+        "drama": 0.3,
+        "eraBucket": 0,
+        "percentile": 0.9308,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 7,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.463,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.7964
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.6836
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.74
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2007-03-11-inter-ac-milan",
+    "transfermarktId": "65444",
+    "competitionSlug": "serie-a",
+    "season": "2006-07",
+    "date": "2007-03-11",
+    "stage": "Matchday 28",
+    "nickname": null,
+    "homeClubSlug": "inter",
+    "awayClubSlug": "ac-milan",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "julio-cesar",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "nicolas-burdisso",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "ivan-cordoba",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marco-materazzi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-grosso",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "dejan-stankovic",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "olivier-dacourt",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "javier-zanetti",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "luis-figo",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "zlatan-ibrahimovic",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "hernan-crespo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-2-1",
+      "lineup": [
+        {
+          "playerSlug": "dida",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "massimo-oddo",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniele-bonera",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "paolo-maldini",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "marek-jankulovski",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "massimo-ambrosini",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "andrea-pirlo",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "gennaro-gattuso",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "kaka",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "clarence-seedorf",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "ronaldo",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "ronaldo"
+      },
+      {
+        "kind": "goal",
+        "minute": 54,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "julio-cruz"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "zlatan-ibrahimovic"
+      }
+    ],
+    "memorability": {
+      "score": 97.58,
+      "signals": {
+        "drama": 0.325,
+        "eraBucket": 0,
+        "percentile": 0.9308,
+        "raw": {
+          "comebackFromHt": true,
+          "extraTime": false,
+          "goals": 3,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.463,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.6591
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.7336
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.6964
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

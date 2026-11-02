@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "2023-09-29-benfica-porto",
+    "transfermarktId": "4109337",
+    "competitionSlug": "liga-portugal",
+    "season": "2023-24",
+    "date": "2023-09-29",
+    "stage": "Matchday 7",
+    "nickname": null,
+    "homeClubSlug": "benfica",
+    "awayClubSlug": "porto",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "anatoliy-trubin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "alexander-bah",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fredrik-aursnes",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-neves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "david-neres",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "petar-musa",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "playerSlug": "diogo-costa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joao-mario-2000",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "fabio-cardoso",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "david-carmo",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wendell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "romario-baro",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alan-varela",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "stephen-eustaquio",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "galeno",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pepe-1997",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "mehdi-taremi",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "red_card",
+        "minute": 19,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "fabio-cardoso"
+      },
+      {
+        "kind": "goal",
+        "minute": 68,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "angel-di-maria"
+      }
+    ],
+    "memorability": {
+      "score": 74.77,
+      "signals": {
+        "drama": 0.0917,
+        "eraBucket": 2,
+        "percentile": 0.2791,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3046,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3973
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2273
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3123
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2024-03-03-porto-benfica",
+    "transfermarktId": "4109508",
+    "competitionSlug": "liga-portugal",
+    "season": "2023-24",
+    "date": "2024-03-03",
+    "stage": "Matchday 24",
+    "nickname": null,
+    "homeClubSlug": "porto",
+    "awayClubSlug": "benfica",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "diogo-costa",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "joao-mario-2000",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pepe",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "otavio-2002",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "wendell",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nico-gonzalez",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "alan-varela",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "francisco-conceicao",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "pepe-1997",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "galeno",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "evanilson-1999",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "lineup": [
+        {
+          "playerSlug": "anatoliy-trubin",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "fredrik-aursnes",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "antonio-silva",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "nicolas-otamendi",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "morato",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "orkun-kokcu",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-neves",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "angel-di-maria",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "rafa-silva",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "joao-mario",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "casper-tengstedt",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 20,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "galeno"
+      },
+      {
+        "kind": "goal",
+        "minute": 44,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "galeno"
+      },
+      {
+        "kind": "goal",
+        "minute": 55,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "wendell"
+      },
+      {
+        "kind": "red_card",
+        "minute": 61,
+        "addedTime": null,
+        "side": "away",
+        "playerSlug": "nicolas-otamendi"
+      },
+      {
+        "kind": "goal",
+        "minute": 75,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "pepe-1997"
+      },
+      {
+        "kind": "goal",
+        "minute": 90,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": null
+      }
+    ],
+    "memorability": {
+      "score": 85.91,
+      "signals": {
+        "drama": 0.2583,
+        "eraBucket": 2,
+        "percentile": 0.5975,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 5,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 1,
+          "shootout": false
+        },
+        "rawScore": 0.3598,
+        "rivalry": 1,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.1818
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.4118
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.2968
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  }
+]

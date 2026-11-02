@@ -152,11 +152,11 @@
       }
     ],
     "memorability": {
-      "score": 65.3,
+      "score": 65.68,
       "signals": {
         "drama": 0.0833,
         "eraBucket": 0,
-        "percentile": 0.0087,
+        "percentile": 0.0195,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -182,7 +182,7 @@
         "starPower": 0.2527
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -345,11 +345,11 @@
       }
     ],
     "memorability": {
-      "score": 72.61,
+      "score": 77.45,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.2174,
+        "percentile": 0.3558,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -375,7 +375,186 @@
         "starPower": 0.2614
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
+    }
+  },
+  {
+    "slug": "2003-01-10-lyon-olympique-marseille",
+    "transfermarktId": "1002191",
+    "competitionSlug": "ligue-1",
+    "season": "2002-03",
+    "date": "2003-01-10",
+    "stage": "Matchday 21",
+    "nickname": null,
+    "homeClubSlug": "lyon",
+    "awayClubSlug": "olympique-marseille",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "extraTime": false,
+    "shootout": null,
+    "home": {
+      "formation": "4-3-1-2",
+      "lineup": [
+        {
+          "playerSlug": "gregory-coupet",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "jean-marc-chanelet",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "edmilson",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "patrick-muller",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "jeremie-brechet",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "juninho-pernambucano",
+          "slot": 5,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "mahamadou-diarra",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "vikash-dhorasoo",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "eric-carriere",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "sidney-govou",
+          "slot": 9,
+          "position": "FW"
+        },
+        {
+          "playerSlug": "peguy-luyindula",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "playerSlug": "vedran-runje",
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "playerSlug": "sebastien-perez",
+          "slot": 1,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "frank-leboeuf",
+          "slot": 2,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "abdoulaye-meite",
+          "slot": 3,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "daniel-van-buyten",
+          "slot": 4,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "manuel-dos-santos",
+          "slot": 5,
+          "position": "DF"
+        },
+        {
+          "playerSlug": "pascal-johansen",
+          "slot": 6,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "fabio-celestini",
+          "slot": 7,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "brahim-hemdani",
+          "slot": 8,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "salomon-olembe",
+          "slot": 9,
+          "position": "MF"
+        },
+        {
+          "playerSlug": "cyril-chapuis",
+          "slot": 10,
+          "position": "FW"
+        }
+      ]
+    },
+    "events": [
+      {
+        "kind": "goal",
+        "minute": 40,
+        "addedTime": null,
+        "side": "home",
+        "playerSlug": "peguy-luyindula"
+      }
+    ],
+    "memorability": {
+      "score": 65.48,
+      "signals": {
+        "drama": 0.0417,
+        "eraBucket": 0,
+        "percentile": 0.0136,
+        "raw": {
+          "comebackFromHt": false,
+          "extraTime": false,
+          "goals": 1,
+          "hatTrick": false,
+          "lateWinner": false,
+          "redCards": 0,
+          "shootout": false
+        },
+        "rawScore": 0.2105,
+        "rivalry": 0.5,
+        "sides": {
+          "home": {
+            "guessability": 1,
+            "starPower": 0.3209
+          },
+          "away": {
+            "guessability": 1,
+            "starPower": 0.2882
+          }
+        },
+        "stage": 0.2,
+        "starPower": 0.3046
+      },
+      "algorithmVersion": "s10-v1",
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   },
   {
@@ -538,11 +717,11 @@
       }
     ],
     "memorability": {
-      "score": 71.7,
+      "score": 76.12,
       "signals": {
         "drama": 0.125,
         "eraBucket": 0,
-        "percentile": 0.1913,
+        "percentile": 0.3177,
         "raw": {
           "comebackFromHt": false,
           "extraTime": false,
@@ -568,7 +747,7 @@
         "starPower": 0.23
       },
       "algorithmVersion": "s10-v1",
-      "computedAt": "2026-11-01T21:20:50Z"
+      "computedAt": "2026-11-02T00:14:37Z"
     }
   }
 ]
