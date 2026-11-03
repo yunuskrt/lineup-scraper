@@ -3,15 +3,15 @@
     "s10-v1"
   ],
   "counts": {
-    "aliases": 9514,
+    "aliases": 9517,
     "clubs": 100,
     "competitions": 11,
     "crests": 100,
-    "events": 5818,
-    "lineups": 42262,
-    "matches": 1921,
-    "photos": 3471,
-    "players": 3786
+    "events": 5831,
+    "lineups": 42350,
+    "matches": 1925,
+    "photos": 3620,
+    "players": 3787
   },
   "files": {
     "clubs.json": "5c139db2323bc965a63c751f2f1f707989e05bd981c813f2daaeab87874a5e37",
@@ -62,7 +62,7 @@
     "matches/champions-league/2017-18.json": "b94b8b5d71228c082c409ced3faac3c40460a9687c5a206feb85b7bf7f078c98",
     "matches/champions-league/2018-19.json": "de76caa1f4f5b498d281bbdfd41403162ef7b902bd5c412ba8850ccb524bf0b6",
     "matches/champions-league/2019-20.json": "728d2ebe09bf70f01101df966f92029c4e7b92113e96a131dfbab09246240b09",
-    "matches/champions-league/2020-21.json": "de2d67800072a4cd72865cc5e2383417abbbfe37387090deb942412541028475",
+    "matches/champions-league/2020-21.json": "d93be74ae131174f2b21be0bba4937ef47b16b2d384cf6bdd33036000f9f0661",
     "matches/champions-league/2021-22.json": "2919cfe26ca8fbb9fd219931918b4eeb33b1103c89571cd212d31d4d0da7a18b",
     "matches/champions-league/2022-23.json": "a377720830c177dc078e6163d372693f092a7f9c9c055fc97071772e0ac45acc",
     "matches/champions-league/2023-24.json": "5195674f7f6065cc850c109e736bf02cadda6ed6249d58539ecc9f0f338cd5ae",
@@ -171,7 +171,7 @@
     "matches/premier-league/2017-18.json": "6badb864f8a827aa816df3f717b50bf729db65c4eebdd1583494884075e3e7cf",
     "matches/premier-league/2018-19.json": "98447d7eb63185d52ebcd82bdb19d2db3edaa80f64edf32364e2186c95e17ac3",
     "matches/premier-league/2019-20.json": "64dac856de2554b5b1b5eff68204ad667403910262dec0b02800b4cfcb55f7e8",
-    "matches/premier-league/2020-21.json": "35b194211d91df512123cd38c589b142bfad8822499964cf99cd6b0d7ad36976",
+    "matches/premier-league/2020-21.json": "255fd7b4b63f110f7eba4e1262c23dc9d40579b238afd5f5fb1e4aa8d4d86b13",
     "matches/premier-league/2021-22.json": "1e99a8a0bf59366e44f846a780a17bc71ac9e954460b35cf9caacc5005e3fb09",
     "matches/premier-league/2022-23.json": "593fb38b66febf144dbf32e365de54319d84d4e9e3722b176a6bfa7081711d6d",
     "matches/premier-league/2023-24.json": "fa587c495dc99818839ee21cb10545c7f3ab0d81228c6923acf8b88c90892190",
@@ -252,7 +252,7 @@
     "matches/world-cup/2014.json": "94c965f25103af1fc777396d7120acf7746c2c9493ebffaea4a5374696d30c36",
     "matches/world-cup/2018.json": "73336c38b4f1c1cff7b13f37286d7ebf412ff9277cc6de42e10b3ecd6e05265a",
     "matches/world-cup/2022.json": "d8821b5a189e464ff623cef033eaa9f912cb4497f03b1b5303ba1538e871b4b4",
-    "players.json": "4e2f9f0e10e864d594af4e3b1a1f3ae1d098d070d74d6b7c3f768e68bd7ba64e"
+    "players.json": "c523951bd37215c0fc995dea4e9a6094742d176245343e00dcf8795218e6e55e"
   },
   "matchesBy": {
     "bundesliga/2000-01": 2,
@@ -301,7 +301,7 @@
     "champions-league/2017-18": 13,
     "champions-league/2018-19": 13,
     "champions-league/2019-20": 7,
-    "champions-league/2020-21": 11,
+    "champions-league/2020-21": 13,
     "champions-league/2021-22": 13,
     "champions-league/2022-23": 13,
     "champions-league/2023-24": 13,
@@ -410,7 +410,7 @@
     "premier-league/2017-18": 30,
     "premier-league/2018-19": 30,
     "premier-league/2019-20": 30,
-    "premier-league/2020-21": 28,
+    "premier-league/2020-21": 30,
     "premier-league/2021-22": 30,
     "premier-league/2022-23": 30,
     "premier-league/2023-24": 30,
