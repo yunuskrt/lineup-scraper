@@ -13,6 +13,7 @@ export type StoreResult =
 // Every image key the dataset would write
 export function datasetImageKeys(dataset: DatasetInput): string[] {
   return [
+    ...dataset.competitions.flatMap((c) => (c.logoKey ? [c.logoKey] : [])),
     ...dataset.clubs.flatMap((c) => (c.crestKey ? [c.crestKey] : [])),
     ...dataset.players.flatMap((p) => (p.imageKey ? [p.imageKey] : [])),
   ].toSorted();

@@ -23,6 +23,7 @@ beforeEach(() => {
   keys = {
     crests: [],
     photos: [{ key: named.key, slug: 'oliver-kahn', transfermarktId: '206' }],
+    logos: [],
   };
 });
 
@@ -43,6 +44,22 @@ describe('uploadAll', () => {
     expect(stored?.metadata).toEqual({
       slug: 'oliver-kahn',
       'transfermarkt-id': '206',
+    });
+  });
+
+  it('uploads a logo with its Transfermarkt code', async () => {
+    const { store, objects } = memoryStore();
+    const named = imageKey('competition', 'euro', BYTES, 'image/webp');
+    if (!named.success) throw new Error(named.error);
+    put(named.key, BYTES);
+    const logos = [{ key: named.key, slug: 'euro', transfermarktCode: 'EURO' }];
+
+    await uploadAll(store, { ...keys, logos }, dir);
+
+    expect(named.key).toMatch(/^competitions\/euro\//);
+    expect(objects.get(named.key)?.metadata).toEqual({
+      slug: 'euro',
+      'transfermarkt-code': 'EURO',
     });
   });
 

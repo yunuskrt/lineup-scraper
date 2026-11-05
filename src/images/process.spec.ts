@@ -111,3 +111,62 @@ describe('processImages', () => {
     expect(second.keys).toEqual(first.keys);
   });
 });
+
+describe('processImages, logos', () => {
+  async function logo(name: string, colour: string) {
+    const target = path.join(dir, 'logos', name);
+    mkdirSync(path.dirname(target), { recursive: true });
+    const image = await sharp({
+      create: { width: 150, height: 150, channels: 3, background: colour },
+    })
+      .png()
+      .toBuffer();
+    writeFileSync(target, image);
+  }
+  const competitions = [
+    { slug: 'premier-league', transfermarktCode: 'GB1' },
+    { slug: 'euro', transfermarktCode: 'EURO' },
+    { slug: 'world-cup', transfermarktCode: 'FIWC' },
+  ];
+
+  it('keys each filed logo on its slug, under competitions/', async () => {
+    await logo('premier-league.png', '#f0f0f0');
+    await logo('euro.webp', '#101830');
+    const done = await processImages(
+      [],
+      [],
+      dir,
+      new Map(),
+      competitions,
+      new Map([['conference-league', 'white']]),
+    );
+    expect(done.keys.logos.map((e) => [e.slug, e.transfermarktCode])).toEqual([
+      ['euro', 'EURO'],
+      ['premier-league', 'GB1'],
+    ]);
+    expect(done.keys.logos[0]?.key).toMatch(
+      /^competitions\/euro\/[0-9a-f]{12}\.webp$/,
+    );
+    expect(done.missing).toEqual([{ kind: 'logo', slug: 'world-cup' }]);
+    expect(done.dark.map((d) => d.slug)).toEqual(['euro']);
+    expect(done.unusedStyles).toEqual(['conference-league']);
+    const made = done.made.find((m) => m.entry.slug === 'euro');
+    expect(made?.source).toBe(path.join('logos', 'euro.webp'));
+  });
+
+  it('applies a curated white style and records it', async () => {
+    await logo('euro.png', '#101830');
+    const plain = await processImages([], [], dir, new Map(), competitions);
+    const white = await processImages(
+      [],
+      [],
+      dir,
+      new Map(),
+      competitions,
+      new Map([['euro', 'white']]),
+    );
+    expect(white.keys.logos[0]?.key).not.toBe(plain.keys.logos[0]?.key);
+    expect(white.made[0]?.style).toBe('white');
+    expect(white.dark).toEqual([]);
+  });
+});

@@ -30,6 +30,12 @@ describe('parseLog', () => {
     ]);
   });
 
+  it('reads a logo import (S18c)', () => {
+    const logo = logLine({ file: 'logo-euro.png', kind: 'logo', key: 'euro' });
+    const parsed = parseLog(`${JSON.stringify(logo)}\n`);
+    expect(parsed.success && parsed.lines[0]?.kind).toBe('logo');
+  });
+
   it('names the line and the field, never the value', () => {
     const bad = JSON.stringify({ ...logLine(), result: 'maybe' });
     expect(parseLog(`${JSON.stringify(logLine())}\n${bad}\n`)).toEqual({

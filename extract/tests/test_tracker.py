@@ -169,6 +169,9 @@ def snapshot_with(
 MATCH = classify("https://www.transfermarkt.com/spielbericht/index/spielbericht/1")
 PLAYER = classify("https://www.transfermarkt.com/x/profil/spieler/2")
 PHOTO = Page("photo", "2", "https://img.a.transfermarkt.technology/p/2.jpg")
+LOGO = classify(
+    "https://img.a.transfermarkt.technology/logo/medium/euro_1763046126.png?lm=1"
+)
 LISTING = classify(
     "https://www.transfermarkt.com/x/gesamtspielplan/pokalwettbewerb/CL/saison_id/2000"
 )
@@ -241,6 +244,23 @@ LISTING = classify(
             ),
             "ingested",
         ),
+        (
+            LOGO,
+            snapshot_with({LOGO.id: "parsed"}),
+            {},
+            remote(uploaded={"crest": [], "photo": [], "logo": ["euro"]}),
+            "uploaded",
+        ),
+        (
+            LOGO,
+            snapshot_with({LOGO.id: "parsed"}),
+            {},
+            remote(
+                uploaded={"crest": [], "photo": [], "logo": ["euro"]},
+                ingested={"match": [], "player": [], "crest": [], "photo": []},
+            ),
+            "uploaded",
+        ),
     ],
 )
 def test_each_status_comes_from_the_real_state(
@@ -303,9 +323,13 @@ def test_writes_the_five_csvs_and_a_rerun_changes_nothing(
     assert types["player-206.html"] == "Player"
     assert types["206-1464084738.jpg"] == "PlayerPhoto"
     assert types["27_1400571853.png"] == "Crest"
+    # The saved page's menu shows 6 pool logos
+    logos = [r for r in general if r["Type"] == "Logo"]
+    assert [r["#"] for r in logos] == [str(LISTINGS + i) for i in range(1, 7)]
+    assert "logo-premier-league.png" in {r["Save as"] for r in logos}
     players = read_rows(lists / "players.csv")
     assert list(players[0]) == ["#", "Link", "Save as", "Folder", "Status"]
-    assert len(general) == LISTINGS + 1 + 2 + 22 + 1
+    assert len(general) == LISTINGS + 6 + 1 + 2 + 22 + 1
     statuses = {r["Save as"]: r["Status"] for r in general}
     assert statuses["fixture-cl-2000.html"] == "parsed"
     assert statuses["match-990248.html"] == "validated"

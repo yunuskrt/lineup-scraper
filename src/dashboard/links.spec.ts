@@ -61,6 +61,17 @@ describe('parseGeneral', () => {
     });
   });
 
+  it('keys a logo row on its save-as slug', () => {
+    const logo = `${IMG}/logo/medium/euro_1763046126.png?lm=1`;
+    const parsed = parseGeneral(
+      line(`239,Logo,${logo},logo-euro.png,data/inbox/,uploaded`),
+    );
+    expect(parsed.success && parsed.rows[0]?.key).toBe('euro');
+    expect(
+      parseGeneral(line(`239,Logo,${logo},euro.png,data/inbox/,saved`)),
+    ).toEqual({ success: false, error: 'general.csv line 2: no id' });
+  });
+
   it('refuses another header', () => {
     expect(parseGeneral('#,Link,Save as,Folder,Status\n')).toEqual({
       success: false,

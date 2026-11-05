@@ -1,5 +1,11 @@
 import sharp from 'sharp';
-import { convertCrest, convertPhoto } from '@/images/convert.js';
+import {
+  contrastOnChip,
+  convertCrest,
+  convertLogo,
+  convertPhoto,
+} from '@/images/convert.js';
+import { MIN_CONTRAST } from '@/images/process.js';
 
 const RED = { r: 255, g: 0, b: 0 };
 const BLUE = { r: 0, g: 0, b: 255 };
@@ -68,5 +74,68 @@ describe('convertCrest', () => {
     expect((await pixel(out.bytes, 1, 64)).r).toBeGreaterThan(200);
     expect((await pixel(out.bytes, 126, 64)).r).toBeGreaterThan(200);
     expect((await pixel(out.bytes, 64, 2)).a).toBe(0);
+  });
+});
+
+// A wide logo: dark navy, transparent around
+async function wideLogo(colour = '#101830'): Promise<Uint8Array> {
+  const mark = await sharp({
+    create: { width: 60, height: 40, channels: 3, background: colour },
+  })
+    .png()
+    .toBuffer();
+  const image = await sharp({
+    create: {
+      width: 200,
+      height: 100,
+      channels: 4,
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    },
+  })
+    .composite([{ input: mark, left: 70, top: 30 }])
+    .png()
+    .toBuffer();
+  return new Uint8Array(image);
+}
+
+describe('convertLogo', () => {
+  it('fits the whole logo in a transparent 128×128 WebP', async () => {
+    const out = await convertLogo(await wideLogo(), null);
+    const meta = await sharp(out.bytes).metadata();
+    expect([meta.format, meta.width, meta.height]).toEqual(['webp', 128, 128]);
+    expect([out.width, out.height]).toEqual([200, 100]);
+    expect((await pixel(out.bytes, 64, 64)).b).toBeGreaterThan(30);
+    expect((await pixel(out.bytes, 64, 4)).a).toBe(0);
+  });
+
+  it('measures a dark logo as low contrast on the chip', async () => {
+    const dark = await convertLogo(await wideLogo(), null);
+    const light = await convertLogo(await wideLogo('#f0f0f0'), null);
+    expect(dark.contrast).toBeLessThan(MIN_CONTRAST);
+    expect(light.contrast).toBeGreaterThan(MIN_CONTRAST);
+  });
+
+  it('makes every visible pixel white, keeping the shape', async () => {
+    const out = await convertLogo(await wideLogo(), 'white');
+    const inside = await pixel(out.bytes, 64, 64);
+    expect([inside.r, inside.g, inside.b]).toEqual([255, 255, 255]);
+    expect((await pixel(out.bytes, 64, 4)).a).toBe(0);
+    expect(out.contrast).toBeGreaterThan(15);
+  });
+
+  it('gives the same bytes on a rerun', async () => {
+    const source = await wideLogo();
+    const first = await convertLogo(source, 'white');
+    const second = await convertLogo(source, 'white');
+    expect(second.bytes).toEqual(first.bytes);
+  });
+});
+
+describe('contrastOnChip', () => {
+  it('ignores transparent pixels and is 1 with none visible', () => {
+    const clear = new Uint8Array([255, 255, 255, 0]);
+    expect(contrastOnChip(clear)).toBe(1);
+    const white = new Uint8Array([255, 255, 255, 255, 0, 0, 0, 0]);
+    expect(contrastOnChip(white)).toBeGreaterThan(19);
   });
 });

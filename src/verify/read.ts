@@ -9,7 +9,7 @@ export async function readState(
   const competitions = await prisma.competition.findMany({
     orderBy: { slug: 'asc' },
     where: { slug: { in: expected.competitions } },
-    select: { slug: true },
+    select: { slug: true, logoKey: true },
   });
   const clubs = await prisma.club.findMany({
     orderBy: { slug: 'asc' },
@@ -56,6 +56,7 @@ export async function readState(
   });
   return {
     competitions: competitions.map((c) => c.slug),
+    logoKeys: competitions.flatMap((c) => (c.logoKey ? [c.logoKey] : [])),
     clubs,
     players,
     matches: matches.map((m) => ({

@@ -14,7 +14,7 @@ All in `data/inbox-lists/` (local, never committed), rewritten by `npm run statu
 | `players.csv` | Player pages |
 | `images.csv` | Crests and photos |
 
-Columns: `#,Link,Save as,Folder,Status`; `general.csv` adds `Type` after `#`: Fixture, Match Report, Player, Crest or PlayerPhoto.
+Columns: `#,Link,Save as,Folder,Status`; `general.csv` adds `Type` after `#`: Fixture, Logo, Match Report, Player, Crest or PlayerPhoto. Logo rows (S18c) follow the listings, one per pool competition, and go to `images.csv`.
 
 Each link appears once. A player or club already listed under an earlier match isn't listed again.
 

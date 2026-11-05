@@ -3,7 +3,10 @@ import type { DatasetInput } from '@/dataset/schema.js';
 import { memoryStore } from '@/storage/spec-store.js';
 
 const dataset = {
-  competitions: [],
+  competitions: [
+    { slug: 'euro', logoKey: 'competitions/euro/3.webp' },
+    { slug: 'no-logo', logoKey: null },
+  ],
   clubs: [{ slug: 'valencia', crestKey: 'crests/valencia/1.webp' }],
   players: [
     { slug: 'oliver-kahn', imageKey: 'players/oliver-kahn/2.webp' },
@@ -13,8 +16,9 @@ const dataset = {
 } as unknown as DatasetInput;
 
 describe('datasetImageKeys', () => {
-  it('lists every crest and photo key, sorted', () => {
+  it('lists every logo, crest and photo key, sorted', () => {
     expect(datasetImageKeys(dataset)).toEqual([
+      'competitions/euro/3.webp',
       'crests/valencia/1.webp',
       'players/oliver-kahn/2.webp',
     ]);
@@ -22,8 +26,9 @@ describe('datasetImageKeys', () => {
 });
 
 describe('missingImages', () => {
-  it('names the keys with no object in the bucket', async () => {
+  it('names the keys with no object in the bucket, logos too', async () => {
     const { store } = memoryStore();
+    await store.putObject('competitions/euro/3.webp', new Uint8Array(), 'x');
     await store.putObject('crests/valencia/1.webp', new Uint8Array(), 'x');
     await store.putObject('players/other/3.webp', new Uint8Array(), 'x');
 

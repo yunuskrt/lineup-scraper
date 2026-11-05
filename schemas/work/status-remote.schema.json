@@ -62,11 +62,19 @@
                 "type": "string",
                 "pattern": "^[0-9]+$"
               }
+            },
+            "logo": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              }
             }
           },
           "required": [
             "crest",
-            "photo"
+            "photo",
+            "logo"
           ],
           "additionalProperties": false
         },
@@ -107,13 +115,21 @@
                 "type": "string",
                 "pattern": "^[0-9]+$"
               }
+            },
+            "logo": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              }
             }
           },
           "required": [
             "match",
             "player",
             "crest",
-            "photo"
+            "photo",
+            "logo"
           ],
           "additionalProperties": false
         },

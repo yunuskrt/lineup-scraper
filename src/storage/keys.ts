@@ -1,11 +1,12 @@
 import { createHash } from 'node:crypto';
 
-export const IMAGE_KINDS = ['crest', 'player'] as const;
+export const IMAGE_KINDS = ['crest', 'player', 'competition'] as const;
 export type ImageKind = (typeof IMAGE_KINDS)[number];
 
 export const IMAGE_PREFIXES: Record<ImageKind, string> = {
   crest: 'crests',
   player: 'players',
+  competition: 'competitions',
 };
 
 // The web's formats (display requirements § 1)

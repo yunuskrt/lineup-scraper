@@ -344,7 +344,7 @@ async function renderHistory() {
     el(
       'div',
       { class: 'toolbar' },
-      select([['', 'Every kind'], ...['fixture', 'match', 'player', 'crest', 'photo'].map((k) => [k, k])], h.kind ?? '', set('kind'), 'Kind'),
+      select([['', 'Every kind'], ...['fixture', 'match', 'player', 'crest', 'photo', 'logo'].map((k) => [k, k])], h.kind ?? '', set('kind'), 'Kind'),
       select([['', 'Every result'], ...['imported', 'duplicate', 'refused'].map((r) => [r, r])], h.result ?? '', set('result'), 'Result'),
       el('label', {}, 'From ', date('from', 'From')),
       el('label', {}, 'To ', date('to', 'To')),

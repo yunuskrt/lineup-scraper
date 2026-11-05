@@ -2,19 +2,24 @@ import { z } from 'zod';
 import type { ImageKeys } from '@/images/keys.js';
 
 const idsSchema = z.array(z.string().regex(/^[0-9]+$/));
+// Logos are keyed on the competition slug
+const slugsSchema = z.array(z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/));
 
 // Known only to the dataset, bucket and database
 export const remoteStatusSchema = z.strictObject({
   validated: z.strictObject({ match: idsSchema, player: idsSchema }),
   errors: z.strictObject({ match: z.record(z.string(), z.string()) }),
   // null: not checked, and `notes` says why
-  uploaded: z.strictObject({ crest: idsSchema, photo: idsSchema }).nullable(),
+  uploaded: z
+    .strictObject({ crest: idsSchema, photo: idsSchema, logo: slugsSchema })
+    .nullable(),
   ingested: z
     .strictObject({
       match: idsSchema,
       player: idsSchema,
       crest: idsSchema,
       photo: idsSchema,
+      logo: slugsSchema,
     })
     .nullable(),
   notes: z.array(z.string()),
@@ -45,6 +50,8 @@ export interface StoredRows {
   // Transfermarkt id → stored key
   crestKeys: Map<string, string | null>;
   photoKeys: Map<string, string | null>;
+  // Competition slug → stored key
+  logoKeys: Map<string, string | null>;
 }
 
 export interface RemoteInput {
@@ -89,6 +96,17 @@ function keyed(
   );
 }
 
+// Slugs whose current logo key is the stored one
+function keyedLogos(
+  entries: ImageKeys['logos'],
+  has: (slug: string, key: string) => boolean,
+): string[] {
+  return entries
+    .filter((e) => has(e.slug, e.key))
+    .map((e) => e.slug)
+    .toSorted();
+}
+
 export function remoteStatus(input: RemoteInput): RemoteStatus {
   const { bucket, database, keys } = input;
   return {
@@ -100,6 +118,7 @@ export function remoteStatus(input: RemoteInput): RemoteStatus {
     uploaded: bucket && {
       crest: keyed(keys.crests, (_, key) => bucket.has(key)),
       photo: keyed(keys.photos, (_, key) => bucket.has(key)),
+      logo: keyedLogos(keys.logos, (_, key) => bucket.has(key)),
     },
     ingested: database && {
       match: sorted(database.matches),
@@ -111,6 +130,10 @@ export function remoteStatus(input: RemoteInput): RemoteStatus {
       photo: keyed(
         keys.photos,
         (id, key) => database.photoKeys.get(id) === key,
+      ),
+      logo: keyedLogos(
+        keys.logos,
+        (slug, key) => database.logoKeys.get(slug) === key,
       ),
     },
     notes: input.notes,

@@ -6,6 +6,7 @@ export const LOG_KINDS = [
   'player',
   'crest',
   'photo',
+  'logo',
 ] as const;
 export const LOG_RESULTS = ['imported', 'duplicate', 'refused'] as const;
 

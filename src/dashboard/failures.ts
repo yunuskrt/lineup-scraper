@@ -37,6 +37,7 @@ export const LOG_KIND: Record<LinkType, LogLine['kind']> = {
   Player: 'player',
   Crest: 'crest',
   PlayerPhoto: 'photo',
+  Logo: 'logo',
 };
 
 // collection-runbook.md § Errors

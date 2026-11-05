@@ -52,7 +52,12 @@ const MATCH: Match = {
 
 const DATASET: DatasetInput = {
   competitions: [
-    { slug: 'champions-league', kind: 'ucl', name: 'Champions League' },
+    {
+      slug: 'champions-league',
+      kind: 'ucl',
+      name: 'Champions League',
+      logoKey: 'competitions/champions-league/a.webp',
+    },
   ],
   clubs: [
     {
@@ -79,6 +84,17 @@ const DATASET: DatasetInput = {
 
 describe('wantedRows', () => {
   const rows = wantedRows(DATASET);
+
+  it("carries each competition's logo key", () => {
+    expect(rows.competitions).toEqual([
+      {
+        slug: 'champions-league',
+        kind: 'ucl',
+        name: 'Champions League',
+        logoKey: 'competitions/champions-league/a.webp',
+      },
+    ]);
+  });
 
   it('implies one season per competition and label', () => {
     expect(rows.seasons).toEqual([

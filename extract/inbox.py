@@ -15,8 +15,8 @@ from extract.images import (
     ImageId,
     RefusedImageError,
     check_name,
+    image_dir,
     image_files,
-    images_root,
     name_id,
     sniff,
     stored_image,
@@ -229,7 +229,7 @@ def take_image(path: Path, images_dir: Path, report: Report, at: str) -> None:
         report.duplicates.append(path.name)
         report.log.append(image_line(at, path.name, image, "duplicate"))
         return
-    target = images_root(images_dir) / kind / f"{key}.{suffix}"
+    target = image_dir(images_dir, kind) / f"{key}.{suffix}"
     target.parent.mkdir(parents=True, exist_ok=True)
     if old is not None:
         old.unlink()

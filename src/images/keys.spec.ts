@@ -36,6 +36,33 @@ describe('readImageKeys', () => {
     );
   });
 
+  it('reads a keys.json from before logos with none', () => {
+    const file = write('keys.json', JSON.stringify({ crests: [], photos: [] }));
+    expect(readImageKeys(file).logos).toEqual([]);
+  });
+
+  it('reads logos with their Transfermarkt code', () => {
+    const logo = {
+      key: 'competitions/euro/1.webp',
+      slug: 'euro',
+      transfermarktCode: 'EURO',
+    };
+    const file = write(
+      'keys.json',
+      JSON.stringify({ crests: [], photos: [], logos: [logo] }),
+    );
+    expect(readImageKeys(file).logos).toEqual([logo]);
+    const bad = write(
+      'bad.json',
+      JSON.stringify({
+        crests: [],
+        photos: [],
+        logos: [{ ...logo, transfermarktCode: '' }],
+      }),
+    );
+    expect(() => readImageKeys(bad)).toThrow('logos.0.transfermarktCode');
+  });
+
   it('names the path of a bad entry, never its value', () => {
     const file = write(
       'keys.json',

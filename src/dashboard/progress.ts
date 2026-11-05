@@ -9,6 +9,7 @@ export const LADDERS: Record<LinkType, readonly string[]> = {
   Player: ['saved', 'parsed', 'validated', 'ingested'],
   Crest: ['saved', 'uploaded', 'ingested'],
   PlayerPhoto: ['saved', 'uploaded', 'ingested'],
+  Logo: ['saved', 'uploaded', 'ingested'],
 };
 
 export const DIMENSIONS = [

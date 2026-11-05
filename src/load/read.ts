@@ -51,10 +51,11 @@ export async function readStored(
   });
 
   const rows: ContentRows = {
-    competitions: competitions.map(({ slug, kind, name }) => ({
+    competitions: competitions.map(({ slug, kind, name, logoKey }) => ({
       slug,
       kind,
       name,
+      logoKey,
     })),
     seasons: competitions.flatMap((c) =>
       c.seasons.map((s) => ({

@@ -132,6 +132,7 @@ export function readSources(): DatasetSources {
     gate: bySlug(readJson(work('gate', 'matches.json'), gateSchema)),
     crestKeys: keysBySlug(images.crests),
     imageKeys: keysBySlug(images.photos),
+    logoKeys: keysBySlug(images.logos),
   };
 }
 

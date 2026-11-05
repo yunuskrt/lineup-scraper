@@ -47,6 +47,7 @@ function match(overrides: Partial<StoredMatch> = {}): StoredMatch {
 function state(overrides: Partial<VerifyState> = {}): VerifyState {
   return {
     competitions: ['champions-league'],
+    logoKeys: ['competitions/champions-league/c.webp'],
     clubs: [
       { slug: 'bayern-munich', crestKey: 'crests/bayern-munich/a.webp' },
       { slug: 'valencia', crestKey: null },
@@ -78,6 +79,7 @@ const EXPECTED: Expected = {
     crests: 1,
     events: 2,
     lineups: 22,
+    logos: 1,
     matches: 1,
     photos: 1,
     players: 1,
@@ -218,8 +220,9 @@ describe('verifyState', () => {
 });
 
 describe('storedImageKeys', () => {
-  it('lists the stored crest and photo keys, sorted', () => {
+  it('lists the stored logo, crest and photo keys, sorted', () => {
     expect(storedImageKeys(state())).toEqual([
+      'competitions/champions-league/c.webp',
       'crests/bayern-munich/a.webp',
       'players/oliver-kahn/b.webp',
     ]);

@@ -63,6 +63,7 @@ Links are found level by level, so a link can only be listed once the page above
 | 2 | `s11-match-reports` | Their listing page is saved and `npm run pool` has run (`extract.lists.match_reports`) | ~2,000 |
 | 3 | `s11b-players` | Their match report is saved (`extract.lists.player_pages`); players already saved are left out | ~5,000–8,000 |
 | 4 | `s18-images`: crests and photos | Their match report and player page are saved (`extract.lists.images`) | One per club and player |
+| 5 | `s18c-logos`: competition logos | A fixture list of the competition is saved, or a link is in `data/curation/logos.json` (`extract.lists.logos`) | One per pool competition (11) |
 
 ---
 
@@ -107,6 +108,7 @@ Every status is recomputed from the real state on each run, never read back from
 | A wrong name, alias or club name | Fix it in `data/curation/`, then rebuild; never in code |
 | A photo listed in `images.md`, or a face cut badly in `images.html` | Add a crop for that player to `data/curation/images.json`: `{ "photoCrops": { "oliver-kahn": "top" } }` (`top`, `centre`, `bottom`, or pixels from the top); then `npm run build` |
 | A crest with a white square behind it, or a wrong photo | Save a better image under the same id (it replaces the filed one); then `npm run build` and `npm run images -- --upload` |
+| A competition logo that vanishes on the dark chip (`images.md`, `images.html`) | Add `{ "logoStyles": { "premier-league": "white" } }` to `data/curation/images.json` (a one-colour white version), or save a light version as `logo-<slug>.<ext>`; then `npm run build`, upload and load |
 | A missing nickname, or an alias that shouldn't count | Add it to, or remove it with, `data/curation/aliases.json` under the player's Transfermarkt id: `{ "7438": { "add": ["Kily"], "remove": [] } }`; then `npm run build`. `aliases.md` lists aliases two starters share and near-misses inside an XI |
 | `npm run load` says images aren't in the bucket | `npm run images -- --upload`, then the load again |
 | The dry run flags a played match | Your change rewrites an XI or the events of a match someone has played. Load only if the change is a correction |

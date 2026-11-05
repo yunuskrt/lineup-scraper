@@ -43,3 +43,4 @@ Not Started
 - S19b Dashboard Actions & Guided Batch: buttons, run batch, gated load
 - Fix List-Layout Refusals: no-formation reports out, refused/ folder
 - Fix Empty-Pitch Refusals: unnamed pitch markers refused as list layout
+- S18c Competition Logos: 11 logos keyed, uploaded, logo_key loaded

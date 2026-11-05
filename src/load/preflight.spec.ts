@@ -31,7 +31,9 @@ function team(prefix: string) {
 }
 
 const DATASET: DatasetInput = {
-  competitions: [{ slug: 'super-lig', kind: 'league', name: 'Süper Lig' }],
+  competitions: [
+    { slug: 'super-lig', kind: 'league', name: 'Süper Lig', logoKey: null },
+  ],
   clubs: ['fenerbahce', 'galatasaray'].map((slug) => ({
     slug,
     kind: 'club',

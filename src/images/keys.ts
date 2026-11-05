@@ -12,16 +12,25 @@ const entrySchema = z.strictObject({
   transfermarktId: z.string().regex(/^[0-9]+$/),
 });
 
+// Competitions have no numeric id (S18c D4)
+const logoEntrySchema = z.strictObject({
+  key: z.string().min(1),
+  slug: z.string().min(1),
+  transfermarktCode: z.string().regex(/^[A-Z0-9]+$/),
+});
+
 // What `npm run images` made, for dataset and upload
 export const imageKeysSchema = z.strictObject({
   crests: z.array(entrySchema),
   photos: z.array(entrySchema),
+  logos: z.array(logoEntrySchema).default([]),
 });
 
 export type ImageEntry = z.infer<typeof entrySchema>;
+export type LogoEntry = z.infer<typeof logoEntrySchema>;
 export type ImageKeys = z.infer<typeof imageKeysSchema>;
 
-export const NO_IMAGE_KEYS: ImageKeys = { crests: [], photos: [] };
+export const NO_IMAGE_KEYS: ImageKeys = { crests: [], photos: [], logos: [] };
 
 // Absent until `npm run images` runs
 export function readImageKeys(file = KEYS_FILE): ImageKeys {
@@ -40,6 +49,8 @@ export function readImageKeys(file = KEYS_FILE): ImageKeys {
   return parsed.data;
 }
 
-export function keysBySlug(entries: ImageEntry[]): Map<string, string> {
+export function keysBySlug(
+  entries: { slug: string; key: string }[],
+): Map<string, string> {
   return new Map(entries.map((e) => [e.slug, e.key]));
 }

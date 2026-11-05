@@ -126,7 +126,8 @@ def how_to_save(links: list[Link]) -> list[str]:
         return [
             "Open each link: it shows the image alone. Save it with ⌘S (Ctrl+S)",
             f"into `{INBOX_FOLDER}` under the name shown (the browser's own name,",
-            "or `crest-<id>` / `photo-<id>` where that one can't say which),",
+            "or `crest-<id>` / `photo-<id>` where that one can't say which;",
+            "a logo always as `logo-<competition-slug>`),",
             "then run `uv run python -m extract.inbox`.",
         ]
     return [

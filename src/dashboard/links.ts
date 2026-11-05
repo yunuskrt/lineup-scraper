@@ -7,6 +7,7 @@ export const LINK_TYPES = [
   'Player',
   'Crest',
   'PlayerPhoto',
+  'Logo',
 ] as const;
 export type LinkType = (typeof LINK_TYPES)[number];
 
@@ -41,7 +42,7 @@ export interface LinkRow {
   link: string;
   saveAs: string;
   status: string;
-  // Transfermarkt id; CODE-saison for a listing
+  // Id, CODE-saison for a listing, or logo slug
   key: string;
 }
 
@@ -55,7 +56,11 @@ const KEY_PATTERNS: Record<LinkType, RegExp> = {
   Crest: /\/wappen\/[a-z]+\/(\d+)[_.]/,
   // 206-1464084738.jpg or s_7573_123_2012_1.jpg
   PlayerPhoto: /\/portrait\/[a-z]+\/(?:(\d+)[-.]|s_(\d+)_)/,
+  // The link names a code; the key is the slug
+  Logo: /\/logo\/[A-Za-z0-9]+\/[a-z0-9]+(?:_\d+)?\./,
 };
+
+const LOGO_NAME = /^logo-([a-z0-9]+(?:-[a-z0-9]+)*)\.[a-z]+$/;
 
 // null when the link has no id where expected
 export function linkKey(type: LinkType, link: string): string | null {
@@ -65,6 +70,13 @@ export function linkKey(type: LinkType, link: string): string | null {
     .slice(1)
     .filter((part) => part !== undefined)
     .join('-');
+}
+
+// A logo's key is its save-as slug (S18c D4)
+function rowKey(type: LinkType, link: string, saveAs: string): string | null {
+  if (type !== 'Logo') return linkKey(type, link);
+  if (!KEY_PATTERNS.Logo.test(link)) return null;
+  return LOGO_NAME.exec(saveAs)?.[1] ?? null;
 }
 
 export function isError(status: string): boolean {
@@ -90,7 +102,7 @@ export function parseGeneral(text: string): ParseResult {
       };
     }
     const [index, type, link, saveAs, , status] = parsed.data;
-    const key = linkKey(type, link);
+    const key = rowKey(type, link, saveAs);
     if (key === null) {
       return { success: false, error: `general.csv line ${line}: no id` };
     }

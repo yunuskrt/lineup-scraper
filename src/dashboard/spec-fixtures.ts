@@ -15,6 +15,8 @@ export const LINKS: Record<LinkType, (id: string) => string> = {
   Player: (id) => `${TM}/someone/profil/spieler/${id}`,
   Crest: (id) => `${IMG}/wappen/normquad/${id}_1400571853.png?lm=1`,
   PlayerPhoto: (id) => `${IMG}/portrait/header/${id}-1464084738.jpg?lm=1`,
+  // A logo's key is its save-as slug
+  Logo: () => `${IMG}/logo/homepageWappen150x150/gb1.png?lm=1`,
 };
 
 export function linkRow(

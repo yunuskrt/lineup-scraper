@@ -38,6 +38,13 @@ const KEYS = {
       transfermarktId: '206',
     },
   ],
+  logos: [
+    {
+      key: 'competitions/euro/d.webp',
+      slug: 'euro',
+      transfermarktCode: 'EURO',
+    },
+  ],
 };
 
 function input(changes: Partial<RemoteInput> = {}): RemoteInput {
@@ -105,11 +112,19 @@ describe('remoteStatus', () => {
   it('marks an image uploaded only when its current key is in the bucket', () => {
     const status = remoteStatus(
       input({
-        bucket: new Set(['crests/valencia/a.webp', 'crests/bayern/old.webp']),
+        bucket: new Set([
+          'crests/valencia/a.webp',
+          'crests/bayern/old.webp',
+          'competitions/euro/d.webp',
+        ]),
       }),
     );
 
-    expect(status.uploaded).toEqual({ crest: ['1049'], photo: [] });
+    expect(status.uploaded).toEqual({
+      crest: ['1049'],
+      photo: [],
+      logo: ['euro'],
+    });
   });
 
   it('marks rows ingested, and images only when the row holds the key', () => {
@@ -123,6 +138,7 @@ describe('remoteStatus', () => {
             ['1049', 'crests/valencia/old.webp'],
           ]),
           photoKeys: new Map([['206', null]]),
+          logoKeys: new Map([['euro', 'competitions/euro/old.webp']]),
         },
       }),
     );
@@ -132,6 +148,7 @@ describe('remoteStatus', () => {
       player: ['206'],
       crest: ['27'],
       photo: [],
+      logo: [],
     });
   });
 

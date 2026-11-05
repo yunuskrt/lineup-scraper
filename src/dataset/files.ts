@@ -60,6 +60,7 @@ export function datasetFiles(
         (n, m) => n + m.home.lineup.length + m.away.lineup.length,
         0,
       ),
+      logos: dataset.competitions.filter((c) => c.logoKey !== null).length,
       matches: dataset.matches.length,
       photos: dataset.players.filter((p) => p.imageKey !== null).length,
       players: dataset.players.length,

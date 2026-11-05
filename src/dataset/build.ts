@@ -87,6 +87,7 @@ export interface DatasetSources {
   // By slug; from `npm run images`
   crestKeys?: Map<string, string>;
   imageKeys?: Map<string, string>;
+  logoKeys?: Map<string, string>;
 }
 
 export type LeftReason = 'no lineup' | 'not scored' | 'failed the gate';
@@ -222,7 +223,12 @@ export function buildDataset(sources: DatasetSources): DatasetBuild {
     dataset: {
       competitions: sources.competitions
         .filter((c) => competitionSlugs.has(c.slug))
-        .map((c) => ({ slug: c.slug, kind: c.kind, name: c.name }))
+        .map((c) => ({
+          slug: c.slug,
+          kind: c.kind,
+          name: c.name,
+          logoKey: sources.logoKeys?.get(c.slug) ?? null,
+        }))
         .toSorted(bySlug),
       clubs: sources.clubs
         .filter((c) => clubSlugs.has(c.slug))

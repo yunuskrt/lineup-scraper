@@ -222,6 +222,19 @@ describe('buildDataset', () => {
     expect([manifest.counts.crests, manifest.counts.photos]).toEqual([1, 1]);
   });
 
+  it('fills logo keys by slug and counts them', () => {
+    const keyed = buildDataset({
+      ...sources(),
+      logoKeys: new Map([['super-lig', 'competitions/super-lig/3.webp']]),
+    }).dataset;
+    expect(keyed.competitions.map((c) => c.logoKey)).toEqual([
+      'competitions/super-lig/3.webp',
+    ]);
+    expect(buildDataset(sources()).dataset.competitions[0]?.logoKey).toBeNull();
+    const manifest = JSON.parse(datasetFiles(keyed, 'h').get('manifest.json')!);
+    expect(manifest.counts.logos).toBe(1);
+  });
+
   it('repeats exactly', () => {
     const again = buildDataset(sources());
     expect(JSON.stringify(again)).toBe(JSON.stringify(build));

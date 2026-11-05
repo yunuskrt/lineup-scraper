@@ -5,6 +5,7 @@ import type { StorageEnv } from '@/config/env.schema.js';
 import { loadEnv, loadStorageEnv } from '@/config/load-env.js';
 import { IMAGES_WORK, readImageKeys, type ImageKeys } from '@/images/keys.js';
 import { uploadAll } from '@/images/upload.js';
+import { pilotKeys, pilotOf } from '@/load/e2e-pilot.js';
 import { datasetImageKeys, missingImages } from '@/load/images.js';
 import { preflight } from '@/load/preflight.js';
 import type { DatasetInput } from '@/dataset/schema.js';
@@ -40,27 +41,34 @@ describe('pilot images in a disposable branch', () => {
     if (!guard.success) throw new Error(guard.error);
     const checked = preflight(DATA_DIRS.dataset, readFileSync(SCHEMA, 'utf8'));
     if (!checked.success) throw new Error(checked.error);
-    pilot = checked.dataset;
-    keys = readImageKeys();
+    pilot = pilotOf(checked.dataset);
+    keys = pilotKeys(readImageKeys(), pilot);
     env = storageEnv.data;
     store = createObjectStore(env);
     await store.checkBucket();
   });
 
-  it('starts with the dataset images missing from the bucket', async () => {
+  // A branch from ingest sees its crests, photos
+  let absent: string[] = [];
+
+  it('starts with every pilot logo missing from the bucket', async () => {
     const wanted = datasetImageKeys(pilot);
-    expect(wanted).toHaveLength(71);
-    expect(await missingImages(store, wanted)).toHaveLength(71);
+    // 6 crests, 66 photos, 3 logos
+    expect(wanted).toHaveLength(75);
+    absent = await missingImages(store, wanted);
+    const logos = pilot.competitions.map((c) => c.logoKey!);
+    expect(logos).toHaveLength(3);
+    expect(absent).toEqual(expect.arrayContaining(logos));
   });
 
-  it('uploads all 71, then nothing on a rerun', async () => {
+  it('uploads what is absent, then nothing on a rerun', async () => {
     expect(await uploadAll(store, keys, IMAGES_WORK)).toEqual({
       success: true,
-      counts: { uploaded: 71, present: 0 },
+      counts: { uploaded: absent.length, present: 75 - absent.length },
     });
     expect(await uploadAll(store, keys, IMAGES_WORK)).toEqual({
       success: true,
-      counts: { uploaded: 0, present: 71 },
+      counts: { uploaded: 0, present: 75 },
     });
   });
 
@@ -74,6 +82,15 @@ describe('pilot images in a disposable branch', () => {
     expect(await store.readMetadata(kahn.imageKey!)).toEqual({
       slug: 'oliver-kahn',
       'transfermarkt-id': kahn.transfermarktId,
+    });
+  });
+
+  it('leads a logo back to its competition and its code', async () => {
+    const cl = pilot.competitions.find((c) => c.slug === 'champions-league')!;
+    expect(cl.logoKey).toMatch(/^competitions\/champions-league\//);
+    expect(await store.readMetadata(cl.logoKey!)).toEqual({
+      slug: 'champions-league',
+      'transfermarkt-code': 'CL',
     });
   });
 

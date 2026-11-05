@@ -14,6 +14,7 @@ export interface CompetitionRow {
   slug: string;
   kind: CompetitionKind;
   name: string;
+  logoKey: string | null;
 }
 
 export interface SeasonRow {
@@ -140,10 +141,11 @@ export function wantedRows(dataset: DatasetInput): ContentRows {
     });
   }
   return {
-    competitions: dataset.competitions.map(({ slug, kind, name }) => ({
+    competitions: dataset.competitions.map(({ slug, kind, name, logoKey }) => ({
       slug,
       kind,
       name,
+      logoKey,
     })),
     seasons: [...seasons.values()],
     clubs: dataset.clubs.map((c) => ({

@@ -13,6 +13,7 @@ export const countsSchema = z.object({
   crests: z.number(),
   events: z.number(),
   lineups: z.number(),
+  logos: z.number(),
   matches: z.number(),
   photos: z.number(),
   players: z.number(),
@@ -55,6 +56,8 @@ export interface StoredClub {
 // What the database holds for the dataset's slugs
 export interface VerifyState {
   competitions: string[];
+  // Each competition's stored logo key, if any
+  logoKeys: string[];
   clubs: StoredClub[];
   players: StoredPlayer[];
   matches: StoredMatch[];
@@ -129,6 +132,7 @@ function countsOf(state: VerifyState, expected: Expected): Counts {
       (n, m) => n + m.teams.reduce((k, t) => k + t.lineups.length, 0),
       0,
     ),
+    logos: state.logoKeys.length,
     matches: matches.length,
     photos: state.players.filter((p) => p.imageKey !== null).length,
     players: state.players.length,
@@ -197,6 +201,7 @@ export function verifyState(state: VerifyState, expected: Expected): Failure[] {
 // Each stored key, for the bucket check
 export function storedImageKeys(state: VerifyState): string[] {
   return [
+    ...state.logoKeys,
     ...state.clubs.flatMap((c) => (c.crestKey ? [c.crestKey] : [])),
     ...state.players.flatMap((p) => (p.imageKey ? [p.imageKey] : [])),
   ].toSorted();

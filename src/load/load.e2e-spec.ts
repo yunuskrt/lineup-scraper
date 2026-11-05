@@ -6,6 +6,7 @@ import type { DatasetInput } from '@/dataset/schema.js';
 import { createPrismaClient } from '@/db/client.js';
 import type { PrismaClient } from '@/generated/prisma/client.js';
 import { applyChunks } from '@/load/apply.js';
+import { pilotOf } from '@/load/e2e-pilot.js';
 import { planChunks } from '@/load/chunks.js';
 import { planLoad } from '@/load/plan.js';
 import { preflight } from '@/load/preflight.js';
@@ -83,7 +84,7 @@ describe('load into a disposable branch', () => {
     }
     const checked = preflight(DATA_DIRS.dataset, readFileSync(SCHEMA, 'utf8'));
     if (!checked.success) throw new Error(checked.error);
-    pilot = checked.dataset;
+    pilot = pilotOf(checked.dataset);
     prisma = createPrismaClient(env.data);
   });
 
@@ -102,8 +103,8 @@ describe('load into a disposable branch', () => {
       seasons: 3,
       clubs: 6,
       clubAliases: 3,
-      players: 65,
-      playerAliases: 164,
+      players: 66,
+      playerAliases: 166,
       matches: 3,
       matchTeams: 6,
       lineups: 66,
@@ -130,6 +131,20 @@ describe('load into a disposable branch', () => {
     expect(kahn.imageKey).toMatch(/^players\/oliver-kahn\/[0-9a-f]{12}\.webp$/);
     expect(await prisma.player.count({ where: { imageKey: null } })).toBe(0);
     expect(await prisma.club.count({ where: { crestKey: null } })).toBe(0);
+    // Every pilot competition's logo key (S18c)
+    const logos = await prisma.competition.findMany({
+      orderBy: { slug: 'asc' },
+    });
+    expect(logos.map((c) => c.logoKey)).toEqual(
+      pilot.competitions.map((c) => c.logoKey),
+    );
+    expect(logos.map((c) => c.logoKey)).toEqual([
+      expect.stringMatching(
+        /^competitions\/champions-league\/[0-9a-f]{12}\.webp$/,
+      ),
+      expect.stringMatching(/^competitions\/super-lig\//),
+      expect.stringMatching(/^competitions\/world-cup\//),
+    ]);
   });
 
   it('writes nothing on a rerun, and every updated_at stays', async () => {

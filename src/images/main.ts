@@ -1,28 +1,54 @@
-import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import {
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from 'node:fs';
 import path from 'node:path';
 import { DATA_DIRS } from '@/config/data-dirs.js';
 import { loadEnv, loadStorageEnv } from '@/config/load-env.js';
 import { formatEnvIssues } from '@/config/parse-env.js';
 import { buildDataset } from '@/dataset/build.js';
 import { missingSources, readSources } from '@/dataset/sources.js';
-import { readImageCuration } from '@/images/curation.js';
+import { readImageCuration, readLogoStyles } from '@/images/curation.js';
 import { IMAGES_WORK, KEYS_FILE, readImageKeys } from '@/images/keys.js';
 import { processImages } from '@/images/process.js';
 import { renderReport, renderSheet } from '@/images/report.js';
 import { parseImageArgs } from '@/images/args.js';
 import { uploadAll } from '@/images/upload.js';
 import type { LoadArgs } from '@/load/target.js';
+import { crosswalkSchema } from '@/resolve/curation.js';
 import { createObjectStore } from '@/storage/client.js';
 import { checkStorageTarget } from '@/storage/target.js';
 
 const REPORT_FILE = path.join(DATA_DIRS.reports, 'images.md');
 const SHEET_FILE = path.join(DATA_DIRS.reports, 'images.html');
+const COMPETITIONS = path.join(
+  DATA_DIRS.curation,
+  'crosswalk',
+  'competitions.json',
+);
 
 function json(value: unknown): string {
   return `${JSON.stringify(value, null, 2)}\n`;
 }
 
-// Offline: the dataset's clubs and players (D2)
+// Slug → Transfermarkt code
+function competitionCodes(): Map<string, string> {
+  let value: unknown;
+  try {
+    value = JSON.parse(readFileSync(COMPETITIONS, 'utf8'));
+  } catch {
+    throw new Error('Invalid JSON in crosswalk/competitions.json');
+  }
+  const parsed = crosswalkSchema.safeParse(value);
+  if (!parsed.success) throw new Error('Invalid crosswalk/competitions.json');
+  const codes = Object.entries(parsed.data);
+  return new Map(codes.map(([code, slug]) => [slug, code]));
+}
+
+// Offline: the dataset's images
 async function build(): Promise<number> {
   const missing = missingSources();
   if (missing !== null) {
@@ -30,11 +56,18 @@ async function build(): Promise<number> {
     return 1;
   }
   const { dataset } = buildDataset(readSources());
+  const codes = competitionCodes();
+  const competitions = dataset.competitions.flatMap((c) => {
+    const code = codes.get(c.slug);
+    return code ? [{ slug: c.slug, transfermarktCode: code }] : [];
+  });
   const processed = await processImages(
     dataset.clubs,
     dataset.players,
     DATA_DIRS.images,
     readImageCuration(),
+    competitions,
+    readLogoStyles(),
   );
   // Only this run's files remain
   rmSync(IMAGES_WORK, { recursive: true, force: true });
@@ -50,7 +83,9 @@ async function build(): Promise<number> {
   writeFileSync(SHEET_FILE, renderSheet(processed));
   console.log(
     `crests ${processed.keys.crests.length}, photos ${processed.keys.photos.length}, ` +
-      `missing ${processed.missing.length}, below the size floor ${processed.small.length}`,
+      `logos ${processed.keys.logos.length}, missing ${processed.missing.length}, ` +
+      `below the size floor ${processed.small.length}, ` +
+      `dark logos ${processed.dark.length}`,
   );
   console.log(`images -> ${IMAGES_WORK}`);
   console.log(`check them -> ${SHEET_FILE}`);

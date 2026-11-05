@@ -63,11 +63,24 @@ const transfermarktIdSchema = z
   .regex(/^[0-9]+$/)
   .nullable();
 
-const competitionSchema = z.strictObject({
-  slug: ownSlugSchema,
-  kind: competitionKindSchema,
-  name: textSchema,
-});
+// The web's logo formats (data contract § 2.1)
+const LOGO_EXTENSION = /\.(webp|png|svg)$/;
+
+const competitionSchema = z
+  .strictObject({
+    slug: ownSlugSchema,
+    kind: competitionKindSchema,
+    name: textSchema,
+    logoKey: objectKeySchema.nullable(),
+  })
+  .refine((c) => keyInFolder(c.logoKey, 'competitions', c.slug), {
+    error: 'Logo key must be under competitions/<slug>/',
+    path: ['logoKey'],
+  })
+  .refine((c) => c.logoKey === null || LOGO_EXTENSION.test(c.logoKey), {
+    error: 'Logo key must end in .webp, .png or .svg',
+    path: ['logoKey'],
+  });
 
 const clubSchema = z
   .strictObject({

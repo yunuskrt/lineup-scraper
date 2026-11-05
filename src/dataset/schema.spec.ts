@@ -37,8 +37,13 @@ const signals = {
 
 const VALID: DatasetInput = {
   competitions: [
-    { slug: 'northern-league', kind: 'league', name: 'Northern League' },
-    { slug: 'world-cup', kind: 'world_cup', name: 'World Cup' },
+    {
+      slug: 'northern-league',
+      kind: 'league',
+      name: 'Northern League',
+      logoKey: 'competitions/northern-league/0a1b2c3d4e5f.webp',
+    },
+    { slug: 'world-cup', kind: 'world_cup', name: 'World Cup', logoKey: null },
   ],
   clubs: [
     {
@@ -374,6 +379,28 @@ describe('datasetSchema', () => {
           i.players[0].imageKey = 'players/someone-else/0a1b2c3d4e5f.webp';
         },
         'players.0.imageKey: Image key must be under players/<slug>/',
+      ],
+      [
+        "a logo under another competition's folder",
+        (i) => {
+          i.competitions[0].logoKey = 'competitions/euro/0a1b2c3d4e5f.webp';
+        },
+        'competitions.0.logoKey: Logo key must be under competitions/<slug>/',
+      ],
+      [
+        'a logo in a format the web does not draw',
+        (i) => {
+          i.competitions[0].logoKey =
+            'competitions/northern-league/0a1b2c3d4e5f.jpg';
+        },
+        'competitions.0.logoKey: Logo key must end in .webp, .png or .svg',
+      ],
+      [
+        'a logo URL',
+        (i) => {
+          i.competitions[0].logoKey = 'https://cdn.example.com/logo.png';
+        },
+        'competitions.0.logoKey: Must be a bucket key, not a URL',
       ],
       [
         'a root-relative crest',

@@ -54,7 +54,7 @@ class Page:
 
     @property
     def save_as(self) -> str:
-        if self.kind == "crest" or self.kind == "photo":
+        if self.kind == "crest" or self.kind == "photo" or self.kind == "logo":
             return save_as(self.kind, self.key, self.url)
         return f"{self.kind}-{self.key}.html"
 
@@ -63,7 +63,7 @@ def classify(url: str) -> Page:
     if url.startswith(IMAGE_HOST):
         image = image_from_url(url)
         if image is None:
-            raise RefusedPageError("image link that is not a crest or a photo")
+            raise RefusedPageError("image link that is not a crest, photo or logo")
         return Page(image[0], image[1], url)
     if "/gesamtspielplan/" in url:
         code = id_in(url, COMPETITION)

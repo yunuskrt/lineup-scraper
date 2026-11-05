@@ -34,6 +34,8 @@ Base `https://www.transfermarkt.com`; page links are relative. The numeric id at
 
 Competition codes: `GB1`, `ES1`, `IT1`, `L1`, `TR1`, `CL`, `EL`, `WM{YY}`, `EM{YY}` come from the old repo. Only `IT1` and `CL` were probed live. **The World Cup is `FIWC` with `saison_id` = tournament year − 1:** the old `WM06` link redirected to `/pokalwettbewerb/FIWC/saison_id/2005` (saved page, 2026-10-27). **The Euro is `EURO` the same way:** `EM04` redirected to `/pokalwettbewerb/EURO/saison_id/2003` (saved page, 2026-10-27), so Euro 2000 is `saison_id` 1999. `TR1` is verified by `tr1-2002`. **`GB1`, `ES1`, `L1`, `FR1`, `PO1` and `EL` are unverified**; one sample of each is in `s07-verify`.
 
+**Competition logos** (S18c, seen in saved pages on 2026-11-05) are `https://img.a.transfermarkt.technology/logo/<variant>/<code lower case>[_<n>].png`. Every page's menu shows the square `homepageWappen150x150` (150×150) of `gb1`, `es1`, `it1`, `l1`, `fr1` and `cl`; a league fixture list shows its `header` logo (`po1`, `tr1`: 139×181). `po1`'s header and `it1`'s square sit on an opaque white background. The cup and tournament fixture lists show none: the `medium` logos of `el`, `euro` and `fiwc` (58×76) were found on their pages by hand and live in `data/curation/logos.json`. `euro` is the Euro 2028 logo and `fiwc` the plain FIFA wordmark.
+
 ## 3. Entities, ids and linking
 
 - **Match:** the `spielbericht/{id}` number. **Club** (or national team): the `verein/{id}` number; drop `/saison_id/…`. **Player:** the `spieler/{id}` number.

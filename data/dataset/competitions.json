@@ -2,56 +2,67 @@
   {
     "slug": "bundesliga",
     "kind": "league",
-    "name": "Bundesliga"
+    "name": "Bundesliga",
+    "logoKey": "competitions/bundesliga/29c2f416761d.webp"
   },
   {
     "slug": "champions-league",
     "kind": "ucl",
-    "name": "Champions League"
+    "name": "Champions League",
+    "logoKey": "competitions/champions-league/9a70cee23dc1.webp"
   },
   {
     "slug": "euro",
     "kind": "euro",
-    "name": "Euro"
+    "name": "Euro",
+    "logoKey": "competitions/euro/b1f4d33c0d8e.webp"
   },
   {
     "slug": "laliga",
     "kind": "league",
-    "name": "LaLiga"
+    "name": "LaLiga",
+    "logoKey": "competitions/laliga/d862a0e38a21.webp"
   },
   {
     "slug": "liga-portugal",
     "kind": "league",
-    "name": "Liga Portugal"
+    "name": "Liga Portugal",
+    "logoKey": "competitions/liga-portugal/ca267d30d0e7.webp"
   },
   {
     "slug": "ligue-1",
     "kind": "league",
-    "name": "Ligue 1"
+    "name": "Ligue 1",
+    "logoKey": "competitions/ligue-1/d614135bf719.webp"
   },
   {
     "slug": "premier-league",
     "kind": "league",
-    "name": "Premier League"
+    "name": "Premier League",
+    "logoKey": "competitions/premier-league/b266b913976a.webp"
   },
   {
     "slug": "serie-a",
     "kind": "league",
-    "name": "Serie A"
+    "name": "Serie A",
+    "logoKey": "competitions/serie-a/60a51aa2db2e.webp"
   },
   {
     "slug": "super-lig",
     "kind": "league",
-    "name": "Süper Lig"
+    "name": "Süper Lig",
+    "logoKey": "competitions/super-lig/9dc8a2a532d3.webp"
   },
   {
     "slug": "uefa-cup-europa-league",
     "kind": "uel",
-    "name": "UEFA Cup / Europa League"
+    "name": "UEFA Cup / Europa League",
+    "logoKey": "competitions/uefa-cup-europa-league/273c41f96367.webp"
   },
   {
     "slug": "world-cup",
     "kind": "world_cup",
-    "name": "World Cup"
+    "name": "World Cup",
+    "logoKey": "competitions/world-cup/8be2dec382d5.webp"
   }
 ]

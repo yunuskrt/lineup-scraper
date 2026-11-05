@@ -15,7 +15,9 @@ function lineup(side: 'home' | 'away', prefix: string): LineupRow[] {
 
 function wanted(): ContentRows {
   return {
-    competitions: [{ slug: 'super-lig', kind: 'league', name: 'Süper Lig' }],
+    competitions: [
+      { slug: 'super-lig', kind: 'league', name: 'Süper Lig', logoKey: null },
+    ],
     seasons: [{ competition: 'super-lig', label: '2002-03', startYear: 2002 }],
     clubs: [
       {

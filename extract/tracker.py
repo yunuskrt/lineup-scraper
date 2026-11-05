@@ -10,11 +10,19 @@ from typing import Final, TypedDict, cast
 from jsonschema import Draft202012Validator
 
 from extract.data_dirs import DATA_DIRS
-from extract.images import IMAGE_KINDS
+from extract.images import IMAGE_KINDS, logo_slugs
 from extract.import_log import IMPORT_LOG, read_log
 from extract.links import INBOX_FOLDER, link
 from extract.lists.images import latest_players
 from extract.lists.listings import listings
+from extract.lists.logos import (
+    InvalidLogoLinksError,
+    curated_path,
+    fixture_dir,
+    logo_links,
+    page_logos,
+    read_curated,
+)
 from extract.lists.match_reports import (
     PILOT_MATCHES,
     InvalidPoolMatchesError,
@@ -55,6 +63,7 @@ TYPE_NAMES: Final[Mapping[Kind, str]] = {
     "player": "Player",
     "crest": "Crest",
     "photo": "PlayerPhoto",
+    "logo": "Logo",
 }
 TO_SAVE: Final = "to save"
 GROUP_ORDER: Final = (
@@ -205,6 +214,7 @@ def general_pages(
     matches: Sequence[PoolMatch],
     reports: Mapping[str, TransfermarktMatch],
     players: Mapping[str, TransfermarktPlayer],
+    logos: Sequence[Page] = (),
 ) -> list[Page]:
     competitions = {c["code"]: c for c in config["competitions"]}
     seen: set[PageId] = set()
@@ -217,6 +227,7 @@ def general_pages(
                 ordered.append(page)
 
     add(item.page for item in listings(config))
+    add(logos)
     for match in balanced(matches, competitions):
         add(match_block(match, reports, players))
     return ordered
@@ -248,9 +259,10 @@ def status_of(
     kind, key = page.id
     uploaded, ingested = remote["uploaded"], remote["ingested"]
     if kind in IMAGE_KINDS:
-        if uploaded is None or key not in uploaded[kind]:
+        if uploaded is None or key not in uploaded.get(kind, ()):
             return "saved"
-        return "ingested" if ingested and key in ingested[kind] else "uploaded"
+        is_ingested = ingested and key in ingested.get(kind, ())
+        return "ingested" if is_ingested else "uploaded"
     if kind == "fixture":
         return "parsed"
     if (error := remote["errors"].get(kind, {}).get(key)) is not None:
@@ -325,7 +337,9 @@ def main(
         reports = latest_reports(dirs["raw"])
         players = latest_players(dirs["raw"])
         remote = read_remote(remote_path(dirs))
+        curated = read_curated(curated_path(dirs))
     except (
+        InvalidLogoLinksError,
         InvalidPoolConfigError,
         InvalidPoolMatchesError,
         InvalidRecordError,
@@ -335,9 +349,11 @@ def main(
         return 1
     state = snapshot(dirs["inbox"], dirs["pages"], dirs["raw"], dirs["images"])
     refused = refusals(dirs["work"] / IMPORT_LOG)
+    found = logo_links(config, logo_slugs(), page_logos(fixture_dir(dirs)), curated)
+    logos = [item.page for item in found.links]
     rows = [
         Row(page, status_of(page, state, refused, remote))
-        for page in general_pages(config, matches, reports, players)
+        for page in general_pages(config, matches, reports, players, logos)
     ]
     target = dirs[LISTS]
     target.mkdir(parents=True, exist_ok=True)

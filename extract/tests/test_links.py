@@ -154,5 +154,5 @@ def test_shows_an_image_list_with_image_instructions(dirs: Dirs) -> None:
 
 
 def test_refuses_an_image_link_that_is_no_crest_or_photo() -> None:
-    with pytest.raises(RefusedPageError, match="not a crest or a photo"):
+    with pytest.raises(RefusedPageError, match="not a crest, photo or logo"):
         link("https://img.a.transfermarkt.technology/flagge/tiny/50.png")

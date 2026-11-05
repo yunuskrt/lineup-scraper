@@ -78,7 +78,7 @@ async function readDatabase(notes: string[]): Promise<StoredRows | null> {
   const prisma = createPrismaClient(env.data);
   try {
     const ours = { transfermarktId: { not: null } };
-    const [matches, players, clubs] = await Promise.all([
+    const [matches, players, clubs, competitions] = await Promise.all([
       prisma.match.findMany({ where: ours, select: { transfermarktId: true } }),
       prisma.player.findMany({
         where: ours,
@@ -88,6 +88,7 @@ async function readDatabase(notes: string[]): Promise<StoredRows | null> {
         where: ours,
         select: { transfermarktId: true, crestKey: true },
       }),
+      prisma.competition.findMany({ select: { slug: true, logoKey: true } }),
     ]);
     const id = (row: { transfermarktId: string | null }) =>
       row.transfermarktId ?? '';
@@ -96,6 +97,7 @@ async function readDatabase(notes: string[]): Promise<StoredRows | null> {
       players: players.map(id),
       crestKeys: new Map(clubs.map((c) => [id(c), c.crestKey])),
       photoKeys: new Map(players.map((p) => [id(p), p.imageKey])),
+      logoKeys: new Map(competitions.map((c) => [c.slug, c.logoKey])),
     };
   } finally {
     await prisma.$disconnect();
@@ -134,7 +136,7 @@ async function main(): Promise<number> {
     gate: readGate(),
     keys,
     bucket: await readBucket(
-      [...keys.crests, ...keys.photos].map((e) => e.key),
+      [...keys.crests, ...keys.photos, ...keys.logos].map((e) => e.key),
       notes,
     ),
     database: await readDatabase(notes),

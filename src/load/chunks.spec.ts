@@ -39,7 +39,9 @@ function wanted(players: number): ContentRows {
   ];
   return {
     ...EMPTY,
-    competitions: [{ slug: 'super-lig', kind: 'league', name: 'Süper Lig' }],
+    competitions: [
+      { slug: 'super-lig', kind: 'league', name: 'Süper Lig', logoKey: null },
+    ],
     players: Array.from({ length: players }, (_, i) => ({
       slug: `p-${String(i).padStart(4, '0')}`,
       name: `Player ${i}`,
