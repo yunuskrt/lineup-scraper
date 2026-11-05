@@ -124,7 +124,7 @@
     "slug": "austria",
     "kind": "national_team",
     "name": "Austria",
-    "shortName": "AUS",
+    "shortName": "AUT",
     "crestKey": "crests/austria/92800c454174.webp",
     "transfermarktId": "3383",
     "aliases": []
@@ -144,7 +144,7 @@
     "slug": "bayer-04-leverkusen",
     "kind": "club",
     "name": "Bayer 04 Leverkusen",
-    "shortName": "BAY",
+    "shortName": "LEV",
     "crestKey": "crests/bayer-04-leverkusen/74a6ae4a5cc9.webp",
     "transfermarktId": "15",
     "aliases": []
@@ -767,7 +767,7 @@
     "slug": "slovakia",
     "kind": "national_team",
     "name": "Slovakia",
-    "shortName": "SLO",
+    "shortName": "SVK",
     "crestKey": "crests/slovakia/7925952e9822.webp",
     "transfermarktId": "3503",
     "aliases": []
@@ -776,7 +776,7 @@
     "slug": "slovenia",
     "kind": "national_team",
     "name": "Slovenia",
-    "shortName": "SLO",
+    "shortName": "SVN",
     "crestKey": "crests/slovenia/182d0697e333.webp",
     "transfermarktId": "3588",
     "aliases": []

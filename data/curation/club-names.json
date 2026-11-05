@@ -11,6 +11,9 @@
     "name": "Atlético Madrid",
     "shortName": "ATM"
   },
+  "15": {
+    "shortName": "LEV"
+  },
   "16": {
     "name": "Borussia Dortmund",
     "shortName": "BVB"
@@ -107,6 +110,9 @@
   "3379": {
     "shortName": "NED"
   },
+  "3383": {
+    "shortName": "AUT"
+  },
   "3384": {
     "shortName": "SUI"
   },
@@ -128,8 +134,14 @@
   "3445": {
     "shortName": "CZE"
   },
+  "3503": {
+    "shortName": "SVK"
+  },
   "3557": {
     "shortName": "SWE"
+  },
+  "3588": {
+    "shortName": "SVN"
   },
   "3699": {
     "shortName": "UKR"
