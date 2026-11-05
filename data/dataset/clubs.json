@@ -49,7 +49,7 @@
     "kind": "club",
     "name": "Arsenal",
     "shortName": "ARS",
-    "crestKey": "crests/arsenal/4b9fb17f22f4.webp",
+    "crestKey": "crests/arsenal/f1fd90f1cbf6.webp",
     "transfermarktId": "11",
     "aliases": [
       "Arsenal FC"
@@ -382,7 +382,7 @@
     "kind": "club",
     "name": "Galatasaray",
     "shortName": "GAL",
-    "crestKey": "crests/galatasaray/aa08c9b6de28.webp",
+    "crestKey": "crests/galatasaray/14239725ef58.webp",
     "transfermarktId": "141",
     "aliases": []
   },
@@ -474,7 +474,7 @@
     "kind": "club",
     "name": "Juventus",
     "shortName": "JUV",
-    "crestKey": "crests/juventus/c9ac3e9c8ae0.webp",
+    "crestKey": "crests/juventus/9bdca76a3a84.webp",
     "transfermarktId": "506",
     "aliases": [
       "Juventus FC"
@@ -595,7 +595,7 @@
     "kind": "club",
     "name": "Olympique Marseille",
     "shortName": "OLY",
-    "crestKey": "crests/olympique-marseille/dfa498444251.webp",
+    "crestKey": "crests/olympique-marseille/a6098f8c38e3.webp",
     "transfermarktId": "244",
     "aliases": []
   },
@@ -622,7 +622,7 @@
     "kind": "club",
     "name": "Paris Saint-Germain",
     "shortName": "PSG",
-    "crestKey": "crests/paris-saint-germain/8dab186c9feb.webp",
+    "crestKey": "crests/paris-saint-germain/ccfdabf4edf4.webp",
     "transfermarktId": "583",
     "aliases": []
   },
@@ -669,7 +669,7 @@
     "kind": "club",
     "name": "Rangers FC",
     "shortName": "RAN",
-    "crestKey": "crests/rangers-fc/1a6c77028020.webp",
+    "crestKey": "crests/rangers-fc/0bc7f87c87f0.webp",
     "transfermarktId": "124",
     "aliases": []
   },

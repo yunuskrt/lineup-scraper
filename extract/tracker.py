@@ -185,11 +185,22 @@ def balanced(
     return pilot + round_robin(groups)
 
 
+# Club id → its newest report's crest
+def newest_crests(reports: Mapping[str, TransfermarktMatch]) -> dict[str, str]:
+    crests: dict[str, str] = {}
+    for report in sorted(reports.values(), key=lambda r: (r["date"], r["sourceId"])):
+        for club in (report["home"], report["away"]):
+            if (crest := club["crestUrl"]) is not None:
+                crests[club["sourceId"]] = crest
+    return crests
+
+
 # A report, then its crests, starters, photos
 def match_block(
     match: PoolMatch,
     reports: Mapping[str, TransfermarktMatch],
     players: Mapping[str, TransfermarktPlayer],
+    crests: Mapping[str, str] | None = None,
 ) -> list[Page]:
     pages = [classify(match_report_url(match["sourceId"]))]
     report = reports.get(match["sourceId"])
@@ -197,7 +208,8 @@ def match_block(
         return pages
     clubs = (report["home"], report["away"])
     for club in clubs:
-        if (crest := club["crestUrl"]) is not None:
+        crest = (crests or {}).get(club["sourceId"], club["crestUrl"])
+        if crest is not None:
             pages.append(link(crest).page)
     for club in clubs:
         for starter in club["starters"]:
@@ -217,6 +229,7 @@ def general_pages(
     logos: Sequence[Page] = (),
 ) -> list[Page]:
     competitions = {c["code"]: c for c in config["competitions"]}
+    crests = newest_crests(reports)
     seen: set[PageId] = set()
     ordered: list[Page] = []
 
@@ -229,7 +242,7 @@ def general_pages(
     add(item.page for item in listings(config))
     add(logos)
     for match in balanced(matches, competitions):
-        add(match_block(match, reports, players))
+        add(match_block(match, reports, players, crests))
     return ordered
 
 

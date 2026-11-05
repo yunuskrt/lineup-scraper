@@ -26,6 +26,7 @@ from extract.tracker import (
     general_pages,
     main,
     match_block,
+    newest_crests,
     next_to_save,
     read_remote,
     refusals,
@@ -133,6 +134,30 @@ def test_a_match_block_lists_crests_then_each_starter_and_photo(dirs: Dirs) -> N
     assert kinds == {"match": 1, "crest": 2, "player": 22, "photo": 1}
     kahn = pages.index(next(p for p in pages if p.id == ("player", "206")))
     assert pages[kahn + 1].id == ("photo", "206")
+
+
+def crest_report(match_id: str, date: str, crest: str) -> TransfermarktMatch:
+    home: dict[str, object] = {"sourceId": "583", "crestUrl": crest, "starters": []}
+    away: dict[str, object] = {"sourceId": "8", "crestUrl": None, "starters": []}
+    return cast(
+        TransfermarktMatch,
+        {"sourceId": match_id, "date": date, "home": home, "away": away},
+    )
+
+
+def test_every_block_lists_the_newest_reports_crest() -> None:
+    host = "https://img.a.transfermarkt.technology/wappen/normquad/"
+    old = crest_report("1", "2000-10-13", f"{host}583_1402764257.png")
+    new = crest_report("2", "2025-04-08", f"{host}583.png")
+    reports = {"1": old, "2": new}
+    first = pool_match("1", "FR1", "2000", "clashes", "2000-10-13")
+
+    crests = newest_crests(reports)
+    pages = match_block(first, reports, {}, crests)
+
+    assert crests == {"583": f"{host}583.png"}
+    assert pages[1].id == ("crest", "583")
+    assert pages[1].url == f"{host}583.png"
 
 
 def test_an_unsaved_report_is_its_own_block() -> None:
