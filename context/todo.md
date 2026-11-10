@@ -43,7 +43,7 @@ Not phases: you run the guide (`docs/enrichment-guide.md`) in your own time, and
 
 ## Deferred
 
-- New league and season packs, once the pipeline is cheap to extend
+- New leagues and seasons, once the pipeline is cheap to extend
 - Collecting real misspellings from live play into aliases (needs a backend export first)
 
 ## Dropped
